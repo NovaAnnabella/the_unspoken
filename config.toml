@@ -1,5 +1,7 @@
 ### SEE https://hugoloveit.com/theme-documentation-basics/#site-configuration
-baseURL = 'https://examples5.com/'
+baseURL = 'https://novaannabella.github.io/the_unspoken/'
+RelativeURLs=true
+CanonifyURLs=true
 title = '< The Unspoken >'
 theme = 'LoveIt'
 languageCode = 'en-us'
