@@ -1,11 +1,32 @@
 ### SEE https://hugoloveit.com/theme-documentation-basics/#site-configuration
 baseURL = 'https://novaannabella.github.io/the_unspoken/'
-RelativeURLs=true
-CanonifyURLs=true
+RelativeURLs = false
+#uglyURLs = true
+CanonifyURLs = true
 title = '< The Unspoken >'
 theme = 'LoveIt'
 languageCode = 'en-us'
 languageName = "English"
+contentDir = "content"
+
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+[languages]
+    [languages.zh]
+        title = "< 未言之事 >"
+        languageName = "中文"
+        languageCode = "zh"
+        weight = 3
+    [languages.de]
+        title = "< The Unspoken >"
+        languageCode = "de-de"
+        languageName = "Deutsch"
+        weight = 2
+    [languages.en]
+        title = "< The Unspoken >"
+        languageName = "English"
+        languageCode = "en-us"
+        weight = 1
 
 # default amount of posts in each pages
 paginate = 10
@@ -78,7 +99,7 @@ title = ""
 # site default theme ["auto", "light", "dark"]
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
-gitRepo = "https://github.com/codespacedev/code-space-page"
+gitRepo = "https://github.com/NovaAnnabella/the_unspoken"
 #  which hash function used for SRI, when empty, no SRI is used
 # ["sha256", "sha384", "sha512", "md5"]
 fingerprint = "sha256"
@@ -193,17 +214,17 @@ enable = true
 # Gravatar Email for preferred avatar in home page
 gravatarEmail = ""
 # URL of avatar shown in home page
-avatarURL = "/images/logo.png"
+avatarURL = "/images/content/avatar.png"
 #  title shown in home page (HTML format is supported)
-title = "< The Unspoken >"
+title = ""
 # subtitle shown in home page (HTML format is supported)
-subtitle = "Wake up Nova _"
+subtitle = "Nova Annabella"
 # whether to use typeit animation for subtitle
 typeit = true
 # whether to show social links
 social = true
 #  disclaimer (HTML format is supported)
-disclaimer = "<h1>Welcome to \"The Unspoken\"</h1><p>We dare to explore the forbidden realms of development and want to push boundaries and challenge conventions.</p> <p>We uncover the extraordinary in the world of development.</p> <p>Technology should make our lives and work easier.</p> <p>Decide for yourself what is true for you and what issues you prefer to look away from.</p> <p><strong>Only the bravest among us really manage to make development easier for others.</strong></p> <p>When was the last time you completed a project that was virtually maintenance-free, robust and no longer needed you?</p>"
+disclaimer = ""
 # Home page posts
 [params.home.posts]
 enable = true
@@ -215,7 +236,7 @@ defaultHiddenFromHomePage = false
 
 # Social config about the author
 [params.social]
-GitHub = "theunspoken"
+GitHub = ""
 Linkedin = ""
 Twitter = ""
 Instagram = ""
@@ -288,7 +309,7 @@ Plume = ""
 HackTheBox = ""
 RootMe = ""
 Phone = ""
-Email = "nova@scene.to"
+Email = ""
 RSS = true #
 
 #  Page global config
@@ -622,8 +643,8 @@ isHTML = false
 # Options to make hugo output files
 [outputs]
 #
-home = ["HTML", "RSS", "JSON"]
-page = ["HTML", "MarkDown"]
+home = ["HTML", "RSS"]
+page = ["HTML"]
 section = ["HTML", "RSS"]
 taxonomy = ["HTML", "RSS"]
 taxonomyTerm = ["HTML"]
