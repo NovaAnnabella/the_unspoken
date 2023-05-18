@@ -20,9 +20,9 @@ draft: false
 Topics that are often overlooked or rarely discussed interest me. Often cool technologies are in use, but hardly anyone
 talks about the problems associated with them.
 Development has become very time-consuming these days.
-With cool buzzwords like "serverless", "low code", "IaC" "Big Data", "Cloud", "DevOps", "You Build it You run it" etc.,
+With cool buzzwords like "serverless", "low code", "IaC", "Big Data", "Cloud", "DevOps", "You Build it You run it" etc.,
 developers already have more than enough extra tasks to deal with. More tasks, means there are hardly any experts left
-and something is always neglected for focus. That's why automation and time savings are mega important. "Don't make me
+and something is always neglected for focus. That's why automation and time savings are very important. "Don't make me
 think" and "Works out of the Box" are already good quality features that I can't see in Gradle yet. To be fair, Gradle
 is not the only modern tool that makes our work instead of making it easier.
 
@@ -44,7 +44,8 @@ features that Maven already brings. With Gradle's flexibility comes often comple
 maintain.
 Because everything is interconnected, Gradle plugins often have compatibility issues, limits or limited advancements.
 These issues can arise due to the evolving nature of the Gradle ecosystem, the diversity of environments in which Gradle
-is deployed, and the specific implementation and maintenance effort required for each plugin.
+is deployed, and the specific implementation and maintenance effort required for each plugin. I know only a few who can
+truly understand or write Gradle scripts.
 
 ### Gradle's The Domino Effect
 

@@ -15,12 +15,12 @@ draft: false
 
 ### Maximierung des Potenzials von Entwicklern
 
-#### Wir brauchen mehr zeitsparende Tools
+#### Wir benötigen mehr zeitsparende Tools
 
 Themen, die oft übersehen oder selten diskutiert werden, interessieren mich. Oft sind coole Technologien im Einsatz,
-aber kaum jemand spricht über die damit verbundenen Probleme.
+doch kaum jemand spricht über die damit verbundenen Probleme.
 Entwicklung ist heut zu Tage sehr aufwendig geworden.
-Mit den coolen buzzwords wie “Serverless”, “Low Code”, “IaC” “Big Data”, “Cloud”, “DevOps”, “You Build it You run it”
+Mit den coolen Buzzwords wie “Serverless”, “Low Code”, “IaC”, “Big Data”, “Cloud”, “DevOps”, “You Build it You run it”
 usw. haben Entwickler bereits mehr als genug Zusatzaufgaben zu bewältigen. Mehr Aufgaben, bedeutet, dass es kaum noch
 Experten gibt und immer irgendetwas für den Focus vernachlässigt wird. Daher sind Automationen und Zeitersparnisse mega
 wichtig. “Don’t make me think” und “Works out of the Box” sind bereits gute Qualitätsmerkmale, die ich in Gradle noch
@@ -44,23 +44,23 @@ Gradle arbeitet im Hintergrund nicht viel anders als Maven. Daher sind einige Ü
 Dependency Catalog, das Maven Release Plugin, der Dependabot und viele mehr sind eigentlich Workarounds für grundlegende
 Funktionen, die Maven bereits mitbringt. Mit der Flexibilität von Gradle entstehen oft komplexe Build Konfigurationen,
 die schwer zu warten sind.
-Da alles miteinander verbunden ist, haben Gradle Plugins oft Kompatibilitätsprobleme, Limits oder begrenzte
-Weiterentwicklungen. Diese Probleme können aufgrund der sich entwickelnden Natur des Gradle-Ökosystems, der Vielfalt der
-Umgebungen, in denen Gradle eingesetzt wird, und des spezifischen Implementierungs- und Wartungsaufwands für jedes
-Plugin auftreten.
+Gradle Plugins haben häufig Kompatibilitätsprobleme, Limits oder begrenzte Weiterentwicklungen. Diese Probleme entstehen
+aufgrund der sich entwickelnden Natur des Gradle-Ökosystems, der Vielfalt der Umgebungen, in denen Gradle eingesetzt
+wird, und des spezifischen Implementierungs- und Wartungsaufwands für jedes Plugin. Alles ist miteinander verbunden.
 
 ### Der Dominoeffekt von Gradle
 
 #### Ein Albtraumszenario in der realen Welt
 
 Ich habe viele Microservices gesehen, die nur 2 Jahre alt waren und bereits aufgrund von Gradle nicht mehr wartbar
-waren. Wichtig zu erwähnen, dass dies nicht das erste Mal ist, dass ich so etwas sehe, und nein, es war kein Junior.
+waren. Wichtig zu erwähnen, dass dies nicht das erste Mal ist, dass ich so etwas gesehen habe, und nein, es waren keine
+Junior Dvs.
 
 Meine **Aufgabe war, ein Spring Boot 2.5 auf 2.7-Upgrade durchzuführen**. Spoiler: Ich habe nach einem Jahr
 aufgegeben! Die Probleme im Kurzen:
 
 * Das Gradle-Build-File erfordert -> Downgrade meiner lokalen Java-Version auf 11 (WTF) (Normalerweise ist Java
-  abwärtskompatibel - es gibt auch Workaround-Tools wie SdkMan...)
+  abwärtskompatibel - es gibt auch hier wieder Workaround-Tools wie SdkMan...)
 * Das Spring Boot-Update erfordert -> Gradle-Update (WTF)
 * Das Gradle-Update erfordert -> Plugin-Update
 * Das Plugin-Update erfordert -> Groovy-Update (WTF)
@@ -70,8 +70,9 @@ aufgegeben! Die Probleme im Kurzen:
   Darüber hinaus funktionieren einige Plugins nicht mit neueren Gradle-Versionen, einige werden nicht mehr weiter
   entwickelt, sind inkompatibel mit anderen Plugins, funktionieren nur mit Gradle KTS, nicht mit Gradle Groovy, oder
   haben einfach Limits. Selbst Plugins von großen Anbietern wie Spring haben im Vergleich zu ihren Maven-Plugins
-  eingeschränkte Funktionalität. Am Ende habe ich eine coole, kurze Gradle-Build-Datei, die niemand warten kann, nicht
-  einmal die Entwickler, die sie geschrieben haben, und sie lieben Gradle immer noch.
+  eingeschränkte Funktionalität. Am Ende habe ich eine coole, kurze Gradle-Build-Datei, die niemand richtig warten kann,
+  nicht einmal die Entwickler, die sie geschrieben haben, und sie lieben Gradle immer noch. Ich kenne nur wenige, die
+  Gradle Scripte ernsthaft verstehen doer schreiben können.
 
 ### Die Wiederentdeckung der Stärke von Maven
 
