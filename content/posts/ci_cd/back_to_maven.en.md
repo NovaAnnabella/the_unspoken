@@ -124,7 +124,7 @@ one technology to the next?
 
 ### Links
 
-* (Moving Back from Gradle to maven)[https://phauer.com/2018/moving-back-from-gradle-to-maven/]
+* [Moving Back from Gradle to maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
 ### Contact
 

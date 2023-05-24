@@ -103,7 +103,7 @@ Maven 已经具备的基本功能的变通方法。由于 Gradle 的灵活性，
 
 ### 链接
 
-* (Moving Back from Gradle to maven)[https://phauer.com/2018/moving-back-from-gradle-to-maven/]
+* [Moving Back from Gradle to maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
 ### 联系方式
 

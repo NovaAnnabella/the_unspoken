@@ -128,7 +128,7 @@ sostenible seguir desarrollando una tecnología en lugar de saltar de una a otra
 
 ### Enlaces
 
-* [Moving Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+* [Moving Back from Gradle to maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
 ### Contacto
 
