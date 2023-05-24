@@ -1,14 +1,15 @@
 ---
 title: "无声之地"
-date: 2023-05-01T01:01:01
+date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "对简单性的难以捉摸的追求，以及重新发现 Maven 的力量的短暂旅程"
+description: "自己决定对你来说什么是真实的，以及你更喜欢回避哪些问题"
 draft: false
 ---
 
 # 欢迎来到《无声之地》
+
 **自己决定对你来说什么是真实的，以及你更喜欢回避哪些问题。**
 
 我敢于探索开发的禁区，挑战传统并打破常规。

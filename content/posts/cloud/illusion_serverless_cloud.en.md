@@ -5,136 +5,153 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "Herausforderungen und Realitäten von Serverless-Funktionen in der Cloud. Wertvolle Einblicke für Unternehmen, die eine Migration zur Cloud in Erwägung ziehen."
+description: "Challenges and realities of serverless capabilities in the cloud. Valuable insights for companies considering a migration to the cloud"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"
 card: "summary_large_image"
 ---
 
-# Die Illusion von Serverless Funktionen in der Cloud
+# The illusion of serverless functions in the cloud
 
 ![aws_costs_twitter_1](/images/content/onprem_vs_cloud.png)
 
-### Einleitung
+### Introduction
 
-Ich bin enttäuscht, wie oft das Marketing über den gesunden Menschenverstand siegt. Viele Manager setzen sich
-über ihre eigenen Experten - die Entwickler. Das gilt auch für die Migration in die Cloud. Spoiler: Wer Geld sparen
-muss, sollte die Cloud meiden. Denn das neue Buzzword "Serverless" in der Cloud bedeutet: Du kümmerst dich um die
-Software, wir kümmern uns um die Hardware. Wer jedoch einen fähigen, motivierten und neugierigen Administrator hat, der
-kann Serverless auch selbst betreiben (z.B. [KNative](https://knative.dev)).
+I am disappointed how often marketing wins out over common sense. Many managers put themselves
+over their own experts - the developers. This is also true when it comes to migrating to the cloud. Spoiler: If you need
+to save money
+need to save money should avoid the cloud. Because the new buzzword "serverless" in the cloud means: You take care of
+the software, we take care of the hardware.
+You take care of the software, we'll take care of the hardware. However, if you have a capable, motivated and
+inquisitive administrator, you can
+can also run Serverless themselves (e.g. [KNative](https://knative.dev)).
 
 ![aws_costs_twitter_1](/images/content/aws_costs_twitter_1.png)
 
-### Serverless Funktionen vs Microservices:
+### Serverless functions vs microservices:
 
-#### Microservices
+#### microservices
 
-Ein typischer zustandsloser Microservice kümmert sich um eine bestimmte Funktion/Domäne und wird in einer
-Container Orchestrierungsumgebung bereitgestellt. Diese Umgebung kümmert sich um Infrastruktur, Sicherheit, Firewall,
-Logging, Metriken, Secrets, Netzwerk, Backups und vieles mehr. Ein großer Vorteil ist, dass ein Microservice lokal mit
-wenigen
-Ressourcen integriert getestet werden kann und Cloud-/Server-agnostisch (überall einsetzbar) ist.
+A typical stateless microservice takes care of a specific function/domain and is deployed in a
+container orchestration environment. This environment takes care of infrastructure, security, firewall,
+logging, metrics, secrets, networking, backups and more. A big advantage is that a microservice can be deployed locally
+with
+few
+resources and is cloud/server agnostic (can be deployed anywhere).
 
-#### Serverless Funktionen
+#### Serverless functions
 
-Ein kleiner Witz vorweg: Paradox, aber wahr - Serverless-Funktionen hängen stark von der Serverumgebung ab. :)
-Eine typische Serverless Funktion kümmert sich ebenfalls um nur eine bestimmte Funktion/Domäne und wird ohne Frameworks in
-reinem Code geschrieben, um schneller als ein Microservice zu sein (Auch eine gute Übung für MicroServices). Ein großer
-Vorteil ist, dass Serverless Funktionen automatisch skaliert werden. Allerdings benötigt jede Serverless Funktion eine
-beträchtliche Menge an GlueCode, um die Infrastruktur zu definieren - Security, Firewall, Netzwerk, Logging, Metriken,
-Secrets, Caching, Backups und vieles mehr.
-Daher kann eine einfache Funktion wie das Kopieren einer Datei inklusive API schnell mal 1500 Zeilen Code (inkl. IaC)
-umfassen.
-Die Administrationskosten verschieben sich von der Administration zur Entwicklung im Verhältnis 1:N (1 zu Serverless
-Funktionen). Das Wissen und die Implementierung sind somit nicht mehr
-gebündelt und können schnell instabil werden. Hinzu kommen erhöhte Wartungskosten.
-Auch echte integrative Tests sind mit Serverless selten oder nur mit großem Aufwand verbunden.
-Letztlich ist die Komplexität von Serverless-Funktionen deutlich höher als die eines einzelnen Microservices.
-Höhere Komplexität bedeutet auch geringere Wartbarkeit. Neue Teammitglieder haben es schwerer und benötigen deutlich
-mehr Vorwissen.
+A little joke beforehand: Paradoxical but true - serverless functions depend heavily on the server environment. :)
+A typical serverless function also takes care of only one specific function/domain and is written without frameworks in
+code to be faster than a microservice (also a good exercise for MicroServices). A big
+advantage is that Serverless functions scale automatically. However, each serverless function requires a
+considerable amount of GlueCode to define the infrastructure - security, firewall, network, logging, metrics,
+secrets, caching, backups and much more.
+Therefore, a simple function such as copying a file including API can quickly involve 1500 lines of code (incl. IaC).
+can be involved.
+The administration costs shift from administration to development in a ratio of 1:N (1 to Serverless
+functions). The knowledge and implementation are therefore no longer
+bundled and can quickly become unstable. In addition, there are increased maintenance costs.
+True integrative testing is also rare with serverless, or only possible with great effort.
+Ultimately, the complexity of serverless functions is significantly higher than that of a single microservice.
+Higher complexity also means lower maintainability. New team members have a harder time and need significantly
+more prior knowledge.
 
-### Serverless und die Cloud im Allgemeinen
+### Serverless and the cloud in general
 
-Die meisten Cloud-Technologien sind nicht auf dem neuesten Stand. Zum Beispiel sind Node.js, Java, Python und andere
-Sprachen oder Technologien oft nicht einfach zu aktualisieren, meist hilft nur abwarten.
-Auch moderne und Standardtechnologien wie MongoDB, MySQL, Kafka, NATS, RabbitMQ, Redis, Prometheus, InfluxDB, Grafana,
-Kibana, Elastic Search etc. sind entweder nicht verfügbar oder überteuert.
-Ohne solche Standarddienste befindet man sich oft in der virtuellen Steinzeit und nutzt veraltete Lösungen, z.B.
-Webhooks für die Kommunikation nach außen. Hinzu kommt, dass der Handlungsspielraum bei Themen wie Regulierung,
-Compliance, Datenschutz und Ausfallsicherheit stark eingeschränkt ist.
+Most cloud technologies are not up to date. For example, Node.js, Java, Python, and other
+languages or technologies are often not easy to update, usually only waiting helps.
+Even modern and standard technologies such as MongoDB, MySQL, Kafka, NATS, RabbitMQ, Redis, Prometheus, InfluxDB,
+Grafana,
+Kibana, Elastic Search etc. are either not available or overpriced.
+Without such standard services, one is often in the virtual stone age and uses outdated solutions, e.g.
+webhooks for external communication. In addition, the room for manoeuvre on issues such as regulation,
+compliance, data protection and fail-safety is severely limited.
 
-Die Cloud sollte daher agnostisch betrieben werden, um schnell zwischen AWS, Azure, Google, On-Premise usw. wechseln und
-Kosten vergleichen zu können.
-Grenzen sind auch in der Cloud häufig vorhanden, was zu kreativen Workarounds führt, die wiederum die Komplexität
-erhöhen. Auch integratives Testen kann teuer werden, da jeder Entwickler eine eigene Entwicklungsumgebung in der Cloud
-benötigt, da viele Cloud Dienste kaum oder gar nicht lokal testbar sind.
-Doch auch ohne Tests ist die Cloud teuer. Während bei On-Premise Systemen vor allem
-Hardwarekosten anfallen, muss in der Cloud zusätzlich für Traffic, einige Standard Services und oft sogar für die
-Mehrfachbesteuerung bezahlt werden. Zudem verliert man in der Cloud leicht den Überblick, denn es geht nicht um
-Benutzerfreundlichkeit, sondern ums Geld geht. Die Kosten sind so versteckt, dass man sie erst bemerkt, wenn es zu spät
-ist.
+The cloud should therefore be run agnostically in order to be able to switch quickly between AWS, Azure, Google,
+on-premise, etc. and to
+compare costs.
+Limits are also often present in the cloud, leading to creative workarounds, which in turn increase complexity.
+increase. Integrative testing can also become expensive, as each developer needs their own development environment in
+the cloud
+as many cloud services are hardly or not at all testable locally.
+But even without testing, the cloud is expensive. Whereas with on-premise systems it is mainly
+hardware costs, in the cloud you also have to pay for traffic, some standard services and often even for multiple
+and often even for multiple taxation. Moreover, it is easy to lose track of things in the cloud, because it is not about
+it's not about user-friendliness, but about money. The costs are so hidden that you only notice them when it is too
+late.
+too late.
 
-Die Grundlagen der Architektur und Infrastruktur müssen in der Cloud und insbesondere im Bereich der Serverless
-neu erfunden werden, da die Implementierung stark von den verfügbaren Funktionen abhängt.
-Immer nachdem ich die Architektur designed habe, kommt mir der Gedanke: "Das hätte auch ein einzelner Service sein
-können".
+The basics of architecture and infrastructure have to be reinvented in the cloud and especially in the area of
+serverless
+have to be reinvented, as the implementation depends heavily on the available functions.
+Whenever I have designed the architecture, I think: "This could have been a single service".
+could have been".
 
-Für mich ist Serverless eine interessante Idee und es ist gut skalierbar, aber es senkt nicht die Kosten. Im
-Gegenteil, es erfordert viel mehr Wissen und Zeit in der Entwicklung. Serverless oder die Cloud erfordern Disziplin und
-Vorwissen.
-Wenn das Wissen für On-Premise-Systeme nicht vorhanden ist, wird es mit der Cloud nicht einfacher.
-Wie sollen sich Entwickler zusätzlich Infrastrukturwissen aneignen?
+For me, serverless is an interesting idea and it scales well, but it doesn't reduce costs. On the
+On the contrary, it requires much more knowledge and time in development. Serverless or the cloud require discipline and
+prior knowledge.
+If the knowledge is not there for on-premise systems, it will not be easier with the cloud.
+How should developers acquire additional infrastructure knowledge?
 
-Ich würde einen gut gemanagten Kubernetes Cluster der Cloud Architektur vorziehen.
-Die Mitarbeiter skalieren nicht. Viele Entwickler haben keine disziplin im code schreiben.
-Leider trifft das auf 80 Prozent der Entwickler zu. Wie also sollen diese Entwickler dann noch die Cloud bedienen
-können?
+I would prefer a well-managed Kubernetes cluster to cloud architecture.
+The people don't scale. Many developers have no discipline in writing code.
+Unfortunately, this is true for 80 percent of developers. So how are these developers going to be able to use the cloud?
+the cloud?
 
-Es ist wichtig, dass Unternehmen die Herausforderungen und Auswirkungen der serverlosen Architektur und der Cloud
-umfassend verstehen. Dies erfordert nicht nur technisches Wissen, sondern auch einen strategischen Ansatz. Eine
-unüberlegte Migration in die Cloud kann zu Komplexität, höheren Kosten und Überforderung der Entwickler führen.
+It is important that organisations fully understand the challenges and implications of serverless architecture and the
+cloud.
+fully understand the challenges and implications of serverless architecture and the cloud. This requires not only
+technical knowledge, but also a strategic approach. A
+ill-considered migration to the cloud can lead to complexity, higher costs and overburdening of developers.
 
-Zusammenfassend lässt sich sagen, dass Serverless in the Cloud ein vielversprechendes Konzept ist, das jedoch sorgfältig
-betrachtet werden sollte. Kosten, Komplexität, Wartbarkeit und die Fähigkeiten des Entwicklungsteams müssen
-berücksichtigt werden.
-Jedes Unternehmen hat andere Anforderungen und Prioritäten. Man sollte eine fundierte Entscheidung treffen, ob
-Serverless in der Cloud die richtige Lösung ist oder ob alternative Ansätze wie
-z.B. gut Kubernetes Cluster die bessere Wahl sind.
+In summary, serverless in the cloud is a promising concept, but one that should be considered carefully.
+should be considered carefully. Cost, complexity, maintainability and the skills of the development team need to be
+considered.
+be taken into account.
+Every company has different requirements and priorities. An informed decision should be made whether
+Serverless in the cloud is the right solution or whether alternative approaches like
+e.g. well Kubernetes cluster are the better choice.
 
-Der erfolgreiche Einsatz von Serverless und Cloud Computing erfordert eine Kombination aus technischer Expertise
-strategischer Planung und einem klaren Verständnis der Geschäftsanforderungen. Nur so kann die Illusion von Serverless
-durchschauen und die richtige Entscheidung für die eigene Softwareentwicklung treffen.
+Successful deployment of serverless and cloud computing requires a combination of technical expertise
+strategic planning and a clear understanding of business requirements. Only then can the illusion of serverless be
+and make the right decision for your own software development.
 
-### Fazit
+### Conclusion
 
-Die Einführung von Serverless-Funktionen in der Cloud verspricht Flexibilität, Skalierbarkeit und Entlastung von
-Entwickler von Infrastrukturaufgaben. Von dieser Illusion sollte man sich jedoch nicht blenden lassen. Die
-Wechsel in die Cloud und die Nutzung von Serverless-Funktionen bringt eine Reihe von Herausforderungen mit sich.
+The introduction of serverless functions in the cloud promises flexibility, scalability and relief of
+developers from infrastructure tasks. However, one should not be blinded by this illusion. The
+move to the cloud and the use of serverless functions brings with it a number of challenges.
 
-Entwickler ussen mneben der eigentlichen Entwicklung eine neue "Sprache" lernen und ohne entsprechende Unterstützung
-mehr Verantwortung übernehmen.
-Die Komplexität von Serverless-Funktionen ist oft höher als die von Microservices, da Entwickler viele zusätzliche
-Aufgaben wie Infrastrukturdefinition, Sicherheit und Skalierung übernehmen müssen. Echte integrative Tests sind
-schwierig und das Vorwissen sowie die Erfahrung für den Betrieb sind in der Cloud noch wichtiger.
+Developers have to learn a new "language" in addition to the actual development and take on more responsibility without
+the appropriate support.
+take on more responsibility.
+The complexity of serverless functions is often higher than that of microservices, as developers have to take on many
+additional tasks, such as
+developers have to take on many additional tasks such as infrastructure definition, security and scaling. True
+integrative testing is
+difficult and prior knowledge and experience for operations are even more important in the cloud.
 
-Die Cloud selbst bringt weitere Herausforderungen mit sich. Viele Cloud-Technologien sind nicht auf dem neuesten Stand
-und die Nutzung
-Nutzung moderner Standarddienste kann teuer oder gar unmöglich sein. Regulatorische Vorgaben, Compliance und
-Datenschutz schränken den Spielraum ein. Zudem laufen die Kosten in der Cloud leicht aus dem Ruder,
-und der Überblick über die Ausgaben geht schnell verloren.
+The cloud itself brings further challenges. Many cloud technologies are not up-to-date
+and the use of modern off-the-shelf services can be expensive or even impossible. Regulatory requirements, compliance
+and
+data protection limit the scope. In addition, costs in the cloud easily get out of hand,
+and the overview of expenses is quickly lost.
 
-Insgesamt gilt es, die Vor- und Nachteile von Serverless und Cloud sorgfältig abzuwägen.
-Unternehmen sollten ihre spezifischen Anforderungen, das vorhandene Know-how im Team und die langfristigen Auswirkungen
-einer Migration in die Cloud berücksichtigen.
-Eine fundierte Entscheidung auf Basis einer umfassenden Analyse ist entscheidend für den Erfolg und die Rentabilität
-des Projekts.
+Overall, the advantages and disadvantages of serverless and cloud need to be carefully weighed.
+Companies should consider their specific requirements, the existing expertise in the team and the long-term effects of a
+migration to the cloud.
+of a migration to the cloud.
+An informed decision based on a comprehensive analysis is crucial for the success and profitability of the project.
+of the project.
 
-Letztendlich liegt es an den Unternehmen, ihre Entwickler angemessen zu unterstützen, die Kosten und Komplexität der
-Cloud realistisch einzuschätzen und alternative Lösungen wie gut verwaltete Kubernetes-Cluster in Betracht zu ziehen.
-Mit einer klaren Strategie und einem fundierten Verständnis der eigenen Bedürfnisse können Unternehmen die Vorteile der
-Cloud und Serverless-Funktionen optimal nutzen und die Illusion durchschauen.
+Ultimately, it is up to companies to adequately support their developers, realistically assess the costs and complexity
+of the
+cloud realistically and consider alternative solutions such as well-managed Kubernetes clusters.
+With a clear strategy and a sound understanding of their own needs, companies can make the most of the benefits of the
+Cloud and serverless capabilities to their fullest potential and see through the illusion.
 
-### Kontakt
+### Contact
 
 [GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

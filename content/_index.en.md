@@ -1,14 +1,15 @@
 ---
 title: "The Unspoken"
-date: 2023-05-01T01:01:01
+date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "The elusive quest for simplicity and a short journey to rediscovering the power of Maven"
+description: "Decide for yourself what is true for you and what issues you prefer to look away from"
 draft: false
 ---
 
 # Welcome to "The Unspoken"
+
 **Decide for yourself what is true for you and what issues you prefer to look away from.**
 
 I dare to explore the forbidden realms of development and want to push boundaries and challenge conventions.

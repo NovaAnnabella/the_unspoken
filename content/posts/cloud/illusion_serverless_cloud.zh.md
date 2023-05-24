@@ -5,136 +5,77 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "Herausforderungen und Realitäten von Serverless-Funktionen in der Cloud. Wertvolle Einblicke für Unternehmen, die eine Migration zur Cloud in Erwägung ziehen."
+description: "云上无服务器功能的挑战与现实。对考虑迁移到云端的企业来说是宝贵的洞察"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"
 card: "summary_large_image"
 ---
 
-# Die Illusion von Serverless Funktionen in der Cloud
+# 云上无服务器功能的幻觉
 
 ![aws_costs_twitter_1](/images/content/onprem_vs_cloud.png)
 
-### Einleitung
+### 引言
 
-Ich bin enttäuscht, wie oft das Marketing über den gesunden Menschenverstand siegt. Viele Manager setzen sich
-über ihre eigenen Experten - die Entwickler. Das gilt auch für die Migration in die Cloud. Spoiler: Wer Geld sparen
-muss, sollte die Cloud meiden. Denn das neue Buzzword "Serverless" in der Cloud bedeutet: Du kümmerst dich um die
-Software, wir kümmern uns um die Hardware. Wer jedoch einen fähigen, motivierten und neugierigen Administrator hat, der
-kann Serverless auch selbst betreiben (z.B. [KNative](https://knative.dev)).
+我对市场营销如何频繁地战胜常识感到失望。许多经理不顾他们自己的专家——开发人员。这也适用于迁移到云端。剧透：如果需要节约资金，应该避免使用云端。因为云端的新概念"
+无服务器"
+意味着：你关注软件，我们关注硬件。然而，如果您有一个有能力、有动力和好奇心的管理员，您也可以自己运行无服务器（例如[KNative](https://knative.dev)）。
 
 ![aws_costs_twitter_1](/images/content/aws_costs_twitter_1.png)
 
-### Serverless Funktionen vs Microservices:
+### 无服务器功能 vs 微服务：
 
-#### Microservices
+#### 微服务
 
-Ein typischer zustandsloser Microservice kümmert sich um eine bestimmte Funktion/Domäne und wird in einer
-Container Orchestrierungsumgebung bereitgestellt. Diese Umgebung kümmert sich um Infrastruktur, Sicherheit, Firewall,
-Logging, Metriken, Secrets, Netzwerk, Backups und vieles mehr. Ein großer Vorteil ist, dass ein Microservice lokal mit
-wenigen
-Ressourcen integriert getestet werden kann und Cloud-/Server-agnostisch (überall einsetzbar) ist.
+典型的无状态微服务负责特定的功能/领域，并在容器编排环境中部署。该环境负责基础设施、安全、防火墙、日志记录、指标、秘密、网络、备份等等。一个重要的优势是，微服务可以在本地使用少量资源进行集成测试，并且是云端/服务器不可知的（可在任何地方使用）。
 
-#### Serverless Funktionen
+#### 无服务器功能
 
-Ein kleiner Witz vorweg: Paradox, aber wahr - Serverless-Funktionen hängen stark von der Serverumgebung ab. :)
-Eine typische Serverless Funktion kümmert sich ebenfalls um nur eine bestimmte Funktion/Domäne und wird ohne Frameworks in
-reinem Code geschrieben, um schneller als ein Microservice zu sein (Auch eine gute Übung für MicroServices). Ein großer
-Vorteil ist, dass Serverless Funktionen automatisch skaliert werden. Allerdings benötigt jede Serverless Funktion eine
-beträchtliche Menge an GlueCode, um die Infrastruktur zu definieren - Security, Firewall, Netzwerk, Logging, Metriken,
-Secrets, Caching, Backups und vieles mehr.
-Daher kann eine einfache Funktion wie das Kopieren einer Datei inklusive API schnell mal 1500 Zeilen Code (inkl. IaC)
-umfassen.
-Die Administrationskosten verschieben sich von der Administration zur Entwicklung im Verhältnis 1:N (1 zu Serverless
-Funktionen). Das Wissen und die Implementierung sind somit nicht mehr
-gebündelt und können schnell instabil werden. Hinzu kommen erhöhte Wartungskosten.
-Auch echte integrative Tests sind mit Serverless selten oder nur mit großem Aufwand verbunden.
-Letztlich ist die Komplexität von Serverless-Funktionen deutlich höher als die eines einzelnen Microservices.
-Höhere Komplexität bedeutet auch geringere Wartbarkeit. Neue Teammitglieder haben es schwerer und benötigen deutlich
-mehr Vorwissen.
+先说一个小笑话：矛盾而真实——无服务器功能在很大程度上依赖于服务器环境。 :)
+典型的无服务器功能同样负责特定的功能/领域，并且不使用框架，以纯代码形式编写，以实现比微服务更快的速度（也是对微服务的良好练习）。一个重要的优势是，无服务器功能可以自动扩展。然而，每个无服务器功能都需要相当大量的粘合代码来定义基础设施——安全性、防火墙、网络、日志记录、指标、秘密、缓存、备份等等。
+因此，一个简单的功能，例如包括API的文件复制，可能需要快速达到1500行代码（包括基础设施即代码）。
+管理成本从管理转移到开发，比例为1:N（1个无服务器功能对应多个管理）。因此，知识和实现不再集中，可能很快变得不稳定。此外，维护成本也会增加。
+与无服务器相关的真正集成测试很少或者只能通过大量工作来实现。
+最终，无服务器功能的复杂性明显高于单个微服务。更高的复杂性意味着更低的可维护性。新团队成员更难上手，需要更多的先前知识。
 
-### Serverless und die Cloud im Allgemeinen
+### 无服务器和云计算的概况
 
-Die meisten Cloud-Technologien sind nicht auf dem neuesten Stand. Zum Beispiel sind Node.js, Java, Python und andere
-Sprachen oder Technologien oft nicht einfach zu aktualisieren, meist hilft nur abwarten.
-Auch moderne und Standardtechnologien wie MongoDB, MySQL, Kafka, NATS, RabbitMQ, Redis, Prometheus, InfluxDB, Grafana,
-Kibana, Elastic Search etc. sind entweder nicht verfügbar oder überteuert.
-Ohne solche Standarddienste befindet man sich oft in der virtuellen Steinzeit und nutzt veraltete Lösungen, z.B.
-Webhooks für die Kommunikation nach außen. Hinzu kommt, dass der Handlungsspielraum bei Themen wie Regulierung,
-Compliance, Datenschutz und Ausfallsicherheit stark eingeschränkt ist.
+大多数云技术并不更新。例如，Node.js、Java、Python和其他语言或技术通常很难升级，只能等待。
+即使是现代和标准技术，如MongoDB、MySQL、Kafka、NATS、RabbitMQ、Redis、Prometheus、InfluxDB、Grafana、Kibana、Elastic
+Search等，要么不可用，要么价格昂贵。
+在没有这些标准服务的情况下，往往陷入了虚拟的“石器时代”，使用过时的解决方案，例如使用Webhooks进行外部通信。此外，涉及监管、合规性、数据保护和容错性等问题的行动空间也受到严格限制。
 
-Die Cloud sollte daher agnostisch betrieben werden, um schnell zwischen AWS, Azure, Google, On-Premise usw. wechseln und
-Kosten vergleichen zu können.
-Grenzen sind auch in der Cloud häufig vorhanden, was zu kreativen Workarounds führt, die wiederum die Komplexität
-erhöhen. Auch integratives Testen kann teuer werden, da jeder Entwickler eine eigene Entwicklungsumgebung in der Cloud
-benötigt, da viele Cloud Dienste kaum oder gar nicht lokal testbar sind.
-Doch auch ohne Tests ist die Cloud teuer. Während bei On-Premise Systemen vor allem
-Hardwarekosten anfallen, muss in der Cloud zusätzlich für Traffic, einige Standard Services und oft sogar für die
-Mehrfachbesteuerung bezahlt werden. Zudem verliert man in der Cloud leicht den Überblick, denn es geht nicht um
-Benutzerfreundlichkeit, sondern ums Geld geht. Die Kosten sind so versteckt, dass man sie erst bemerkt, wenn es zu spät
-ist.
+因此，云应该以通用方式运行，以便能够快速在AWS、Azure、Google、On-Premise等之间切换和比较成本。
+即使在云端，仍然存在限制，这导致了创造性的解决方案，进一步增加了复杂性。由于许多云服务几乎无法或根本无法在本地进行测试，集成测试也可能变得昂贵，因为每个开发人员都需要在云中拥有自己的开发环境。
+然而，即使没有测试，云计算也是昂贵的。在本地系统中，主要涉及硬件成本，而在云中，还需要支付流量、一些标准服务甚至可能面临多重征税的费用。此外，云中很容易失去概览，因为它并不关注用户友好性，而关注的是金钱。成本是如此隐蔽，以至于人们直到为时已晚才注意到它们。
 
-Die Grundlagen der Architektur und Infrastruktur müssen in der Cloud und insbesondere im Bereich der Serverless
-neu erfunden werden, da die Implementierung stark von den verfügbaren Funktionen abhängt.
-Immer nachdem ich die Architektur designed habe, kommt mir der Gedanke: "Das hätte auch ein einzelner Service sein
-können".
+在云中，尤其是在无服务器领域，必须重新发明架构和基础设施的基础知识，因为实现强烈依赖于可用的功能。
+每当我设计架构时，我都会想到：“这也可以是一个单独的服务。”
 
-Für mich ist Serverless eine interessante Idee und es ist gut skalierbar, aber es senkt nicht die Kosten. Im
-Gegenteil, es erfordert viel mehr Wissen und Zeit in der Entwicklung. Serverless oder die Cloud erfordern Disziplin und
-Vorwissen.
-Wenn das Wissen für On-Premise-Systeme nicht vorhanden ist, wird es mit der Cloud nicht einfacher.
-Wie sollen sich Entwickler zusätzlich Infrastrukturwissen aneignen?
+对我来说，无服务器是一个有趣的想法，它具有良好的可扩展性，但它并不降低成本。相反，它需要更多的开发知识和时间。无服务器或云计算需要纪律和先前知识。
+如果缺乏本地系统的知识，那么使用云计算也不会更容易。开发人员如何获得基础设施知识？
 
-Ich würde einen gut gemanagten Kubernetes Cluster der Cloud Architektur vorziehen.
-Die Mitarbeiter skalieren nicht. Viele Entwickler haben keine disziplin im code schreiben.
-Leider trifft das auf 80 Prozent der Entwickler zu. Wie also sollen diese Entwickler dann noch die Cloud bedienen
-können?
+我更倾向于一个良好管理的Kubernetes集群，而不是云架构。
+员工不具备扩展能力。许多
 
-Es ist wichtig, dass Unternehmen die Herausforderungen und Auswirkungen der serverlosen Architektur und der Cloud
-umfassend verstehen. Dies erfordert nicht nur technisches Wissen, sondern auch einen strategischen Ansatz. Eine
-unüberlegte Migration in die Cloud kann zu Komplexität, höheren Kosten und Überforderung der Entwickler führen.
+### 结论
 
-Zusammenfassend lässt sich sagen, dass Serverless in the Cloud ein vielversprechendes Konzept ist, das jedoch sorgfältig
-betrachtet werden sollte. Kosten, Komplexität, Wartbarkeit und die Fähigkeiten des Entwicklungsteams müssen
-berücksichtigt werden.
-Jedes Unternehmen hat andere Anforderungen und Prioritäten. Man sollte eine fundierte Entscheidung treffen, ob
-Serverless in der Cloud die richtige Lösung ist oder ob alternative Ansätze wie
-z.B. gut Kubernetes Cluster die bessere Wahl sind.
+在云中引入无服务器功能承诺灵活性、可扩展性和解放开发人员的基础设施任务。然而，不应该被这种幻觉所蒙蔽。迁移到云端并使用无服务器功能会带来一系列挑战。
 
-Der erfolgreiche Einsatz von Serverless und Cloud Computing erfordert eine Kombination aus technischer Expertise
-strategischer Planung und einem klaren Verständnis der Geschäftsanforderungen. Nur so kann die Illusion von Serverless
-durchschauen und die richtige Entscheidung für die eigene Softwareentwicklung treffen.
+开发人员除了实际开发之外，还必须学习一门新的“语言”，承担更多责任而缺乏相应的支持。
+无服务器功能的复杂性通常比微服务更高，因为开发人员需要承担许多额外任务，如基础设施定义、安全性和扩展性。真正的集成测试是困难的，对云计算的运营知识和经验变得更加重要。
 
-### Fazit
+云本身也带来了其他挑战。许多云技术并不是最新的，使用现代的标准服务可能昂贵或不可行。监管要求、合规性和数据保护限制了操作的自由度。此外，云端的成本很容易失控，很容易失去对支出的了解。
 
-Die Einführung von Serverless-Funktionen in der Cloud verspricht Flexibilität, Skalierbarkeit und Entlastung von
-Entwickler von Infrastrukturaufgaben. Von dieser Illusion sollte man sich jedoch nicht blenden lassen. Die
-Wechsel in die Cloud und die Nutzung von Serverless-Funktionen bringt eine Reihe von Herausforderungen mit sich.
+总体而言，我们需要仔细权衡无服务器和云计算的优缺点。
+企业应该考虑其特定需求、团队的专业知识以及迁移到云端的长期影响。
+基于全面分析的明智决策对项目的成功和盈利能力至关重要。
 
-Entwickler ussen mneben der eigentlichen Entwicklung eine neue "Sprache" lernen und ohne entsprechende Unterstützung
-mehr Verantwortung übernehmen.
-Die Komplexität von Serverless-Funktionen ist oft höher als die von Microservices, da Entwickler viele zusätzliche
-Aufgaben wie Infrastrukturdefinition, Sicherheit und Skalierung übernehmen müssen. Echte integrative Tests sind
-schwierig und das Vorwissen sowie die Erfahrung für den Betrieb sind in der Cloud noch wichtiger.
+最终，如何适当支持开发人员、实际评估云端的成本和复杂性，并考虑替代解决方案（如良好管理的Kubernetes集群），取决于企业。
+通过明确的战略和对自身需求的深入了解，企业可以最大限度地发挥云和无服务器功能的优势，并看透这种幻觉。
 
-Die Cloud selbst bringt weitere Herausforderungen mit sich. Viele Cloud-Technologien sind nicht auf dem neuesten Stand
-und die Nutzung
-Nutzung moderner Standarddienste kann teuer oder gar unmöglich sein. Regulatorische Vorgaben, Compliance und
-Datenschutz schränken den Spielraum ein. Zudem laufen die Kosten in der Cloud leicht aus dem Ruder,
-und der Überblick über die Ausgaben geht schnell verloren.
+### 联系方式
 
-Insgesamt gilt es, die Vor- und Nachteile von Serverless und Cloud sorgfältig abzuwägen.
-Unternehmen sollten ihre spezifischen Anforderungen, das vorhandene Know-how im Team und die langfristigen Auswirkungen
-einer Migration in die Cloud berücksichtigen.
-Eine fundierte Entscheidung auf Basis einer umfassenden Analyse ist entscheidend für den Erfolg und die Rentabilität
-des Projekts.
+[GitHub问题页](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose)。
 
-Letztendlich liegt es an den Unternehmen, ihre Entwickler angemessen zu unterstützen, die Kosten und Komplexität der
-Cloud realistisch einzuschätzen und alternative Lösungen wie gut verwaltete Kubernetes-Cluster in Betracht zu ziehen.
-Mit einer klaren Strategie und einem fundierten Verständnis der eigenen Bedürfnisse können Unternehmen die Vorteile der
-Cloud und Serverless-Funktionen optimal nutzen und die Illusion durchschauen.
-
-### Kontakt
-
-[GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

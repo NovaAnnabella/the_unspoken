@@ -1,6 +1,6 @@
 ---
 title: "Back to Maven?"
-date: 2023-05-01T01:01:01
+date: 2023-05-01
 author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]

@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "Herausforderungen und Realitäten von Serverless-Funktionen in der Cloud. Wertvolle Einblicke für Unternehmen, die eine Migration zur Cloud in Erwägung ziehen."
+description: "Herausforderungen und Realitäten von Serverless-Funktionen in der Cloud. Wertvolle Einblicke für Unternehmen, die eine Migration zur Cloud in Erwägung ziehen"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"
@@ -119,8 +119,7 @@ Aufgaben wie Infrastrukturdefinition, Sicherheit und Skalierung übernehmen müs
 schwierig und das Vorwissen sowie die Erfahrung für den Betrieb sind in der Cloud noch wichtiger.
 
 Die Cloud selbst bringt weitere Herausforderungen mit sich. Viele Cloud-Technologien sind nicht auf dem neuesten Stand
-und die Nutzung
-Nutzung moderner Standarddienste kann teuer oder gar unmöglich sein. Regulatorische Vorgaben, Compliance und
+und die Nutzung moderner Standarddienste kann teuer oder gar unmöglich sein. Regulatorische Vorgaben, Compliance und
 Datenschutz schränken den Spielraum ein. Zudem laufen die Kosten in der Cloud leicht aus dem Ruder,
 und der Überblick über die Ausgaben geht schnell verloren.
 

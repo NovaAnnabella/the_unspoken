@@ -1,6 +1,6 @@
 ---
 title: "Zurück zu Maven?"
-date: 2023-05-01T01:01:01
+date: 2023-05-01
 author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
@@ -15,7 +15,6 @@ card: "summary_large_image"
 # Zurück zu Maven?
 
 [![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
-
 
 ## 10 Jahre Gradle. Auf der Sucher nach Erleichterung und eine kurze Reise zur Wiederentdeckung der Stärke von Maven.
 
