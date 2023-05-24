@@ -1,6 +1,6 @@
 ---
 Titel: "Datenschutzrichtlinie"
-Datum: 2023-05-01T01:01:01
+Datum: 2023-05-01
 draft: false
 ---
 
@@ -53,5 +53,3 @@ Datenschutzrichtlinien wird immer auf dieser Webseite verfügbar sein.
 Wenn Sie Fragen zu dieser Datenschutzrichtlinie oder zu unserem Umgang mit Ihren persönlichen Daten haben, kontaktieren
 Sie uns bitte über das Kontaktformular
 von [GitHub Issues] (https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
-
-Gültigkeitsdatum: 01.05.2023"

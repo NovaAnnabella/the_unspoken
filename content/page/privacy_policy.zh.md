@@ -1,6 +1,6 @@
 ---
 title: "隐私政策"
-date: 2023-05-01T01:01:01
+date: 2023-05-01
 draft: false
 ---
 
@@ -42,5 +42,3 @@ Cookies 不会收集任何个人信息。
 ### 联系方式
 
 [GitHub 问题](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
-
-最后更新：01.05.2023"

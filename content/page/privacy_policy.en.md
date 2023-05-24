@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-date: 2023-05-01T01:01:01
+date: 2023-05-01
 draft: false
 ---
 
@@ -50,5 +50,3 @@ or regulatory reasons. The most current version of the Privacy Policy will alway
 
 If you have any questions about this Privacy Policy or our treatment of your personal information, please contact us
 through the contact formular of [GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
-
-Effective Date: 01.05.2023"
