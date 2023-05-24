@@ -3,13 +3,19 @@ title: "Zurück zu Maven?"
 date: 2023-05-01T01:01:01
 author: "Nova Annabella"
 slug: back_to_maven
-tags: [ development, Gradle, Maven, CI_CD ]
+tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
 description: "Die schwer fassbare Suche nach Einfachheit und eine kurze Reise zur Wiederentdeckung der Macht von Maven"
 draft: false
+images:
+  - "/images/content/maven_vs_gradle.png"
+card: "summary_large_image"
 ---
 
 # Zurück zu Maven?
+
+[![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+
 
 ## 10 Jahre Gradle. Auf der Sucher nach Erleichterung und eine kurze Reise zur Wiederentdeckung der Stärke von Maven.
 
@@ -52,9 +58,9 @@ wird, und des spezifischen Implementierungs- und Wartungsaufwands für jedes Plu
 
 #### Ein Albtraumszenario in der realen Welt
 
-Ich habe viele Microservices gesehen, die nur 2 Jahre alt waren und bereits aufgrund von Gradle nicht mehr wartbar
+Ich habe viele Microservices gesehen, die nur wenige Jahre alt waren und bereits aufgrund von Gradle nicht mehr wartbar
 waren. Wichtig zu erwähnen, dass dies nicht das erste Mal ist, dass ich so etwas gesehen habe, und nein, es waren keine
-Junior Dvs.
+Junior Devs.
 
 Meine **Aufgabe war, ein Spring Boot 2.5 auf 2.7-Upgrade durchzuführen**. Spoiler: Ich habe nach einem Jahr
 aufgegeben! Die Probleme im Kurzen:
@@ -90,6 +96,8 @@ müssen. Plus, sie sind weitgehend unabhängig von anderen Plugin-Konfiguratione
 
 Diese Liste könnte ewig so weitergehen. Es erinnert mich irgendwie an GitHub Workflow Steps.
 
+![maven_plugin_command_line_args](/images/content/maven_plugin_command_line_args.png)
+
 ### Du Magst du kein XML?
 
 Kein Problem! Schreibe einfach dein Build File in `ruby`, `groovy`, `scala`, `yaml`, `atom` oder `Java`. Die Polygot
@@ -111,7 +119,7 @@ Die Plugins laufen in einer Sandbox und sind unabhängig voneinander und unabhä
 Dieses Design fördert die Stabilität und Vorhersagbarkeit und macht es einfach, komplexe Build-Prozesse ohne unerwartete
 Konflikte zu verwalten.
 
-### Conclusion
+### Fazit
 
 Heutzutage ist die Entwicklungsumgebung mit vielen Aufgaben und Technologien für Entwickler überladen. Auf der Suche
 nach Einfachheit und Automatisierung ist Gradle als modernes Build-Tool aufgetaucht, hat aber seine eigenen
@@ -120,8 +128,10 @@ Zeit, die in Gradle Build-Skripte investiert wird, stellt sich die Frage, ob es 
 erweitern. Mit Plugins und Extensions könnte man Maven jederzeit aufgefrischt und vereinfacht werden. Wäre eine
 Weiterentwicklung nicht viel spannender und auch nachhaltiger, als von einer Technologie zur nächsten zu springen?
 
+### Links
+
+* (Moving Back from Gradle to maven)[https://phauer.com/2018/moving-back-from-gradle-to-maven/]
+
 ### Kontakt
 
 [GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
-
-Letztes update: 01.05.2023"

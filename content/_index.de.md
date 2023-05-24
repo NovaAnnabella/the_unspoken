@@ -10,14 +10,13 @@ draft: false
 
 # Willkommen bei "The Unspoken"
 
-**Entscheiden Sie selbst, was für Sie wahr ist und von welchen Themen Sie lieber die Finger lassen.
+**Entscheide selbst, was für dich wahr ist und von welchen Themen du lieber wegschaust.**
 
-Ich wage es, die verbotenen Bereiche der Entwicklung zu erforschen und möchte Grenzen verschieben und Konventionen
-herausfordern.
-Das Außergewöhnliche in der Welt der Entwicklung aufdecken.
+Ich wage es, die verbotenen Bereiche der Entwicklung zu erforschen und möchte Grenzen verschieben sowie das
+Außergewöhnliche in der Welt der Entwicklung aufdecken.
 Technologie sollte unser Leben und unsere Arbeit erleichtern.
 
-**Nur die Mutigsten unter uns schaffen es wirklich, die Entwicklung für andere einfacher zu machen.
+**Nur die Mutigsten unter uns schaffen es wirklich, die Entwicklung für andere einfacher zu machen.**
 
-Wann haben Sie das letzte Mal ein Projekt abgeschlossen, das praktisch wartungsfrei und robust war und Sie nicht mehr
-brauchte?
+Wann hast du das letzte Mal ein Projekt abgeschlossen, das praktisch wartungsfrei, robust war und dich nicht mehr
+benötigte?

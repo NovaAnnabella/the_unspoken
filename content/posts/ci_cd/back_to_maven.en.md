@@ -3,13 +3,18 @@ title: "Back to Maven?"
 date: 2023-05-01T01:01:01
 author: "Nova Annabella"
 slug: back_to_maven
-tags: [ development, Gradle, Maven, CI_CD ]
+tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
 description: "The elusive quest for simplicity and a short journey to rediscovering the power of Maven"
 draft: false
+images:
+  - "/images/content/maven_vs_gradle.png"
+card: "summary_large_image"
 ---
 
 # Back to Maven?
+
+[![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
 ## 10 years of Gradle. The elusive quest for simplicity and a short journey to rediscovering the power of Maven.
 
@@ -117,8 +122,10 @@ question arises whether it would not be easier to extend Maven. With plugins and
 refreshed and simplified. Wouldn't further development be much more exciting and also more sustainable than jumping from
 one technology to the next?
 
+### Links
+
+* (Moving Back from Gradle to maven)[https://phauer.com/2018/moving-back-from-gradle-to-maven/]
+
 ### Contact
 
 [GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
-
-Last Update: 01.05.2023"

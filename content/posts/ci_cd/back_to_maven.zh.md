@@ -3,13 +3,18 @@ title: "回归 Maven？"
 date: 2023-05-01T01:01:01
 author: "Nova Annabella"
 slug: back_to_maven
-tags: [ development, Gradle, Maven, CI_CD ]
+tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
 description: "对简单性的艰难追求和重新发现 Maven 强大之旅"
 draft: false
+images:
+  - "/images/content/maven_vs_gradle.png"
+card: "summary_large_image"
 ---
 
 # 回归 Maven？
+
+[![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
 ## Gradle 十年：对简单性的艰难追求和重新发现 Maven 强大之旅。
 
@@ -96,8 +101,10 @@ Maven 已经具备的基本功能的变通方法。由于 Gradle 的灵活性，
 如今，开发环境对开发人员而言充满了许多任务和技术。在追求简单和自动化的过程中，Gradle作为一种现代构建工具应运而生，但也带来了自身的挑战。
 毫无疑问，Gradle的概念是好的！但是考虑到Gradle构建脚本的复杂性和投入的时间，是否将Maven扩展更容易呢？通过插件和扩展，Maven始终可以保持更新和简化。与其不断跳跃到下一个技术，进一步发展是不是更加令人兴奋和可持续呢？
 
+### 链接
+
+* (Moving Back from Gradle to maven)[https://phauer.com/2018/moving-back-from-gradle-to-maven/]
+
 ### 联系方式
 
 [GitHub 问题](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
-
-最后更新：01.05.2023"

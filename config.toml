@@ -35,7 +35,7 @@ paginate = 10
 # copyright description used only for seo schema
 #copyright = ""
 # whether to use robots.txt
-enableRobotsTXT = false
+enableRobotsTXT = true
 # whether to use git commit log
 enableGitInfo = false
 # whether to use emoji code
