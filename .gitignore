@@ -3,3 +3,4 @@
 .idea/
 /website/.hugo_build.lock
 *.iml
+.hugo_build.lock
