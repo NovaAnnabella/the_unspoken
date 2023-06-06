@@ -16,8 +16,6 @@ card: "summary_large_image"
 
 [![testebenen](/images/content/martin_fowler_testing.png)](https://martinfowler.com/articles/microservice-testing/)
 
-### Introduction
-
 ### Einleitung
 
 Das Thema Testing scheint bis heute noch Neuland mit sehr viel Freiraum für Interpretation zu sein. Die traditionelle
@@ -42,7 +40,7 @@ Login-Szenario `loginUser(name, password, securityAlgorithmus)`. Wenn der Unit-T
 den `securityAlgorithm`-Parameter durchführt, wird zu viel getestet, da Benutzer den `securityAlgorithm`-Parameter nicht
 setzen können.
 
-### Level 2 - Integrationstest
+### Level 2 - Integration Test
 
 Zweck: Überprüfung der Kommunikationswege und Interaktionen zwischen Komponenten zur Erkennung von
 Schnittstellendefekten.
@@ -51,7 +49,7 @@ Integrationstests liefern wertvolle Erkenntnisse über die Leistungsfähigkeit u
 Anwendung. Mit weniger Mocks werden die Tests verständlicher. Allerdings fehlt ihnen immer noch der Kontext, und es
 besteht die Gefahr, dass Integrationstests einfach getarnte Unit Tests mit weniger Mocks sind.
 
-### Level 3 - Komponententest
+### Level 3 - Compontent Test
 
 Zweck: Begrenzung des Umfangs der getesteten Software auf einen Teil des zu prüfenden Systems, Manipulation des Systems
 über interne Code-Schnittstellen und Verwendung von Testdoubles zur Isolierung des zu testenden Codes von anderen
@@ -65,19 +63,12 @@ Testklassen wie Komponenten-Stubs, Fakes und Mocks im Produktionscode zusätzlic
 
 ### Level 4 - Contract Test
 
-Purpose: Verify interactions at the boundary of an external service, asserting that it meets the contract expected by a
-consuming service.
+Der Zweck dieses Codeblocks besteht darin, die Interaktionen an der Grenze eines externen Dienstes zu überprüfen und
+sicherzustellen, dass er den Vertragsanforderungen eines verbrauchenden Dienstes entspricht.
 
-Contract tests are often similar to component tests, and the distinction between them is minimal. Some developers
-associate these tests with Pact tests, which essentially function as unit tests with a server in between. The effort
-involved in maintaining these tests might not be worthwhile. For instance, a Pact test may test the REST
-API `loginUser?name=aa&password=bb)` and expect a JSON schema response that was uploaded to the Pact server beforehand.
-This schema is static, making it prone to errors such as incorrect date formats or time zones in the API response. The
-negative impact can be enormous.
-
-Vertragsprüfungen ähneln oft Komponententests und die Unterscheidung zwischen ihnen ist minimal. Einige Entwickler
-verbinden diese Tests mit Pact-Tests, die im Wesentlichen als Unittests mit einem Server dazwischen funktionieren. Der
-Aufwand, diese Tests zu pflegen, mag nicht lohnenswert sein. Zum Beispiel kann ein Pact-Test die
+Contract Tests ähneln oft Komponententests, und der Unterschied zwischen ihnen ist minimal. Einige Entwickler
+assoziieren diese Tests mit Pact-Tests, die im Wesentlichen als Unittests mit einem Server dazwischen fungieren. Der
+Aufwand, diese Tests aufrechtzuerhalten, könnte jedoch nicht lohnenswert sein. Zum Beispiel könnte ein Pact-Test die
 REST-API `loginUser?name=aa&password=bb)` testen und eine JSON-Schema-Antwort erwarten, die zuvor auf den Pact-Server
 hochgeladen wurde. Dieses Schema ist statisch und anfällig für Fehler wie falsche Datumsformate oder Zeitzonen in der
 API-Antwort. Die negativen Auswirkungen können enorm sein.
@@ -108,8 +99,7 @@ Leistung der Anwendung. Contracttests helfen dabei, Interaktionen mit externen D
 Abgrenzung zu Komponententests kann minimal sein. Letztendlich bieten End-to-End-Tests das höchste Maß an Vertrauen in
 die Funktionalität des Systems und ermöglichen umfassende Tests der gesamten Anwendung. Durch die Auswahl der geeigneten
 Teststufen und deren effektive Kombination können Entwickler die Qualität, Zuverlässigkeit und Robustheit deiner
-Software
-gewährleisten.
+Software gewährleisten.
 
 ### Kontakt
 

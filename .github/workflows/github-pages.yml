@@ -6,9 +6,54 @@ on:
   push:
     branches: [ 'main' ]
 
+concurrency: publish_pages_lock
+
 jobs:
-  deploy:
+  translate:
     runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 5
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+      - name: "Setup Python"
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: "Setup Python Requirements"
+        run: |
+          pip install pipreqs
+          pipreqs . --force
+          pip install -r requirements.txt
+      - name: "Translate Blog Posts"
+        run: ./scripts/translator.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+      - name: "Read Git Info"
+        id: "git_info"
+        uses: YunaBraska/git-info-action@main
+      - name: "Push changes [${{ steps.git_info.outputs.has_local_changes == 'true' }}]"
+        if: steps.git_info.outputs.has_local_changes == 'true'
+        uses: stefanzweifel/git-auto-commit-action@master
+        with:
+          commit_message: "chore: 📚 auto translation"
+          commit_user_name: "Kira"
+          commit_user_email: "kira@scene.to"
+          commit_author: "Kira <kira@scene.to>"
+          skip_dirty_check: true
+          skip_fetch: true
+          skip_checkout: true
+          disable_globbing: true
+          create_branch: false
+
+  deploy:
+    needs: translate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       # needs to git diff the repo
       contents: write
@@ -16,7 +61,8 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: actions/checkout@v3
+      - name: "Checkout"
+        uses: actions/checkout@v3
         with:
           submodules: recursive  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 1    # Fetch all history for .GitInfo and .Lastmod
@@ -26,7 +72,7 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-#          hugo-version: '0.91.2'
+      #          hugo-version: '0.91.2'
       - name: "NPM build"
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: "Hugo Build"
@@ -35,7 +81,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: hugo && hugo --minify
-#        run: hugo && hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      #        run: hugo && hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: "Deploy"
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'

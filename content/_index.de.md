@@ -12,11 +12,12 @@ draft: false
 
 **Entscheide selbst, was für dich wahr ist und von welchen Themen du lieber wegschaust.**
 
-Ich wage es, die verbotenen Bereiche der Entwicklung zu erforschen und möchte Grenzen verschieben sowie das
-Außergewöhnliche in der Welt der Entwicklung aufdecken.
-Technologie sollte unser Leben und unsere Arbeit erleichtern.
+Ich wage es, die verbotenen Bereiche der Entwicklung und decke das Außergewöhnliche möchte in der Welt der Entwicklung
+auf.
+Erweitere auch deinen Horizont und verschiebe deine Grenzen.
+Bedenke immer, Technologie sollte unser Leben und unsere Arbeit erleichtern.
 
 **Nur die Mutigsten unter uns schaffen es wirklich, die Entwicklung für andere einfacher zu machen.**
 
 Wann hast du das letzte Mal ein Projekt abgeschlossen, das praktisch wartungsfrei, robust war und dich nicht mehr
-benötigte?
+benötigte? Nie? Dann machst du was falsch!

@@ -12,26 +12,112 @@ contentDir = "content"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 [languages]
-    [languages.zh]
-        title = "< 未言之事 >"
-        languageName = "中文"
-        languageCode = "zh"
-        weight = 3
-    [languages.de]
-        title = "< The Unspoken >"
-        languageCode = "de-de"
-        languageName = "Deutsch"
-        weight = 2
     [languages.en]
         title = "< The Unspoken >"
         languageName = "English"
         languageCode = "en-us"
         weight = 1
+    [languages.de]
+        title = "< The Unspoken >"
+        languageCode = "de-de"
+        languageName = "Deutsch"
+        weight = 2
+    [languages.zh]
+        title = "< 未言之事 >"
+        languageName = "中文"
+        languageCode = "zh"
+        weight = 3
     [languages.es]
         title = "< Lo no dicho >"
         languageName = "Español"
-        languageCode = "es"
+        languageCode = "es-es"
         weight = 4
+    [languages.st]
+        title = "< In ongannten Worte >"
+        languageName = "Südtirol"
+        languageCode = "st"
+        weight = 5
+    [languages.ar]
+        title = "< غير المُنطَق به >"
+        languageName = "العربية"
+        languageCode = "ar-ae"
+        weight = 6
+    [languages.pt]
+        title = "< O Inexprimível >"
+        languageName = "Português"
+        languageCode = "pt-br"
+        weight = 7
+    [languages.id]
+        title = "< Yang Tak Tersampaikan >"
+        languageName = "Indonesia"
+        languageCode = "id-id"
+        weight = 8
+    [languages.ru]
+        title = "< Неизреченное >"
+        languageName = "Русский"
+        languageCode = "ru-ru"
+        weight = 9
+    [languages.ja]
+        title = "< 言われない >"
+        languageName = "日本語"
+        languageCode = "ja-jp"
+        weight = 10
+    [languages.fr]
+        title = "< L'indicible >"
+        languageName = "Français"
+        languageCode = "fr-fr"
+        weight = 11
+    [languages.tr]
+        title = "< Söylenmeyen >"
+        languageName = "Türkçe"
+        languageCode = "tr-tr"
+        weight = 12
+    [languages.ko]
+        title = "< 말할 수 없는 >"
+        languageName = "한국어"
+        languageCode = "ko-kr"
+        weight = 13
+    [languages.it]
+        title = "< L'Inespresso >"
+        languageName = "Italiano"
+        languageCode = "it-it"
+        weight = 14
+    [languages.nl]
+        title = "< Het Onuitgesprokene >"
+        languageName = "Nederlands"
+        languageCode = "nl-nl"
+        weight = 15
+    [languages.vi]
+        title = "< Những Điều Chưa Nói Đi >"
+        languageName = "Tiếng Việt"
+        languageCode = "vi-vn"
+        weight = 16
+    [languages.th]
+        title = "< สิ่งที่ไม่ได้พูดถึง >"
+        languageName = "ไทย"
+        languageCode = "th-th"
+        weight = 17
+    [languages.pl]
+        title = "< Nie Wypowiedziane >"
+        languageName = "Polski"
+        languageCode = "pl-pl"
+        weight = 18
+    [languages.hi]
+        title = "< अनकही बातें >"
+        languageName = "हिन्दी"
+        languageCode = "hi-in"
+        weight = 19
+    [languages.fa]
+        title = "< چیزی که نگفته می‌شود >"
+        languageName = "فارسی"
+        languageCode = "fa-ir"
+        weight = 20
+    [languages.sw]
+        title = "< Mambo Yasiyoongelewa >"
+        languageName = "Kiswahili"
+        languageCode = "sw-ke"
+        weight = 21
+
 
 # default amount of posts in each pages
 paginate = 10

@@ -12,15 +12,14 @@ images:
 card: "summary_large_image"
 ---
 
+
 # Zurück zu Maven?
 
 [![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
 ## 10 Jahre Gradle. Auf der Sucher nach Erleichterung und eine kurze Reise zur Wiederentdeckung der Stärke von Maven.
 
-### Maximierung des Potenzials von Entwicklern
-
-#### Wir benötigen mehr zeitsparende Tools
+### Maximierung des Potenzials von Entwicklern - Wir benötigen mehr zeitsparende Tools
 
 Themen, die oft übersehen oder selten diskutiert werden, interessieren mich. Oft sind coole Technologien im Einsatz,
 doch kaum jemand spricht über die damit verbundenen Probleme.
@@ -41,9 +40,7 @@ Entwickler folgen blind dem Trend ohne Rücksicht auf die Auswirkungen auf die Z
 Build Skripte einfach und wartungsarm zu halten, bedarf es einer starken Disziplin. Eine solche Disziplin ist schon im
 Quellcode selten zu finden und daher ist sie in den Build-Skripten noch viel seltener.
 
-### Übersetzungen und Workarounds
-
-#### Wenn Build-Skripte zu einer Herausforderung werden
+### Übersetzungen und Workarounds - Wenn Build-Skripte zu einer Herausforderung werden
 
 Gradle arbeitet im Hintergrund nicht viel anders als Maven. Daher sind einige Übersetzungen notwendig. Features wie der
 Dependency Catalog, das Maven Release Plugin, der Dependabot und viele mehr sind eigentlich Workarounds für grundlegende
@@ -53,15 +50,13 @@ Gradle Plugins haben häufig Kompatibilitätsprobleme, Limits oder begrenzte Wei
 aufgrund der sich entwickelnden Natur des Gradle-Ökosystems, der Vielfalt der Umgebungen, in denen Gradle eingesetzt
 wird, und des spezifischen Implementierungs- und Wartungsaufwands für jedes Plugin. Alles ist miteinander verbunden.
 
-### Der Dominoeffekt von Gradle
-
-#### Ein Albtraumszenario in der realen Welt
+### Der Dominoeffekt von Gradle - Ein Albtraumszenario in der realen Welt
 
 Ich habe viele Microservices gesehen, die nur wenige Jahre alt waren und bereits aufgrund von Gradle nicht mehr wartbar
 waren. Wichtig zu erwähnen, dass dies nicht das erste Mal ist, dass ich so etwas gesehen habe, und nein, es waren keine
 Junior Devs.
 
-Meine **Aufgabe war, ein Spring Boot 2.5 auf 2.7-Upgrade durchzuführen**. Spoiler: Ich habe nach einem Jahr
+Meine **Aufgabe war, ein Spring Boot 2.x auf 2.7-Upgrade durchzuführen**. Spoiler: Ich habe nach einem Jahr
 aufgegeben! Die Probleme im Kurzen:
 
 * Das Gradle-Build-File erfordert -> Downgrade meiner lokalen Java-Version auf 11 (WTF) (Normalerweise ist Java
@@ -79,9 +74,7 @@ aufgegeben! Die Probleme im Kurzen:
   nicht einmal die Entwickler, die sie geschrieben haben, und sie lieben Gradle immer noch. Ich kenne nur wenige, die
   Gradle Scripte ernsthaft verstehen doer schreiben können.
 
-### Die Wiederentdeckung der Stärke von Maven
-
-#### Die Zauberkräfte von Maven nutzen
+### Die Wiederentdeckung der Stärke von Maven - Die Zauberkräfte von Maven nutzen
 
 Hier sind meine Lieblingsfunktionen von Maven:
 Plugins können direkt von der Befehlszeile aus gestartet und konfiguriert werden, ohne dass sie vorher definiert werden
@@ -107,9 +100,7 @@ gibt :(
 Ja, Maven Build Files sind groß, aber auch sehr leicht verständlich. Nachbesserungen oder Debugging sind im Handumdrehen
 erledigt.
 
-### Alter ist nur eine Zahl
-
-#### Mavens Stabilität und Evolution
+### Alter ist nur eine Zahl - Mavens Stabilität und Evolution
 
 Zugegeben, Maven gibt es schon eine ganze Weile und seine Ästhetik entspricht vielleicht nicht den heutigen Standards.
 Die Langlebigkeit von Maven hat es jedoch ermöglicht, sich anzupassen und weiterzuentwickeln. Maven arbeitet unabhängig
