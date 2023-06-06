@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: چالش‌ها و واقعیت‌های تابع بدون سرور در ابر. الهام‌بخش برای شرکت‌هایی که به مهاجرت به ابر فکر می‌کنند.
+description: "چالش‌ها و واقعیت‌های تابع بدون سرور در ابر. الهام‌بخش برای شرکت‌هایی که به مهاجرت به ابر فکر می‌کنند"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"

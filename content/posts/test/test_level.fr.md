@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: "Trouver le bon équilibre dans le choix des niveaux de test appropriés pour les tests logiciels".
+description: "Trouver le bon équilibre dans le choix des niveaux de test appropriés pour les tests logiciels"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"

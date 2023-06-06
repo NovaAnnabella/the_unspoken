@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: Die schwoar fassboare Suach noch Einfachheit und a kuaz Reise zur Wiedaentdeckung der Mocht von Maven
+description: "Die schwoar fassboare Suach noch Einfachheit und a kuaz Reise zur Wiedaentdeckung der Mocht von Maven"
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"

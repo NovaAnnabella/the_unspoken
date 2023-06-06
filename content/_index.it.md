@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Decidete voi stessi cosa è vero per voi e da quali argomenti preferite distogliere lo sguardo".
+description: "Decidete voi stessi cosa è vero per voi e da quali argomenti preferite distogliere lo sguardo"
 draft: false
 ---
 

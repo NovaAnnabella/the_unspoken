@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Sam zdecyduj, co jest dla ciebie prawdziwe, a od których tematów wolisz trzymać się z daleka".
+description: "Sam zdecyduj, co jest dla ciebie prawdziwe, a od których tematów wolisz trzymać się z daleka"
 draft: false
 ---
 

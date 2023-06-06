@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "Gerçek dünyada yapay zeka - abartının ötesinde düşünmek".
+description: "Gerçek dünyada yapay zeka - abartının ötesinde düşünmek"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"

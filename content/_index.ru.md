@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Решите для себя, что для вас является истиной, а на какие темы вы предпочитаете смотреть сквозь пальцы".
+description: "Решите для себя, что для вас является истиной, а на какие темы вы предпочитаете смотреть сквозь пальцы"
 draft: false
 ---
 

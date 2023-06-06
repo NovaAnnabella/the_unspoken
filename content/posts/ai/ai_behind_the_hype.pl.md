@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "Sztuczna inteligencja w prawdziwym świecie - myślenie wykraczające poza szum informacyjny".
+description: "Sztuczna inteligencja w prawdziwym świecie - myślenie wykraczające poza szum informacyjny"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"

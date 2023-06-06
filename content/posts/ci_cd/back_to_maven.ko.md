@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "단순함을 향한 어려운 여정, 메이븐의 힘을 재발견하기 위한 짧은 여정".
+description: "단순함을 향한 어려운 여정, 메이븐의 힘을 재발견하기 위한 짧은 여정"
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"

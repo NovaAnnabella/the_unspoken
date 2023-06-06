@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "AI in the Real World - Thinking Beyond the Hype".
+description: "AI in the Real World - Thinking Beyond the Hype"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"

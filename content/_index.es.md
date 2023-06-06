@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Decide por ti mismo qué es verdad para ti y de qué temas prefieres apartar la mirada".
+description: "Decide por ti mismo qué es verdad para ti y de qué temas prefieres apartar la mirada"
 draft: false
 ---
 

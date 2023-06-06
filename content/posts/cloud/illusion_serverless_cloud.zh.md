@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "云中无服务器功能的挑战和现实。对于考虑向云端迁移的公司来说，这是一个很有价值的见解"。
+description: "云中无服务器功能的挑战和现实。对于考虑向云端迁移的公司来说，这是一个很有价值的见解。"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"

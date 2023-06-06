@@ -1,11 +1,11 @@
 ---
-title: "El bombo de la IA
+title: "El bombo de la IA"
 date: 2023-05-30
 author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "La inteligencia artificial en el mundo real: más allá del bombo publicitario".
+description: "La inteligencia artificial en el mundo real: más allá del bombo publicitario"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"

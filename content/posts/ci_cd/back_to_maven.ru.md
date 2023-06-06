@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "Неуловимое стремление к простоте и короткое путешествие, чтобы заново открыть для себя силу Maven".
+description: "Неуловимое стремление к простоте и короткое путешествие, чтобы заново открыть для себя силу Maven"
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"

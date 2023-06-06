@@ -1,10 +1,10 @@
 ---
-title: "Het onuitgesprokene
+title: "Het onuitgesprokene"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Bepaal voor jezelf wat waar is voor jou en van welke onderwerpen je liever wegkijkt".
+description: "Bepaal voor jezelf wat waar is voor jou en van welke onderwerpen je liever wegkijkt"
 draft: false
 ---
 

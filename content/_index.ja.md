@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "何が自分にとって真実なのか、どの話題から目をそらすのがいいのか、自分で決める"。
+description: "何が自分にとって真実なのか、どの話題から目をそらすのがいいのか、自分で決める。"
 draft: false
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: भ्रम सर्वरलेस और क्लाउड
+title: "भ्रम सर्वरलेस और क्लाउड"
 date: 2023-05-24
 author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: बादल में सर्वरलेस फ़ंक्शंस की चुनौतियों और वास्तविकताएं। बादल में एक माइग्रेशन का विचार करने वाली कंपनियों के लिए मूल्यवान अनुभव।
+description: "बादल में सर्वरलेस फ़ंक्शंस की चुनौतियों और वास्तविकताएं। बादल में एक माइग्रेशन का विचार करने वाली कंपनियों के लिए मूल्यवान अनुभव।"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"

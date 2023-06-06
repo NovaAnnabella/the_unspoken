@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Sizin için neyin doğru olduğuna ve hangi konulardan uzak durmayı tercih ettiğinize kendiniz karar verin".
+description: "Sizin için neyin doğru olduğuna ve hangi konulardan uzak durmayı tercih ettiğinize kendiniz karar verin"
 draft: false
 ---
 

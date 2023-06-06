@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: Quyết định chính bạn đó là điều gì đúng với bạn và chủ đề nào bạn muốn quay mặt khỏi hơn.
+description: "Quyết định chính bạn đó là điều gì đúng với bạn và chủ đề nào bạn muốn quay mặt khỏi hơn"
 draft: false
 ---
 

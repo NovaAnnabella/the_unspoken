@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: खुद तय करें कि आपके लिए क्या सच है और आप कौन से विषयों से दूर रहना चाहते हैं।
+description: "खुद तय करें कि आपके लिए क्या सच है और आप कौन से विषयों से दूर रहना चाहते हैं।"
 draft: false
 ---
 

@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "De ongrijpbare zoektocht naar eenvoud en een korte reis om de kracht van Maven te herontdekken".
+description: "De ongrijpbare zoektocht naar eenvoud en een korte reis om de kracht van Maven te herontdekken"
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"

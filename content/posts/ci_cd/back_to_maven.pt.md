@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "A busca da simplicidade e uma pequena viagem para redescobrir o poder do Maven".
+description: "A busca da simplicidade e uma pequena viagem para redescobrir o poder do Maven"
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"

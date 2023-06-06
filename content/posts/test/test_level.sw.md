@@ -1,11 +1,11 @@
 ---
-title: Testebenen: Kupata usawa wa haki
+title: "Testebenen: Kupata usawa wa haki"
 date: 2023-05-31
 author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: Kupata usawa sahihi katika kuchagua viwango sahihi vya majaribio ya programu.
+description: "Kupata usawa sahihi katika kuchagua viwango sahihi vya majaribio ya programu"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"

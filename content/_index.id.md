@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Tentukan sendiri apa yang benar bagi Anda dan topik mana yang lebih suka Anda hindari".
+description: "Tentukan sendiri apa yang benar bagi Anda dan topik mana yang lebih suka Anda hindari"
 draft: false
 ---
 

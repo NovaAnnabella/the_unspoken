@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "현실 세계의 AI - 과대광고 그 이상의 생각".
+description: "현실 세계의 AI - 과대광고 그 이상의 생각"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"

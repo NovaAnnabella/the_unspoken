@@ -1,11 +1,11 @@
 ---
-title: "Illusion Serverless & Cloud
+title: "Illusion Serverless & Cloud"
 date: 2023-05-24
 author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "Uitdagingen en realiteiten van serverloze mogelijkheden in de cloud. Waardevolle inzichten voor bedrijven die een migratie naar de cloud overwegen".
+description: "Uitdagingen en realiteiten van serverloze mogelijkheden in de cloud. Waardevolle inzichten voor bedrijven die een migratie naar de cloud overwegen"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"

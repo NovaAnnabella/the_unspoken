@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "Défis et réalités des fonctionnalités sans serveur dans le cloud. Un aperçu précieux pour les entreprises qui envisagent une migration vers le cloud".
+description: "Défis et réalités des fonctionnalités sans serveur dans le cloud. Un aperçu précieux pour les entreprises qui envisagent une migration vers le cloud"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"

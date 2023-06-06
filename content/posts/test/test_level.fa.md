@@ -1,11 +1,11 @@
 ---
-title: تست‌سطح: پیدا کردن تعادل مناسب
+title: "تست‌سطح: پیدا کردن تعادل مناسب"
 date: 2023-05-31
 author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: از دریافت تعادل مناسب در انتخاب سطوح آزمون مناسب برای تست نرم‌افزار استفاده شود.
+description: "از دریافت تعادل مناسب در انتخاب سطوح آزمون مناسب برای تست نرم‌افزار استفاده شود"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"

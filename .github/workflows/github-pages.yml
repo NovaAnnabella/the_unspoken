@@ -11,7 +11,7 @@ concurrency: publish_pages_lock
 jobs:
   translate:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 480
     steps:
       - name: "Checkout"
         uses: actions/checkout@v3

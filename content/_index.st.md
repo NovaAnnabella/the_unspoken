@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: Entschiat selbm, wos für di woahr isch und vun welschen Themen du liawa wegschiatn tatst.
+description: Entschiat selbm, wos für di woahr isch und vun welschen Themen du liawa wegschiatn tatst
 draft: false
 ---
 

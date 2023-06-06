@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "Wyzwania i realia możliwości bezserwerowych w chmurze. Cenne spostrzeżenia dla firm rozważających migrację do chmury".
+description: "Wyzwania i realia możliwości bezserwerowych w chmurze. Cenne spostrzeżenia dla firm rozważających migrację do chmury"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"

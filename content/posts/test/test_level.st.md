@@ -1,11 +1,11 @@
 ---
-title: Testebenen: Des richtige Gleichgewicht finn.
+title: "Testebenen: Des richtige Gleichgewicht finn."
 date: 2023-05-31
 author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: 's richtige Gleichgewicht findn bei der Auswähl geeigneter Testebenen für Softwaretests.
+description: "Des richtige Gleichgewicht findn bei der Auswähl geeigneter Testebenen für Softwaretests"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"

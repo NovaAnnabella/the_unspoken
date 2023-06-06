@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "现实世界中的人工智能--超越炒作的思考"。
+description: "现实世界中的人工智能--超越炒作的思考。"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"

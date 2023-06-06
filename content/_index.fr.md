@@ -1,10 +1,10 @@
 ---
-title: "Le non-dit
+title: "Le non-dit"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Décidez vous-même de ce qui est vrai pour vous et des sujets dont vous préférez vous détourner".
+description: "Décidez vous-même de ce qui est vrai pour vous et des sujets dont vous préférez vous détourner"
 draft: false
 ---
 

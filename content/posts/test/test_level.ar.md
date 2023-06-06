@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: العثور على التوازن المناسب عند اختيار مستويات الاختبار المناسبة لاختبار البرمجيات.
+description: "العثور على التوازن المناسب عند اختيار مستويات الاختبار المناسبة لاختبار البرمجيات"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"

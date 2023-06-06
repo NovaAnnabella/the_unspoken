@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "クラウドにおけるサーバーレス機能の課題と実情。クラウドへの移行を検討する企業にとって貴重な知見".
+description: "クラウドにおけるサーバーレス機能の課題と実情。クラウドへの移行を検討する企業にとって貴重な知見"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"

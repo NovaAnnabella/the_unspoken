@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "自己决定什么是对你来说是真实的，哪些话题你更愿意看开"。
+description: "自己决定什么是对你来说是真实的，哪些话题你更愿意看开。"
 draft: false
 ---
 

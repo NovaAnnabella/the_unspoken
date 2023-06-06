@@ -1,11 +1,11 @@
 ---
-title: Testebenen: Tìm thấy sự cân bằng đúng đắn
+title: "Testebenen: Tìm thấy sự cân bằng đúng đắn"
 date: 2023-05-31
 author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: Tìm thấy sự cân bằng thích hợp trong việc chọn các cấp độ kiểm thử phù hợp cho phần mềm.
+description: "Tìm thấy sự cân bằng thích hợp trong việc chọn các cấp độ kiểm thử phù hợp cho phần mềm."
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"

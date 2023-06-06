@@ -65,7 +65,7 @@ def translate_md_file():
         changed_files = get_changed_files()
         print(f'Changed Files {changed_files}')
         current_iteration = 0
-        total_iterations = (len(target_languages) - 1) + len(changed_files)
+        total_iterations = (len(target_languages.keys()) - 1) * len(changed_files)
         for file in changed_files:
             for lang_key, lang_name in list(target_languages.items())[1:]:
                 current_iteration += 1
@@ -86,9 +86,9 @@ def translate_md_file():
                             output_text += line
                         elif line.startswith('title:') or line.startswith('description:'):
                             kv = line.split(':', 1)
-                            translated = translate(kv[1].strip(), lang_key, lang_name)
+                            translated = translate(kv[1].replace('"', '').strip(), lang_key, lang_name)
                             print_progress(current_iteration, output_file, section_count, total_iterations, translated)
-                            output_file.write(kv[0] + ': ' + translated + os.linesep)
+                            output_file.write(kv[0] + ': "' + translated + '"' + os.linesep)
                             section_count += 1
                         else:
                             output_file.write(line)
@@ -148,24 +148,21 @@ def translate_with_gpt(text, lang_key, lang_name):
 
 
 def translate_with_deepl(text, lang_key, lang_name):
-    while True:
-        try:
-            return requests.get(
-                'https://api-free.deepl.com/v2/translate',
-                headers={
-                    "User-Agent": "TheUnspoken/1.0.0",
-                    "Authorization": f"DeepL-Auth-Key {deepl_api_key}",
-                    "Content-Type": "application/x-www-form-urlencoded",
-                },
-                data={
-                    "text": text,
-                    "target_lang": lang_key.upper()
-                }
-            ).json()["translations"][0]["text"]
-        except Exception as e:
-            print(f"An error occurred: {e}")
-            print("Retrying in 5 seconds...")
-            time.sleep(5)
+    try:
+        return requests.get(
+            'https://api-free.deepl.com/v2/translate',
+            headers={
+                "User-Agent": "TheUnspoken/1.0.0",
+                "Authorization": f"DeepL-Auth-Key {deepl_api_key}",
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+            data={
+                "text": text,
+                "target_lang": lang_key.upper()
+            }
+        ).json()["translations"][0]["text"]
+    except Exception as e:
+        translate_with_gpt(text, lang_key, lang_name)
 
 
 def deepl_available_languages():

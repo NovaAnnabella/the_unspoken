@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "Sfide e realtà delle funzionalità serverless nel cloud. Spunti preziosi per le aziende che stanno valutando una migrazione al cloud".
+description: "Sfide e realtà delle funzionalità serverless nel cloud. Spunti preziosi per le aziende che stanno valutando una migrazione al cloud"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"

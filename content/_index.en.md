@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Decide for yourself what is true for you and what topics you prefer to look away from".
+description: "Decide for yourself what is true for you and what topics you prefer to look away from"
 draft: false
 ---
 

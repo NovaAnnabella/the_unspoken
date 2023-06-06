@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "Tantangan dan realitas kemampuan tanpa server di cloud. Wawasan berharga bagi perusahaan yang mempertimbangkan migrasi ke cloud".
+description: "Tantangan dan realitas kemampuan tanpa server di cloud. Wawasan berharga bagi perusahaan yang mempertimbangkan migrasi ke cloud"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"

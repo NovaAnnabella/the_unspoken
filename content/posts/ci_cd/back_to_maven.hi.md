@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: आसानी की तलाश में एक मुश्किल खोज और मेवेन की ताकत के पुनर्जागरण के लिए एक छोटी यात्रा।
+description: "आसानी की तलाश में एक मुश्किल खोज और मेवेन की ताकत के पुनर्जागरण के लिए एक छोटी यात्रा।"
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"

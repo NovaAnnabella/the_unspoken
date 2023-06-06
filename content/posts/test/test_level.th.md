@@ -1,11 +1,11 @@
 ---
-title: Testebenen: หาสมดุลที่ถูกต้อง
+title: "Testebenen: หาสมดุลที่ถูกต้อง"
 date: 2023-05-31
 author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: หาสมดุลเหมาะสมในการเลือกระดับการทดสอบที่เหมาะสมสำหรับซอฟต์แวร์ทดสอบ
+description: "หาสมดุลเหมาะสมในการเลือกระดับการทดสอบที่เหมาะสมสำหรับซอฟต์แวร์ทดสอบ"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"

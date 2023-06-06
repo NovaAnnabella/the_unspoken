@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "클라우드에서 서버리스 기능의 과제와 현실. 클라우드로 마이그레이션을 고려하는 기업에게 귀중한 인사이트".
+description: "클라우드에서 서버리스 기능의 과제와 현실. 클라우드로 마이그레이션을 고려하는 기업에게 귀중한 인사이트"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"

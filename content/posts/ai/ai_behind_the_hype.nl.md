@@ -1,11 +1,11 @@
 ---
-title: "AI-hype
+title: "AI-hype"
 date: 2023-05-30
 author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "AI in de echte wereld - verder denken dan de hype".
+description: "AI in de echte wereld - verder denken dan de hype"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"

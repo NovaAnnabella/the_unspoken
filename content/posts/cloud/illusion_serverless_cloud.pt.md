@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: illusion_serverless_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "Desafios e realidades das capacidades sem servidor na nuvem. Informações valiosas para as empresas que estão a considerar uma migração para a nuvem".
+description: "Desafios e realidades das capacidades sem servidor na nuvem. Informações valiosas para as empresas que estão a considerar uma migração para a nuvem"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"
