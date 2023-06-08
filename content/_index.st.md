@@ -4,19 +4,19 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Entschaid selbst, wos fia di wohr isch und von wöchn Tegn du liawer oweschaugsch."
+description: "Entschied in eigener rechten, wos fia die unfechtboar isch und welsche Gschichtn lieber ausblendetš."
 draft: false
 ---
 
 
-# Griaß di bei "The Unspoken"
+# Grias eich bein "The Unspoken"
 
-**Entscheide sälber, wos fir di wohr isch und vu welchen Themen du lieber wegschaun tisch.**
+**Entscheide selbst, wos fia di wuahr isch und von welschane Thema du lieb lieber wegloschtn wüllsch.**
 
-I wag es, die verbottn Bereich der Entwicklung aunzigoan und de Außergewöhnlichen auf de Welt der Entwicklung aufzudecka.
-Erweiter a zua deinen Horizont und scheib deine Grenzn vu sicha aus.
-Denk allzeit drauf, dass Technologie unser Lebn und unsere Arbeit erleichtern sull.
+I woag a, die verbottene Bereich der Entwicklung zu erforschen und de Außerwordnlichen Sachen in der Welt der Entwicklung oftzudecka.
+Erweitare a di Horiizont und schob dei Grenzn.
+Immahoggn, dass die Technologie unsa Läbn und unsa Arbat erleichtern sull.
 
-**Nur die Bradigstn untar ins schaffn es wirkle, de Entwicklug fir ondre einfacher zumochn.**
+**Nur de Mütigstn unter uns schaffn wirklich, dass Entwickln andan einfacher mochn.**
 
-Wonn hosch du zuletzt a Projetkt afgeschlossn, das praktisch wartungsfrei, robust war und di nema gebraucht hot? Nia? Donn osch du wos folsch!
+Wonn hast du zuletztn a Projekt oofoch und ohne viel Wartung und Reparatur abgschlossn? Noch nie? Dann mouchsch eppas falsch!

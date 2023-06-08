@@ -1,22 +1,22 @@
 ---
-title: "O Não Dito"
+title: "O Silêncio"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Decida por si mesmo o que é verdade para você e de quais tópicos você prefere afastar-se."
+description: "Decida por si mesmo o que é verdadeiro para você e quais temas prefere ignorar."
 draft: false
 ---
 
 
 # Bem-vindo ao "The Unspoken"
 
-**Decide por ti mesmo o que é verdade para ti e de quais assuntos preferes desviar o olhar.**
+**Decida por si mesmo o que é verdade para você e de que assuntos você prefere desviar o olhar.**
 
-Eu arrisco explorar áreas proibidas do desenvolvimento e descobrir o extraordinário no mundo do desenvolvimento.
-Amplia também o teu horizonte e ultrapassa os teus limites.
-Lembra-te sempre de que a tecnologia deve tornar a nossa vida e trabalho mais fácil.
+Eu me atrevo a explorar as áreas proibidas do desenvolvimento e trago à tona o extraordinário no mundo do desenvolvimento.
+Amplie também seus horizontes e ultrapasse seus limites.
+Lembre-se sempre de que a tecnologia deveria facilitar nossas vidas e nosso trabalho.
 
 **Apenas os mais corajosos entre nós conseguem realmente tornar o desenvolvimento mais fácil para os outros.**
 
-Quando foi a última vez que concluíste um projeto que era praticamente livre de manutenção, robusto e que não precisaste mais? Nunca? Então estás a fazer algo errado!
+Quando foi a última vez que você concluiu um projeto que era praticamente livre de manutenção, robusto e não precisava mais de você? Nunca? Então você está fazendo algo errado!

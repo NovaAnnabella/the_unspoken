@@ -1,24 +1,22 @@
 ---
-title: "Yazılamayan"
+title: "Söylenmemiş"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "```
-Kendin için doğru olanı seç ve hangi konulardan daha iyi kaçınacağına kendin karar ver 
-```"
+description: "```Kendin için doğru olanı ve hangi konulardan kaçınmak istediğini kendin belirle```"
 draft: false
 ---
 
 
-# "The Unspoken"e Hoş Geldiniz
+# "The Unspoken" 'e Hoşgeldiniz
 
-**Kendin için gerçek olduğuna karar ver ve hangi konulardan kaçınacağına karar ver.**
+**Kararını kendin ver, senin için neyin doğru olduğuna ve hangi konulardan daha iyi uzak durman gerektiğine.**
 
-Yasaklı alanlara cesaretle giriyorum ve gelişmenin olağanüstü dünyasını keşfediyorum.
-Horizonutunu genişlet ve sınırlarını değiştir.
-Unutma, teknoloji hayatımızı ve işimizi kolaylaştırmalı.
+Yasaklı alanlara cesaret ediyor ve gelişme alanlarının olağanüstü kısımlarını dünyada açığa çıkarıyorum.
+Perspektifini genişlet ve sınırlarını hareket ettir.
+Her zaman hatırla, teknoloji hayatımızı ve işimizi kolaylaştırmalıdır.
 
-**Sadece en cesur olanlar, gerçekten başkalarının gelişimini kolaylaştırabilir.**
+**Sadece en cesur olanlar, gelişimi diğerleri için gerçekten daha kolay hale getirebilirler.**
 
-En son bakım gerektirmeyen, sağlam bir projeyi tamamladın mı? Hiç mi? O zaman yanlış yapıyorsun!
+Son zamanlarda, bakım gerektirmeyen, dayanıklı ve artık sana ihtiyacı olmayan bir proje tamamladın mı? Hiç mi? O zaman yanlış yapıyorsun!
