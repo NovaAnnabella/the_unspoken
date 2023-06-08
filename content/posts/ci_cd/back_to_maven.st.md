@@ -1,11 +1,11 @@
 ---
-title: "Zruck zu Maven?"
+title: "Zrugg zu Maven?"
 date: 2023-05-01
 author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "Die schwoar fassboare Suach noch Einfachheit und a kuaz Reise zur Wiedaentdeckung der Mocht von Maven"
+description: "Die toggra Suiche noch Einfachheit und a kürze Reise zur Wiedahentdeckung der Macht von Maven."
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"
@@ -13,109 +13,94 @@ card: "summary_large_image"
 ---
 
 
+# Zruck zua Maven?
 
-# Zruck zu Maven?
+[![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/gscheiter-umsteig-von-gradle-zu-maven/)
 
-[![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
-(Kees maakn)
+## 10 Johr Gradle. Auf der Suache noch Lechtigkeit und a kurze Reise zur Wiedaholtung der Stärke von Maven.
 
-## 10 Johr Gradle. Auf der Suach nochn OBBM und a kurtze Reise zur Wiederentdeckung der Störrke von Maven.
+Sorry, I need a markdown text to translate it for you. Please provide me with the text in the markdown format.
 
-# Grüss Gott, wie gahts?  Miar sein in da scheanen Siedlunge vo Bozen und geniassn de tolle Landschaft und de guate
-Speis und Trank. Hoasts du an Tipp wos ma südtirolerisches probian muass?  Mir wünschn da a scheans Tog!
+### Ausnutzng ins Mogglichste von Entwicklern - Mir brauchn mehr Zeit sparende Tools.
 
-### Maximiering des Potenzials vo Entwickler - Mir brauchn mehra zeit-schparnde Zeig
+Themen, die oft übersehen oder selten diskutiert werden, interessieren mi. Oft san kühle Technologien im Einsatz, doch
+kane sau redt iba die mitlaufenden Probleme. Entwicklerei is heintzutogs sehr aufwendig worn. Mit de kühlen Buzzwords
+wie "Serverless", "Low Code", "IaC", "Big Data", "Cloud", "DevOps", "You Build it You run it" usw. hom Entwickler
+bereitß mea ois gnug Zusatzaufgaben zu meistern. Mea Aufgaben, bedeiten, dass kaum mehr Expertn do san und imma wos aufn
+Focus vergassn wern muss. Deswegn san Automationen und Zeitersparnisse megageil. "Don’t make me think" und "Works out of
+the Box" san bereitß guad Qualitätsmerkmale, die i bei Gradle no nit segn kin. Um fia zu sein, Gradle is nit des einzige
+modernde Werkzeug, dass uns de Arbeit mochte, instead sie zu erleichtern.
 
+### Die illesuarische Suache noch Eifochtheit und Automatisierunge
 
-Themen, die oft übersehen oder selten diskutiert sog iwersehen oder sochn diskutiert wern, die interessieren mi. Oft
-sein coole Technologien im Einsatz, doch kiam Mensch schpricht iba die damit verbundenen Probleme. Entwicklung isch
-heintzutog sehr aufwendig gewurn. Mit de coolen Buzzwords wie “Serverless”, “Low Code”, “IaC”, “Big Data”, “Cloud”,
-“DevOps”, “You Build it You run it” usw. hobn Entwickler schun mehr als gnua Zusatzaufgaben zum Wochsel hobn. Mehr
-Aufgaben, bedeit, dass kiam mehr Experten gib und ossmeit lei nu irgentwos für den Focus vernachlässigt wird. Deswegn
-sein Automationen und Zeitersparnisse mega wichtig. “Don’t make me think” und “Works out of the Box” sein bereits guate
-Qualitätsmerkmale, die i in Gradle noch net siech. Um fair zu sein, Gradle isch net des einzig moderne Werkzeug, des
-oaschwerti Arbeit mocht genau wia de andern.
+Seit SOAP honn ian tiafa finsta Ekel gegen XML-basiarte Konfigurationen. Mit Gradle honn i ghoft, dass sewos easiesch wia Kinderspui soi. Leida wurdn meine Hoffnungn ond meine Motivation von Mo zu Mo kloaner. Gradle strebt nach Flexibilität ond opfert dafür Automatisierung ond Qualität. Entwicklerinnen ond Entwickler föla blind dem Trend ohne Rücksicht auf die Auswirkungen auf die Zuverlässigkeit der Software. Um Gradle Build Skripte einfach ond wartungsarm zu halten, bedarf es einer stãrkan Disziplin. A solche Disziplin is schun im Quellcode seltn zu findn ond daher is sie in den Build-Skripten no viel seltener.
 
-### Die ilusorische Suach noch Einfachheit und Automatisierung
+### Iwwasetzungen und Workarounds - Wånn Build-Skripte zu ara Herausforderung werdn
 
-Seit SOAP hån i insgsammt gånz groaße Hass ogn XML-basierte Konfigurationen. Mit Gradle hån i g'hoft, dass des Schreibm
-von Bind-Skripten a Kinderspiel wår. Leider hån se mei Hoffnungn und Motivation von Moal zu Moal vermehrt zruckzogn.
-Gradle strebt norch Flexibilität und åslåg dofei Automatisierung und Qualität auf. Entwickler und Entwicklerinnen folgn
-blånd dem Trend ohne dassns uf de Konsequenzen fir de Zuverlåssigkeit vun de Software schaugs. Um Gradle Build Skriptn
-eifåch und störungsfrei z'holtn, braucht's holt a richtige Disziplin. So a Disziplin isch scho im Quellcode rar z'findn
-und dohroa in de Build-Skripten no viel rarera.
+Gradle arbeidn im Hintagrund nit vül anders wia Maven. Do hommens eppes everzieln zi miaßen. Featurs wia der 
+Dependency Catalog, dos Maven Release Plugin, der Dependabot und vül mear sein eigentlich Workarounds zi grondlegn 
+Funkzionen, die Maven schun butt mitbrocht. Mittn Flexibilotät von Gradle entstean oft komplexe Build Konfigurationen, 
+die schwer zu wartn sein sein.
 
-### Ibersetzungen und Workarounds - Wenn Build-Schriebe zu aner Herausforderung wern.
+Gradle Plugins hom häufig Kompatibilitätsprobleme, Limits odo begrenztn Weitarentwicklungen. Diese Probleme entstean 
+aufgrund der sich entwickelndn Natur des Gradle-Ökosystams, der Vielfalt der Umgebm, in denen Gradle eingesetzt 
+wird, und des spezifischn Implementierungs- und Wartungsaufwands für jedes Plugin. Alles isch miteinondn verbundn.
 
-Gradle arbeitet im Hintergrund net vül anders wia Maven. Dau oanfoch gim ins a poa Übersetzungen zu mochn. Features wia
-de Dependency Catalog, des Maven Release Plugin, de Dependabot und viele mea san eigentli Workarounds fei grundlegende
-Funktionen, de Maven schun mitbring. Mit da Flexibilität vu Gradle entstehn oft komplexe Build Konfigurationen, de schwa
-zu wårtn sein. Gradle Plugins hobn oft Kompatibilitätsprobleme, Limits oder begrenzte Weidaentwicklunga. Dese Probleme
-heiran weil sich des Gradle-Ökosystem enwickelt, de Vielfåit vu de Umgebungn, in denen Gradle eingesetzt wird, und de
-spezifischn Implementierungs- und Wårtungsaufwand fei jeds Plugin. Alles isch miteinonda verbundn.
+### Der Domineffekt von Gradle - A Almträumszenario in dor reoln Wölt
 
-### Der Dominoeffekt von Gradle - A Albtraumszenario in dr realen Welt
+I hob vül Microservices gseng, de nur a poar Joar oltn und schun wegen Gradle nit mea wartbor worn. 
+Wichtig isch zu erwähnen, dass des nit des erschte Moi isch, wo i so wos gseng hob. Und nein, es san koan Junior Devs gwesn.
 
-I hob vui Microservices gsegn, deit nu wenige Joahr alt worn sein und schu wegen Gradle nit mehr wartboar sein hobn.
-Belian hob i, dass des nit des erschte Moal isch, wos i des gsegn hob und nein, es sein koane Junior Devs. Mei *Ufgobe
-wor, a Spring Boot 2.x auf 2.7 zu upgraden*. Spoilor: I hob noch am Joar aufgehm! De Problame in Kortm: * Des Gradle-
-Build-File braucht -> Downgrade auf meine lokale Java-Version auf 11 (WTF) (Normal ist Java abwärtskompatibel - es gibt
-a wieda Workaround-Tools wei SdkMan...) * Des Spring Boot-Update braucht -> Gradle-Update (WTF) * Des Gradle-Update
-braucht -> Plugin-Update * Des Plugin-Update braucht -> Groovy-Update (WTF) * Des Groovy-Update braucht -> Test-
-Framework- und Test-Updates (WTF) * Des Test-Framework-Update braucht -> Abhängigkeitsupdates * \[...] Außerdem
-funktionieren einiges Plugins nit mit neuen Gradle-Versionen, einiges werdn nit mehr weita entwickelt, sein inkompatibel
-mit andere Plugins, funktionieren nur mit Gradle KTS, nit mit Gradle Groovy, oder hobn einfache Limits. Sogor Plugins
-von grußn Anbietern wei Spring hobn im Vergleich zu ihre Maven-Plugins eingeschränkte Funktionalität. Am Ende hob i a
-guade, kürze Gradle-Build-Datei, dei kan mensch richtig warten ko, nit amoi die Entwickler, die sie schrieben hobn, und
-sie liabn Gradle immr noch. I kenne lei wenige, die Gradle-Scripte ernsthaft verstehen oder schreiben können.
+Meine **Heaschaft isch gschen, a Spring Boot 2.x auf 2.7-Upgrade durchzuführen**. Spoiler: I hon no am Joar ahns ufgebm! Die Probleme kurz zommnfassn:
 
-### Die Widerentdeckung der Stiarke von Maven - Die Zauberkräfte von Maven nutzn
+* Das Gradle-Build-File erfordert -> Downgrade meiner lokalen Java-Version auf 11 (WTF) (Normalerweise isch Java 
+  abwärtskompatibel - es gibt a Werkzeig namens SdkMan... dos hilft)
+* Das Spring Boot-Update erfordert -> Gradle-Update (WTF)
+* Das Gradle-Update erfordert -> Plugin-Update
+* Das Plugin-Update erfordert -> Groovy-Update (WTF)
+* Das Groovy-Update erfordert -> Test-Framework- und Test-Updates (WTF)
+* Das Test-Framework-Update erfordert -> Abhängigkeitsupdates
+* \[...]
+  Außerdem funktionieren a poar Plugins nit mit neieren Gradle-Versionen. A poar san nimma in der Weiterentwicklung, 
+  san inkompatibel mit ondern Plugins, funktionieren lei mit Gradle KTS, nit mit Gradle Groovy, ond hond einfach 
+  Grenzen. Sogar Plugins von großn Anbiatern wia Spring hond im Vergleich zu ihre Maven-Plugins kane so große 
+  Funktionalität. Am Ende hon i a kools, kurzes Gradle-Build-File, des koaner richtig wartn kinnt, nit amoi die 
+  Entwickler, die es gschrieben hon, ond sie liabn Gradle immr no. I kenn lei a poar, die Gradle-Scripte ernst wörtlich 
+  verstian oder schreim kennen.
 
-Do hob i meine Liblingsfunktionen von Maven: Plugins kennen direkt von da Befehlszeile aus gezochn und konfiguriert
-wern, ohne dass sie vorher definert sein miassn. Plus, sie sein fast on unabhängig von anderen Plugin-Konfigurationen.
-| Beispielbefehl            | Beschreibung
-| Link                                   | |---------------------------------------|-
-------------------------------------------------------------------------------------------------------------------------
---------------------------------------------|--------------------------------------------------------------------------|
-| `mvn versions:use -latest-versions`  | Versionen aktualisiertn - wer braucht Dependabot? Jo meiner Projekt sein seit
-Johren problemlos auf die neiste Version aktualisiert worden, ohne lassige Merge-Anfragen |
-https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html | | `mvn versions:set -DnewVersion=1.0.0` |
-Projektversion festlegen...
-| https://www.mojohaus.org/versions/versions-maven-plugin/index.html    | | `mvn license:add-third-party`     |
-Abhängigkeiten aufgelistn und deren Lizenzen anzeigen (kann sogar bei ausgeschlossenen Lizenzen fehlschlogen)
-| https://www.mojohaus.org/license-maven-plugin/index.html         |  Die Semmliste kennt ewig weiterragen. Es
-erinnert mi irgendwie on die GitHub Workflow Steps.
+### Die Wiedafaundung der Stiakke fria Maven - Die Zauba-kräft von Maven wiaßn benutzn
+
+Do sein meine Liablingsfunktionen von Maven:
+Plugins kinnan direkt von da Befehlszeile aus gstartet und kintrolliert wern, ohne dass sie vorher definiert werdn brauchen. Plus, sie san weitgehend unabhängig von andern Plugin-Konfigurationen.
+
+| Beispielbefehl                        | Beschreibung                                                                                                                                                                     | Link                                                                     |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| `mvn versions:use -latest-versions`   | Versionen aktualisieren - wer braucht Dependabot? Jo meie Projechte wern seit Johren problemlos auf die neie Version aktualisiert, ohne lästige Merge-Anfraan                           | https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html |
+| `mvn versions:set -DnewVersion=1.0.0` | Projecktfersion festlegen...                                                                                                                                                     | https://www.mojohaus.org/versions/versions-maven-plugin/index.html       |
+| `mvn license:add-third-party`         | Abhängigkeiten auflisten und deren Lizenzen anzeigen (kint sogar bei ausschlossenen Lizenzen fehlgeschlagen)                                                                   | https://www.mojohaus.org/license-maven-plugin/index.html                 |
+
+Die liste konnt ewig so weider gehn. Es erinnert mich irgendwie an GitHub Workflow Steps.
+
 ![maven_plugin_command_line_args](/images/content/maven_plugin_command_line_args.png)
 
-### Du mogsch koan XML?
+```
 
-Koan Problem! Schreib einfåch dein Build File in `ruby`, `groovy`, `scala`, `yaml`, `atom` oder `Java`. Die Polygot
-Extension (https://github.com/takari/polyglot-maven) mocht es möglich. Zum Austawan einfach `mvn
-io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml` ausfian und in fewen
-Millisåkundn isch dea Build File ibrsetzt. Schod, dass es kin'n zirlassign Maven <> Gradle Ibersetzar gibt :( Jo, Maven
-Build Files san groaß, åba a soad leicht z'verstian. Nochbaßarungen oder Debugging san im Handumdreahen erledigt.
+### Mogsch koa XML lei net?
 
-### Alter isch lei oan Zahl - Mavens Stabilität und Evolution
+Koan Problem! Schreibn insch einfoch dein Build File in `ruby`, `groovy`, `scala`, `yaml`, `atom` oder `Java`. Die Polygot Extension (https://github.com/takari/polyglot-maven) makt sches möglich. Zum Uasprubm insch einfoch `mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml` usführen und in weingn Millisekunden isch dein Build File übersetzt. Schad, dass es keinen zevrlässign Maven <> Gradle Übersetzt gibt :( Jo, Maven Build Files san groß, oba a vrschtehbar. Nochbarscheischn oder Debugging san im Handumdrehn erledigt.```
 
-Zogem hobe, Maven gibt es schon a ganze Weile und seiner Ästhetik entspricht vielleicht net de heitzigen Standards. De
-Langlöbigkeit von Maven hot es awer ermöglich, sich onzepassen und weiter zu entwickln. Maven bäitzt onabhängig von
-deinem Projekt. Build-Dateien kennen enkofsch wiederverwendet werden. De Plugins laufen in oaner Sandbox und sein
-onabhängig voneinondor und onabhängig von der Java- ond Maven-Version. Dos Deesan forderet de Stobilität ond
-Vorhersagbarkeit ond mackt dos enkoafsch komplexe Build-Prozesse ohne onerwoatete Konflikte onzemanogen.
+### Ôlta isch lei a Zahl - Mavens Staibiltät und Evolution
 
-### Resumee
+Zuigem es scho a Haufn Zeit und sei Optik entspricht vielleicht net de heitigen Standards. Doch d Lebnsdauer vo Maven hot et ermöglich en ze sich onzopassen und weiderzientwickln. Maven uabate duafontselbm vo dein Projekt. Build-Datei kinnn leicht wiederwondt wern. Die Plugins lafn in oana Sandbox und san unsongig vonanda und von da Java- oder Maven-Version. Es Design favdert de Ongehaut und Vohersogbarket und moch es easi komplexe Build-Prozesse ohne unerwartete Konflikte z valten.```
 
-Heitzeitàg isch de Entwicklungs-Umgebung mit vül Aufgaben und Technologien für Entwickler überlodn. Auf dr Suache noch
-Einfachheit und Automatisierung isch Gradle als modernd Build-Tool aufgetouchtn, hot obr seine eignen Herausforderungen
-mit sich gebrocht. Ohne Frage, das Konzept von Gradle isch schun. Awr angesichts dr Komplexität und dr Zeit, die in
-Gradle Build-Skripte investiert werd, stellt sich dr Froge, ob schun eifacher wär, Maven zu erweitern. Mit Plugins und
-Extensions könnt ma Maven jederzeit aufgefrischt und vereifocht wern. Wär a Weiterentwicklung net vül spannender und a
-nachhaltiger, als von a Technologie zur nächstn zum springen?
+### Oarschlechtigung
 
-### Links
+Haitzutog isch die Entwicklungsumgebung mit vielen Aufgobm und Technologien fir Entwickler iberloatn. Auf dor Suach noch Eifochheit und Automatisierung isch Gredl ols moderns Build-Tool ufgiatu, hot obor seine eigene Herausforderungen mit sich brocht. Ohne Frog, dos Konzept von Gredl isch guat! Doch ogsichts dor Komplexität und dor Zeit, die in Gredl Build-Skript investiert wird, stellt sich de Frog, of nit eifocha wöre Maven zu ibrarbeitn. Mit Plugins und Extensions kinn man Maven jederzeit aufigfrischt und vereifocht werdn. Wöre a Weiterentwicklung nit völle spannender und essa noochholto, dos ibr von a Technologie zur nächstn ibrzischne?
 
-[Zruckzug von Gradle auf Maven](https://phauer.com/2018/zruckzug-von-gradle-auf-maven/)
+### Verlinkungen
+
+* [Zruckkemmen von Gradle zu Maven](https://phauer.com/2018/zruckkemmen-von-gradle-zu-maven/)
 
 ### Kontakt
 
-[Github Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[GitHub Inßn](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).```

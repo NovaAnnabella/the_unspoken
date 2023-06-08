@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import re
 import time
 import textwrap
 import requests
@@ -86,7 +87,8 @@ def translate_md_file():
                             output_text += line
                         elif line.startswith('title:') or line.startswith('description:'):
                             kv = line.split(':', 1)
-                            translated = translate(kv[1].replace('"', '').strip(), lang_key, lang_name)
+                            translated = translate(kv[1].replace('"', '').strip(), lang_key, lang_name) \
+                                .replace('"', '').replace('\n', '').replace('\r', '')
                             print_progress(current_iteration, output_file, section_count, total_iterations, translated)
                             output_file.write(kv[0] + ': "' + translated + '"' + os.linesep)
                             section_count += 1
@@ -115,7 +117,8 @@ def translate(output_text, lang_key, lang_name):
         return output_text
     elif os.linesep + os.linesep in output_text:
         title, text = output_text.split(os.linesep + os.linesep, 1)
-        text = textwrap.fill(translate_with_api(text, lang_key, lang_name), 120).replace('  ', ' ')
+        text = translate_with_api(text, lang_key, lang_name)
+        text = textwrap.fill(text, 120).replace('  ', ' ') if not re.search(r"[\*\-\[\]#]", text) else text
         title = translate_with_api(title, lang_key, lang_name)
         return os.linesep + title + os.linesep + os.linesep + text + os.linesep
     else:
@@ -124,7 +127,7 @@ def translate(output_text, lang_key, lang_name):
 
 def translate_with_api(text, lang_key, lang_name):
     if lang_key in deepl_languages:
-        return translate_with_deepl(text, lang_key, lang_name)
+        return translate_with_gpt(text, lang_key, lang_name)
     else:
         return translate_with_gpt(text, lang_key, lang_name)
 
@@ -135,9 +138,15 @@ def translate_with_gpt(text, lang_key, lang_name):
             response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": "You are a Translator"},
-                    {"role": "user",
-                     "content": f'Translate the following German markdown text to {lang_name} without translating markdown or nouns and without commenting:\n{text}'},
+                    {
+                        "role": "system",
+                        "content": "You are a Translator which only translate text without changing the format or content"
+                    },
+                    {
+                        "role": "user",
+                        "content": f'Translate the markdown text to {lang_name}:\n```\n{text}\n```'
+                        # "content": f'Translate the markdown text to {lang_name} keep nouns, no commenting, no interpretations, no markdown format changes:\n```\n{text}\n```'
+                    },
                 ]
             )
             return response['choices'][0]['message']['content']

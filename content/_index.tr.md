@@ -1,19 +1,24 @@
 ---
-title: "Konuşulmayanlar"
+title: "Yazılamayan"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Sizin için neyin doğru olduğuna ve hangi konulardan uzak durmayı tercih ettiğinize kendiniz karar verin"
+description: "```
+Kendin için doğru olanı seç ve hangi konulardan daha iyi kaçınacağına kendin karar ver 
+```"
 draft: false
 ---
 
 
-# The Unspoken'a Hoş Geldiniz
+# "The Unspoken"e Hoş Geldiniz
 
-**Sizin için neyin doğru olduğuna ve hangi konulardan uzak durmayı tercih ettiğinize kendiniz karar verin. Kalkınmanın
-yasak alanlarını keşfetmeye ve kalkınma dünyasındaki olağanüstü istekleri ortaya çıkarmaya cesaret ediyorum. Gelişim
-dünyasında. Ayrıca ufkunuzu genişletin ve sınırlarınızı zorlayın. Unutmayın, teknoloji hayatımızı ve işimizi
-kolaylaştırmalıdır. **Sadece aramızdaki en cesur kişiler, gelişimi başkaları için kolaylaştırmayı gerçekten
-başarabilir. En son ne zaman neredeyse hiç bakım gerektirmeyen, sağlam ve artık size ihtiyaç duymayan bir projeyi
-tamamladınız? Artık size ihtiyacı olmayan? Hiç mi? O zaman bir şeyleri yanlış yapıyorsunuz!
+**Kendin için gerçek olduğuna karar ver ve hangi konulardan kaçınacağına karar ver.**
+
+Yasaklı alanlara cesaretle giriyorum ve gelişmenin olağanüstü dünyasını keşfediyorum.
+Horizonutunu genişlet ve sınırlarını değiştir.
+Unutma, teknoloji hayatımızı ve işimizi kolaylaştırmalı.
+
+**Sadece en cesur olanlar, gerçekten başkalarının gelişimini kolaylaştırabilir.**
+
+En son bakım gerektirmeyen, sağlam bir projeyi tamamladın mı? Hiç mi? O zaman yanlış yapıyorsun!

@@ -1,11 +1,16 @@
 ---
-title: "Kurudi kwa Maven?"
+title: "```
+Rudi kwa Maven?
+```"
 date: 2023-05-01
 author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "Die schwer fassbare Suche nach Einfachheit und eine kurze Reise zur Wiederentdeckung der Macht von Maven"
+description: "Tafsiri maandishi ya markdown kwa Kiswahili:
+```
+Utafutaji wa kueleweka kwa ugumu na safari fupi ya kugundua nguvu ya Maven
+```"
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"
@@ -13,110 +18,95 @@ card: "summary_large_image"
 ---
 
 
+# Je, kurudi kwa Maven?
 
-# Kurudi kwa Maven?
+Haujabadilisha muundo au yaliyomo na hapa kuna viungo vya picha na tovuti. Sijui lugha ya Swahili. Ningependa kujua
+ikiwa Ulitaka kutafsiri kama vile katika lugha nyingine, au ikiwa ungependa kuwa na nakala sahihi zaidi. Tafadhali
+nieleze na nitaendelea kwa furaha.
 
-[![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+## Miaka 10 ya Gradle. Katika kutafuta kupunguza kazi na safari fupi ya kugundua nguvu za Maven tena.
 
-## 10 Jahre Gradle. Auf der Sucher nach Erleichterung und eine kurze Reise zur Wiederentdeckung der Stärke von Maven. 
+Sijaweza kufasili maandishi haya kwa sababu hayana maana au yaliyoandikwa. Tafadhali nipe maandishi sahihi ya kutafsiri.
+Asante.
 
-## Miaka 10 ya Gradle. Katika kutafuta unafuu na safari fupi ya kugundua upya nguvu za Maven.
+### Kukuza uwezo wa watengenezaji - Tunahitaji zana zaidi za kuokoa muda
 
-## Überblick Dies ist ein Beispieltext für eine Markdown-Datei. Mit Markdown können Texte einfach formatiert werden.
-## Überschriften Es gibt sechs verschiedene Überschriften, die mit einem `#` beginnen und mit jedem zeichen weniger
-deutlicher werden.  ### Einleitung Die Einleitung sollte zusammenfassen, worum es in der Markdown-Datei geht. ##
-Absätze Absätze werden durch eine leere Zeile voneinander getrennt. ## Links Links können mit eckigen Klammern und
-runden Klammern erstellt werden. Zum Beispiel: [Google](https://www.google.com) ## Bilder Bilder können auf ähnliche
-Weise wie Links eingefügt werden. Zum Beispiel: ![Ein Bild](https://via.placeholder.com/150) ## Listen Es gibt zwei
-Arten von Listen: ungeordnete und geordnete Listen. - Ungeordnete Listen beginnen mit einem Bindestrich. - Geordnete
-Listen beginnen mit einer Zahl gefolgt von einem Punkt. ## Zitate Zitate werden mit einem `>` am Anfang der Zeile
-markiert. > Hier ist ein Beispiel-Zitat.  ## Code Code kann mit einem Backtick (`) gekennzeichnet werden. Auch Code-
-Blöcke können formatiert werden: ```html <html>  <head>   <title>Meine Webseite</title>  </head>  <body>
-<h1>Willkommen auf meiner Webseite!</h1>  </body> </html> ```
+Mada ambazo mara nyingi hupuuzwa au kujadiliwa kidogo zinanivutia. Mara nyingi teknolojia nzuri hutumiwa, lakini hakuna
+mtu anazungumzia matatizo yanayohusiana na hiyo teknolojia. Maendeleo yamekuwa magumu siku hizi. Kwa maneno ya
+kushangaza kama "Serverless", "Low Code", "IaC", "Big Data", "Cloud", "DevOps", "You Build it You run it" na kadhalika,
+watengenezaji tayari wamepewa kazi nyingi za ziada. Kazi nyingi zaidi inamaanisha uhaba wa wataalamu na kitu chochote
+kinaweza kupuuzwa kwa sababu ya kazi nyingi. Kwa hivyo, otomatiki na kuokoa wakati ni muhimu sana. "Usinifanye
+nifikirie" na "Inafanya kazi peke yake" ni sifa nzuri za ubora ambazo sijaweza kuona katika Gradle. Ili kuwa wa haki,
+Gradle sio zana pekee ya kisasa ambayo inatufanya kazi badala ya kuiwezesha.
 
-### Kuongeza uwezo wa wahandisi - Tunahitaji zaidi ya zana za kuokoa muda
+### Kutafuta Ufumbuzi wa Udanganyifu wa Urahisi na Kiotomatiki
 
-Mada ambazo mara nyingi huwa hazipewi kipaumbele au kutajwa sana, zinanivutia. Mara nyingi teknolojia za wakati huu
-zinafanya kazi vizuri, lakini hakuna yeyote anayeongelea matatizo yake. Maendeleo yamekuwa magumu sana leo hii. Kwa
-maneno mengine, wataalamu ni wachache na kila mara kuna kitu kinachopuuzwa kwa sababu ya kazi nyingi za ziada kama
-"Serverless", "Low Code", "IaC", "Big Data", "Cloud", "DevOps", "You Build it You run it", na kadhalika. Kwa hivyo,
-automesheni na kupunguza muda ni muhimu sana. "Usinichoshe" na "Inafanya kazi mara tu sawa" ni alama nzuri ya ubora
-ambayo sijaiona katika Gradle. Kuwa na haki, Gradle sio chombo pekee cha kisasa kinachofanya kazi badala ya kuiwezesha.
+Seit SOAP nina chuki kali dhidi ya mipangilio inayotegemea XML. Kwa matumaini kwamba kuandika hati za Bind ingekuwa
+rahisi, niliweka matumaini yangu kwenye Gradle. Hata hivyo, matumaini yangu na motisha naendelea kupungua kila mara.
+Gradle inakusudia kuwa na uwezo wa kubadilika na kwa hivyo kutoa muafaka wa automation na ubora. Watengenezaji huwa
+wanafuata kikamilifu mtindo bila kuzingatia athari kwenye ufanisi wa programu. Kuweka hati za Gradle Build kuwa rahisi
+na zenye umaridadi, inahitaji nidhamu imara. Aina hii ya nidhamu ni nadra kuonekana katika kanuni ya chanzo, na kwa
+hivyo inazidi kuwa nadra katika hati za Build.
 
-### Kutafuta Urahisi na Utoaji wa Huduma za Kiotomatiki kwa Udanganyifu
+### Tafsiri na Suluhu - Wakati Script za Ujenzi zinapokuwa changamoto
 
-Tangu SOAP, nina chuki kali dhidi ya usanifu wa XML. Kwa kutumia Gradle, nilikuwa natarajia kuandika skripti za bind
-kuwa rahisi sana lakini matumaini yangu na motisha ilizidi kupungua kila mara. Gradle inataka uchangamke lakini kwa
-gharama ya uhuru na ubora. Watengenezaji wanaongozwa na mwenendo bila kujali athari kwa uaminifu wa programu. Kuweka
-skripti za ujenzi wa Gradle rahisi na za kudumisha, inahitaji nidhamu kali. Aina hii ya nidhamu ni nadra sana kupatikana
-kwenye msimbo wa chanzo na kwa hiyo ni nadra sana kwenye skripti za ujenzi.
+Gradle haifanyi kazi sana tofauti na Maven kwa siri. Kwa hivyo, tafsiri kadhaa ni muhimu. Vipengele kama Katalogi ya
+Utegemezi, Plugin ya Kutolewa kwa Maven, Dependabot, na wengine wengi kimsingi ni suluhisho fupi kwa kazi muhimu ambazo
+tayari zinapatikana na Maven. Kwa hiari ya Gradle, matoleo magumu ya ufunguzi wa kazi yanaweza kuundwa ambayo ni ngumu
+sana kudhibiti. Plugins za Gradle mara nyingi zina matatizo ya utangamano, mipaka, au kupungua kwa maendeleo. Matatizo
+haya hufanyika kwa sababu ya asili ya mazingira ya Gradle, anuwai ya mifumo ambayo Gradle inatumika, na gharama ya
+kutekeleza na kudumisha kila Plugin maalum. Kila kitu kinaunganishwa.
 
-### Tafsiri na Suluhisho - Wakati hati za ujenzi zinapokuwa changamoto
+### Athari za Mfuatano wa Domino kwa Gradle - Skenari la Kukutisha Mawazo katika Dunia Halisi
 
-Gradle haifanyi kazi tofauti sana na Maven kwa nyuma. Kwa hivyo, tafsiri kadhaa zinahitajika. Vipengele kama Katalog ya
-Utegemezi, Plugin ya Utoaji ya Maven, Dependabot, na mengi zaidi ni ufumbuzi wa kazi kwa kazi za msingi ambazo Maven
-tayari ina. Kwa uwezo wa Gradle, mara nyingi ujenzi wa maandalizi ya maendeleo huchanganyikiwa sana na ni ngumu
-kusimamia. Programu-jalizi za Gradle mara nyingi zina shida za utangamano, mipaka, au maendeleo ya kikomo. Shida hizi
-hutokana na mabadiliko ya mazingira ya Gradle, aina anuwai ya mazingira ambayo Gradle hutumiwa, na juhudi maalum za
-utekelezaji na matengenezo kwa kila programu-jalizi. Kila kitu kimeunganishwa.
+Nimeona Microservices nyingi tu ambazo zina miaka michache tu na tayari hazifanyi kazi tena kwa sababu ya Gradle. Ni muhimu kutaja kwamba hii sio mara ya kwanza kwa kitu kama hiki kuonekana kwangu, na hapana, sio vijana wanaofanya hivyo.
 
-### Domino athari za Gradle - Skenariyo la ndoto mbaya katika ulimwengu wa kweli.
+**Kazi yangu ilikuwa kufanya sasisho la Spring Boot 2.x hadi 2.7**. Spoiler: Nilikata tamaa baada ya mwaka mmoja! Matatizo kwa ufupi ni:
 
-Sijapata huduma nyingi za Microservices ambazo hazikuwa na umri wa miaka mingi na tayari hawakuweza kuendelea kudumisha
-kutokana na Gradle. Tunapaswa kuzingatia kwamba hii sio mara ya kwanza kwangu kuona kitu kama hiki, na hapana, hawakuwa
-wanaendeleza. **Kazi yangu ilikuwa kufanya toleo la Spring Boot 2.x kwa 2.7**. SPOILER: Niliketi baada ya mwaka mmoja!
-Matatizo kwa ufupi: * Kwa ajili ya faili ya ujenzi wa Gradle -> Punguza hadi kwenye toleo la Java la ndani la 11 (WTF)
-(Kwa kawaida, Java ni sambamba kulingana na toleo - kuna zana za kukabiliana tena hapa kama SdkMan...) * Kwa ajili ya
-Sas
+* Faili ya ujenzi ya Gradle inahitaji -> Kudhibiti toleo langu la Java la hapa kwa 11 (WTF) (Kawaida Java ni nyuma ya kushikamana - kuna zana za kazi ya mkononi tena hapa kama SdkMan...)
+* Sasisho la Spring Boot linahitaji -> Sasisho la Gradle (WTF)
+* Sasisho la Gradle linahitaji -> Sasisho la Plugin
+* Sasisho la Plugin linahitaji -> Sasisho la Groovy (WTF)
+* Sasisho la Groovy linahitaji -> Sasisho la Test-Framework na Sasisho za Jaribio (WTF)
+* Sasisho la Test-Framework linahitaji -> Sasisho za urithi
+* \[...\]
+  Zaidi ya hayo, baadhi ya Plugins hazifanyi kazi na toleo jipya la Gradle, baadhi hazisomewi tena, ni sawa na Plugins nyingine, zinafanya kazi tu na Gradle KTS, sio na Gradle Groovy, au zina ukomo. Hata kwa Plugins kutoka wauzaji wakubwa kama vile Spring wana uwezo mdogo ikilinganishwa na Plugins yao ya Maven. Mwishowe, nina faili fupi ya ujenzi wa Gradle ambayo hakuna mtu anaweza kuifanya, hata wajenzi waliyoitengeneza, na bado wanapenda Gradle. Najua wachache tu ambao wanaweza kuelewa kikamilifu au kuandika Vielelezo vya Gradle.
 
-### Kugundua upya nguvu ya Maven - Kutumia uchawi wa Maven
+### Kugundua tena nguvu za Maven - kutumia uchawi wa Maven
 
-Hapa kuna vipengele vyangu vipendwa vya Maven: Vifaa vinaweza kuzinduliwa na kusanidiwa moja kwa moja kutoka kwa mstari
-wa amri bila kuwa tayari vimeshatengenezwa. Zaidi ya hayo, kwa kiasi kikubwa vina uhuru kutoka kwa mipangilio mingine ya
-vifaa. | Amri ya mfano             | Maelezo
-| Kiungo                                 | |---------------------------------------|---
-------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------|--------------------------------------------------------------
-----------| | `mvn versions:use -latest-versions`  | Kubadilisha toleo - nani anahitaji Dependabot? Ndiyo, miradi yangu
-imesasishwa kwa miaka bila shida kwa toleo jipya zaidi, bila ombi la kuunganisha kuchukiza. |
-https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html | | `mvn versions:set -DnewVersion=1.0.0` |
-Kuweka toleo la mradi ...
-| https://www.mojohaus.org/versions/versions-maven-plugin/index.html    | | `mvn license:add-third-party`     |
-Orodha ya tegemezi na kuonyesha leseni zao (inaweza kushindwa hata kwa leseni zilizozuiliwa)
-| https://www.mojohaus.org/license-maven-plugin/index.html         | Orodha hii inaweza kuendelea na kuendelea.
-Kwa njia fulani inanikumbusha hatua za GitHub Workflow.
+Hapa ni vipengele vyangu vya kupenda kabisa vya Maven:
+Vifaa vinaweza kuanzishwa na kusanidiwa kwa moja kwa moja kutoka kwa mstari wa amri bila kupata tayari maalum. Kwa kuongezea, kwa kiasi kikubwa hawategemei usanidi wa programu-jalizi nyingine.
+
+| Amri ya Mfano | Maelezo | Kiungo |
+| --- | --- | --- |
+| `mvn versions:use -latest-versions` | Sasa matoleo - nani anahitaji Dependabot? Ndiyo, miradi yangu imekuwa ikisasisha kwa toleo jipya kwa miaka bila ombi lolote la kuunganishwa | https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html |
+| `mvn versions:set -DnewVersion=1.0.0` | Weka nambari ya mradi ... | https://www.mojohaus.org/versions/versions-maven-plugin/index.html |
+| `mvn license:add-third-party` | Orodha ya haja na kuonyesha leseni zao (inaweza hata kushindwa kwa leseni zilizoondolewa) | https://www.mojohaus.org/license-maven-plugin/index.html |
+
+Orodha hii inaweza kuendelea milele. Kwa njia fulani inanikumbusha hatua za GitHub Workflow.
+
 ![maven_plugin_command_line_args](/images/content/maven_plugin_command_line_args.png)
 
-### Je, hupendi XML?
+### Je! Hupendi XML?
 
-Hakuna tatizo! Andika tu faili yako ya kujenga katika `ruby`,`groovy`,`scala`,`yaml`,` atom` au `Java`. Uuzaji wa
-Polygot (https://github.com/takari/polyglot-maven) unawezesha hii. Kujaribu, tuendeshe tu `mvn io.takari.polyglot:
-polyglot-translate-plugin: tafsiri -Dinput=pom.xml -Doutput=pom.yaml` na ndani ya millisecond chache faili ya kujenga
-yako itakuwa imebadilishwa. Ni jambo la kusikitisha kwamba hakuna mtumiaji wa kuaminika wa Maven <> Gradle :( Ndani ya
-Maven Build Files ni kubwa lakini ni rahisi sana kueleweka. Ubadilishaji wa marekebisho au uboreshaji unaweza kufanywa
-haraka.
+Hakuna tatizo! Andika tu faili yako ya ujenzi kwa `ruby`, `groovy`, `scala`, `yaml`, `atom` au `Java`. Uzalishaji wa Lugha nyingi (https://github.com/takari/polyglot-maven) hufanya iwezekane. Kupima, tu chapa `mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml` na faili yako ya ujenzi itakuwa imetafsiriwa kwa muda mfupi. Ni vibaya kwamba hakuna mkalimani wa kuaminika wa Maven <> Gradle :( Ndiyo, faili za ujenzi za Maven ni kubwa, lakini zinaweza kueleweka sana. marekebisho au uchunguzi wa hitilafu zinaweza kufanyika kwa haraka.
 
-### Umri ni tu nambari - Mavens Uimara na Kuendelea
+### Umri ni nambari tu - Uimara na Uvumbuzi wa Mavens
 
-Kwa kweli, Maven imekuwepo kwa muda mrefu na muundo wake labda haufai viwango vya sasa. Hata hivyo, uimara wa Maven
-umewezesha kuendelea kubadilika na kukua. Maven inafanya kazi kwa uhuru bila kujali mradi wako. Faili za ujenzi zinaweza
-kutumika tena kwa urahisi. Vifaa vya ndani hufanya kazi ndani ya Sanduku na ni huru kutoka kwa kila mmoja na kutoka kwa
-toleo la Java au Maven. Ubunifu huu unachochea ustahimilivu na unatabirika na unafanya iwe rahisi kudhibiti mchakato
-ngumu wa ujenzi bila migongano isiyotegemewa.
+Kwa kweli, Maven imekuwepo kwa muda mrefu na muundo wake labda hautoshelezi viwango vya sasa. Hata hivyo, ushupavu wa Maven umeruhusu kubadilika na kuendelea kukua. Maven hufanya kazi kwa uhuru bila kujali mradi wako. Faili za ujenzi zinaweza kutumika upya kwa urahisi. Programu-jalizi hufanya kazi kwenye eneo salama na zinafanya kazi kwa uhuru na bila kujali toleo la Java au Maven. Muundo huu unakuza utulivu na utabirika na inafanya kuwa rahisi kusimamia mchakato wa ujenzi wenye utata bila migogoro isiyotarajiwa.
 
 ### Hitimisho
 
-Leo hii, mazingira ya maendeleo yamejaa kazi nyingi na teknolojia kwa watengenezaji. Kujaribu kupata urahisi na
-otomesheni, Gradle kama chombo cha ujenzi cha kisasa kimejitokeza, lakini kimeleta changamoto zake za kipekee. Bila
-shaka, dhana ya Gradle ni nzuri! Lakini kwa ujumla wa ugumu na muda uliotumika katika hati za ujenzi wa Gradle,
-kunajitokeza swali kama ingekuwa rahisi zaidi kuongeza uwezo wa Maven. Kwa programu-jalizi na nyongeza, Maven inaweza
-daima kufanywa mpya na rahisi. Je! Kuendeleza sio zaidi ya kuvutia na endelevu kuliko kwenda kutoka teknolojia moja hadi
-nyingine?
+Hivi siku hizi, mazingira ya maendeleo yamejaa kazi nyingi na teknolojia kwa watengenezaji. Katika kutafuta urahisi na
+utomatiki, Gradle imeibuka kama chombo cha kujenga cha kisasa lakini imeleta changamoto zake. Bila shaka, dhana ya 
+Gradle ni nzuri! Lakini kutokana na ugumu na muda uliotumiwa katika skripti za kujenga za Gradle, swali linajitokeza ikiwa 
+si rahisi zaidi kuboresha Maven. Kwa kutumia programu-jalizi na upanuzi, Maven inaweza kuboreshwa na kuwa rahisi wakati wowote.
+Je! Kwa nini isiwe afadhali na endelevu zaidi kuendeleza badala ya kwenda kutumia teknolojia nyingine baada ya nyingine?
 
 ### Viungo
 
-* [Kurudi Nyuma Kutoka kwa Gradle hadi maven](https://phauer.com/2018/kurudi-nyuma-kutoka-kwa-gradle-hadi-maven/)
+* [Rudi kutoka Gradle hadi maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
-### Mawasiliano
+### Wasiliana nasi
 
-[GitHub Masuala](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[Tatizo la GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).```

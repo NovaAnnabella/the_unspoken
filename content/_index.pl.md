@@ -4,15 +4,21 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Sam zdecyduj, co jest dla ciebie prawdziwe, a od których tematów wolisz trzymać się z daleka"
+description: "```
+Zdecyduj sam(a), co dla Ciebie jest prawdziwe i które tematy wolisz ignorować
+```"
 draft: false
 ---
 
 
-# Witamy w The Unspoken
+# Witaj w "The Unspoken"
 
-**Sam zdecyduj, co jest dla ciebie prawdziwe, a od których tematów wolisz trzymać się z daleka. Odważę się zbadać
-zakazane obszary rozwoju i odkryć niezwykłe pragnienia w świecie rozwoju. w świecie rozwoju. Poszerzaj swoje horyzonty i
-przekraczaj granice. Zawsze pamiętaj, że technologia powinna ułatwiać nam życie i pracę. **Tylko najodważniejsi z nas
-odnoszą sukcesy w ułatwianiu rozwoju innym. Kiedy ostatnio ukończyłeś projekt, który był praktycznie bezobsługowy,
-solidny i nie potrzebował już Ciebie? Już cię nie potrzebował? Nigdy? W takim razie robisz coś źle!
+**Zdecyduj sam, co dla Ciebie jest prawdziwe i jakie tematy lepiej omijać.**
+
+Ośmielam się odkryć zakazane obszary rozwoju i ujawnić niezwykłe możliwości w świecie rozwoju. 
+Poszerzaj swoje horyzonty i przesuwaj granice. 
+Zawsze pamiętaj, że technologia powinna ułatwiać nasze życie i pracę.
+
+**Tylko najodważniejsi wśród nas potrafią naprawdę ułatwić rozwój dla innych.**
+
+Kiedy ostatnio zakończyłeś projekt, który był praktycznie bezobsługowy, wytrzymały i nie wymagał już Twojej uwagi? Nigdy? To robisz coś źle!

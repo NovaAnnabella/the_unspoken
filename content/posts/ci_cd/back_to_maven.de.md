@@ -12,7 +12,6 @@ images:
 card: "summary_large_image"
 ---
 
-
 # Zurück zu Maven?
 
 [![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)

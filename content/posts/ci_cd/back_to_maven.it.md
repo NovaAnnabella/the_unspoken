@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "L'inafferrabile ricerca della semplicità e un breve viaggio alla riscoperta della potenza di Maven"
+description: "La ricerca sfuggente della semplicità e un breve viaggio alla riscoperta del potere di Maven."
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"
@@ -13,110 +13,102 @@ card: "summary_large_image"
 ---
 
 
+# Tornando a Maven?
 
-# Tornare a Maven?
+[![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/tornando-a-maven-da-gradle/)
 
-[![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+## 10 anni di Gradle. Alla ricerca del sollievo e un breve viaggio alla riscoperta della forza di Maven.
 
-## 10 anni di Gradle. Alla ricerca di sollievo e di un breve viaggio per riscoprire la potenza di Maven.
+Mi dispiace, ma non è possibile tradurre un testo vuoto o costituito solamente da codice di formattazione come il
+markdown. Si prega di fornire un testo effettivo da tradurre.
 
+### Massimizzazione del potenziale degli sviluppatori - Abbiamo bisogno di più strumenti che risparmiano tempo
 
+Gli argomenti spesso trascurati o raramente discussi mi interessano. Spesso sono in uso tecnologie cool, ma pochissimi
+parlano dei problemi ad esse associati. Lo sviluppo è diventato molto complesso ai giorni nostri. Con buzzword come
+"Serverless", "Low Code", "IaC", "Big Data", "Cloud", "DevOps", "You Build it You run it" e così via, i programmatori
+hanno già abbastanza compiti aggiuntivi da gestire. Più compiti significano meno esperti e sempre qualcosa viene
+trascurato. Quindi, le automazioni e il risparmio di tempo sono estremamente importanti. "Don't make me think" e "Works
+out of the Box" sono già dei buoni indicatori di qualità che non riesco ancora a vedere in Gradle. Ad essere onesti,
+Gradle non è l'unico strumento moderno che ci dà lavoro invece di rendercelo più facile.
 
-### Massimizzare il potenziale degli sviluppatori: servono più strumenti per risparmiare tempo
+### La ricerca illusoria di semplicità e automazione
 
-Gli argomenti spesso trascurati o raramente discussi mi interessano. Spesso vengono utilizzate tecnologie interessanti,
-ma quasi nessuno parla dei problemi ad esse associati. Lo sviluppo è diventato molto costoso al giorno d'oggi. Con
-parole d'ordine come "serverless", "low code", "IaC", "big data", "cloud", "DevOps", "you build it you run it", ecc.
-eccetera, gli sviluppatori hanno già più che sufficienti compiti aggiuntivi da affrontare. Un maggior numero di compiti
-significa che non ci sono quasi esperti e qualcosa viene sempre trascurato per concentrarsi. Ecco perché l'automazione e
-il risparmio di tempo sono mega importante. "Non farmi pensare" e "Works out of the Box" sono già caratteristiche di
-buona qualità che non vedo ancora in Gradle. non si vedono ancora. Per essere onesti, Gradle non è l'unico strumento
-moderno che rende il nostro lavoro più semplice. semplificarlo.
+Da SOAP ho un profondo avversione per le configurazioni basate su XML. Con Gradle, avevo sperato che scrivere gli script
+di bind sarebbe stato un gioco da ragazzi. Purtroppo, le mie speranze e la mia motivazione sono diminuite di volta in
+volta. Gradle mira alla flessibilità e sacrifica l'automazione e la qualità in tal senso. Gli sviluppatori seguono
+ciecamente la tendenza senza preoccuparsi delle conseguenze sulla affidabilità del software. Per mantenere semplici e
+facili da mantenere gli script di build di Gradle, è necessaria una forte disciplina. Una tale disciplina è già rara nel
+codice sorgente e quindi molto più rara negli script di build.
 
-### L'illusoria ricerca della semplicità e dell'automazione
+### Traduzioni e soluzioni alternative - quando gli script di compilazione diventano una sfida
 
-Fin dai tempi di SOAP, ho avuto una radicata avversione per le configurazioni basate su XML. Con Gradle, speravo che che
-scrivere script di bind sarebbe stato un gioco da ragazzi. Purtroppo, le mie speranze e la mia motivazione sono
-diminuite diminuiscono ogni volta. Gradle punta alla flessibilità e per questo sacrifica l'automazione e la qualità. Gli
-sviluppatori seguono ciecamente la Gli sviluppatori seguono ciecamente la tendenza senza considerare l'impatto
-sull'affidabilità del software. Per rendere Gradle script di build semplici e a bassa manutenzione richiede una forte
-disciplina. Tale disciplina è già rara nel codice sorgente e quindi è ancora più rara negli script di compilazione.
-
-### Traduzioni e soluzioni - Quando gli script di compilazione diventano una sfida
-
-Gradle non funziona in modo molto diverso in background rispetto a Maven. Pertanto, sono necessarie alcune traduzioni.
-Funzionalità come il catalogo delle dipendenze, il Maven Release Plugin, il Dependabot e molte altre sono in realtà dei
-workaround per le funzioni di base che Maven già offre. funzioni di base che Maven già offre. La flessibilità di Gradle
-è spesso accompagnata da complesse configurazioni di build, che sono difficili da mantenere. I plugin di Gradle hanno
-spesso problemi di compatibilità, limiti o progressi limitati. Questi problemi sorgono a causa della natura evolutiva
-dell'ecosistema Gradle, della diversità degli ambienti in cui Gradle viene e lo sforzo specifico di implementazione e
-manutenzione richiesto per ogni plugin. Tutto è interconnesso.
+Gradle non lavora molto diversamente da Maven sullo sfondo. Pertanto, alcune traduzioni sono necessarie. Caratteristiche
+come il Catalogo di Dipendenza, il Plugin Rilascio Maven, Dependabot e molti altri sono effettivamente soluzioni
+alternative per le funzionalità di base che Maven ha già. Con la flessibilità di Gradle, spesso si creano configurazioni
+di compilazione complesse e difficili da mantenere. I plugin di Gradle spesso presentano problemi di compatibilità,
+limiti o sviluppi limitati. Questi problemi derivano dalla natura in evoluzione dell'ecosistema di Gradle, dalla
+diversità degli ambienti in cui Gradle viene utilizzato e dalla specifica implementazione e manutenzione richiesta per
+ogni plugin. Tutto è collegato.
 
 ### L'effetto domino di Gradle - Uno scenario da incubo nel mondo reale
 
-Ho visto molti microservizi che avevano solo pochi anni e già non erano più mantenibili a causa di Gradle. a causa di
-Gradle. È importante sottolineare che non è la prima volta che vedo qualcosa di simile, e no, non erano Giovani
-sviluppatori. Il mio **compito era quello di eseguire un aggiornamento di Spring Boot da 2.x a 2.7**. Spoiler: Ho
-rinunciato dopo un anno Ho rinunciato! I problemi in breve: * Il file di compilazione di Gradle richiede -> il
-downgrade della mia versione locale di Java alla 11 (WTF) (Normalmente Java è  compatibile con la versione precedente -
-ancora una volta, ci sono strumenti di workaround come SdkMan...) * L'aggiornamento di Spring Boot richiede ->
-Aggiornamento di Gradle (WTF) * L'aggiornamento di Gradle richiede l'aggiornamento dei plugin. * L'aggiornamento del
-plugin richiede l'aggiornamento di Groovy (WTF) * L'aggiornamento di Groovy richiede -> Aggiornamenti del framework di
-test e dei test (WTF) * L'aggiornamento del framework di test richiede -> Aggiornamenti delle dipendenze. * \[...]
-Inoltre, alcuni plugin non funzionano con le versioni di Gradle più recenti, alcuni non sono più sviluppati, alcuni sono
-incompatibili con altre versioni di Gradle, alcuni non sono più sviluppati, alcuni sono incompatibili con altre versioni
-di Gradle.  sono incompatibili con altri plugin, funzionano solo con Gradle KTS, non con Gradle Groovy, o semplicemente
-hanno dei limiti.  hanno semplicemente dei limiti. Anche i plugin di grandi produttori come Spring hanno funzionalità
-limitate rispetto ai loro plugin Maven.  funzionalità limitate. Mi ritrovo con un file di build Gradle bello e corto,
-che nessuno è in grado di mantenere,  nemmeno gli sviluppatori che l'hanno scritto, che comunque amano Gradle. Conosco
-pochissime persone che  che capiscono seriamente gli script di Gradle e che li scrivono.
+Ho visto molti Microservizi che avevano solo pochi anni e che non erano più gestibili a causa di Gradle. È importante
+notare che non è la prima volta che vedo una cosa del genere e no, non erano sviluppatori Junior.
 
-### Riscoprire il potere di Maven - Sfruttare la magia di Maven
+Il mio **compito era di effettuare un upgrade di Spring Boot 2.x a 2.7**. Spoiler: mi sono arreso dopo un anno!
+I problemi in breve:
 
-Ecco le mie caratteristiche preferite di Maven: I plugin possono essere avviati e configurati direttamente dalla riga di
-comando, senza doverli definire prima. devono essere definiti. Inoltre, sono largamente indipendenti dalle
-configurazioni degli altri plugin. | Esempio Comando | Descrizione | Link | |---------------------------------------|--
-------------------------------------------------------------------------------------------------------------------------
--------------------------------------------|--------------------------------------------------------------------------|
-| `mvn versions:use -latest-versions` | Aggiornare le versioni - chi ha bisogno di Dependabot? Sì, i miei progetti sono
-stati aggiornati all'ultima versione per anni senza problemi e senza fastidiose richieste di unione |
-https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html | | `mvn versions:set -DnewVersion=1.0.0` |
-Imposta la versione del progetto...
-| https://www.mojohaus.org/versions/versions-maven-plugin/index.html | | `mvn license:add-third-party` | Elenca le
-dipendenze e mostra le loro licenze (può fallire anche se le licenze sono escluse) | https://www.mojohaus.org/license-
-maven-plugin/index.html | Questo elenco potrebbe continuare all'infinito. Mi ricorda un po' i passi del flusso di
-lavoro di GitHub. ![maven_plugin_command_line_args](/images/content/maven_plugin_command_line_args.png)
+* Il file di costruzione di Gradle richiede -> il downgrade della mia versione locale di Java a 11 (WTF) (di solito Java è
+  retrocompatibile - ci sono anche strumenti di lavoro alternativi come SdkMan...)
+* L'aggiornamento di Spring Boot richiede -> l'aggiornamento di Gradle (WTF)
+* L'aggiornamento di Gradle richiede -> l'aggiornamento del plugin
+* L'aggiornamento del plugin richiede -> l'aggiornamento di Groovy (WTF)
+* L'aggiornamento di Groovy richiede -> l'aggiornamento del Framework di Test e gli aggiornamenti per i test (WTF)
+* L'aggiornamento del Framework di Test richiede -> Aggiornamenti di Dipendenze
+* \[...]
+  Inoltre, alcuni plugin non funzionano con versioni più recenti di Gradle, alcuni non sono più sviluppati, sono
+  incompatibili con altri plugin, funzionano solo con Gradle KTS, non con Gradle Groovy o hanno semplicemente dei
+  limiti. Anche i plugin di grandi fornitori come Spring hanno funzionalità limitate rispetto ai loro plugin Maven. Alla fine,
+  ho un file di costruzione breve e figo di Gradle, che nessuno può gestire correttamente, nemmeno gli sviluppatori che lo
+  hanno scritto, e ancora adorano Gradle. Conosco solo poche persone che capiscono seriamente i Gradle Scripts o che sono in grado di scriverli.
+
+### La riscoperta della forza di Maven - Sfruttare i poteri magici di Maven
+
+Ecco le mie funzionalità preferite di Maven:
+I plugin possono essere avviati e configurati direttamente dalla riga di comando senza essere definiti in precedenza e sono in gran parte indipendenti dalle altre configurazioni dei plugin.
+
+| Comando di esempio | Descrizione | Link |
+| ------------------ | ------------------------------------------------- | ------------------------------------------------- |
+| `mvn versions:use -latest-versions`   | Aggiorna le versioni - chi ha bisogno di Dependabot? Sì, i miei progetti sono stati aggiornati alla versione più recente senza fastidiose richieste di merge per anni | https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html |
+| `mvn versions:set -DnewVersion = 1.0.0` | Imposta la versione del progetto ...                                                                                                                              | https://www.mojohaus.org/versions/versions-maven-plugin/index.html       |
+| `mvn license:add-third-party`         | Elencare le dipendenze e mostrare le loro licenze (può persino fallire con licenze escluse)  | https://www.mojohaus.org/license-maven-plugin/index.html                 |
+
+Questa lista potrebbe continuare all'infinito. Mi ricorda un po' le operazioni di flusso di lavoro su GitHub.
+
+![maven_plugin_command_line_args] (/images/content/maven_plugin_command_line_args.png)
 
 ### Non ti piace XML?
 
-Nessun problema! Basta scrivere il file di compilazione in `ruby`, `groovy`, `scala`, `yaml`, `atom` o `Java`.
-L'estensione Polygot Extension (https://github.com/takari/polyglot-maven) lo rende possibile. Per provarla è sufficiente
-eseguire `mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml` e in pochi
-millisecondi il file di compilazione sarà millisecondi il file di build viene tradotto. È un peccato che non ci sia un
-traduttore Maven <> Gradle affidabile. :( Sì, i file di build di Maven sono grandi, ma anche molto facili da capire. I
-perfezionamenti o il debugging si fanno in un attimo. fatto.
+Nessun problema! Basta scrivere il tuo Build File in `ruby`, `groovy`, `scala`, `yaml`, `atom` o `Java`. L'Extension Polyglot (https://github.com/takari/polyglot-maven) lo rende possibile. Per provare basta eseguire `mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml` e in pochi millisecondi il tuo Build File è tradotto. Peccato che non ci sia un traduttore affidabile Maven <> Gradle :( Sì, i file di build di Maven sono grandi, ma anche molto comprensibili. Le modifiche o il debug sono fatti in un battibaleno.
 
-### L'età è solo un numero: la stabilità e l'evoluzione di Maven
+### L'età è solo un numero - Stabilità ed evoluzione dei Mavens
 
-Certo, Maven esiste da molto tempo e la sua estetica potrebbe non soddisfare gli standard odierni. Tuttavia, la
-longevità di Maven gli ha permesso di adattarsi ed evolversi. Maven funziona in modo indipendente dal progetto. I file
-di build possono essere facilmente riutilizzati. I plugin vengono eseguiti in una sandbox e sono indipendenti l'uno
-dall'altro e dalla versione di Java o Maven. Questo design favorisce la stabilità e la prevedibilità e facilita la
-gestione di processi di compilazione complessi senza conflitti inaspettati. conflitti imprevisti.
+Ammettiamolo, Maven esiste già da un po' e la sua estetica potrebbe non corrispondere agli standard odierni. Tuttavia, la longevità di Maven ha permesso di adattarsi e di evolversi. Maven lavora in modo indipendente dal tuo progetto. I file di build possono essere facilmente riutilizzati. Le plug-in funzionano all'interno di una sandbox e sono indipendenti l'una dall'altra e indifferenti alla versione di Java o di Maven. Questo design favorisce la stabilità e la prevedibilità e rende facile gestire processi di build complessi senza conflitti imprevisti.
 
-### Fazit
+### Conclusion
 
-Al giorno d'oggi, l'ambiente di sviluppo è sovraccarico di numerosi compiti e tecnologie per gli sviluppatori. Nella
-ricerca di semplicità e automazione, Gradle è emerso come uno strumento di compilazione moderno, ma ha portato con sé le
-sue sfide. Senza dubbio, il concetto di Gradle è buono! Ma data la complessità e il tempo tempo investito negli script
-di compilazione di Gradle, ci si chiede se non sarebbe più semplice estendere Maven. esteso. Con plugin ed estensioni,
-Maven potrebbe essere sempre aggiornato e semplificato. Non sarebbe un Lo sviluppo ulteriore non sarebbe molto più
-eccitante e anche più sostenibile che saltare da una tecnologia all'altra?
+Oggi, l'ambiente di sviluppo è sovraccarico di molte attività e tecnologie per gli sviluppatori. Alla ricerca di
+semplicità e automazione, Gradle è emerso come moderno strumento di compilazione, ma ha portato con sé le sue sfide.
+Senza dubbio, il concetto di Gradle è buono! Tuttavia, considerando la complessità e il tempo investito negli script di
+compilazione di Gradle, sorge la domanda se non sarebbe più facile estendere Maven. Con plugin ed estensioni, Maven
+potrebbe essere costantemente rinnovato e semplificato. Non sarebbe sviluppare Maven ulteriormente più eccitante e
+duraturo che passare da una tecnologia all'altra?
 
 ### Collegamenti
 
-* [Ritorno da Gradle a maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+* [Tornare da Gradle a Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
-### Contatto
+### Contatti
 
-[GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[Problemi di GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

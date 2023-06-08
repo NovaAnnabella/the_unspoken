@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Entscheide selbst, was für dich wahr ist und von welchen Themen du lieber wegschaust"
+description: "Entscheide selbst, was für dich wahr ist und von welchen Themen du lieber wegschaust "
 draft: false
 ---
 

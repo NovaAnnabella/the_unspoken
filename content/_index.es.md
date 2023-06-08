@@ -1,19 +1,22 @@
 ---
-title: "Lo no dicho"
+title: "El no dicho"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Decide por ti mismo qué es verdad para ti y de qué temas prefieres apartar la mirada"
+description: "Decide por ti mismo/a qué es lo que es verdadero para ti y de qué temas preferirías apartar la mirada."
 draft: false
 ---
 
 
-# Welcome to The Unspoken
+# Bienvenido a "The Unspoken"
 
-**Decide por ti mismo qué es verdad para ti y de qué temas prefieres apartar la mirada. Me atrevo a explorar las áreas
-prohibidas del desarrollo y a descubrir las extraordinarias querencias en el mundo del desarrollo. en el mundo del
-desarrollo. Amplíe también sus horizontes y supere sus límites. Recuerda siempre que la tecnología debe facilitarnos la
-vida y el trabajo. **Sólo los más valientes de entre nosotros consiguen realmente facilitar el desarrollo a los demás.
-¿Cuándo fue la última vez que terminaste un proyecto que prácticamente no requería mantenimiento, era robusto y ya no te
-necesitaba? ¿ya no te necesitaba? ¿Nunca? Entonces, ¡algo estás haciendo mal!
+**Decide por ti mismo lo que es verdad para ti y de qué temas preferirías apartarte.**
+
+Me atrevo a explorar las áreas prohibidas del desarrollo y descubrir lo excepcional en el mundo del desarrollo.
+Amplía también tu perspectiva y empuja tus límites.
+Recuerda siempre, la tecnología debería facilitar nuestra vida y trabajo.
+
+**Solo los más valientes entre nosotros realmente logran hacer el desarrollo más fácil para los demás.**
+
+¿Cuándo fue la última vez que completaste un proyecto que era prácticamente libre de mantenimiento, resistente y ya no necesitaba tu intervención? ¿Nunca? ¡Entonces estás haciendo algo mal!

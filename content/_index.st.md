@@ -1,19 +1,22 @@
 ---
-title: "De Unausgsprochn"
+title: "Die Ungsognte"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: Entschiat selbm, wos für di woahr isch und vun welschen Themen du liawa wegschiatn tatst
+description: "Entschaid selbst, wos fia di wohr isch und von wöchn Tegn du liawer oweschaugsch."
 draft: false
 ---
 
 
-# Pfiat enk bei "The Unspoken"
+# Griaß di bei "The Unspoken"
 
-**Entschiedsch selbst, wos für dia wohr isch und von welschn Theman du liaber wegschaugsch.** I wag es, die verbotenen
-Bereiche der Entwicklung aufzudecken und des Außergewöhnliche zu suchen in der Welt der Entwicklung. Erweitersch a
-dainen Horizont und verschiebsch deine Grenzen. Denksch immer dran, Technologie soll unser Leben und unsere Arbeit
-erleichtern. **Nur die Mutigestn unter uns schoffn sou wirkle, die Entwicklung für andere einfacher zumachen.** Wonn
-hostsch des letzte Mol oan Projekt ferdig gschupft, wos praktisch wartungsfrei, robust woar und dich nimmer gebraucht
-hot? Nia? Denn mochscht wos falsch!
+**Entscheide sälber, wos fir di wohr isch und vu welchen Themen du lieber wegschaun tisch.**
+
+I wag es, die verbottn Bereich der Entwicklung aunzigoan und de Außergewöhnlichen auf de Welt der Entwicklung aufzudecka.
+Erweiter a zua deinen Horizont und scheib deine Grenzn vu sicha aus.
+Denk allzeit drauf, dass Technologie unser Lebn und unsere Arbeit erleichtern sull.
+
+**Nur die Bradigstn untar ins schaffn es wirkle, de Entwicklug fir ondre einfacher zumochn.**
+
+Wonn hosch du zuletzt a Projetkt afgeschlossn, das praktisch wartungsfrei, robust war und di nema gebraucht hot? Nia? Donn osch du wos folsch!

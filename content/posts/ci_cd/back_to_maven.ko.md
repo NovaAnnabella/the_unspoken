@@ -1,11 +1,13 @@
 ---
-title: "다시 메이븐으로?"
+title: "```
+Maven에 다시 돌아가기?
+```"
 date: 2023-05-01
 author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "단순함을 향한 어려운 여정, 메이븐의 힘을 재발견하기 위한 짧은 여정"
+description: "# 마븐의 권력 재발견을 위한 짧은 여행과 간결함을 찾아 나아가는 어려운 탐색"
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"
@@ -13,83 +15,96 @@ card: "summary_large_image"
 ---
 
 
+# 메이븐으로 돌아가기?
 
-# Maven으로 돌아가시겠습니까?
-
+```
 [![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+``` 
 
-## Gradle 10주년. 안도감과 메이븐의 힘을 재발견하는 짧은 여정을 찾아 떠났습니다.
+위의 마크다운 텍스트를 한국어로 번역합니다.
 
+## 10년간 Gradle: 편의성 탐구와 메이븐의 강점 재발견을 향한 짧은 여행.
 
+마크다운 텍스트를 한국어로 번역하세요:  ```
 
-### 개발자의 잠재력 극대화 - 더 많은 시간 절약 도구가 필요합니다.
+### 개발자들의 잠재력 극대화 - 더 많은 시간을 절약할 수 있는 도구가 필요합니다
 
-저는 종종 간과되거나 거의 논의되지 않는 주제에 관심이 많습니다. 멋진 기술들이 종종 사용되고 있지만 하지만 그와 관련된 문제에 대해 이야기하는 사람은 거의 없습니다. 요즘은 개발 비용이 매우 많이 듭니다.
-"서버리스", "로우 코드", "IaC", "빅 데이터", "클라우드", "데브옵스", "빌드하면 실행" 등과 같은 멋진 유행어를 통해 개발자는 이미 충분히 많은 것을 가지고 있습니다. 등, 개발자는 이미 처리해야
-할 추가 작업이 충분합니다. 업무가 많다는 것은 전문가가 거의 없다는 것을 의미합니다. 전문가가 거의 없다는 것을 의미하며 항상 집중해야 할 부분이 소홀해집니다. 그렇기 때문에 자동화와 시간 절약이 매우 중요한
-이유입니다. "생각하게 만들지 않기"와 "즉시 사용 가능"은 Gradle에서 아직 볼 수 없는 좋은 품질의 기능입니다. 아직 볼 수 없습니다. 공정하게 말하자면, Gradle은 우리의 작업을 더 어렵게 만드는 대신
-더 쉽게 만들어줍니다.
+내가 관심을 가지는 것은 자주 간과되거나 드물게 논의되지 않는 주제들이다. 종종 멋진 기술들이 사용되지만, 연관된 문제들에 대해 거의 언급되지 않는다. 개발은 요즘 매우 복잡해졌다. "서버리스", "로우 코드",
+"IaC", "빅 데이터", "클라우드", "데브옵스", "You Build it You run it"와 같은 멋진 버즈워드들은 이미 개발자들에게 충분한 추가적인 일들을 부여했다. 더 많은 일은 전문가가 거의 없다는
+것을 의미하며, 항상 초점을 놓치는 것이다. 따라서 자동화와 시간 절약은 매우 중요하다. "생각하지 마세요"와 "포장러닝"은 이미 좋은 품질 기준이다. Gradle에서는 아직 이러한 기준을 볼 수 없다. 공정하게
+말하면, Gradle은 일을 쉽게 해주는 대신 일을 만들어내는 모던한 도구들 중 하나일 뿐이다.
 
-단순성과 자동화를 향한 환상적인 여정 ###
+### 간단함과 자동화를 위한 환상의 탐구
 
-SOAP 이후 저는 XML 기반 구성에 대한 뿌리 깊은 혐오감을 가지고 있었습니다. Gradle을 사용하면 바인딩 스크립트를 쉽게 작성할 수 있기를 바랐습니다. 안타깝게도, 저의 희망과 의욕은 매번 줄어들었습니다.
-Gradle은 유연성을 위해 노력하며 이를 위해 자동화와 품질을 희생합니다. 개발자들은 맹목적으로 개발자들은 소프트웨어의 신뢰성에 미치는 영향을 고려하지 않고 맹목적으로 트렌드를 따라갑니다. Gradle을 만들려면
-빌드 스크립트를 단순하고 유지 관리가 적은 스크립트로 만들려면 강력한 규율이 필요합니다. 이러한 규율은 이미 소스 코드에서 소스 코드에서는 이미 드물기 때문에 빌드 스크립트에서는 더더욱 드뭅니다.
+Seit SOAP habe ich eine tief verwurzelte Abneigung gegen XML-basierte Konfigurationen. Mit Gradle hatte ich gehofft,
+dass das Schreiben von Bind-Skripten ein Kinderspiel sein würde. Leider wurden meine Hoffnungen und meine Motivation von
+Mal zu Mal geringer. Gradle strebt nach Flexibilität und opfert dafür Automatisierung und Qualität. Entwicklerinnen und
+Entwickler folgen blind dem Trend ohne Rücksicht auf die Auswirkungen auf die Zuverlässigkeit der Software. Um Gradle Build Skripte einfach und wartungsarm zu halten, bedarf es einer starken Disziplin. Eine solche Disziplin ist schon im Quellcode selten zu finden und daher ist sie in den Build-Skripten noch viel seltener.
 
-### 번역 및 해결 방법 - 빌드 스크립트가 어려운 경우
+### 번역과 워크어라운드 - 빌드 스크립트가 도전이 되는 경우
 
-Gradle은 Maven과 백그라운드에서 크게 다르지 않게 작동합니다. 따라서 일부 번역이 필요합니다. 다음과 같은 기능 종속성 카탈로그, Maven 릴리스 플러그인, 의존성 봇 등 많은 기능들은 사실 Maven이
-이미 제공하는 기본 기능에 대한 기능에 대한 해결 방법입니다. Gradle의 유연성 때문에 빌드 구성이 복잡해지는 경우가 많습니다, 유지 관리가 어렵습니다. Gradle 플러그인에는 호환성 문제, 제한 또는 제한된
-발전이 있는 경우가 많습니다. 이러한 문제는 Gradle 생태계의 진화하는 특성, Gradle이 사용되는 환경의 다양성, 그리고 각 플러그인에 필요한 특정 구현 및 유지 관리 노력으로 인해 발생합니다. 모든 것이
-서로 연결되어 있습니다.
+Gradle는 Maven과 별반 다르지 않게 백그라운드에서 작동합니다. 그러므로 일부 번역이 필요합니다. 의존성 카탈로그, Maven 릴리스 플러그인, Dependabot 등의 기능은 실제로 Maven이 이미 갖춘
+기본 기능에 대한 해결책입니다. Gradle의 유연성으로 인해 종종 복잡한 빌드 구성이 생성되며, 이는 유지 관리하기 어렵습니다. Gradle 플러그인은 종종 호환성 문제, 제한 사항 또는 제한된 개발 진행률을
+가지고 있습니다. 이러한 문제는 Gradle 생태계의 발전하는 성격, Gradle이 사용되는 다양한 환경 및 각 플러그인의 구현 및 유지 관리 비용에 따라 발생합니다. 모두 서로 연결되어 있습니다.
 
-### Gradle 도미노 효과 - 현실 세계의 악몽 같은 시나리오
+### Gradle의 도미노 효과 - 현실 세계에서의 악몽 시나리오
 
-저는 불과 몇 년 밖에 되지 않은 마이크로서비스가 Gradle로 인해 이미 더 이상 유지보수가 불가능해진 것을 많이 보았습니다. Gradle로 인해. 중요한 것은 제가 이런 것을 본 것이 이번이 처음이 아니라는
-점입니다. 주니어 개발자들입니다. 제 **업무는 Spring Boot 2.x에서 2.7로 업그레이드하는 것이었습니다**. 스포일러입니다: 1년 만에 포기했습니다. 포기했습니다! 문제점을 간단히 설명하자면: *
-Gradle 빌드 파일은 -> 내 로컬 Java 버전을 11 (WTF)로 다운그레이드해야 합니다 (일반적으로 Java는  하위 호환 - 다시 말하지만, SdkMan과 같은 해결 도구가 있습니다...) * 스프링
-부트 업데이트에는 -> Gradle 업데이트(WTF)가 필요합니다. * Gradle 업데이트에는 -> 플러그인 업데이트가 필요합니다. * 플러그인 업데이트에는 -> Groovy 업데이트(WTF)가 필요합니다. *
-Groovy 업데이트에는 -> 테스트 프레임워크 및 테스트 업데이트(WTF)가 필요합니다. * 테스트 프레임워크 업데이트에는 -> 종속성 업데이트가 필요합니다. * \[...]  또한 일부 플러그인은 더 이상
-개발되지 않았거나, 더 이상 개발되지 않았거나, 더 이상 개발되지 않았거나, 더 이상 개발되지 않았거나, 더 이상 개발되지 않았거나, 더 이상 개발되지 않았거나, 다른 Gradle 버전과 호환되지 않습니다.  다른
-플러그인과 호환되지 않거나, Gradle Groovy가 아닌 Gradle KTS에서만 작동하거나, 단순히  단순히 제한이 있습니다. Spring과 같은 대형 공급업체의 플러그인조차도 Maven 플러그인에 비해
-기능이 제한되어 있습니다.  제한된 기능. 결국에는 아무도 유지 관리할 수 없는 멋지고 짧은 Gradle 빌드 파일로 끝납니다,  심지어 그 파일을 작성한 개발자조차도 여전히 Gradle을 좋아합니다. 제가 아는
-사람 중  Gradle 스크립트를 제대로 이해하는 사람은 거의 없습니다.
+저는 몇 년만에 Gradle 때문에 유지보수가 불가능해진 많은 Microservice를 보았습니다. 이러한 상황을 처음 본게 아니며 그것들은 주니어 개발자가 만든 것이 아닙니다.
 
-### 메이븐의 힘 재발견 - 메이븐의 마법 활용하기
+**내 작업은 Spring Boot 2.x에서 2.7으로의 업그레이드였습니다**. 스포일러: 1년 후에 포기했습니다! 간단히 말하면 문제점은 다음과 같습니다:
 
-제가 가장 좋아하는 Maven의 기능은 다음과 같습니다: 플러그인을 미리 정의할 필요 없이 명령줄에서 바로 시작하고 구성할 수 있습니다. 정의할 필요가 없습니다. 또한 다른 플러그인 구성과 거의 독립적입니다. |
-예제 명령어 | 설명 | 링크 | |---------------------------------------|------------------------------------------------------------
----------------------------------------------------------------------------------------------------------|--------------
-------------------------------------------------------------| | `mvn versions:사용 -최신 버전` | 버전 업데이트 - 누가 Dependabot이
-필요하나요? 예, 제 프로젝트는 수년 동안 아무런 문제 없이 성가신 병합 요청 없이 최신 버전으로 업데이트되었습니다 | https://www.mojohaus.org/versions/versions-maven-
-plugin/plugin-info.html | | `mvn versions:set -DnewVersion=1.0.0` | 프로젝트 버전 설정...
-| https://www.mojohaus.org/versions/versions-maven-plugin/index.html | | `mvn license:add-third-party` | 종속성을 나열하고 해당
-라이선스를 표시합니다(라이선스가 제외된 경우에도 실패할 수 있음) | https://www.mojohaus.org/license-maven-plugin/index.html | 이 목록은 영원히 계속 될 수
-있습니다. 마치 깃허브 워크플로우 단계를 떠올리게 합니다. ![maven_plugin_command_line_args](/images/content/maven_plugin_command_line_args.png)
+* Gradle 빌드 파일에서 -> 내 로컬 Java 버전을 11로 다운그레이드해야함 (WTF) (보통 Java는 하위 호환성을 제공하기 때문에 SdkMan과 같은 Workaround-도구도 있겠네요...)
+* Spring Boot 업데이트에서 -> Gradle 업데이트 필요 (WTF)
+* Gradle 업데이트에서 -> Plugin 업데이트 필요
+* Plugin 업데이트에서 -> Groovy 업데이트 필요 (WTF)
+* Groovy 업데이트에서 -> Test framework와 Test 업데이트 필요 (WTF)
+* Test framework 업데이트에서 -> Dependency 업데이트 필요
+* \[...\]
+  또한 일부 플러그인은 최신 Gradle 버전과 호환되지 않거나 더 이상 개발되지 않거나 다른 플러그인과 호환되지 않거나 
+  Gradle KTS로만 작동하고 Gradle Groovy로 작동하지 않거나 제한이 있습니다. Spring과 같은 대규모 공급자의 플러그인
+  조차도 그들의 Maven 플러그인과 비교하여 기능이 제한됩니다.결국, 나는 아무도 제대로 유지 보수 할 수 없는 멋진 짧은
+  Gradle 빌드 파일을 만들었으며, 심지어 그것을 만든 개발자들마저도 Gradle을 여전히 좋아합니다.
+  Gradle 스크립트를 진지하게 이해하거나 작성 할 수있는 사람은 몇 없습니다.
 
-### XML이 마음에 들지 않으세요?
+### 메이븐의 강점 재발견 - 메이븐의 마법력 활용하기
 
-문제 없습니다! 루비`, `그루비`, `스케일`, `얌엘`, `아톰` 또는 `자바`로 빌드 파일을 작성하기만 하면 됩니다. Polygot 확장(https://github.com/takari/polyglot-
-maven)을 사용하면 가능합니다. 사용해 보려면 mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml
--Doutput=pom.yaml`을 실행하면 몇 밀리초 안에 빌드가 완료됩니다. 밀리초 만에 빌드 파일이 번역됩니다. 신뢰할 수 있는 Maven <> Gradle 번역기가 없다는 것은 유감입니다. :( 예,
-Maven 빌드 파일은 크지만 이해하기도 매우 쉽습니다. 수정이나 디버깅이 순식간에 완료됩니다. done.
+여기는 메이븐의 내가 좋아하는 기능 목록입니다:
+플러그인은 미리 정의할 필요 없이 명령 줄에서 직접 시작 및 구성할 수 있습니다. 게다가, 그들은 다른 플러그인 구성과 거의 독립적입니다.
 
-### 나이는 숫자에 불과합니다 - Maven의 안정성과 진화
+| 예시 명령어                             | 설명                                                                                                                                                                                                | 링크                                                                     |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| `mvn versions:use -latest-versions`   | 버전 업데이트 - Dependabot이 필요한가요? 예, 내 프로젝트는 누구와도 충돌 없이 몇 년 동안 최신 버전으로 문제없이 업데이트되었습니다. 불편한 병합 요청 없이! | https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html |
+| `mvn versions:set -DnewVersion=1.0.0` | 프로젝트 버전 설정...                                                                                                                                                                                 | https://www.mojohaus.org/versions/versions-maven-plugin/index.html       |
+| `mvn license:add-third-party`         | 종속성을 나열하고 라이선스를 표시합니다 (제외된 라이선스에서 실패 할 수 있음)                                                                                                                                                                                                                 | https://www.mojohaus.org/license-maven-plugin/index.html                 | 
 
-물론 Maven은 꽤 오랫동안 사용되어 왔으며 그 미학이 오늘날의 표준을 충족하지 못할 수도 있습니다. 하지만 Maven의 오랜 사용 기간 덕분에 적응하고 진화할 수 있었습니다. Maven은 프로젝트와 독립적으로
-독립적으로 작동합니다. 빌드 파일을 쉽게 재사용할 수 있습니다. 플러그인은 샌드박스에서 실행되며 서로 독립적이고 Java 또는 Maven 버전과 무관합니다. 이러한 설계는 안정성과 예측 가능성을 높이고 예기치 않은
-충돌 없이 복잡한 빌드 프로세스를 쉽게 관리할 수 있도록 충돌 없이 복잡한 빌드 프로세스를 쉽게 관리할 수 있습니다.
+이 목록은 끝없이 계속될 수 있습니다. 그것은 어떤 방식으로는 GitHub Workflow Steps를 생각나게 합니다.
 
-### Fazit
+![maven_plugin_command_line_args](/images/content/maven_plugin_command_line_args.png)
 
-오늘날 개발 환경은 개발자를 위한 많은 작업과 기술로 과부하 상태입니다. 검색에서 단순성과 자동화를 추구하는 과정에서 Gradle은 최신 빌드 도구로 부상했지만, 그에 따른 과제를 안고 있습니다. 의심할 여지 없이
-Gradle의 개념은 훌륭합니다! 하지만 복잡성과 Gradle 빌드 스크립트에 투자되는 시간을 고려할 때, Maven을 확장하는 것이 더 간단하지 않을까 하는 의문이 생깁니다. 확장. 플러그인과 확장 기능을 사용하면
-Maven을 항상 새로 고치고 단순화할 수 있습니다. 그러면 한 기술에서 다음 기술로 넘어가는 것보다 훨씬 더 흥미롭고 지속 가능한 개발이 가능하지 않을까요?
+### XML을 좋아하지 않습니까?
 
-링크 ###
+문제 없어요! 단지 `ruby`, `groovy`, `scala`, `yaml`, `atom` 또는 `Java`로 Build File 을 작성해주시면 됩니다. Polygot
+Extension (https://github.com/takari/polyglot-maven) 덕분에 가능합니다. 시도해 보려면
+단지 `mvn io.takari.polyglot:polyglot-translate-plugin: translate -Dinput=pom.xml -Doutput=pom.yaml` 를 실행하면
+몇 밀리 초 안에 Build File 이 번역됩니다. 유감스럽게도 믿을만한 Maven <> Gradle 번역기가 없네요 :(
+맞습니다, Maven Build Files는 큽니다. 그러나 이해하기 쉬워요. 개선 또는 디버깅은 순식간에 완료됩니다.
 
-* [Gradle에서 maven으로 돌아가기](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+### 나이는 숫자일 뿐 - 메이븐의 안정성과 진화
+
+정말로, Maven은 꽤 오랜 시간 동안 존재하고 그 미적 감각은 현재 기준에 부합하지 않을 수도 있다. 그러나 Maven의 내구성은 맞춤화하고 발전할 수 있게 만들어줬다. Maven은 프로젝트와 독립적으로
+작동한다. 빌드 파일은 간단하게 재사용될 수 있다. 플러그인은 샌드박스에서 실행되며 서로 독립적이며 자바나 Maven 버전과도 독립적이다. 이러한 디자인은 안정성과 예측 가능성을 촉진하며 예상치 못한 충돌 없이
+복잡한 빌드 프로세스를 관리하기 쉽게 만든다.
+
+### 결론
+
+지금은 개발자들을 위한 여러 가지 작업과 기술로 인해 개발 환경이 과부하입니다. 간편함과 자동화를 추구하면서도, Gradle은 최신 빌드 도구로 등장했지만, 고유의 문제점을 가지고 있습니다. 의심할 여지없이
+Gradle의 개념은 좋습니다! 그러나 Gradle 빌드 스크립트에 투자되는 복잡성과 시간을 고려하면 Maven을 확장하는 것이 더 쉬울지 생각해봐야 합니다. 플러그인과 확장 기능을 사용하여 Maven을 언제든지
+업그레이드하고 간소화할 수 있을 것입니다. 기술에서 기술로 뛰어가는 것보다 계속해서 발전시키는 것이 더 흥미롭고 지속 가능하지 않을까요?
+
+### 링크
+
+* [Gradle에서 Maven으로 돌아가기](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
 ### 연락처
 
-[깃허브 이슈](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

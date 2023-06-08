@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "Nieuchwytne poszukiwanie prostoty i krótka podróż do ponownego odkrycia mocy Mavena"
+description: "Trudne do uchwycenia poszukiwanie prostoty i krótka podróż odkrywająca ponownie potęgę Maven'a."
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"
@@ -13,108 +13,105 @@ card: "summary_large_image"
 ---
 
 
-
 # Powrót do Maven?
 
 [![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
-## 10 lat Gradle. W poszukiwaniu ulgi i krótka podróż, by na nowo odkryć moc Mavena.
+## 10 lat Gradle. W poszukiwaniu ułatwienia i krótkiej podróży w celu ponownego odkrycia siły systemu Maven.
 
+Nie ma treści do przetłumaczenia.
 
+### Maksymalizacja potencjału deweloperów - potrzebujemy więcej narzędzi oszczędzających czas
 
-### Maksymalne wykorzystanie potencjału deweloperów - potrzebujemy więcej narzędzi oszczędzających czas
+Tematy, które często są pomijane lub rzadko dyskutowane, interesują mnie. Często używane są fajne technologie, ale
+prawie nikt nie mówi o związanych z nimi problemach. Obecnie rozwój stał się bardzo kosztowny. Z fajnymi buzzwordami,
+jak "Serverless", "Low Code", "IaC", "Big Data", "Cloud", "DevOps", "You Build it You run it"itd., Deweloperzy już mają
+więcej niż wystarczającą ilość dodatkowych zadań do wykonania. Więcej zadań oznacza, że ​​jest coraz mniej ekspertów i
+zawsze coś jest zaniedbywane. Dlatego automatyzacja i oszczędność czasu są bardzo ważne. "Niech mnie nie zmuszać do
+myślenia" i "Działa od razu" to już dobre wskaźniki jakości, których nie widać w Gradle. Być fair, Gradle nie jest
+jedynym nowoczesnym narzędziem, które sprawia, że ​​pracujemy ciężej niż łatwiej.
 
-Tematy, które są często pomijane lub rzadko omawiane, interesują mnie. Często w użyciu są fajne technologie, ale mało
-kto mówi o problemach z nimi związanych. Rozwój stał się obecnie bardzo kosztowny. Dzięki fajnym hasłom, takim jak
-"serverless", "low code", "IaC", "big data", "cloud", "DevOps", "you build it you run it" itp. deweloperzy mają już
-dość. itp., programiści mają już więcej niż wystarczająco dodatkowych zadań do wykonania. Więcej zadań oznacza, że
-prawie nie ma ekspertów i zawsze coś jest zaniedbywane, aby się na tym skupić. Dlatego automatyzacja i oszczędność czasu
-są mega ważne. "Nie każ mi myśleć" i "Działa po wyjęciu z pudełka" to już dobrej jakości funkcje, których jeszcze nie
-widzę w Gradle. jeszcze nie widzę. Aby być uczciwym, Gradle nie jest jedynym nowoczesnym narzędziem, które ułatwia nam
-pracę zamiast ją ułatwiać. ją ułatwia.
+### Iluzoryczne poszukiwanie prostoty i automatyzacji
 
-### Iluzoryczne dążenie do prostoty i automatyzacji
+Od SOAP mam głęboko zakorzenioną niechęć do konfiguracji opartych na XML. Miałem nadzieję, że pisanie skryptów
+powiązanych z Gradle będzie dziecinnie proste. Niestety, moje nadzieje i motywacja stopniowo malały. Gradle dąży do
+elastyczności i poświęca przy tym automatyzację i jakość. Programistki i programiści ślepo podążają za trendem, nie
+zwracając uwagi na skutki dla niezawodności oprogramowania. Aby zachować proste, łatwe w utrzymaniu skrypty budowania
+Gradle, wymagana jest silna dyscyplina. Taka dyscyplina jest już rzadka w kodzie źródłowym, więc jest jeszcze rzadsza w
+skryptach budowania.
 
-Od czasu SOAP miałem głęboko zakorzenioną niechęć do konfiguracji opartych na XML. Miałem nadzieję, że dzięki Gradle że
-pisanie skryptów bind będzie dziecinnie proste. Niestety, moje nadzieje i motywacja malały za każdym razem. malały za
-każdym razem. Gradle dąży do elastyczności i poświęca dla niej automatyzację i jakość. Deweloperzy ślepo podążają za
-Deweloperzy ślepo podążają za trendem, nie zważając na wpływ na niezawodność oprogramowania. Aby Gradle Build było
-proste i łatwe w utrzymaniu, wymaga silnej dyscypliny. Taka dyscyplina jest już rzadkością w kodzie źródłowym i dlatego
-jest jeszcze rzadsza w skryptach kompilacji.
+### Tłumaczenia i rozwiązania problemów - gdy skrypty budowania stają się wyzwaniem.
 
-### Tłumaczenia i obejścia - gdy skrypty kompilacji stają się wyzwaniem
+Gradle działa w tle nieco inaczej niż Maven. Dlatego potrzebne są niektóre tłumaczenia. Funkcje takie jak Katalog
+Zależności, Wtyczka Maven Release, Dependabot i wiele innych są tak naprawdę obejściami dla podstawowych
+funkcjonalności, które Maven już posiada. Dzięki elastyczności Gradle często powstają złożone konfiguracje budowania,
+które są trudne do utrzymania. Wtyczki Gradle często mają problemy z kompatybilnością, ograniczenia lub ograniczone
+rozwijanie. Problemy te wynikają z rozwijającej się natury ekosystemu Gradle, różnorodności środowisk, w których jest
+używany oraz konkretnych nakładów na implementację i utrzymanie każdej wtyczki. Wszystko jest ze sobą powiązane.
 
-Gradle nie działa dużo inaczej w tle niż Maven. Dlatego konieczne są pewne tłumaczenia. Funkcje takie jak Dependency
-Catalog, Maven Release Plugin, Dependabot i wiele innych są w rzeczywistości obejściami dla podstawowych funkcji, które
-Maven już oferuje. Elastyczność Gradle często wiąże się ze złożonymi konfiguracjami kompilacji, które są trudne w
-utrzymaniu. Wtyczki Gradle często mają problemy z kompatybilnością, ograniczenia lub ograniczone możliwości. Problemy te
-pojawiają się ze względu na ewoluujący charakter ekosystemu Gradle, różnorodność środowisk, w których Gradle jest
-Gradle, a także specyficznej implementacji i wysiłku związanego z utrzymaniem wymaganego dla każdej wtyczki. Wszystko
-jest ze sobą powiązane.
+### Efekt domina Gradle'a - scenariusz koszmaru w rzeczywistym świecie
 
-### Efekt domina Gradle - koszmarny scenariusz w prawdziwym świecie
+Oto tekst markdown przetłumaczony na język polski:
 
-Widziałem wiele mikrousług, które miały zaledwie kilka lat, a już nie były możliwe do utrzymania z powodu Gradle. z
-powodu Gradle. Ważne jest, aby wspomnieć, że nie jest to pierwszy raz, kiedy widzę coś takiego i nie, nie byli to Junior
-Devs. Moim **zadaniem było wykonanie aktualizacji Spring Boot 2.x do 2.7**. Spoiler: Poddałem się po roku Poddałem się!
-Problemy w skrócie: * Plik kompilacji Gradle wymaga -> Downgrade mojej lokalnej wersji Java do 11 (WTF) (Normalnie Java
-jest  kompatybilna w dół - ponownie, istnieją narzędzia obejścia, takie jak SdkMan...) * Aktualizacja Spring Boot
-wymaga -> Aktualizacja Gradle (WTF) * Aktualizacja Gradle wymaga -> Aktualizacja wtyczki * Aktualizacja wtyczki wymaga
--> aktualizacji Groovy (WTF) * Aktualizacja Groovy wymaga -> Aktualizacja frameworka testowego i testów (WTF) *
-Aktualizacja frameworka testowego wymaga -> Aktualizacji zależności. * \[...]  Ponadto niektóre wtyczki nie działają z
-nowszymi wersjami Gradle, niektóre nie są już rozwijane, niektóre są niekompatybilne z innymi wersjami Gradle, niektóre
-nie są już rozwijane, niektóre są niekompatybilne z innymi wersjami Gradle.  są niekompatybilne z innymi wtyczkami,
-działają tylko z Gradle KTS, a nie z Gradle Groovy, lub po prostu mają ograniczenia.  po prostu mają ograniczenia.
-Nawet wtyczki od dużych dostawców, takich jak Spring, mają ograniczoną funkcjonalność w porównaniu do ich wtyczek Maven.
-ograniczona funkcjonalność. Kończę z fajnym, krótkim plikiem kompilacji Gradle, którego nikt tak naprawdę nie może
-utrzymać,  Nawet programiści, którzy go napisali, a wciąż kochają Gradle. Znam bardzo niewiele osób, które  rozumieją
-skrypty Gradle i piszą je na poważnie.
+Widziałem wiele mikroserwisów, które miały tylko kilka lat i były już nie do utrzymania ze względu na Gradle. Ważne jest to, że nie jest to pierwszy raz, kiedy coś takiego widzę, i nie, to nie byli młodzi programiści.
 
-### Ponowne odkrywanie mocy Mavena - wykorzystanie magii Mavena
+Moim zadaniem było **przeprowadzenie aktualizacji Spring Boot 2.x na wersję 2.7**. Spoiler: Po roku poddałem się! Oto problemy w skrócie:
 
-Oto moje ulubione funkcje Mavena: Wtyczki można uruchamiać i konfigurować bezpośrednio z wiersza poleceń bez
-konieczności ich wcześniejszego definiowania. nie muszą być definiowane. Ponadto są one w dużej mierze niezależne od
-innych konfiguracji wtyczek. | Przykład Polecenie | Opis | Link | |---------------------------------------|------------
-------------------------------------------------------------------------------------------------------------------------
----------------------------------|--------------------------------------------------------------------------| | `mvn
-versions:use -latest-versions` | Aktualizacja wersji - kto potrzebuje Dependabota? Tak, moje projekty są aktualizowane
-do najnowszej wersji od lat bez żadnych problemów i bez irytujących żądań scalania |
-https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html | | `mvn versions:set -DnewVersion=1.0.0` |
-Ustaw wersję projektu...
-| https://www.mojohaus.org/versions/versions-maven-plugin/index.html | | `mvn license:add-third-party` | Wylistuj
-zależności i pokaż ich licencje (może się nie udać nawet jeśli licencje są wykluczone) |
-https://www.mojohaus.org/license-maven-plugin/index.html | Ta lista mogłaby ciągnąć się w nieskończoność. Przypomina mi
-to trochę GitHub Workflow Steps. ![maven_plugin_command_line_args](/images/content/maven_plugin_command_line_args.png)
+* Plik buildu Gradle wymaga wymuszenia wersji lokalnej Java na 11 (Co za tym idzie) (Zazwyczaj Java jest zachowawcza i jest 
+  wstecznie zgodna - istnieją narzędzia takie jak SdkMan, które rozwiążą ten problem...)
+* Aktualizacja Spring Boot wymaga aktualizacji Gradle (Co za tym idzie)
+* Aktualizacja Gradle wymaga aktualizacji pluginów
+* Aktualizacja pluginów wymaga aktualizacji Groovy (Co za tym idzie)
+* Aktualizacja Groovy wymaga aktualizacji frameworka testowego oraz testów (Co za tym idzie)
+* Aktualizacja frameworka testowego wymaga aktualizacji zależności
+* \[...]
+  Ponadto, niektóre wtyczki nie działają z nowszymi wersjami Gradle, niektóre nie są dalej rozwijane, są niekompatybilne z 
+  innymi wtyczkami, działają tylko z Gradle KTS, a nie z Gradle Groovy, lub mają po prostu ograniczenia. Nawet wtyczki 
+  od dużych dostawców, takich jak Spring, mają ograniczoną funkcjonalność w porównaniu do ich wtyczek Maven. W końcu mam 
+  fajny, krótki plik buildu Gradle, którego nikt nie może prawidłowo utrzymać, nawet programiści, którzy go napisali, i 
+  wciąż kochają Gradle. Znam tylko kilka osób, które poważnie rozumieją i potrafią pisać skrypty Gradle.
+
+### Odkrycie ponowne siły Mavena - Wykorzystanie magicznej mocy Mavena
+
+Oto moje ulubione funkcje Mavena:
+Pluginy można uruchamiać i konfigurować bez wcześniejszego definiowania bezpośrednio z wiersza poleceń. Ponadto są one w dużej mierze niezależne od innych konfiguracji pluginów.
+
+| Przykładowe polecenie                | Opis                                                                                                                                                              | Link                                                                     | 
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| `mvn versions:use -latest-versions` | Aktualizacja wersji - kto potrzebuje Dependabot'a? Tak, moje projekty są aktualizowane bez problemu od lat do najnowszej wersji bez irytujących próśb o scalenie       | https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html |
+| `mvn versions:set -DnewVersion=1.0.0`| Ustawienie wersji projektu...                                                                                                                                      | https://www.mojohaus.org/versions/versions-maven-plugin/index.html       |
+| `mvn license:add-third-party`       | Wyświetlanie listy zależności i ich licencji (może nawet zawodzić w przypadku wykluczonych licencji)                                                               | https://www.mojohaus.org/license-maven-plugin/index.html                 | 
+
+Ta lista mogłaby tak trwać w nieskończoność. W jakiś sposób przypomina mi to kroki w przepływie pracy w GitHubie.
+
+![maven_plugin_command_line_args](/images/content/maven_plugin_command_line_args.png)
+
+```
 
 ### Nie lubisz XML?
 
-Nie ma problemu! Wystarczy napisać plik kompilacji w `ruby`, `groovy`, `scala`, `yaml`, `atom` lub `Java`. Rozszerzenie
-Polygot Extension (https://github.com/takari/polyglot-maven) sprawia, że jest to możliwe. Aby je wypróbować wystarczy
-uruchomić `mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml` i po kilku
-milisekundach plik kompilacji jest milisekund plik kompilacji zostanie przetłumaczony. Szkoda, że nie ma niezawodnego
-tłumacza Maven <> Gradle. :( Tak, pliki kompilacji Maven są duże, ale również bardzo łatwe do zrozumienia. Udoskonalenia
-lub debugowanie są wykonywane w mgnieniu oka. zrobione.
+Nie ma problemu! Po prostu napisz swój plik budowania w `ruby`, `groovy`, `scala`, `yaml`, `atom` lub `Java`. Rozszerzenie Poliglot (https://github.com/takari/polyglot-maven) to umożliwia. Aby wypróbować, po prostu uruchom `mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml`, a w ciągu kilku milisekund Twój plik budowania zostanie przetłumaczony. Szkoda, że nie ma niezawodnego tłumacza Maven <> Gradle. Tak, pliki budowania Mavena są duże, ale również bardzo łatwe do zrozumienia. Poprawki lub debugowanie są wykonywane w mgnieniu oka.
 
-### Wiek to tylko liczba - stabilność i ewolucja Mavena
+### Wiek to tylko liczba - Stabilność i Ewolucja Mavena
 
-Trzeba przyznać, że Maven istnieje już od dłuższego czasu, a jego estetyka może nie spełniać dzisiejszych standardów.
-Jednak długowieczność Maven pozwoliła mu się dostosować i ewoluować. Maven działa niezależnie od od projektu. Pliki
-kompilacji można łatwo ponownie wykorzystać. Wtyczki działają w piaskownicy i są niezależne od siebie nawzajem oraz od
-wersji Java lub Maven. Taka konstrukcja promuje stabilność i przewidywalność oraz ułatwia zarządzanie złożonymi
-procesami kompilacji bez nieoczekiwanych konfliktów. konfliktów.
+Przyznam, że Maven istnieje już od jakiegoś czasu i jego estetyka może nie odpowiadać obecnym standardom. Jednak
+trwałość Mavena umożliwiła mu dostosowanie się i rozwijanie. Maven działa niezależnie od twojego projektu. Pliki budowy
+można łatwo ponownie wykorzystać. Wtyczki działają w sandboxie i są niezależne od siebie i niezależne od wersji Java lub
+Maven. Ten projekt promuje stabilność i przewidywalność oraz ułatwia zarządzanie skomplikowanymi procesami budowania bez
+nieoczekiwanych konfliktów.
 
-### Fazit
+### Podsumowanie
 
-W dzisiejszych czasach środowisko programistyczne jest przeładowane wieloma zadaniami i technologiami dla programistów.
-W poszukiwaniu w poszukiwaniu prostoty i automatyzacji, Gradle stał się nowoczesnym narzędziem do kompilacji, ale
-przyniósł ze sobą własne wyzwania. wyzwania. Bez wątpienia koncepcja Gradle jest dobra! Ale biorąc pod uwagę złożoność i
-czas zainwestowany w skrypty kompilacji Gradle, pojawia się pytanie, czy nie byłoby prościej rozszerzyć Maven.
-rozszerzony. Dzięki wtyczkom i rozszerzeniom Maven może być zawsze odświeżany i upraszczany. Czy Czy dalszy rozwój nie
-byłby o wiele bardziej ekscytujący, a także bardziej zrównoważony niż przeskakiwanie z jednej technologii do drugiej?
+Obecnie środowisko programistyczne jest przeciążone wieloma zadaniami i technologiami dla deweloperów. W poszukiwaniu
+prostoty i automatyzacji, Gradle pojawił się jako nowoczesne narzędzie do budowania, ale przyniosło ze sobą własne
+wyzwania. Bez wątpienia, koncepcja Gradle jest dobra! Jednak w obliczu złożoności i czasu, który jest inwestowany w
+skrypty budowania Gradle, pojawia się pytanie, czy nie byłoby łatwiej rozszerzyć Maven. Za pomocą wtyczek i rozszerzeń
+Maven mógłby być zawsze ulepszany i uproszczony. Czy rozwój nie byłby o wiele bardziej ekscytujący i trwały niż
+przeskakiwanie z jednej technologii do drugiej?
 
 ### Linki
 
-* Powrót z Gradle do maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+* [Powrót do Mavena z Gradle](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
 ### Kontakt
 
