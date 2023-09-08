@@ -1,22 +1,22 @@
 ---
-title: "Die Ungsognte"
+title: "Des Ungsogte"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Entschied in eigener rechten, wos fia die unfechtboar isch und welsche Gschichtn lieber ausblendetš."
+description: "Entscheide seibr, wos für di wohr isch und von welche Themen du liaber weggschaust"
 draft: false
 ---
 
 
-# Grias eich bein "The Unspoken"
+# Wilkommen bei "The Unspoken"
 
-**Entscheide selbst, wos fia di wuahr isch und von welschane Thema du lieb lieber wegloschtn wüllsch.**
+**Entscheid decht sölbst, wos für decht woahr isch und von welchane Themen du liaber weggschaugst.**
 
-I woag a, die verbottene Bereich der Entwicklung zu erforschen und de Außerwordnlichen Sachen in der Welt der Entwicklung oftzudecka.
-Erweitare a di Horiizont und schob dei Grenzn.
-Immahoggn, dass die Technologie unsa Läbn und unsa Arbat erleichtern sull.
+I wag es, de verbotenen Bereich der Entwicklung z'entdecken und deck des Außergewohnliche möcht in der Welt der Entwicklung auf.
+Erweiter a ah dein Horizoont und verschieb deine Grenzen.
+Bedenk emmer, Technologie sollt unser Leben und unsere Arbeit erleichtern.
 
-**Nur de Mütigstn unter uns schaffn wirklich, dass Entwickln andan einfacher mochn.**
+**Nor die Mutigsten unter uns schaffen es wiklich, die Entwicklung für andere einfacher zu machen.**
 
-Wonn hast du zuletztn a Projekt oofoch und ohne viel Wartung und Reparatur abgschlossn? Noch nie? Dann mouchsch eppas falsch!
+Wonn hoscht du des letzten Mol a Projekt abgschlossen, dos praktisch wartungsfrei, robust war und dich nimmer braucht hot? Nie? Donn mochst du wos falsch!

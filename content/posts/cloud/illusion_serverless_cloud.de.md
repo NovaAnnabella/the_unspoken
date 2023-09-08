@@ -12,7 +12,6 @@ images:
 card: "summary_large_image"
 ---
 
-
 # Die Illusion von Serverless Funktionen in der Cloud
 
 ![aws_costs_twitter_1](/images/content/onprem_vs_cloud.png)
@@ -40,7 +39,8 @@ Ressourcen integriert getestet werden kann und Cloud-/Server-agnostisch (überal
 #### Serverless Funktionen
 
 Ein kleiner Witz vorweg: Paradox, aber wahr - Serverless-Funktionen hängen stark von der Serverumgebung ab. :)
-Eine typische Serverless Funktion kümmert sich ebenfalls um nur eine bestimmte Funktion/Domäne und wird ohne Frameworks in
+Eine typische Serverless Funktion kümmert sich ebenfalls um nur eine bestimmte Funktion/Domäne und wird ohne Frameworks
+in
 reinem Code geschrieben, um schneller als ein Microservice zu sein (Auch eine gute Übung für MicroServices). Ein großer
 Vorteil ist, dass Serverless Funktionen automatisch skaliert werden. Allerdings benötigt jede Serverless Funktion eine
 beträchtliche Menge an GlueCode, um die Infrastruktur zu definieren - Security, Firewall, Netzwerk, Logging, Metriken,

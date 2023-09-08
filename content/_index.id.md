@@ -1,22 +1,22 @@
 ---
-title: "The Unspoken"
+title: "Yang Tidak Terucap"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Entscheide sendiri apa yang benar bagi Anda dan dari topik mana yang lebih baik untuk Anda hindari."
+description: "Tentukan sendiri apa yang benar untukmu dan topik apa yang lebih baik kamu hindari."
 draft: false
 ---
 
 
-# Selamat datang di "The Unspoken"
+# Selamat Datang di "The Unspoken"
 
-**Putuskan sendiri apa yang benar bagi Anda dan dari topik apa yang lebih baik dihindari.**
+**Tentukan sendiri apa yang benar bagi anda dan topik apa yang lebih baik anda hindari.**
 
-Saya berani mengeksplorasi area terlarang dalam pengembangan dan mengungkap keajaiban yang ingin diwujudkan dalam dunia pengembangan. Perluaslah cakrawala Anda dan dorong batasan Anda.
+Saya berani mengeksplorasi area terlarang dari pengembangan dan menyingkap hal-hal luar biasa yang ada dalam dunia pengembangan.
+Perluas juga cakrawala Anda dan ubah batas-batas Anda.
+Selalu ingat, teknologi seharusnya mempermudah hidup dan pekerjaan kita.
 
-Selalu ingat, teknologi harus memudahkan hidup dan pekerjaan kita.
+**Hanya orang-orang paling berani di antara kita yang benar-benar mampu mempermudah pengembangan bagi orang lain.**
 
-**Hanya orang yang paling berani di antara kita yang benar-benar berhasil membuat pengembangan menjadi lebih mudah bagi orang lain.**
-
-Kapan terakhir kali Anda menyelesaikan proyek yang praktis, tangguh, dan tahan lama yang tidak lagi memerlukan Anda? Tidak pernah? Maka ada yang salah dengan apa yang Anda lakukan!
+Kapan terakhir kali Anda menyelesaikan proyek yang hampir bebas perawatan, tangguh dan tidak membutuhkan Anda lagi? Tidak pernah? Maka Anda melakukan sesuatu yang salah!

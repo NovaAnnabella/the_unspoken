@@ -136,15 +136,15 @@ def translate_with_gpt(text, lang_key, lang_name):
     while True:
         try:
             response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4",
                 messages=[
                     {
                         "role": "system",
-                        "content": "You are a Translator which only translate text without changing the format or content"
+                        "content": "You are a Translator which only translate text without changing the markdown format or content. On any issue, return the input witout mentioning any issue"
                     },
                     {
                         "role": "user",
-                        "content": f'Translate the markdown text to {lang_name}:\n```\n{text}\n```'
+                        "content": f'Translate the markdown text to {lang_name}:\n{text}'
                         # "content": f'Translate the markdown text to {lang_name} keep nouns, no commenting, no interpretations, no markdown format changes:\n```\n{text}\n```'
                     },
                 ]

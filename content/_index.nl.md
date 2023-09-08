@@ -1,22 +1,22 @@
 ---
-title: "De Onuitgesproken"
+title: "Het Onuitgesprokene"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "```Beslis zelf wat waar voor jou is en van welke onderwerpen je liever wegkijkt```"
+description: "Beslis zelf wat voor jou waar is en van welke onderwerpen je liever wegkijkt"
 draft: false
 ---
 
 
 # Welkom bij "The Unspoken"
 
-**Beslis zelf wat waar is voor jou en waar je liever wegkijkt qua onderwerpen.**
+**Beslis zelf wat voor jou waar is en welke onderwerpen je liever vermijdt.**
 
-Ik waag het om de verboden gebieden van de ontwikkeling te betreden en het buitengewone in de wereld van de ontwikkeling bloot te leggen.
-Vergroot ook je horizon en verleg je grenzen.
-Onthoud altijd, technologie zou ons leven en ons werk makkelijker moeten maken.
+Ik durf de verboden gebieden van ontwikkeling te betreden en breng het buitengewone in de wereld van ontwikkeling aan het licht.
+Breid ook jouw horizon uit en verleg je grenzen.
+Onthoud altijd, technologie zou ons leven en ons werk moeten vergemakkelijken.
 
-**Alleen de moedigsten onder ons slagen er echt in om de ontwikkeling voor anderen gemakkelijker te maken.**
+**Alleen de dappersten onder ons slagen er echt in om ontwikkeling voor anderen te vereenvoudigen.**
 
-Wanneer heb je voor het laatst een project afgerond dat praktisch onderhoudsvrij, robuust was en jou niet meer nodig had? Nooit? Dan doe je iets verkeerd!
+Wanneer heb je voor het laatst een project afgerond dat praktisch onderhoudsvrij, robuust was en je niet meer nodig had? Nooit? Dan doe je iets fout!

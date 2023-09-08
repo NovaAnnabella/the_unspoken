@@ -1,21 +1,22 @@
 ---
-title: "Il Non Detto"
+title: "L'Innominato"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Decidi tu stesso ciò che è vero per te e da quali argomenti preferisci distogliere lo sguardo."
+description: "Decidi tu stesso cosa è vero per te e da quali argomenti preferisci distogliere lo sguardo"
 draft: false
 ---
 
 
-# Benvenuti a "The Unspoken"
+# Benvenuto a "The Unspoken"
 
-**Decidi tu stesso ciò che è vero per te e da quali argomenti preferisci distogliere lo sguardo.**
+**Decidi tu stesso cosa è vero per te e da quali argomenti preferisci distogliere lo sguardo.**
 
-Oso esplorare aree proibite dello sviluppo e scoprire il fuori dall'ordinario nel mondo dello sviluppo.
-Espandi anche il tuo orizzonte e sposta i tuoi limiti. Ricorda sempre che la tecnologia dovrebbe renderci la vita e il lavoro più semplici.
+Oso toccare le zone proibite dello sviluppo e scoprire l'eccezionale che esiste nel mondo dello sviluppo.
+Espandi anche i tuoi orizzonti e sposta i tuoi limiti.
+Ricorda sempre, la tecnologia dovrebbe semplificare la nostra vita e il nostro lavoro.
 
-**Solo i più coraggiosi tra di noi riescono veramente a rendere lo sviluppo più semplice per gli altri.**
+**Solo i più coraggiosi tra noi riescono veramente a semplificare lo sviluppo per gli altri.**
 
-Quando è stata l'ultima volta che hai completato un progetto praticamente a prova di guasto, robusto e che non ti ha richiesto ulteriori interventi? Mai? Allora stai sbagliando!
+Quando è stata l'ultima volta che hai completato un progetto che era praticamente senza manutenzione, robusto e non aveva più bisogno di te? Mai? Allora stai sbagliando qualcosa!

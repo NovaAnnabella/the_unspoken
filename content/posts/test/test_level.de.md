@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: "Das richtige Gleichgewicht finden bei der Auswahl der geeigneten Testebenen für Softwaretests."
+description: "Das richtige Gleichgewicht finden bei der Auswahl der geeigneten Testebenen für Softwaretests"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"

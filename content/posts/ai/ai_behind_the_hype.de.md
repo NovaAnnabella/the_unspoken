@@ -12,7 +12,6 @@ images:
 card: "summary_large_image"
 ---
 
-
 # KI in der realen Welt - Über den Hype hinaus denken
 
 [![ai_ml](/images/content/ai_ml.jpg)](https://en.wikipedia.org/wiki/Weak_artificial_intelligence)

@@ -51,5 +51,5 @@ Datenschutzrichtlinien wird immer auf dieser Webseite verfügbar sein.
 ### Kontakt
 
 Wenn Sie Fragen zu dieser Datenschutzrichtlinie oder zu unserem Umgang mit Ihren persönlichen Daten haben, kontaktieren
-Sie uns bitte über das Kontaktformular
+Sie uns bitte über das Kontaktformular 
 von [GitHub Issues] (https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
