@@ -1,65 +1,64 @@
 ---
-title: "Holakratie"
+title: "Holacracy"
 date: 2023-09-08
 author: "Nova Annabella"
-slug: illusion_serverless_cloud
-tags: ["Holacracy", "Organizational Structure", "Agility", "Management", "Leadership", "Employee Engagement", "Bureaucracy", "Business Strategy"]
-categories: ["Business", "Management", "Innovation", "Human Resources"]
-description: "Die Dystopie hinter der Utopie"
+slug: holacracy_is_wrong
+tags: [ "Holacracy", "Organizational Structure", "Agility", "Management", "Leadership", "Employee Engagement", "Bureaucracy", "Business Strategy" ]
+categories: [ "Business", "Management", "Innovation", "Human Resources" ]
+description: "The Dystopia behind the Utopia"
 draft: false
 images:
   - "/images/content/holacracy.png"
 card: "summary_large_image"
 ---
 
-# Holakratie - Die Dystopie hinter der Utopie
+# Holacracy - The Dystopia Behind the Utopia
 
 ![aws_costs_twitter_1](/images/content/holacracy.png)
 
-### Einleitung
+### Introduction
 
-Holakratie wird als der heilige Gral moderner Organisationsstrukturen gefeiert. Es verspricht flache Hierarchien, mehr
-Mitarbeiterbeteiligung und eine schnelle Anpassungsfähigkeit. Doch ist es wirklich das Allheilmittel für
-organisatorische Probleme, oder steckt mehr dahinter? In diesem Blog-Post werfen wir einen kritischen Blick auf die
-Holakratie und warum sie möglicherweise nicht die ideale Lösung für jedes Unternehmen ist.
+Holacracy is celebrated as the holy grail of modern organizational structures. It promises flat hierarchies, more
+employee participation, and quick adaptability. But is it really the panacea for organizational problems, or is there
+more to it? In this blog post, we take a critical look at holacracy and why it might not be the ideal solution for every
+company.
 
-### Die Kosten der Teamstrukturen
+### The Costs of Team Structures
 
-In der Holakratie werden Teams so aufgebaut, dass sie quasi als kleine Unternehmen innerhalb des Unternehmens agieren.
-Klingt zunächst vielversprechend, aber der Teufel steckt im Detail. Ein Team muss eine Vielzahl von Rollen abdecken,
-wodurch die Teamgröße und damit die Personalkosten exponentiell ansteigen. Es wird schwierig, die Kräfte zu bündeln und
-sich auf gemeinsame Ziele zu fokussieren. Zudem stellt die Koordination zwischen vielen verschiedenen Rollen eine enorme
-Herausforderung dar. Die Endergebnisse sind ineffiziente Teams und hohe Personalkosten, was definitiv kein nachhaltiges
-Geschäftsmodell ist.
+In Holacracy, teams are set up to act as small businesses within the company. Sounds promising at first, but the devil
+is in the detail. A team has to cover a multitude of roles, which exponentially increases the team size and thus the
+personnel costs. It becomes difficult to bundle the forces and focus on common goals. In addition, coordinating between
+many different roles presents a huge challenge. The end results are inefficient teams and high personnel costs, which is
+definitely not a sustainable business model.
 
-#### Die Herausforderungen für Mitarbeiter
+#### The challenges for employees
 
-Holakratie verlangt von den Mitarbeitern ein hohes Maß an Selbstorganisation und Eigenverantwortung. Aber was, wenn
-nicht jeder dazu bereit oder in der Lage ist? Und was ist mit der Weiterentwicklung der Mitarbeiter? Häufig sind sie die
-einzigen in ihren Rollen innerhalb des Teams und riskieren, vom optimalen Entwicklungspfad abzuweichen. Darüber hinaus
-werden Mitarbeiter meist nicht nach ihren vielfältigen Rollen, sondern nach ihrer Hauptposition bezahlt, was zu einer
-Diskrepanz zwischen Verantwortung und Kompensation führen kann.
+Holacracy requires a high degree of self-organization and personal responsibility from employees. But what if not
+everyone is ready or capable of doing so? And what about the further development of employees? Often, they are the only
+ones in their roles within the team and risk deviating from the optimal development path. Furthermore, employees are
+usually not paid for their various roles, but for their main position, which can lead to a discrepancy between
+responsibility and compensation.
 
-### Das bürokratische Monster
+### The Bureaucratic Monster
 
-Ironischerweise kann die Holakratie, die auf Agilität und Flexibilität abzielt, zu mehr Bürokratie führen. Denn jedes
-Team und jeder Mitarbeiter muss eine Fülle an Regeln und Verantwortlichkeiten verstehen. Diese neuen Schichten der
-Bürokratie können das Unternehmen verlangsamen und dem eigentlichen Zweck der Holakratie entgegenwirken. Holakratie
-fügt dem Alltag sogar weitere Meetings hinzu.
+Ironically, holacracy, which aims for agility and flexibility, can lead to more bureaucracy. Because every team and
+every employee must understand a wealth of rules and responsibilities. These new layers of bureaucracy can slow down the
+company and counteract the actual purpose of holacracy. Holacracy even adds more meetings to everyday life.
 
-### Der Verlust an sozialer Kohärenz
+### The Loss of Social Coherence
 
-Die flachen Hierarchien und die dezentrale Struktur der Holakratie können paradoxerweise zu 'versteckten Hierarchien'
-führen. Es entsteht eine soziale Komplexität, die zu Missverständnissen und Konflikten beitragen kann. Es gibt keine
-klaren Linien der Kommunikation, was das Gefühl der Isolation bei Teams und Individuen fördern kann.
+The flat hierarchies and the decentralized structure of holacracy can paradoxically lead to 'hidden hierarchies'. This
+creates a social complexity that can contribute to misunderstandings and conflicts. There are no clear lines of
+communication, which can promote a sense of isolation among teams and individuals.
 
-### Fazit
+### Conclusion
 
-Holakratie ist kein Einheitsrezept und definitiv nicht für jedes Unternehmen, nicht für jedes Team und nicht für jeden
-Mitarbeiter geeignet. Während die theoretischen Vorteile attraktiv klingen, ergeben sich in der praktischen Anwendung
-zahlreiche Herausforderungen und Nachteile. Unternehmen sollten daher sehr sorgfältig prüfen, ob dieses
-Organisationsmodell zu ihrer Kultur, ihren Zielen und vor allem zu ihren Mitarbeitern passt.
+Holacracy is not a one-size-fits-all solution and definitely not suitable for every company, not for every team and not
+for every employee. While the theoretical advantages sound attractive, numerous challenges and disadvantages arise in
+practical application. Therefore, companies should carefully examine whether this organizational model fits their
+culture, their goals and especially their employees. If the employees can already contribute, there is no need for
+Holacracy. However, if the employees cannot contribute, Holacracy will also not be able to save anything.
 
-### Kontakt
+### Contact
 
 [GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

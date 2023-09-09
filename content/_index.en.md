@@ -11,12 +11,12 @@ draft: false
 
 # Welcome to "The Unspoken"
 
-**Decide for yourself what is true for you and what topics you prefer to ignore.**
+**Decide for yourself what is true for you and what topics you prefer to look away from.**
 
-I dare to explore the forbidden areas of development and uncover the extraordinary in the world of development.
-Also expand your horizon and move your boundaries.
-Always remember, technology should make our life and work easier.
+I dare to enter the forbidden areas of development and uncover the extraordinary in the world of development. 
+Expand your horizon and push your limits.
+Always remember, technology should make our lives and work easier.
 
-**Only the bravest among us really succeed in making development easier for others.**
+**Only the bravest among us really manage to simplify development for others.**
 
-When was the last time you completed a project that was virtually maintenance-free, robust, and no longer required you? Never? Then you're doing something wrong!
+When was the last time you completed a project that was practically maintenance-free, robust, and no longer needed you? Never? Then you're doing something wrong!

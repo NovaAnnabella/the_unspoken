@@ -1,11 +1,11 @@
 ---
-title: "El bombo de la IA"
+title: "Hype de IA"
 date: 2023-05-30
 author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "La inteligencia artificial en el mundo real: más allá del bombo publicitario"
+description: "KI en el mundo real - Pensar más allá del bombo"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"
@@ -13,91 +13,86 @@ card: "summary_large_image"
 ---
 
 
+# IA en el mundo real - Pensar más allá del hype
 
-# AI in the real world - thinking beyond the hype
-
-[![ai_ml](/images/content/ai_ml.jpg)](https://en.wikipedia.org/wiki/Weak_artificial_intelligence)
+[![ai_ml](/images/content/ai_ml.jpg)](https://es.wikipedia.org/wiki/Inteligencia_artificial_d%C3%A9bil)
 
 ### Introducción
 
-Cuando se trata del uso de la inteligencia artificial (IA), hay mucha excitación nerviosa, así como expectativas.
-Algunos creen que la IA revolucionará el mundo laboral y hará innecesarias las habilidades humanas. Pero antes de de
-lanzarnos de cabeza al mundo de la IA, debemos tener en cuenta algunos puntos importantes. No cabe duda de que la IA ha
-progresado pero no es nueva y tiene importantes limitaciones que debemos comprender y respetar. Spoiler: La IA es sólo
-una herramienta más. Todavía estamos muy lejos de escenas cinematográficas como las de Terminator. Las IA actuales, como
-ChatGPT, son también un buen ejemplo de cómo debe diseñarse el software. Orientado al servicio y no como una navaja
-suiza, es decir, una solución para todo que rara vez es útil o reutilizable. Algunas preguntas provocadoras: * ¿No
-debería cualquier informático que piense que la IA es algo nuevo o que puede hacerse cargo de su trabajo  mejor pensar
-en sus horizontes y experiencia? * Los científicos de datos asalariados que se pasan a los modelos de IA  están
-haciendo el cambio: ¿Por qué su modelo específico de IA es inferior a los grandes modelos de lenguaje de todo könner?
-¿Qué ha  ¿Qué has hecho antes y qué te falta para crear modelos igualmente buenos específicos para tu caso de uso?
+Cuando se trata de la implementación de la Inteligencia Artificial (IA), hay mucho alboroto molesto y también expectativas.
+Algunos creen que la IA revolucionará el mundo laboral y hará obsoletas las habilidades humanas. Sin embargo, antes de
+lanzarnos de cabeza al mundo de la IA, deberíamos considerar algunos puntos importantes. No cabe duda que la IA ha hecho 
+progresos, pero no es algo nuevo y viene con limitaciones significativas que necesitamos entender y respetar. 
+Spoiler: la IA es solo otra herramienta. Estamos lejos de escenas dignas de una película como en Terminator.
+La IA actual, como por ejemplo, ChatGPT también es un buen ejemplo de cómo debería ser diseñado el software! Orientado al 
+servicio y no como una navaja suiza que es raramente útil o reutilizable como una solución para todo.
 
-### Comprender los límites
+Algunas preguntas provocativas:
 
-Los modelos de IA, incluidos los basados en GPT, se entrenan a partir de datos y patrones existentes. Son son buenos
-reconociendo patrones y generando contenidos basados en ese entrenamiento, pero carecen de una verdadera comprensión o
-la capacidad de pensar más allá de su formación. Reconocer este límite ayuda a establecer expectativas realistas. Lo que
-nunca existió, no existirá. Cualitativa, confidencial y segura La información es minoritaria. Siempre habrá más juniors
-que seniors. Por tanto, la IA sólo funcionará para ejemplos de "Hola Mundo" de bajo nivel. En muchos ámbitos, como el de
-los programadores, que temen por su puesto de trabajo, deberían pensar seriamente en la calidad de su trabajo.
+* ¿No deberían los informáticos que creen que la Inteligencia Artificial es algo nuevo o puede asumir su trabajo,
+  reconsiderar sus horizontes y expertise?
+* Científicos de Datos empleado, que cambian a modelos de IA: ¿Por qué vuestro modelo de IA específico es peor que los 
+  grandes modelos de lenguaje que lo pueden hacer todo? ¿Qué estabais haciendo antes y qué os falta para crear modelos 
+  igual de buenos, específicos para vuestro caso de uso?
 
-### Costes del desarrollo de la IA e importancia de la potencia de cálculo
 
-El desarrollo de la IA se ha visto impulsado en gran medida por la constante evolución del hardware. Los modelos de IA
-como GPT-3.5 requieren una enorme potencia de cálculo para realizar tareas complejas. El coste de la IA está
-estrechamente hardware necesario, como las potentes GPU y TPU. Además, hay costes de funcionamiento y mantenimiento de
-la infraestructura. mantenimiento de la infraestructura. El aumento de la potencia de cálculo ha incrementado la
-disponibilidad de la IA, pero sigue requiriendo importantes inversiones. inversiones significativas. La optimización de
-costes y la gestión eficiente de los recursos son cruciales para garantizar el éxito económico de los proyectos de IA.
-para garantizar el éxito económico de los proyectos de IA. Por lo tanto, un análisis de costes y una planificación
-sólidos son indispensables en la son indispensables a la hora de implantar la IA.
+### Comprensión de los límites
 
-### Complementar la inteligencia humana
+Los modelos de IA, incluyendo aquellos basados en GPT, se entrenan en datos y patrones existentes. Son buenos para
+reconocer patrones y generar contenidos basados en este entrenamiento, pero carecen de verdadera comprensión o la
+habilidad de pensar más allá de su entrenamiento. Reconocer este límite ayuda a establecer expectativas realistas. Lo
+que nunca estuvo, tampoco existirá. La información cualitativa, confidencial y segura es la minoría. Siempre habrá más
+novatos que veteranos. Por lo tanto, la IA sólo funciona para ejemplos de "Hola Mundo" de nivel bajo. En muchas áreas,
+como por ejemplo los programadores que temen por su trabajo, deberían reflexionar seriamente sobre la calidad de su
+trabajo.
 
-La IA debe considerarse una herramienta que complementa la inteligencia humana en lugar de sustituirla. El juicio, el
-pensamiento crítico y la creatividad de El juicio humano, el pensamiento crítico y la creatividad siguen siendo
-esenciales. La IA puede aportar información valiosa, automatizar tareas repetitivas y tareas y aumentar la
-productividad, pero no debe utilizarse sola para tomar decisiones importantes. decisiones. Sin su confianza, la IA no
-podrá incorporar todos los aspectos necesarios. En TI, la IA no pensará por sí sola en cuestiones como: Resiliencia,
-Seguridad, Cumplimiento, Privacidad de datos, legibilidad, rendimiento, simplicidad, patrones, puntualidad, etc. Ejemplo
-de modelado 3D con IA: [Alex prueba la IA con Blender](https://www.youtube.com/watch?v=x60zHw_z4NM&t=460s) (Tiene buena
-pinta, pero solo es un "Hola pero es sólo un ejemplo de "Hola Mundo") Mi experiencia con la generación de código de IA
-en una palabra: ¡ridícula! No me gustaría mantener a los desarrolladores que escriben No me gustaría mantener. Aún así,
-utilizo la IA como sparring aka explicar efecto, como una especie de auto-reflexión. El uso más eficaz de la IA suele
-lograrse mediante la colaboración entre humanos y sistemas de IA. La IA puede ayudar a generar ideas, encontrar
-soluciones o automatizar determinadas tareas, pero la pero la supervisión y la intervención humanas son fundamentales
-para perfeccionar, mejorar y optimizar los resultados.
+### Costo del desarrollo de IA y la importancia de la capacidad de cálculo
 
-### Validación y prueba
+El desarrollo de la IA ha sido impulsado en gran medida por el constante avance del hardware. Modelos de IA como
+GPT-3.5 requieren un enorme poder de cálculo para manejar tareas complejas. Los costos de la IA están estrechamente vinculados con el
+hardware necesario, como GPUs y TPUs de alto rendimiento. Además, hay costos continuos para la operación y
+el mantenimiento de la infraestructura. El creciente poder de cálculo ha aumentado la disponibilidad de la IA, pero aún
+requiere inversiones significativas. La optimización de costos y la gestión eficiente de los recursos son cruciales para asegurar el
+éxito económico de los proyectos de IA. Por lo tanto, un análisis de costos bien fundamentado y la planificación son esenciales en la
+implementación de la IA.
 
-Los resultados generados por la IA siempre deben validarse y probarse a fondo. Ya se trate de código, contenido u otros
-salida, es necesaria la supervisión humana para garantizar la calidad, corrección y conformidad de los resultados
-generados. Los procesos de verificación son fundamentales para evitar confiar en resultados inexactos o engañosos.
-resultados inexactos o engañosos. Por favor, no valide la IA utilizando otra IA. Eso sería como si yo corrigiera
-exámenes de clase no corrigiéndolos yo, sino utilizando a mis alumnos.
+### Complemento de la inteligencia humana
+
+La IA debería ser considerada como una herramienta que complementa la inteligencia humana, en lugar de reemplazarla. El juicio humano, el pensamiento crítico y la creatividad siguen siendo esenciales. La IA puede proporcionar valiosas percepciones, automatizar tareas repetitivas y aumentar la productividad, pero no debería ser utilizada sola para decisiones importantes.
+Sin tu intervención, la IA no podrá incluir todos los aspectos que necesitas. 
+En la informática, la IA por sí sola no reflexionará sobre temas como: Resiliencia, Seguridad, Conformidad, Privacidad de Datos, Legibilidad, Rendimiento, Simplicidad, Patrones, Actualidad, etc.
+Ejemplo de modelado 3D con IA: [Alex prueba la IA con Blender](https://www.youtube.com/watch?v=x60zHw_z4NM&t=460s) (Se ve bien, pero es solo un ejemplo de "Hola Mundo")
+Mi experiencia con la generación de código de IA en una palabra: ¡ridículo! No querría retener a los desarrolladores que escriben dicho código. Sin embargo, utilizo la IA como compañero de entrenamiento, también conocido como Efecto de Explicación, como una forma de auto-reflexión.
+El uso más efectivo de la IA a menudo se logra mediante la colaboración entre humanos y sistemas de IA. La IA puede ayudar en la generación de ideas, la resolución de problemas o la automatización de ciertas tareas, pero la supervisión y la intervención humanas son cruciales para refinar, mejorar y optimizar los resultados.
+
+### Validación y Prueba
+
+Los resultados generados por la IA siempre deben ser validados y probados exhaustivamente. Ya sea código, contenido u
+otras salidas, la supervisión humana es necesaria para garantizar la calidad, exactitud y cumplimiento de los resultados
+generados. Los procesos de verificación son cruciales para no confiar en resultados inexactos o engañosos. Por favor no
+validen la IA con otra IA. Sería como si yo corrigiera los trabajos de clase no por mí mismo sino a través de mis
+estudiantes.
 
 ### Aprendizaje y adaptación continuos
 
-Los modelos de IA deben actualizarse y perfeccionarse continuamente para adaptarse a las circunstancias cambiantes. Para
-garantizar la exactitud, pertinencia y utilidad de los resultados generados por la IA, se requieren circuitos de
-retroalimentación y mejoras iterativas. y utilidad de los resultados generados por la IA. El proceso de aprendizaje de
-la IA nunca se detendrá.
+Los modelos de IA deben actualizarse y perfeccionarse continuamente para adaptarse a las circunstancias cambiantes. Se
+requieren bucles de retroalimentación y mejoras iterativas para asegurar la exactitud, relevancia y utilidad de los
+resultados generados por IA. El proceso de aprendizaje de la IA nunca cesará.
 
-### Centrarse en resolver problemas reales
+### Enfóquese en la solución de problemas reales
 
-La IA debe utilizarse para resolver problemas reales y crear valor para las personas. Es importante no utilizar la IA
-por sí misma. La claridad de objetivos, la identificación de problemas y la comprensión del impacto en las partes
-interesadas son cruciales cuando se trata de soluciones de IA. en las partes interesadas son cruciales cuando se trata
-de soluciones de IA.
+La IA debería ser utilizada para abordar problemas reales y crear valor para las personas. Es importante no utilizar la
+IA solo por su propio bien. Metas claras, identificación de problemas y comprensión de los impactos en las partes
+interesadas son cruciales cuando se trata de soluciones de IA.
 
-### Fazit
+### Conclusión
 
-La inteligencia artificial es sin duda una herramienta poderosa, pero es importante comprender sus limitaciones y
-utilizarla con responsabilidad. La IA no puede complementar la inteligencia humana El juicio humano la creatividad y el
-pensamiento crítico siguen siendo indispensables. Mediante una cuidadosa validación, deliberación y colaboración entre
-los humanos y la IA, podemos lograr los mejores resultados. resultados. Utilicemos los puntos fuertes de la IA para
-resolver problemas del mundo real y hacer del mundo un lugar mejor.
+La Inteligencia Artificial sin duda es una herramienta poderosa, pero es importante entender sus límites y utilizarla de
+manera responsable. La IA no puede complementar la inteligencia humana. El juicio humano, la creatividad y el
+pensamiento crítico siguen siendo indispensables. A través de una cuidadosa validación, consideraciones y la
+colaboración entre humanos e IA, podemos lograr los mejores resultados. Aprovechemos las fortalezas de la IA para
+resolver problemas reales y mejorar el mundo.
 
 ### Contacto
 
-[Problemas en GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[Issues de GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

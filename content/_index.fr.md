@@ -4,19 +4,20 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Décide par toi-même ce qui est vrai pour toi et quels sont les sujets dont tu préfères détourner le regard"
+description: "Décide par toi-même ce qui est vrai pour toi et quels sont les sujets que tu préfères ignorer"
 draft: false
 ---
 
 
 # Bienvenue chez "The Unspoken"
 
-**Décide par toi-même, ce qui est vrai pour toi et quels sujets tu préfères éviter.**
+**Décide toi-même ce qui est vrai pour toi et les sujets que tu préfères ignorer.**
 
-J'ose aborder les domaines interdits du développement et révèle l'extraordinaire que je souhaite dans le monde du développement.
-Élargis aussi ton horizon et déplace tes limites.
-Souviens-toi toujours que la technologie devrait faciliter notre vie et notre travail.
+J'ose me lancer dans les zones interdites de développement et je souhaite exposer l'extraordinaire dans le monde du développement.
+Élargis également ton horizon et repousse tes limites.
+Souviens-toi toujours, la technologie devrait faciliter notre vie et notre travail.
 
-**Seuls les plus courageux parmi nous réussissent vraiment à faciliter le développement pour les autres.**
+**Seuls les plus courageux d'entre nous réussissent vraiment à simplifier le développement pour les autres.**
 
-Quand as-tu terminé un projet pour la dernière fois qui était pratiquement sans entretien, robuste et n'avait plus besoin de toi ? Jamais? Alors tu fais quelque chose de mal !
+Quand as-tu terminé un projet pour la dernière fois qui était pratiquement sans entretien, robuste et qui n'avait plus besoin de toi? Jamais? Alors tu fais quelque chose de mal!
+

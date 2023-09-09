@@ -16,28 +16,29 @@ script_path = os.path.abspath(__file__)
 parent_dir = os.path.dirname(script_path)
 repo_path = os.path.abspath(os.path.join(parent_dir, '..'))
 target_languages = {
-    'de': 'German',
-    "en": "English",
-    "fr": "French",
-    "it": "Italian",
-    "es": "Spanish",
-    "st": "Südtirolerisch Dialect",
-    "zh": "Chinese Simplified",
     "ar": "Arabic",
-    "pt": "Portuguese",
+    "de": "German",
+    "en": "English",
+    "es": "Spanish",
+    "fa": "Persian",
+    "fr": "French",
+    "hi": "Hindi",
     "id": "Indonesian",
-    "ru": "Russian",
+    "it": "Italian",
     "ja": "Japanese",
     "ko": "Korean",
-    "tr": "Turkish",
     "nl": "Dutch",
-    "vi": "Vietnamese",
-    "th": "Thai",
     "pl": "Polish",
-    "hi": "Hindi",
-    "fa": "Persian",
+    "pt": "Portuguese",
+    "ru": "Russian",
+    "st": "Südtirolerisch",
     "sw": "Swahili",
+    "th": "Thai",
+    "tr": "Turkish",
+    "vi": "Vietnamese",
+    "zh": "Chinese Simplified",
 }
+
 
 deepl_languages = {}
 
@@ -94,7 +95,7 @@ def translate_md_file():
                             section_count += 1
                         else:
                             output_file.write(line)
-                    if output_text:
+                    if output_text and output_text.strip() and output_text.strip() != '':
                         translated = translate(output_text, lang_key, lang_name)
                         print_progress(current_iteration, output_file, section_count, total_iterations, translated)
                         output_file.write(translated)
@@ -126,7 +127,9 @@ def translate(output_text, lang_key, lang_name):
 
 
 def translate_with_api(text, lang_key, lang_name):
-    if lang_key in deepl_languages:
+    if not text or not text.strip():
+        return text
+    elif lang_key in deepl_languages:
         return translate_with_gpt(text, lang_key, lang_name)
     else:
         return translate_with_gpt(text, lang_key, lang_name)

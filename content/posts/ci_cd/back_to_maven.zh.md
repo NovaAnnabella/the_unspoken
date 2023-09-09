@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "追寻简单的艰难之路，以及重新发现Maven的优势"
+description: "难以捉摸的寻求简单性，以及重新发现Maven力量的短暂旅程。"
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"
@@ -15,82 +15,82 @@ card: "summary_large_image"
 
 # 回到Maven？
 
-[![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/) 
+[![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
-请注意：这是一段Markdown文本，无需翻译。
+## Gradle的10年。寻找缓解并简短回顾Maven的强大之力。
 
-## Gradle 十周年。寻求简化的途径及重新发现 Maven 的优势之旅。
 
-将Markdown文本翻译成中文简体：```\`\`\` ```
 
-### 最大化开发者潜力 - 我们需要更多节省时间的工具
+### 最大化开发者的潜力 - 我们需要更多节省时间的工具
 
-我对常常被忽略或很少讨论的主题感兴趣。通常会使用酷炫的技术，但几乎没有人谈论与之相关的问题。开发现在变得非常复杂。有了“Serverless”，“Low Code”，“IaC”，“Big
-Data”，“Cloud”，“DevOps”，“You Build it You run
-it”等酷炫的术语，开发者已经有更多的额外任务要解决。更多的任务意味着几乎没有专家，总有一些事情会被忽视。因此，自动化和时间节约是非常重要的。“Don’t make me think”和“Works out of the
-Box”已经是很好的质量标准，在Gradle中却看不到。公正地说，Gradle并不是唯一一个让我们更加辛苦而不是更加便利的现代工具。
+我对经常被忽视或很少讨论的主题感兴趣。酷炫的技术经常被使用， 但几乎没有人谈论与之相关的问题。 发展至今已经变得非常繁琐。 随着像“无服务器”、“低代码”、“IaC”、“大数据”、“云”、“DevOps”、“你建它你运行它”
+等酷炫的热词，开发人员已经有更多的额外任务要处理。更多的任务意味着几乎没有 专家存在，总是会有些什么被忽视来寻求关注。因此，自动化和节省时间变得非常 重要。“不要让我思考”和“开箱即用”已经是我在Gradle中还
+看不到的好的质量标准。为了公平，Gradle不是唯一让我们干活而不是简化它的现代工具。
 
-### 虚幻的简单和自动化探索
+### 对简单性和自动化的虚幻追求
 
-自从了解了 SOAP，我对基于 XML 的配置深恶痛绝。我曾希望在使用 Gradle 时编写绑定脚本会很容易，但是我的希望和动力逐渐消磨。Gradle
-追求灵活性，为此牺牲了自动化和质量。开发人员盲目地追随潮流，而不考虑对软件可靠性的影响。为了使 Gradle 构建脚本简单且易于维护，需要一种强烈的纪律。这种纪律在源代码中已经很少见到，因此在构建脚本中更加罕见。
+自从SOAP以来，我对基于XML的配置深感厌恶。我曾希望使用Gradle写绑定脚本会变得轻而易举，但是每次的结果都让我的希望和动力降低。Gradle追求的是灵活性，为此牺牲了自动化和质量。开发者们盲目地跟随潮流，不考虑对软件稳定性的影响。为
+了使Gradle构建脚本简单且易于维护，需要强烈的纪律性。这种纪律性在源代码中就已经很少见，因此在构建脚本中就更加罕见了。
 
-### 翻译和解决方案 - 当构建脚本变成挑战时
+### 翻译和变通方法 - 当构建脚本成为挑战时
 
-Gradle与Maven在后台处理时并没有太大的不同。因此需要进行一些翻译。像Dependency Catalog、Maven Release Plugin、Dependabot和许多其他功能实际上都是对Maven已经具备的基本功能的变通方
-法。在Gradle的灵活性下，通常会出现复杂的构建配置，这些配置很难维护。Gradle插件经常存在兼容性问题、限制或受到限制的发展。这些问题源于Gradle生态系统的发展性质、Gradle被应用的多样性以及每个插件的特定实现和维护工作量。一
-切都相互关联。
+Gradle在后台的工作方式与Maven并无太大差异。因此，需要进行一些翻译。如Dependency Catalog，Maven Release
+Plugin，Dependabot以及许多其他功能实际上都是Maven已经提供的基本功能的替代方案。由于Gradle的灵活性，经常会出现复杂的构建配置，这些配置很难维护。
+Gradle插件经常存在兼容性问题，限制或有限的发展空间。这些问题是由于Gradle生态系统的发展性，Gradle的使用环境的多样性，以及每个插件的特定实施和维护成本所导致的。所有的一切都是相互关联的。
 
-### Gradle的多米诺效应 - 真实世界中的噩梦场景
+### Gradle的多米诺骨牌效应 - 现实世界中的恶梦场景
 
-我见过许多只有几年历史的微服务，由于Gradle的原因已经无法维护。需要指出的重要一点是，这不是我第一次看到这种情况，也不是因为初级开发人员。
+我已经看到很多微服务，它们只有几年的历史，但由于Gradle的原因已经不再维护。很重要的一点是，这并不是我第一次看到这样的情况，而且，不，它们不是初级开发人员。
 
-我的任务是升级Spring Boot 2.x到2.7。结局：经过一年的尝试，我放弃了！主要问题如下：
+我的**任务是进行一个Spring Boot 2.x到2.7的升级**。剧透：我做了一年都放弃了！问题简述：
 
-* Gradle Build文件需要->将我的本地Java版本降级到11（WTF）（通常Java是向下兼容的-这里也有类似SdkMan的解决工具...)
-* Spring Boot升级需要->Gradle升级（WTF）
-* Gradle升级需要->Plugin升级
-* Plugin升级需要->Groovy升级（WTF）
-* Groovy升级需要->测试框架和测试更新（WTF）
-* 测试框架更新需要->依赖项更新
-* \[...]
-此外，一些插件与较新版本的Gradle不兼容，一些插件不再维护，与其他插件不兼容，仅与Gradle KTS而不是Gradle Groovy一起使用，或仅有限功能。即使是像Spring这样的大厂商的插件与它们的Maven插件相比也有限制功能。最终我获得了一个很酷的、简短的Gradle构建文件，但没有人能够正确维护它，甚至是编写它的开发人员，他们仍然喜爱Gradle。我只知道很少有人真正理解或编写Gradle脚本。
+* Gradle构建文件需要 -> 降级我本地的Java版本到11（WTF）（通常Java
+  是向下兼容的 - 这里也有像SdkMan这样的解决方案工具...)
+* Spring Boot更新需要 -> Gradle更新 (WTF)
+* Gradle更新需要 -> 插件更新
+* 插件更新需要 -> Groovy更新 (WTF)
+* Groovy更新需要 -> 测试框架和测试更新 (WTF)
+* 测试框架更新需要 -> 依赖性更新
+* \[...\]
+  此外，一些插件不能与新版本的Gradle一起使用，一些已经停止开发，与其他插件不兼容，只能用Gradle KTS，不能用Gradle Groovy，或者有一些限制。即使是像Spring这样的大型提供商的插件，与它们的Maven插件相比，也有功能限制。最后，我得到一个酷酷的，短暂的Gradle构建文件，没有人能正确地维护它，甚至包括那些写它的开发人员，他们仍然喜欢Gradle。我只知道很少有人能真正理解或编写Gradle脚本。
 
-### 重新发现Maven的力量-利用Maven的魔力
+### 重新发现Maven的力量 - 利用Maven的魔法力量
 
-以下是我最喜爱的Maven功能：
-插件可以直接从命令行启动和配置，无需预先定义，而且它们在很大程度上独立于其他插件配置。
+以下是我最喜欢的Maven功能：
+插件可以直接从命令行启动和配置，而无需预先定义。
+而且，它们大都独立于其他插件配置。
 
-| 示例命令                           | 描述                                                                                                                                              | 链接                                                                   |
-|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| `mvn versions: use -latest-versions` | 更新版本-谁需要Dependabot？是的，我的项目多年来一直能够无需繁琐的合并请求就能轻松升级到最新版本。| https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html |
-| `mvn versions:set -DnewVersion=1.0.0` | 设置项目版本...                                                                                                                                                 | https://www.mojohaus.org/versions/versions-maven-plugin/index.html       |
-| `mvn license:add-third-party`        | 列出依赖项并显示其许可证（即使在排除许可证的情况下，也可能会失败）                                                                                 | https://www.mojohaus.org/license-maven-plugin/index.html                 | 
+| 示例命令                        | 描述                                                                                                                                                    | 链接                                                                     | 
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| `mvn versions:use -latest-versions`   | 更新版本 - 谁需要Dependabot? 是的，我的项目已经多年来顺利升级到最新版本，无需烦人的合并请求 | https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html |
+| `mvn versions:set -DnewVersion=1.0.0` | 设置项目版本...                                                                                                                                         | https://www.mojohaus.org/versions/versions-maven-plugin/index.html       |
+| `mvn license:add-third-party`         | 列出依赖项并显示其许可证（甚至可以在排除的许可证上失败）                                                                                                 | https://www.mojohaus.org/license-maven-plugin/index.html                | 
 
-这种清单看似无穷无尽。这让我想起了 GitHub Work flow步骤。
+这个列表可以无休止地继续下去。它在某种程度上提醒我GitHub Workflow Steps。
 
 ![maven_plugin_command_line_args](/images/content/maven_plugin_command_line_args.png)
 
-### 你不喜欢 XML？
 
-没问题！只需用`ruby`、`groovy`、`scala`、`yaml`、`atom`或`Java`编写您的构建文件。Polygot扩展程序（https://github.com/takari/polyglot-maven）让这成为可能。要尝试一下，请运行`mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml`，您的构建文件将在几毫秒内被翻译。可惜没有可靠的Maven<>Gradle翻译器:(是的，Maven构建文件很大，但也非常易于理解。可以轻松地进行修补或调试。
+### 你不喜欢XML吗？
 
-### 年龄只是一个数字 - Maven 的稳定性和演化
+没有问题！只需将你的构建文件写在`ruby`，`groovy`，`scala`, `yaml`, `atom`或`Java`中。 Polyglot扩展（https://github.com/takari/polyglot-maven）使其成为可能。 要试一试，只需执行`mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml`，然后在几毫秒内你的构建文件就会被翻译过来。 可惜没有可靠的Maven <> Gradle翻译器:(
 
-承认，Maven已经存在了相当长的时间，其美学可能不符合当今的标准。但是Maven的耐久性使其能够适应和发展。Maven与您的项目无关，构建文件可以轻松地重复使用。插件在沙盒中运行，彼此独立，与Java或Maven版本无关。这种设计促进了稳
-定性和可预测性，并使管理复杂的构建过程变得容易且没有意外的冲突。
+是的，Maven构建文件很大，但也非常易于理解。 可以很快地进行修改或调试。
+
+### 年龄只是一个数字 - Mavens的稳定性和演化
+
+诚然，Maven已经存在很长时间了，它的美感可能不符合今天的标准。然而， Maven的长寿性使其能够适应和进化。Maven独立 于您的项目。构建文件可以简单地复用。插件在沙箱中运行，并且彼此独立，与Java或Maven版本无关。
+这种设计促进了稳定性和可预测性，使得管理复杂的构建过程而不会有意外冲突变得简单。
 
 ### 结论
 
-现在，开发环境对开发人员而言充满了许多任务和技术。在寻求简单和自动化的同时，Gradle作为一种现代构建工具出现了，但也带来了自己的挑战。毫无疑问，Gradle的概念很好！但鉴于Gradle构建脚本所投入的复杂性和时间，是否扩展Maven会
-更容易呢？通过插件和扩展，可以随时刷新和简化Maven。与跳转到下一个技术相比，进一步发展是不是更有趣和可持续的呢？
+如今，开发环境因开发人员的许多任务和技术而过于复杂。在寻求简单化和自动化的过程中，Gradle作为一个现代化的构建工具出现了，但也带来了自己的挑战。毫无疑问，Gradle的概念是好的！但面对Gradle构建脚本所投入的复杂性和时间，人们不禁
+会问，是否扩展Maven会更简单。通过插件和扩展，我们可以随时刷新和简化Maven。不是跳转到下一个技术，而是继续发展，不会更加激动人心并且更持久吗？
 
 ### 链接
 
-* [从Gradle迁回Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+* [从 Gradle 切换回 Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
-### 联系我们
+### 联系方式
 
-[GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose). 
-
-请将此条目翻译为中文简体
+[GitHub问题](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose)。

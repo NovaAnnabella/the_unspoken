@@ -1,11 +1,11 @@
 ---
-title: "Menguji level: Menemukan keseimbangan yang tepat"
+title: "Tingkat Tes: Menemukan Keseimbangan yang Tepat"
 date: 2023-05-31
 author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: "Menemukan keseimbangan yang tepat dalam memilih tingkat pengujian yang sesuai untuk pengujian perangkat lunak."
+description: "Menemukan keseimbangan yang tepat dalam memilih tingkat tes yang sesuai untuk pengujian perangkat lunak"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"
@@ -13,88 +13,82 @@ card: "summary_large_image"
 ---
 
 
-# Tingkat pengujian: Menemukan keseimbangan yang tepat
+# Tingkat Pengujian: Menemukan Keseimbangan yang Tepat
 
 [![testebenen](/images/content/martin_fowler_testing.png)](https://martinfowler.com/articles/microservice-testing/)
 
+
 ### Pendahuluan
 
-Topik pengujian tampaknya masih merupakan wilayah yang belum dipetakan dengan banyak ruang untuk interpretasi.
-Tradisional tradisional telah dipertanyakan dan piramida pengujian baru telah muncul. Menurut pendapat saya, tidak perlu
-ada piramida tes, tetapi pemahaman yang jelas tentang apa yang perlu diuji. Tes di tingkat yang lebih rendah sering kali
-kurang bermakna. Fokusnya harus terutama pada pengujian perilaku untuk memastikan bahwa API atau UI berfungsi seperti
-yang diinginkan. Gambaran umum yang komprehensif tentang jenis pengujian yang mungkin dapat ditemukan di sini:
+Tema Pengujian tampaknya hingga hari ini masih merupakan wilayah baru dengan banyak ruang untuk interpretasi. Piramida pengujian tradisional dipertanyakan dan piramida pengujian baru muncul. Menurut pendapat saya, kita tidak memerlukan piramida pengujian, tetapi pemahaman yang jelas tentang apa yang harus diuji. Pengujian pada level yang lebih rendah seringkali kurang informatif. Fokus harus terutama pada pengujian perilaku untuk memastikan bahwa 
+API 
+atau UI berfungsi sesuai keinginan. Ikhtisar komprehensif tentang jenis-jenis pengujian yang mungkin dapat ditemukan di sini: 
 [Martinfowler Testing](https://martinfowler.com/articles/microservice-testing/).
 
-### Level 1 - Tes Tiruan & Tes Unit
 
-Tujuan: Melatih bagian perangkat lunak terkecil yang dapat diuji dalam aplikasi untuk melihat apakah berfungsi seperti
-yang diharapkan. bekerja. Uji coba dan uji coba unit dapat menjadi kontraproduktif dan sering kali menghambat proses
-pengembangan. Tes-tes ini sering kali terlepas dari konteks dan memiliki sedikit hubungan dengan kenyataan. Mereka
-sering kali hanya berfungsi untuk mempertahankan fungsi yang tidak perlu melalui tes unit yang ada. Setelah mock
-ditambahkan, ini menjadi latihan yang merugikan diri sendiri. Yang diharapkan Hasil dari mock test terbatas pada apa
-yang didefinisikan dalam mock asli. Pengguna akhir tidak tertarik dengan fungsi internal. Sebagai contoh, dalam sebuah
-skenario login `loginUser(nama, kata sandi, securityAlgorithm)`. Jika uji coba unit melakukan pemeriksaan null pada
-parameter `securityAlgorithm`, terlalu banyak pengujian yang dilakukan karena pengguna tidak dapat mengatur parameter
-`securityAlgorithm`. mengatur parameter `securityAlgorithm`.
+### Level 1 - Ujian Coba & Ujian Unit
+
+Tujuan: Melakukan bagian perangkat lunak yang dapat diuji terkecil dalam aplikasi untuk menentukan apakah mereka berfungsi sesuai yang diharapkan.
+
+Mock-tests dan Unit-tests bisa kontraproduktif dan seringkali menghambat proses pengembangan. Tes ini seringkali terlepas dari konteks dan memiliki sedikit kaitan dengan kenyataan. Mereka seringkali hanya digunakan untuk mempertahankan fungsi yang tidak perlu melalui Unit-tests yang ada. Begitu Mock ditambahkan, maka menjadi kesibukan sendiri. Hasil yang diharapkan dari Mock-tests dibatasi pada apa yang didefinisikan dalam Mock asli. Pengguna akhir tidak peduli dengan fungsi internal. Misalnya, dalam skenario login `loginUser(name, password, securityAlgorithmus)`. Jika Unit-test melakukan pengecekan Null pada parameter `securityAlgorithm`, ini adalah tes yang berlebihan, karena pengguna tidak bisa mengatur parameter `securityAlgorithm`.
+
 
 ### Level 2 - Uji Integrasi
 
-Tujuan: Memeriksa jalur komunikasi dan interaksi antar komponen untuk mendeteksi cacat antarmuka. Tes integrasi
-memberikan wawasan berharga tentang kinerja dan kemandirian berbagai bagian aplikasi. aplikasi. Dengan lebih sedikit
-tiruan, pengujian menjadi lebih mudah dipahami. Namun, mereka masih kekurangan konteks, dan ada risiko bahwa bahaya
-bahwa tes integrasi hanyalah tes unit yang menyamar dengan lebih sedikit tiruan.
+Tujuan: Memeriksa jalur komunikasi dan interaksi antara komponen untuk mendeteksi kecacatan antarmuka. Tes integrasi
+memberikan wawasan berharga tentang kinerja dan independensi berbagai bagian dari aplikasi. Dengan lebih sedikit mock,
+tes menjadi lebih mudah dimengerti. Namun, mereka masih kekurangan konteks, dan ada risiko bahwa tes integrasi hanyalah
+tes unit yang terselubung dengan lebih sedikit mock.
 
-### Level 3 - Uji Konten
+### Level 3 - Uji Komponen
 
-Tujuan: untuk membatasi ruang lingkup perangkat lunak yang diuji menjadi bagian dari sistem yang diuji, untuk
-memanipulasi sistem sistem melalui antarmuka kode internal dan penggunaan ganda uji untuk mengisolasi kode yang diuji
-dari komponen lain. komponen. Pengujian komponen memberikan banyak informasi tentang kualitas dan kinerja aplikasi.
-Alih-alih mengolok-olok Anda akhirnya menguji aplikasi Anda. Batas antara pengujian komponen dan pengujian end-to-end
-tidak signifikan. Dengan lingkungan pengujian yang baik, batas-batas di antara keduanya sering kali menjadi kabur,
-sehingga pengujian perilaku nyata, bukannya fungsi-fungsi yang terisolasi dan tanpa konteks. Akan tetapi, pembuatan
-kelas uji tambahan Namun, pembuatan kelas pengujian tambahan seperti stub komponen, fakes, dan mocks dalam kode produksi
-dapat menambah biaya pemeliharaan.
+Tujuan: Membatasi lingkup perangkat lunak yang diuji menjadi sebagian dari sistem yang harus dites, manipulasi sistem
+melalui antarmuka kode internal dan penggunaan Testdoubles untuk mengisolasi kode yang diuji dari komponen lain.
+
+Tes komponen memberikan banyak informasi tentang kualitas dan kinerja aplikasi. Alih-alih
+Mocks, kau akhirnya menguji aplikasimu. Batas antara tes komponen dan tes ujung-ke-ujung tidak
+signifikan. Dengan lingkungan tes yang baik, batas antara mereka seringkali menjadi kabur, sehingga pengujian perilaku nyata
+daripada fungsi terisolasi dan tanpa konteks menjadi mungkin. Namun, pembuatan tambahan
+kelas tes seperti Komponen-Stubs, Fakes dan Mocks dalam kode produksi dapat membawa biaya pemeliharaan tambahan.
 
 ### Level 4 - Tes Kontrak
 
-Tujuan dari blok kode ini adalah untuk memeriksa interaksi pada batas layanan eksternal dan untuk memastikan bahwa itu
-sesuai dengan persyaratan kontrak dari layanan konsumsi. Uji coba kontrak sering kali menyerupai uji coba unit, dan
-perbedaan di antara keduanya sangat kecil. Beberapa pengembang mengasosiasikan pengujian ini dengan pengujian Pact, yang
-pada dasarnya bertindak sebagai pengujian unit dengan server di antaranya. Upaya Namun, upaya mempertahankan tes ini
-mungkin tidak bermanfaat. Sebagai contoh, tes Pact dapat menggunakan REST API `loginUser?name=aa&password=bb)` dan
-mengharapkan respons skema JSON yang sebelumnya diunggah ke server Pact. server. Skema ini bersifat statis dan rentan
-terhadap kesalahan seperti format tanggal atau zona waktu yang salah dalam Respons API. Efek negatifnya bisa sangat
-besar.
+Tujuan dari blok kode ini adalah untuk memeriksa interaksi di perbatasan layanan eksternal dan
+memastikan bahwa ia memenuhi persyaratan kontrak dari layanan konsumen.
 
-### Level 5 - Tes ujung ke ujung (juga disebut tes kotak hitam)
+Pengujian Kontrak sering kali mirip dengan Pengujian Komponen, dan perbedaan antara keduanya sangat minimal. Beberapa pengembang
+mengasosiasikan pengujian ini dengan Pact-Tests, yang pada dasarnya berfungsi sebagai unit tests dengan server di antaranya. Namun,
+upaya untuk mempertahankan pengujian ini mungkin tidak sepadan. Sebagai contoh, Pact-Test bisa
+menguji REST-API `loginUser?name=aa&password=bb)` dan mengharapkan respon JSON Schema yang sebelumnya telah diunggah ke server Pact.
+Skema ini adalah statis dan rentan terhadap kesalahan seperti format tanggal yang salah atau zona waktu dalam
+respon API. Dampak negatifnya bisa sangat besar.
 
-Tujuan: Untuk memverifikasi bahwa suatu sistem memenuhi persyaratan eksternal dan mencapai tujuannya dengan menguji
-keseluruhan sistem dari awal hingga akhir. dari awal hingga akhir. Pengujian dari awal hingga akhir dapat diandalkan
-dan kuat. Setelah rintangan pengaturan lingkungan pengujian diatasi, maka upaya terbayar. Pengujian ini mensimulasikan
-perilaku nyata dan menghilangkan kebutuhan akan tiruan. Kesalahan lebih jarang terjadi dan lebih mudah direproduksi
-secara lokal. Debugging dan pencatatan yang memakan waktu dalam produksi sebagian besar dihindari, karena jarang
-terjadi. sebagian besar dihindari, seperti halnya insiden yang jarang terjadi. Pengembang lebih jarang bekerja, jika
-sama sekali, dengan dengan data produksi, yang mengurangi tanggung jawab dan meningkatkan fokus. Selain itu, otomatisasi
-seperti pembaruan perangkat lunak otomatis membuat implementasi menjadi lebih mudah, karena perilakunya sudah teruji.
-Masih ada manfaat lainnya! Sekali tes ditulis dalam bentuk yang dapat digunakan kembali, tes tersebut dapat
-diintegrasikan ke dalam tes beban untuk mendapatkan yang komprehensif komprehensif tentang fungsionalitas. Pengujian ini
-juga dapat dijalankan terus menerus di lingkungan produksi dan memberikan wawasan waktu nyata tentang status berbagai
-alur kerja. Ketika sebuah subsistem, seperti Layanan REST, misalnya, menjadi offline, maka dimungkinkan untuk segera
-mengidentifikasi alur kerja pengguna mana yang terpengaruh. terpengaruh.
+### Level 5 - Uji End-to-End (juga disebut Uji Black-Box)
 
-### Fazit
+Tujuan: Melakukan pemeriksaan apakah suatu sistem memenuhi persyaratan eksternal dan mencapai tujuan-tujuannya dengan menguji seluruh sistem dari
+awal hingga akhir.
 
-Singkatnya, pengujian adalah aspek penting dalam pengembangan perangkat lunak, dan pilihan tingkat pengujian tergantung
-pada persyaratan dan tujuan spesifik aplikasi. Meskipun uji coba dan uji coba unit mungkin terbatas dalam
-keefektifannya, uji coba integrasi dan uji coba efektivitas, tes integrasi dan tes unit memberikan wawasan yang berharga
-ke dalam perilaku dan kinerja aplikasi. kinerja aplikasi. Uji coba kontrak membantu memverifikasi interaksi dengan
-layanan eksternal, tetapi diferensiasi dari tes unit bisa minimal. Pada akhirnya, pengujian end-to-end memberikan
-tingkat kepercayaan tertinggi pada fungsionalitas sistem dan memungkinkan pengujian yang komprehensif. Pengujian end-to-
-end memberikan tingkat kepercayaan tertinggi pada fungsionalitas sistem dan memungkinkan pengujian komprehensif terhadap
-keseluruhan aplikasi. Dengan memilih yang sesuai tingkat pengujian yang sesuai dan menggabungkannya secara efektif,
-pengembang dapat memastikan kualitas, keandalan, dan ketahanan Anda perangkat lunak.
+Tes End-to-End adalah tepercaya dan kokoh. Setelah hambatan pembangunan lingkungan tes diatasi, upaya tersebut akan memberikan hasil. Tes ini mensimulasikan perilaku nyata dan menghilangkan kebutuhan akan mock. Kesalahan lebih jarang
+terjadi dan lebih mudah direproduksi secara lokal. Debugging yang rumit dan pencatatan di produksi
+sebagian besar dihindari, begitu pula insiden yang jarang terjadi. Pengembang jarang bekerja, jika ada, dengan
+data produksi, yang mengurangi tanggung jawab dan meningkatkan fokus. Selain itu, otomatisasi seperti
+pembaruan perangkat lunak otomatis memudahkan pelaksanaan, karena perilakunya sudah diuji. Ada banyak keuntungan lainnya! Begitu
+tes ditulis dalam bentuk yang dapat digunakan kembali, mereka bisa diintegrasikan ke dalam tes beban untuk mendapatkan gambaran
+secara komprehensif tentang fungsionalitas. Tes ini juga bisa dijalankan secara kontinu di lingkungan produksi
+dan memberikan wawasan real-time tentang status berbagai alur kerja. Jika subsistem, seperti
+layanan REST eksternal, offline, dapat segera diidentifikasi alur kerja pengguna mana yang
+terpengaruh.
+
+### Kesimpulan
+
+Secara keseluruhan, pengujian adalah aspek penting dalam pengembangan perangkat lunak, dan pemilihan tingkat pengujian tergantung pada
+persyaratan dan tujuan spesifik dari aplikasi. Meski Pengujian Mock dan Unit mungkin memiliki keterbatasan dalam efektivitasnya,
+pengujian integrasi dan pengujian komponen memberikan wawasan berharga tentang perilaku dan
+kinerja aplikasi. Pengujian kontrak membantu memeriksa interaksi dengan layanan eksternal, tetapi pembatasan anda
+dengan pengujian komponen mungkin minim. Pada akhirnya, Pengujian End-to-End memberikan tingkat kepercayaan tertinggi dalam
+fungsionalitas sistem dan memungkinkan pengujian menyeluruh dari aplikasi secara keseluruhan. Dengan memilih tipe
+pengujian yang tepat dan kombinasi efektif dari mereka, pengembang dapat menjamin kualitas, keandalan, dan ketahanan perangkat lunak anda.
 
 ### Kontak
 
-[Masalah GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[Isu GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

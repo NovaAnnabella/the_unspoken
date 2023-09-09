@@ -1,11 +1,11 @@
 ---
-title: "AI-hype"
+title: "AI Hype"
 date: 2023-05-30
 author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "AI in de echte wereld - verder denken dan de hype"
+description: "KI in de echte wereld - Denken voorbij de hype"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"
@@ -13,91 +13,92 @@ card: "summary_large_image"
 ---
 
 
+# AI in de echte wereld - Denken voorbij de hype
 
-# AI in de echte wereld - verder denken dan de hype
+[![ai_ml](/images/content/ai_ml.jpg)](https://nl.wikipedia.org/wiki/Zwakke_kunstmatige_intelligentie)
 
-[ai_ml](/images/content/ai_ml.jpg)](https://en.wikipedia.org/wiki/Weak_artificial_intelligence)
+### Inleiding
 
-### Introductie
+Als het gaat om het gebruik van Kunstmatige Intelligentie (KI), is er veel irritante opwinding en ook verwachtingen.
+Sommigen geloven dat KI de werkwereld zal revolutioneren en menselijke vaardigheden overbodig zal maken. Maar voordat
+we ons hoofd eerst in de wereld van KI storten, moeten we enkele belangrijke punten overwegen. KI heeft ongetwijfeld vooruitgang
+geboekt, maar het is niet nieuw en komt met aanzienlijke beperkingen, die we moeten begrijpen en respecteren.
+Spoiler: KI is slechts een ander hulpmiddel. Van filmachtige taferelen zoals bijvoorbeeld in Terminator zijn we nog ver weg.
+Huidige KI zoals bijvoorbeeld ChatGPT zijn ook een goed voorbeeld van hoe software ontworpen zou moeten worden! Service georiënteerd en
+niet als een Zwitsers zakmes aka een oplossing voor alles is zelden nuttig of herbruikbaar.
 
-Als het gaat om het gebruik van kunstmatige intelligentie (AI), zijn er veel nerveuze opwinding en verwachtingen.
-Sommigen geloven dat AI een revolutie teweeg zal brengen in de wereld van werk en menselijke vaardigheden overbodig zal
-maken. Maar voordat we ons halsoverkop in de wereld van AI storten, moeten we een aantal belangrijke punten in
-overweging nemen. AI heeft ongetwijfeld vooruitgang gemaakt, maar het is niet nieuw en heeft belangrijke beperkingen die
-we moeten begrijpen en respecteren. Spoiler: AI is gewoon een gereedschap. We zijn nog ver verwijderd van filmachtige
-scènes zoals in Terminator. Huidige AI zoals ChatGPT zijn ook een goed voorbeeld van hoe software moet worden ontworpen!
-Servicegericht en niet als een Zwitsers zakmes: een oplossing voor alles, maar zelden nuttig of herbruikbaar. Een paar
-provocerende vragen: * Moet geen enkele computerwetenschapper die denkt dat AI iets nieuws is of zijn of haar werk kan
-overnemen  niet beter nadenken over zijn of haar horizon en expertise? * Data Scientists in loondienst die overstappen
-op AI-modellen.  maken de overstap: Waarom is jouw specifieke AI-model inferieur aan de grote alles könner
-Taalmodellen? Wat heb je  Wat heb je eerder gedaan en wat mis je om even goede modellen te maken die specifiek zijn
-voor jouw usecase?
+Een paar provocerende vragen:
 
-### De grenzen begrijpen
+* Moet elke informaticus, die gelooft dat KI iets nieuws is of zijn werk kan overnemen, niet
+  beter nadenken over zijn horizon en expertise?
+* Werknemers Data Scientists, die overschakelen op KI-modellen
+  over: Waarom is uw specifieke KI-model minder dan de grote alleskunner Language Models? Wat hebben jullie
+  voorheen gedaan en wat missen jullie om net zulke goede modellen te maken, specifiek voor jullie usecase?
 
-AI-modellen, waaronder die op basis van GPT, worden getraind op bestaande gegevens en patronen. Ze zijn goed in het
-herkennen van patronen en het genereren van inhoud op basis van die training, maar ze missen echt begrip of het vermogen
-om verder te denken dan hun training. Deze grens erkennen helpt, om realistische verwachtingen te stellen. Wat er nooit
-was, zal er niet zijn. Kwalitatief, vertrouwelijk en veilig Informatie is in de minderheid. Er zullen altijd meer
-juniors dan seniors zijn. AI zal dus alleen werken voor low-level "Hello World" voorbeelden. Op veel gebieden, zoals bij
-programmeurs, die bang zijn voor hun baan, moeten ze serieus nadenken over de kwaliteit van hun werk.
+### Begrip van de grenzen
 
-### Kosten van AI-ontwikkeling en het belang van rekenkracht
+KI-modellen, inclusief die op GPT gebaseerd zijn, worden getraind op bestaande gegevens en patronen. Ze zijn
+goed in het herkennen van patronen en het genereren van inhoud op basis van deze training, maar ze missen echte
+begrip of het vermogen om verder te denken dan hun training. De erkenning van deze beperking helpt om
+realistische verwachtingen te stellen. Wat er nooit was, zal ook niet bestaan. Kwalitatieve, vertrouwelijke en veilige
+informatie zijn in de minderheid. Er zullen altijd meer juniors dan seniors zijn. Daarom werkt AI alleen voor
+low-level "Hello World" voorbeelden. In veel gebieden, zoals bijvoorbeeld programmeurs die bang zijn voor hun baan, zouden
+moet serieus nadenken over de kwaliteit van hun werk.
 
-De ontwikkeling van AI is grotendeels gedreven door de constante evolutie van hardware. AI-modellen zoals GPT-3.5 hebben
-enorme rekenkracht nodig om complexe taken uit te voeren. De kosten van AI hangen nauw samen met de benodigde hardware,
-zoals krachtige GPU's en TPU's. Daarnaast zijn er doorlopende kosten voor de werking en het onderhoud van de
-infrastructuur. en onderhoud van de infrastructuur. Toenemende rekenkracht heeft de beschikbaarheid van AI vergroot,
-maar vereist nog steeds aanzienlijke investeringen. aanzienlijke investeringen. Kostenoptimalisatie en efficiënt beheer
-van bronnen zijn cruciaal voor het economische succes van AI-projecten. economisch succes van AI-projecten te
-garanderen. Een gedegen kostenanalyse en planning zijn daarom onmisbaar bij de implementatie van AI. zijn onmisbaar bij
-de implementatie van AI.
+### Kosten van KI-ontwikkeling en het belang van rekenkracht
 
-### Menselijke intelligentie aanvullen
+De ontwikkeling van AI is in grote mate gedreven door de gestage vooruitgang van de hardware. AI-modellen zoals
+GPT-3.5 vereisen enorme rekenkracht om complexe taken aan te pakken. De kosten voor AI zijn nauw verbonden met de
+benodigde hardware, zoals krachtige GPU's en TPU's. Bovendien zijn er doorlopende kosten voor bedrijfsvoering en
+onderhoud van de infrastructuur. De toenemende rekenkracht heeft de beschikbaarheid van AI verhoogd, maar vereist nog steeds
+aanzienlijke investeringen. Kostenoptimalisatie en efficiënt beheer van middelen zijn cruciaal om de
+economisch succes van AI-projecten te waarborgen. Een grondige kostenanalyse en -planning zijn daarom essentieel bij het
+implementatie van AI.
 
-AI moet worden gezien als een hulpmiddel dat menselijke intelligentie aanvult in plaats van vervangt. Menselijk
-Menselijk beoordelingsvermogen, kritisch denken en creativiteit blijven essentieel. AI kan waardevolle inzichten
-verschaffen, repetitieve taken en taken en de productiviteit verhogen, maar het moet niet alleen worden gebruikt om
-belangrijke beslissingen te nemen. beslissingen. Zonder jouw vertrouwen zal AI niet in staat zijn om alle benodigde
-aspecten te integreren. In IT zal AI niet uit zichzelf nadenken over zaken als: Veerkracht, Beveiliging, Compliance,
-Dataprivacy, Leesbaarheid, Prestaties, Eenvoud, Patronen, Tijdigheid etc. Voorbeeld van AI 3D-modellering: [Alex test AI
-met Blender](https://www.youtube.com/watch?v=x60zHw_z4NM&t=460s) (Ziet er goed uit, maar alleen een "Hallo maar het is
-slechts een "Hallo Wereld" voorbeeld) Mijn ervaring met AI code generatie in één woord: belachelijk! Ik zou geen
-ontwikkelaars willen houden die Ik zou ze niet willen houden. Toch gebruik ik AI als sparringpartner aka effect
-uitleggen, als een soort zelfreflectie. Het meest effectieve gebruik van AI wordt vaak bereikt door samenwerking tussen
-mensen en AI-systemen. AI kan helpen bij het genereren van ideeën, het vinden van oplossingen of het automatiseren van
-bepaalde taken, maar menselijke toezicht en tussenkomst zijn cruciaal om de resultaten te verfijnen, te verbeteren en te
-optimaliseren.
+### Aanvulling op de menselijke intelligentie
 
-### Validatie en test
+KI moet worden beschouwd als een hulpmiddel dat de menselijke intelligentie aanvult, in plaats van deze te vervangen. Menselijk
+oordelen, kritisch denken en creativiteit blijven essentieel. KI kan waardevolle inzichten bieden, repetitieve
+taken automatiseren en de productiviteit verhogen, maar mag niet alleen worden gebruikt voor belangrijke beslissingen.
+Zonder jouw inbreng zal KI niet alle benodigde aspecten kunnen meenemen.
+In de informatica zal KI niet zelf nadenken over onderwerpen zoals: Veerkracht, Beveiliging, Compliance, Gegevensprivacy,
+Leesbaarheid, Prestaties, Eenvoud, Patronen, Actualiteit, enz.
+Voorbeeld KI 3D Modelling: [Alex test KI met Blender](https://www.youtube.com/watch?v=x60zHw_z4NM&t=460s) (ziet er goed
+uit, maar is slechts een "Hello World" voorbeeld)
+Mijn ervaring met KI code generatie in één woord: belachelijk! Ontwikkelaars die dergelijke code schrijven, zou ik
+niet willen behouden. Toch gebruik ik KI als sparringpartner aka Explain-Effect, als een soort zelfreflectie.
+De effectiefste inzet van KI wordt vaak bereikt door de samenwerking tussen mensen en KI-systemen. KI kan helpen bij
+het genereren van ideeën, het vinden van oplossingen of het automatiseren van bepaalde taken, maar menselijk
+toezicht en interventie zijn cruciaal om de resultaten te verfijnen, te verbeteren en te optimaliseren.
 
-AI-gegenereerde resultaten moeten altijd grondig worden gevalideerd en getest. Of het nu gaat om code, inhoud of andere
-output, menselijk toezicht is nodig om de kwaliteit, correctheid en naleving van gegenereerde gegenereerde resultaten.
-Verificatieprocessen zijn essentieel om te voorkomen dat men vertrouwt op onnauwkeurige of misleidende resultaten.
-onnauwkeurige of misleidende resultaten. Valideer geen AI met behulp van een andere AI. Dat zou hetzelfde zijn als
-wanneer ik klassentoetsen zou corrigeren en ze niet zelf corrigeer, maar mijn studenten gebruik.
+### Validatie en Test
 
-### Voortdurend leren en aanpassen
+KI-gegenereerde resultaten moeten altijd grondig gevalideerd en getest worden. Of het nu gaat om code, inhoud of andere
+uitvoer, menselijk toezicht is noodzakelijk om de kwaliteit, correctheid en naleving van de gegenereerde
+resultaten te waarborgen. Verificatieprocessen zijn cruciaal om niet te vertrouwen op onnauwkeurige of misleidende
+resultaten. Valideer KI alstublieft niet met een andere KI. Dat zou hetzelfde zijn als dat ik de testen van de klas 
+niet zelf, maar door mijn studenten zou laten corrigeren.
 
-AI-modellen moeten voortdurend worden bijgewerkt en verfijnd om ze aan te passen aan veranderende omstandigheden.
-Feedbacklussen en iteratieve verbeteringen zijn nodig om de nauwkeurigheid, relevantie en bruikbaarheid van de
-resultaten van AI te garanderen. en bruikbaarheid van de resultaten die door AI worden gegenereerd. Het leerproces van
-AI zal nooit stoppen.
+### Continu leren en aanpassing
 
-### Focus op het oplossen van echte problemen
+KI-modellen moeten continu worden bijgewerkt en verfijnd om zich aan te passen aan veranderende omstandigheden.
+Feedbacklussen en iteratieve verbeteringen zijn nodig om de nauwkeurigheid, relevantie en bruikbaarheid van de door
+KI gegenereerde resultaten te waarborgen. Het leerproces van KI zal nooit stoppen.
 
-AI moet worden gebruikt om echte problemen aan te pakken en waarde te creëren voor mensen. Het is belangrijk om AI niet
-te gebruiken AI omwille van zichzelf. Duidelijke doelstellingen, identificatie van problemen en begrip van de impact op
-belanghebbenden zijn cruciaal als het gaat om AI-oplossingen.
+### Focus op de oplossing van echte problemen
 
-### Fazit
+KI moet worden ingezet om echte problemen aan te pakken en meerwaarde te creëren voor mensen. Het is belangrijk om KI niet
+alleen omwille van zichzelf in te zetten. Duidelijke doelen, identificatie van problemen en het begrijpen van de gevolgen
+voor betrokkenen is cruciaal als het gaat om KI-oplossingen.
 
-Kunstmatige intelligentie is ongetwijfeld een krachtig hulpmiddel, maar het is belangrijk om de beperkingen ervan te
-begrijpen en verantwoord te gebruiken. AI kan menselijke intelligentie niet aanvullen, creativiteit en kritisch denken
-blijven onmisbaar. Door zorgvuldige validatie, overleg en samenwerking tussen mensen en AI kunnen we de beste resultaten
-bereiken. resultaten. Laten we de sterke punten van AI gebruiken om echte problemen op te lossen en de wereld beter te
-maken.
+### Conclusie
+
+De Kunstmatige Intelligentie is ongetwijfeld een krachtig hulpmiddel, maar het is belangrijk om haar grenzen te
+begrijpen en verantwoord te gebruiken. AI kan menselijke intelligentie niet aanvullen, menselijk oordeel, creativiteit
+en kritisch denken blijven onmisbaar. Door zorgvuldige validatie, overwegingen en de samenwerking tussen mens en AI
+kunnen we de beste resultaten bereiken. Laten we de sterktes van AI gebruiken om echte problemen op te lossen en de
+wereld te verbeteren.
 
 ### Contact
 
-[GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[GitHub-problemen](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

@@ -1,11 +1,11 @@
 ---
-title: "Níveis de teste: Encontrar o equilíbrio correcto"
+title: "Testebenen: Encontrar o equilíbrio certo"
 date: 2023-05-31
 author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: "Encontrar o equilíbrio certo na selecção dos níveis de teste adequados para testes de software"
+description: "Encontrar o equilíbrio certo na escolha dos níveis de teste adequados para testes de software"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"
@@ -13,93 +13,81 @@ card: "summary_large_image"
 ---
 
 
-# Níveis de teste: Encontrar o equilíbrio correcto
+# Níveis de teste: Encontrar o equilíbrio certo
 
 [![testebenen](/images/content/martin_fowler_testing.png)](https://martinfowler.com/articles/microservice-testing/)
 
 ### Introdução
 
-O tema dos testes parece ser ainda um território desconhecido, com muita margem para interpretação. A tradicional
-pirâmide de testes tradicional foi posta em causa e surgiram novas pirâmides de testes. Na minha opinião, não há
-necessidade de uma pirâmide de testes, mas sim uma compreensão clara do que precisa de ser testado. Os testes dos níveis
-inferiores são frequentemente menos significativos. A tónica deve ser colocada principalmente no teste do comportamento
-para garantir que a API ou a IU funciona como pretendido. Uma visão abrangente dos possíveis tipos de teste pode ser
-encontrada aqui: [Martinfowler Testing](https://martinfowler.com/articles/microservice-testing/).
+O tópico de teste parece ser até hoje um território inexplorado com muito espaço para interpretação. A pirâmide de teste tradicional foi questionada e novas pirâmides de teste surgiram. Na minha opinião, não é necessária uma pirâmide de teste, mas sim uma compreensão clara do que precisa ser testado. Os testes em níveis mais baixos geralmente são menos conclusivos. O foco deve ser principalmente no teste do comportamento, para garantir que a API ou UI funcione conforme esperado. Uma visão geral completa de possíveis tipos de teste pode ser encontrada aqui: [Testes Martinfowler](https://martinfowler.com/articles/microservice-testing/).
 
-### Nível 1 - Testes de simulação e testes unitários
 
-Objectivo: Exercitar as partes de software testáveis mais pequenas da aplicação para ver se funcionam como esperado.
-trabalho. Testes de simulação e testes unitários podem ser contraproducentes e muitas vezes atrapalham o processo de
-desenvolvimento. Estes testes são frequentemente Estes testes são frequentemente desligados do contexto e têm pouca
-relação com a realidade. Muitas vezes servem apenas para manter funções desnecessárias através de testes unitários
-existentes. Uma vez que os testes de simulação são adicionados, torna-se um exercício auto-destrutivo. Os resultados
-esperados Os resultados esperados dos testes de simulação são limitados ao que foi definido na simulação original. Os
-utilizadores finais não estão interessados em funções internas. Por exemplo, em um cenário de cenário de login
-`loginUser(nome, senha, securityAlgorithm)`. Se o teste unitário fizer uma verificação nula em o parâmetro
-`securityAlgorithm`, muitos testes são feitos porque os usuários não podem definir o parâmetro `securityAlgorithm`.
-definir o parâmetro `securityAlgorithm'.
+### Nível 1 - Testes Simulados & Testes Unitários
 
-### Nível 2 - Teste de integração
+Objetivo: Exercer as menores partes testáveis do software na aplicação para determinar se estão funcionando conforme o esperado.
 
-Objectivo: Verificar as vias de comunicação e as interacções entre componentes para detectar defeitos de interface. Os
-testes de integração fornecem informações valiosas sobre o desempenho e a independência das diferentes partes da
-aplicação. Aplicação. Com menos simulações, os testes tornam-se mais compreensíveis. No entanto, eles ainda carecem de
-contexto, e há o risco de que Os testes de integração são simplesmente testes unitários disfarçados com menos
-simulações.
+Os testes de simulação e unitários podem ser contraproducentes e frequentemente atrapalham o processo de desenvolvimento. Esses testes muitas vezes
+são desvinculados do contexto e têm pouco a ver com a realidade. Eles geralmente servem apenas para manter funções desnecessárias sobre as existentes
+testes unitários. Assim que os mocks são adicionados, torna-se um auto-ocupação. Os resultados esperados dos testes de simulação são limitados ao que foi definido no mock original. Os usuários finais
+não se interessam por funções internas. Por exemplo, em um
+cenário de login `loginUser(nome, senha, algoritmoDeSegurança)`. Se o teste unitário realiza uma verificação nula no
+parâmetro `algoritmoDeSegurança`, está sendo testado demais, já que os usuários não
+podem definir o parâmetro `algoritmoDeSegurança`.
 
-### Nível 3 - Teste de componentes
+### Nível 2 - Teste de Integração
 
-Objectivo: limitar o âmbito do software em ensaio a uma parte do sistema em ensaio, manipular o sistema através de
-interfaces de código internas e da utilização de duplos de teste para isolar o código em teste de outros componentes.
-componentes. O teste de componentes fornece uma grande quantidade de informações sobre a qualidade e o desempenho da
-aplicação. Em vez de mocks, você finalmente testa sua aplicação. A fronteira entre o teste de componentes e o teste de
-ponta a ponta não é significativa. Com um bom ambiente de teste, as fronteiras entre eles tornam-se muitas vezes ténues,
-de modo que o teste do comportamento real em vez de funções isoladas e sem contexto. No entanto, a criação de classes de
-teste adicionais No entanto, a criação de classes de teste adicionais, como stubs de componentes, fakes e mocks no
-código de produção, pode aumentar as despesas de manutenção.
+Objetivo: Verificação das vias de comunicação e interações entre os componentes para detecção de falhas nas interfaces.
+Os testes de integração fornecem informações valiosas sobre a performance e independência de diferentes partes do
+aplicativo. Com menos simulacros, os testes se tornam mais compreensíveis. No entanto, ainda lhes falta contexto, e há
+risco de que os testes de integração sejam apenas testes unitários disfarçados com menos simulacros.
 
-### Nível 4 - Teste do contrato
+### Nível 3 - Teste de Componente
 
-O objectivo deste bloco de código é verificar as interacções na fronteira de um serviço externo e garantir que cumpre os
-requisitos contratuais de um serviço consumidor. Os testes de contrato muitas vezes se assemelham a testes de unidade,
-e a diferença entre eles é mínima. Alguns programadores associam estes testes a testes Pact, que actuam essencialmente
-como testes unitários com um servidor no meio. O esforço O esforço de manter esses testes pode não valer a pena, no
-entanto. Por exemplo, um teste Pact poderia usar a REST API `loginUser?name=aa&password=bb)` e esperar uma resposta de
-esquema JSON que foi previamente carregada para o servidor Pact. servidor. Esse esquema é estático e propenso a erros,
-como formatos de data ou fusos horários incorretos na resposta da API. resposta da API. Os efeitos negativos podem ser
-enormes.
+Objetivo: Limitação do escopo do software testado para uma parte do sistema a ser testado, manipulação do sistema
+através de interfaces de código interno e uso de dublês de teste para isolar o código a ser testado de outros
+componentes. Os testes de componentes fornecem uma grande quantidade de informações sobre a qualidade e a capacidade de
+desempenho do aplicativo. Em vez de Mocks, você testa finalmente o seu aplicativo. A linha entre testes de componentes e
+testes de ponta a ponta não está significante. Com um bom ambiente de teste, as linhas entre eles muitas vezes se
+ofuscam, tornando possível testar o real comportamento em vez de funções isoladas e sem contexto. No entanto, a criação
+de classes de teste adicionais como componentes stubs, fakes e mocks no código de produção podem trazer manutenção
+adicional.
 
-### Nível 5 - Testes de extremo a extremo (também designados por testes de caixa negra)
+### Nível 4 - Teste de Contrato
 
-Objectivo: Verificar se um sistema cumpre os requisitos externos e atinge os seus objectivos, testando todo o sistema do
-princípio ao fim. do início ao fim. O teste de ponta a ponta é fiável e robusto. Uma vez ultrapassados os obstáculos da
-configuração do ambiente de teste, o esforço compensa. Estes testes simulam o comportamento real e eliminam a
-necessidade de mocks. Os erros ocorrem com menos frequência e são mais fáceis de reproduzir localmente. A depuração e o
-registo demorados na produção são largamente evitados, assim como os incidentes raros. são largamente evitados, assim
-como os incidentes raros. Os programadores trabalham com menos frequência, se é que trabalham, com dados de produção, o
-que reduz a responsabilidade e aumenta a produtividade. dados de produção, o que reduz a responsabilidade e aumenta a
-concentração. Além disso, as automatizações, tais como as actualizações automáticas de software facilitam a
-implementação, uma vez que o comportamento já foi testado. Há outras vantagens! Uma vez que Uma vez que os testes são
-escritos numa forma reutilizável, podem ser integrados em testes de carga para obter uma para obter uma visão global da
-funcionalidade. Estes testes também podem ser executados continuamente no ambiente de produção e fornecer informações em
-tempo real sobre o estado de vários fluxos de trabalho. Quando um subsistema, como o serviço Quando um subsistema, como
-o serviço REST, por exemplo, fica offline, é possível identificar imediatamente quais os fluxos de trabalho dos
-utilizadores que são afectados. são afectados.
+O propósito deste bloco de código é verificar as interações na fronteira de um serviço externo e garantir que ele atenda
+aos requisitos de contrato de um serviço consumidor. Os testes de contrato geralmente se assemelham aos testes de
+componente, e a diferença entre eles é mínima. Alguns desenvolvedores associam esses testes aos testes de Pact, que
+basicamente funcionam como testes de unidade com um servidor intermediário. O esforço para manter esses testes pode não
+ser recompensador. Por exemplo, um teste de Pact poderia testar a API REST `loginUser?name=aa&password=bb)` e esperar
+uma resposta em esquema JSON que foi previamente carregada no servidor Pact. Este esquema é estático e suscetível a
+erros como formatos de data incorretos ou fusos horários na resposta da API. Os efeitos negativos podem ser enormes.
 
-### Fazit
+### Nível 5 - Testes de ponta a ponta (também chamados de testes de caixa preta)
 
-Em resumo, o teste é um aspecto essencial do desenvolvimento de software e a escolha dos níveis de teste depende de dos
-requisitos e objectivos específicos da aplicação. Embora os testes de simulação e os testes unitários possam ser
-limitados em termos de eficácia, os testes de integração e os testes unitários fornecem informações valiosas sobre o
-comportamento e o desempenho da aplicação. Embora os testes de simulação e os testes unitários possam ser limitados na
-sua eficácia, os testes de integração e os testes unitários fornecem informações valiosas sobre o comportamento e o
-desempenho da aplicação. desempenho da aplicação. Os testes de contrato ajudam a verificar as interacções com serviços
-externos, mas a sua A sua diferenciação em relação aos testes unitários pode ser mínima. Em última análise, os testes de
-extremo a extremo proporcionam o mais elevado nível de confiança na funcionalidade do sistema e permitem a realização de
-testes exaustivos. Os testes de ponta a ponta fornecem o mais alto nível de confiança na funcionalidade do sistema e
-permitem testes abrangentes de toda a aplicação. Ao seleccionar os níveis de teste níveis de teste adequados e
-combinando-os eficazmente, os programadores podem garantir a qualidade, fiabilidade e robustez do seu software.
+Objetivo: Verificar se um sistema atende aos requisitos externos e alcança seus objetivos, testando todo o sistema do
+início ao fim. Os testes de ponta a ponta são confiáveis e robustos. Uma vez superados os obstáculos de configuração do
+ambiente de teste, o esforço compensa. Esses testes simulam comportamentos reais e eliminam a necessidade de mocks. Os
+erros ocorrem menos frequentemente e são mais facilmente reproduzidos localmente. O debugging extensivo e a manutenção
+de logs em produção são em grande parte evitados, assim como incidentes raros. Os desenvolvedores interagem menos, se
+for o caso, com dados de produção, o que reduz a responsabilidade e aumenta o foco. Além disso, automações como
+atualizações de software automáticas facilitam a realização, já que o comportamento já foi testado. Há mais vantagens!
+Assim que os testes são escritos de forma reutilizável, eles podem ser integrados em testes de carga para se obter uma
+visão completa da funcionalidade. Esses testes também podem ser executados continuamente no ambiente de produção e
+oferecer insights em tempo real sobre o status de diferentes fluxos de trabalho. Se um subsistema, como por exemplo, um
+serviço REST externo, ficar offline, é possível identificar imediatamente quais fluxos de trabalho do usuário são
+afetados.
 
-### Contacto
+### Conclusão
 
-[GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+Em suma, o teste é um aspecto essencial do desenvolvimento de software, e a escolha dos níveis de teste depende das
+exigências e objetivos específicos da aplicação. Enquanto testes de simulação e testes unitários em sua eficácia podem
+ser limitados, os testes de integração e testes de componentes fornecem visões valiosas sobre o comportamento e o
+desempenho da aplicação. Testes de contrato auxiliam na verificação de interações com serviços externos, mas seu
+delineamento em relação a testes de componentes pode ser mínimo. Finalmente, testes de ponta a ponta oferecem o mais
+alto nível de confiança em a funcionalidade do sistema e permitem testes abrangentes de toda a aplicação. Ao selecionar
+os níveis de teste apropriados e a combinação eficaz dos mesmos, os desenvolvedores podem garantir a qualidade,
+confiabilidade e robustez do seu software.
+
+### Contato
+
+[Issues do GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

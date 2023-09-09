@@ -1,66 +1,65 @@
 ---
-title: "Risiken der Cloud"
+title: "Risks of the Cloud"
 date: 2023-09-08
 author: "Nova Annabella"
-slug: illusion_serverless_cloud
+slug: risks_of_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
-description: "Risiken der Cloud - Warum Sie Zweimal Überlegen Sollten"
+description: "Why You Should Think Twice"
 draft: false
 images:
   - "/images/content/onprem_vs_cloud.png"
 card: "summary_large_image"
 ---
 
-# Die Illusion von Serverless Funktionen in der Cloud
+
+# Risks of the Cloud - Why You Should Think Twice
 
 ![aws_costs_twitter_1](/images/content/onprem_vs_cloud.png)
 
-### Einleitung
+### Introduction
 
-Der Hype um die Cloud ist nicht zu übersehen. Von kleinen Startups bis hin zu großen Unternehmen - alle schwärmen von
-der Flexibilität, den Möglichkeiten zur Skalierung und der Einfachheit der Cloud. Aber so wie Ikarus sich verbrannt hat,
-als er zu nahe an die Sonne flog, könnten auch Unternehmen, die gedankenlos in die Cloud ziehen, gefährliche Fallstricke
-erleben.
+The hype about the cloud is impossible to ignore. From small startups to large corporations - everyone is raving about
+the flexibility, scalability, and simplicity of the cloud. But just like Icarus burned himself
+when he flew too close to the sun, companies that move to the cloud without thinking could also experience dangerous pitfalls.
 
 ![aws_costs_twitter_1](/images/content/aws_costs_twitter_1.png)
 
-### Kosten und Transparenz
+### Costs and Transparency
 
-Die Cloud-Welt, mag attraktiv erscheinen, aber hinter der glänzenden Fassade verbergen sich oft hohe
-Kosten. Unternehmen, die frisch zur Cloud wechseln, bemerken oft zu spät, wie schnell die Rechnungen sich stapeln. Es
-ist kein Zufall, dass viele Firmen, die AWS nutzen, auch Personal entlassen oder Gehälter einfrieren. Die Flexibilität
-der Cloud wird oft durch Unvorhersehbarkeit der Kosten ausgeglichen. Das Cloud sehr teurer ist, sollte klar und
-akzeptiert sein.
+The cloud world may appear attractive, but high costs often hide behind the shiny facade. Companies that switch to the
+cloud often notice too late how quickly the bills stack up. It is no coincidence that many companies that use AWS also
+lay off staff or freeze salaries. The flexibility of the cloud is often offset by the unpredictability of costs. That
+the cloud is very expensive should be clear and accepted.
 
-#### Technologie und Architektur
+#### Technology and Architecture
 
-Die umfangreichen Features der Cloud können wie ein Traum erscheinen, aber sie können auch zu einem Albtraum werden. Das
-Fehlen von Standard-Protokollen bedeutet, dass Ihre Systeme nicht leicht bis garnicht mit externen oder Standard
-Technologien kommunizieren können. Darüber hinaus verschmelzen Infrastruktur, Architektur und Services oft miteinander,
-was bedeutet, dass Anpassungen auf beiden Ebenen erforderlich sind - ein Rezept für Komplexität und Kopfschmerzen.
+The extensive features of the cloud can seem like a dream, but they can also turn into a nightmare. The
+lack of standard protocols means that your systems cannot easily, if at all, communicate with external or standard
+technologies. In addition, infrastructure, architecture, and services often merge with each other,
+which means that adjustments are required at both levels - a recipe for complexity and headaches.
 
-### Sicherheitsrisiken und Transparenz
+### Security Risks and Transparency
 
-Während Cloud-Anbieter umfangreiche Sicherheitsmechanismen bieten, bleibt die Cloud ein attraktives Ziel für
-Cyber-Angriffe. Die Frage ist nicht, ob sie sicherer ist als eine On-Premise-Lösung, sondern ob Sie das Risiko eingehen
-möchten. Dazu kommt das Problem der Transparenz: Ohne klare Sicht auf Nutzung und Kosten ist eine sinnvolle
-Budgetplanung kaum möglich. Durch viele versteckte Kosten, sollte jede Kostenplanung mit mindestens 2 multipliziert
-werden.
+While cloud providers offer extensive security mechanisms, the cloud remains an attractive target for 
+cyber attacks. The question is not whether it is safer than an on-premise solution, but whether you want to take the risk 
+of it. In addition, there is the problem of transparency: Without a clear view of usage and costs, meaningful 
+budget planning is hardly possible. Due to many hidden costs, every cost planning should be multiplied 
+by at least 2.
 
-### Langfristige Strategie und Human Resources
+### Long-term Strategy and Human Resources
 
-Die Wahl für die Cloud sollte nicht isoliert, sondern als Teil einer breiteren, langfristigen Unternehmensstrategie
-betrachtet werden. Darüber hinaus hat die Wahl der Technologie einen nicht zu unterschätzenden Einfluss auf die Art der
-Fachleute, die Sie für Ihr Unternehmen rekrutieren müssen.
+The choice for the cloud should not be made in isolation, but as part of a broader, long-term business strategy.
+In addition, the choice of technology has a not to be underestimated influence on the type of
+professionals you have to recruit for your company.
 
-### Fazit
+### Conclusion
 
-Die Cloud ist nicht das Allheilmittel, als das sie oft angepriesen wird. Sie birgt Risiken, die ernsthaft in Betracht
-gezogen werden sollten. Von Kosten bis Sicherheit, von technologischer Einschränkung bis zur Personalplanung, die
-Entscheidung für die Cloud ist komplex und sollte nicht leichtfertig getroffen werden. Es lohnt sich, Alternativen wie
-Kubernetes in Betracht zu ziehen, die Flexibilität, Standardisierung und Transparenz bieten können.
+The cloud is not the panacea it is often touted to be. It carries risks that should be seriously considered. From costs
+to security, from technological restriction to personnel planning, the decision for the cloud is complex and should not
+be taken lightly. It is worth considering alternatives like Kubernetes, which can offer flexibility, standardization,
+and transparency.
 
-### Kontakt
+### Contact
 
 [GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

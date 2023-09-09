@@ -1,11 +1,11 @@
 ---
-title: "Ai Hype"
+title: "AI Hype"
 date: 2023-05-30
 author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "KI in dor realn Welt - Übern Hype hinus denken"
+description: "KI in der echten Welt - Denken über den Hype hinaus"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"
@@ -13,104 +13,92 @@ card: "summary_large_image"
 ---
 
 
+# KI in da realen Welt - Iba den Hype hinaus denken
 
-# KI in der realn Wöt - Iwa den Hype hinaus denkn
+[![ai_ml](/images/content/ai_ml.jpg)](https://en.wikipedia.org/wiki/Weak_artificial_intelligence)
 
-[![ai_ml](/bilder/inhalt/ai_ml.jpg)](https://en.wikipedia.org/wiki/Schwach_künstliche_Intelligenz)
+### Einführung
 
-### Oiheise
+Gebts des umm Künstlikher Intelligenz (KI) gaht, gibts viel nadige Ufreagung sowie a Erwatorungen.
+Eini gloabn, dass KI die Orbeitswelt revolutioniern und menschlike Fähigkeiten überflüssig mochn weard. Doch bevor
+mir ins kopfüber in die Welt der KI stürzn, solln mir einige wichtige Punkte bedenkn. KI hot zweifellos Fortschritte
+gmoacht, doch es ist nit neu und kemmt mit erheblichen Grenzn, die mir vastahn sowie respektiern mussn.
+Spoiler: KI ist nur a weiteres Werkzeig. Von filmreifn Szenen wie z.B. in Terminator san mir no weit entfernt.
+Aktuelle KI wie ChatGPT san a a gutes Beispuhl wie Software designed wearn sollt! Service orientiert und
+nit wie a Schweizer Toshenmesser aka a Lösung für olls nur selten hilfreich oder wiederverwendbar.
 
-Servus olle zommen!
+A paar provokative Frogn:
 
-Heit moch i a kloaner Einführung in Südtirolerisch. Iaz wern die Begriffe, de mir benutzen, vielleicht oan bissl a klarer fia enk.
+* Solt si jeder Informatiker, der gloabt, dass KI etwos Neues ist oder seine Arbeit übernehmen kun, nit
+  besser über seine Horizonte und Expertise nochdenken?
+* Angestellte Data Scientists, die auf KI-Modelle
+  umsteign: Warum is euer spezifisches KI-Modell schlechter als die großen olls könner Language Modelle? Wos hobts ihr
+  vorher gmocht und wos fehlt euch, um genauso gute Modelle, spezifisch für euren usecase zu erstelln?
 
-Mir fongen o:
- 
-- Heißn tuat bei ins nixe anderes wia "hoaschn".
-- "Hoschn" statt "Haus".
-- "Mondo" statt "Welt".
-- "Plentn" statt "Blumen".
-- "Fiaß" statt "Fuß".
+### Verständnis der Grenzn
 
-I hoff, ihr homs mi guat verstandn und konnsch jetz bessa mit uns Südtirolern redn.
+KI-Modelle, inklusive solche, die auf GPT basieren, werden auf vorhandene Daten und Mustern trainiert. Sie sein
+gut drin, Muster zu erkennen und Inhalte basierend auf diesem Training zu generieren, aber ihnen fehlt echtes
+Verständnis oder die Fähigkeit, über ihr Training hinauszudenken. Die Anerkennung dieser Grenze hilft dabei,
+realistische Erwartungen zu setzen. Was nie da war, wird auch nicht existieren. Qualitative, vertrouliche und sichere
+Informationen sein die Minderheit. Es wird immer mehr Juniors als Seniors geben. Somit funktioniert KI immer nur für
+lowlevel "Hello World" Beispiele. In vielen bereichen wie auch z.B. Programmierer, die Angst um ihren Job haben, sollten
+sich ernsthaft über die Qualität ihrer Arbeit nachdenken.
 
-Wanns umn Einsatz von Kunstarisch Intelligenz (KI) geat, gibt's viel nervige Aufregung und erwartunge. A poa glaubn,
-dass KI die Arbeitswelt revolutionieren und menschliche Fähigkeiten überflüssig mochn wead. Bevor ma sich jednfolls in
-de Welt von KI schmeißt, solltn mir boa wichtige Punkte bedenkn. KI hot zweifels ohne Fortschritte gmocht, isch owa nit
-lei neu und kemm mit erhebmlichen Grenzn, die mir verstian und respektian sein miassn. Spoiler: KI isch lei a weitas
-Werkzeug. Von filmreifn Szenen wie zb. in Terminator sein mir no weit entfernt. Aktuelle KI wie zb. ChatGPT sein a gutes
-Beispiel wia softwore designet sein soll! Service orientiert und nit wia a Schweizer Taschenmesser aka a Lösung für
-olles nur seltn hilfreich oder wiederverwendbar. A poa provokativ Fragen: * Soit sich jedr Informatiker, der glaubt,
-dass KI wos Neis isch oder seine Arbat übernehman konn, nit besser über seine Grenzn und Expertise nachdenkn? *
-Angestellte Data Scientists, die auf KI-Modelle umsteig: Wos isch an eichers spezifischn KI-Modell schlechter ois die
-großn Alls-Könnr Language Modelle? Was hot ihr vorher gemocht und wos fehlt eich, um genauso guate Modelle, spezifisch
-für enkern Usecase zu erstellen?
+### Kostn der KI-Entwicklung und die Bedeutung von Rechenleistung
 
-### Verschtändnis der Grenzn
+De Entwicklungen vo KI isch muarkant durch de stetige Weiterentwicklung vo de Hardware vorgetrieben wor'n. KI-Modelle wia
+GPT-3.5 erfordern riesige Rechenkraft um schwierige Aufgaben zu meistern. De Kosten für KI hängen nau mit de
+nötige Hardware zusammen, wie leistungsstarke GPUs und TPUs. Dazu kemmen de laufende Kosten für den Betrieb und
+de Wartung vo de Infrastruktur. Die wachsende Rechenleistung hot die Verfügbarkeit vo KI erhöht, erfordert aber
+weiterhin erhebliche Investitionen. Kostenoptimierung und effizientes Resourcenmanagement sind entscheidend, um den
+wirtschaftlichen Erfolg vo KI-Projekte zu gewährleisten. Eine umfassende Kostenanalyse und -planung sind daher bei der
+Umsetzung vo KI unerlässlich.
 
-Des isch nit immer so einfach enk Grenzn zu verschtehn. Mir hobm olle a bissl andersch Tälerle und Kulture, deswegen kennan Grenzpfühl manchmol recht unterschiedlich alegn. Mir miasn jo it zu ziakenn und in de Südtirolerisch Gschicht und Kultur hiernund dorteinschianken, um am End a besseres Verschtändnis fia de Grenzn und für olle Menschn olm zu hobm.
+### Ergänzung der menschlichen Intelligenz
 
-KI-Modelle, inschianond solcher, die auf GPT basian, wern auf vorhanndnon Daten und Mustern trainiert. Sie sein guat
-darin, Muster zu erkenn und Inhalt basierend auf dia Sache zu generieran, obr ihnen fehlt des woscherchte Versteand oder
-die Fähigkeit, über ihre Training häinauszadenkn. Die Erkenntnis, dass do Grenze gibt, hüafft dabei, realistische
-Erwartungan zusetzen. Was no nia do war, werd a nit existieren. Qualitatife, vertrauliche und sichere Informationen sein
-die Minderheit. Es wern immer mehr Juniors als Seniors geben. Sumit funktioniert KI immer nur für lowlevel "Hello World"
-Beispiele. In völlige bereiche wia a z.B. Programmierer, de Angst um ihren Job hen, selltn sich ernsthofft über die
-Qualität ihrer Arbet nochdenkn.
+KI sollt als Werkzeig betrachtet werden, des de menschliche Intelligenz ergänzt, onstatt sie zu ersetzen. Menschliches
+Urteilsvermögen, kritisches Denken und Kreativität bleiben unerlässlich. KI konn wertvolle Einblicke liefern, repetitive
+Aufgaben automatisieren und die Produktivität steigern, sollte ober nicht allein für wichtige Entscheidungen
+herangezogen werden. Ohne dein Zutun werd KI net all deine benötigten Aspekte miteinbeziehen können.
+In der Informatik werd KI von allein net über Themen nachdenken wie: Resilience, Security, Compliance, Data Privacy,
+Readablity, Performance, Simplicity, Patterns, Aktualität usw.
+Beispiel KI 3D Modelling: [Alex testet KI mit Blender](https://www.youtube.com/watch?v=x60zHw_z4NM&t=460s) (Schaut gut
+aus, ist ober nur ein "Hello World" Beispiel)
+Meine Erfahrung mit KI code generierung in einem Wort: lächerlich! Entwickler die solchen code schreiben, würd ich
+net behalten wollen. Dennoch nutze ich KI als Sparring Partner aka Explain-Effect, wie eine art Selbstreflektion.
+Die effektivste Nutzung von KI wird oft durch die Zusammenarbeit zwischen Menschen und KI-Systemen erreicht. KI konn bei
+der Generierung von Ideen, der Lösungsfindung oder der Automatisierung bestimmter Aufgaben helfen, aber menschliche
+Aufsicht und Eingriff sind entscheidend, um die Ergebnisse zu verfeinern, zu verbessern und zu optimieren.
 
-### Ongschaffa von AI und die Bedeutung von Muskelkroft
 
-Beim Ongschaffa von AI spüt die Muskelkroft a wichtige Rool. Je mear Muskelkroft zur Verfügung steht, umsou besser kinnt die AI jedenziatz oabeiten. Denkborem mirkt sich des oh die Koasta us, wia mear Muskelkroft vahwenden werd.
+### Validierung und Test
 
-Die Entwicklungs von KI isch maßgebmig durch de stetige Weitérentwicklong von da Hardware afliafert wuan. KI-Modelle wie
-GPT-3.5 brauchn enorm viel Rechenleistung, um komplexere Aufgaben zu managn. Die Koster fia KI san eng mit da benötigtan
-Hardware verbundn, wie kropfnstarke GPUs und TPUs. Zusätzlich fohn laufende Kostn fia'n Betrieb und die Wartung von da
-Infrastrukturen an. Die steigende Rechenleistung hob a größere Verfügborkeit von KI, braucht oba weithin erhebliche
-Investitionen. Kostn-Optimierung und effizientes Ressourconmanagement san entscheidend, um den wirtschaftlichen Erfolg
-von KI-Projektn z'gewährleisten. A fundierte Kostenanalys und -planung san doh bei da Umsetzung von KI unbeutschebar.
+KI-generierte Ergebnisse sollten immer gründlich validiert und getestet werden. Ob es sich um Code, Inhalte oder andere
+Ausgaben handelt, menschliche Überwachung ist notwendig, um Qualität, Korrektheit und Einhaltung der generierten
+Ergebnisse zu gewährleisten. Verifizierungsprozesse sind entscheidend, um sich nicht auf ungenaue oder irreführende
+Ergebnisse zu verlassen. Bitte validiert nicht KI mittels einer anderen KI. Das wäre als ob ich die Klassenarbeiten
+nicht selbst sondern mittels meiner Schülern korrigieren würde.
 
-### Ergänzung der menschlichn Intelligenz
+### Kontinuierliches Lernen und Anpassung
 
-KI soll ois Werkzeug gesehen werdn, des meinschliche Intelligenz ergänzt und net ersetzt. Menschliche Intuition,
-kritisches Denken und Kreativität san unerlässlich. KI kau valschene Eingeb korigieren, wertschfulle Insights liefern,
-repetitive Aspekte automatisieren und da Produktivität steigern. Aber wichtige Entscheidungen miasn auf kana Fall ollein
-von KI trafen werden und ohne deine Hilf kau KI ollein net olle notwendigen Aspekte berücksichtigen. In da Informatik
-kau KI net von ollein aus Themen wie Resilience, Security, Compliance, Data Privacy, Readablity, Performance,
-Simplicity, Patterns, Aktualität behandeln. Beispui KI 3D Modelling: [Alex testet KI mit
-Blender](https://www.youtube.com/watch?v=x60zHw_z4NM&t=460s) (Schaut ordentlich aus, is aber oanfoch "Hello World"
-Beispiel). Meine Rezension vun KI Code-Generierung in oanfoch Wort: lächerlich! Programmierer, die so an KI-Code
-schreiben, möcht i net obamsn haben. Trotzdem nutz i KI als Sparringspartner aka Selbstreflektion. Die effektive Nutzung
-von KI werd oft durch a geimeinsame Arbeit zwischn Menschn und KI-Systemen erreicht. KI kau Ideen generieren, Probleme
-lösen oder bestimmte Aspekte automatisch san, aber menschliche Supervision und Intervention san entscheidend, um die
-Ergebnisse zu feinjustieren, zu verbessern und zu optimieren.
+KI-Modelle miassn fortlaufend aktualisiert und verfeinert werdn, um sich on sich ändernde Umstände anzupassen.
+Feedbackschleifen und iterative Verbesserungen sein erforderlich, um die Genauigkeit, Relevanz und Nützlichkeit der von
+KI generierten Ergebnisse sicherzustellen. Der Lernprozess von KI werd nie aufhören.
 
-### Validerung und Test
+### Fokus af die Lösung reala Probleme
 
-KI-generierte Ergebnisse sulltn immer genau validiert und trocknere werdn. Ob es sich um Code, Inholte oder andere
-Ausgåbm håndl, menschliche Iwerwåchung isch nøtig, um Qualitet, Richtigkeit und Einhoit der generierten Ergebnisse
-z'wahrn. Verifizierungsprozesse sein entscheidend, um sich nit auf ungnåue oder irreführende Ergebnisse zu verlossn.
-Bittn validiert nit KI mittels anorere KI. Des waar als ob i di Klåssårbęitn nit selbst, sondern mittels miner Schülr
-korrigiern tat.
+KI sollt gschatzt wern, um echt Problem azugehn und Mehrwert für Leit zu schaffen. Es isch wichtig, KI nit
+nur um derer selbst willen einzusetzn. Klare Ziele, Identifizierung vo Problem und des Verständnis der Auswirkungen
+auf die Beteiligten san entscheidend, wenn es um KI-Lösungen geht.
 
-### Kontinuirliches Lerna und Oanpassung
+### Konklusion
 
-KI-Modelle miasn kintinuerlich aktualisiert und verfeinert werdn, um sich oan sich oanpasstn Umstände zu gewinn.
-Feedbackschleifen und iteratiam Verbesserungen sein afet, um die Genauigkeit, Relevanz und Nützlichkeit von von KI
-generiertn Ergebnissn sicha siechn. Der Lernprozes von KI werd ni aufhern.
-
-### Fokus auf de Lösung vo realn Probleme
-
-KI sullte eingesetzt werdn, um echte Probleme zu behondln und an Mehrwert fia die Leit zu schaffen. Is isch wichtig, KI
-nit nur um ihrer selbm willen ei'zetzn. Klor Ziele, Identifikation vu Probleme und des Verschtoandis vu de Auswirkungen
-auf de Beteiligtn sein endscheindend, wenn's um KI-Lösungn geaht.
-
-### Resümée
-
-Die Künstliche Intelligenz isch zweifellos a poar boazwea Werkzeug, aber es isch wicht, ihre Grenzn zu vasteahn und
-verantwortungsvoll ei'zusetzn. KI kinn menschliche Intelligenz net ergänzen. Menschliches Urteilsvermögn, Kreativität
-und kritisches Denka sein unverzichtbar. Durch a sorgfältige Validierung, Überlegungen und die Zusammenarbeit zwischn
-Mensch und KI kennan mir de bestn Resultate erzielen. Nutzn mir de Stärkn der KI, um wirkliche Problme zu lösn und de
-Welt zu vesessern.
+De Künstliche Intelligenz isch zweifellos a leistungsoarkes Werkzeig, ober es isch wichtig, ihre Granzen zu verstian und
+verantwortungsbewusst einzusetzn. KI kòn menschliche Intelligenz net ergänzn Menschliches Urteilsvermögen, Kreativität
+und kritisches Denken bleiben unverzichtbor. Durch a sorgfältige Validierung, Überlegungen und de Zusammenarbeit
+zwischen Mensch und KI kòn ma die besten Ergebnisse erzieln. Nutzn mir die Stärken der KI, um reale Probleme zu lösn und
+die Welt zu verbessern.
 
 ### Kontakt
 

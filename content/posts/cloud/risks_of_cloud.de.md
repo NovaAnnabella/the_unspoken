@@ -2,7 +2,7 @@
 title: "Risiken der Cloud"
 date: 2023-09-08
 author: "Nova Annabella"
-slug: illusion_serverless_cloud
+slug: risks_of_cloud
 tags: [ Development, Serverless, Cloud, Microservices, Scalability, Architecture, Infrastructure ]
 categories: [ Technology, Software, Cloud ]
 description: "Warum Sie Zweimal Überlegen Sollten"

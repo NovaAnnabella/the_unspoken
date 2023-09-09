@@ -1,11 +1,11 @@
 ---
-title: "```Maven'e geri dönüş?```"
+title: "Maven'a Geri Dön?"
 date: 2023-05-01
 author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "# Markdown Metni```Basitliği Arama ve Maven'in Gücünü Yeniden Keşfetmek İçin Kısa Bir Yolculuk```"
+description: "Zorlukla anlaşılan basitlik arayışı ve Maven'ın gücünü yeniden keşfetme üzerine kısa bir seyahat."
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"
@@ -13,102 +13,109 @@ card: "summary_large_image"
 ---
 
 
-# Maven'e Geri Dönüş?
+# Maven'a Geri Dönüş?
 
-```
 [![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
+## Gradle'in 10. Yılı. Kolaylık Arayışı ve Maven'in Gücünün Kısa Bir Yeniden Keşfi.
 
-``` 
-Bu metin Markdown olarak verilmiştir ve çevirisinde herhangi bir format veya içerik değişikliği yapılmamaktadır.
 
-## 10 Yıl Gradle. Kolaylaştırma arayışında ve Maven'in gücünün yeniden keşfi için kısa bir yolculuk.
 
-``` ```
+### Geliştiricilerin Potansiyelini Maksimize Etme - Daha Fazla Zaman Tasarrufu Sağlayan Araçlara İhtiyacımız Var
 
-### Geliştiricilerin potansiyelinin maksimuma çıkarılması - Daha fazla zaman tasarrufu sağlayan araçlara ihtiyacımız var
+Sıklıkla göz ardı edilen veya nadiren tartışılan konular beni ilgilendirir. Genellikle harika teknolojiler kullanılıyor,
+ancak neredeyse hiç kimse bununla bağlantılı sorunlardan bahsetmiyor. Geliştirme günümüzde oldukça zahmetli hale geldi.
+“Serverless”, “Low Code”, “IaC”, “Big Data”, “Cloud”, “DevOps”, “You Build it You run it” vb. gibi havalı moda laflarla
+geliştiricilerin zaten aşılmaları gereken bir sürü ek görevleri vardır. Daha fazla görev, bunun neredeyse hiç uzman
+kalmadığı ve her zaman odaklanmak için bir şeylerin ihmal edileceği anlamına gelir. Bu yüzden otomasyonlar ve zaman
+tasarrufu mega önemlidir. “Don’t make me think” ve “Works out of the box” kalite belirtisi olarak iyi kelimelerdir,
+ancak ben bunları Gradle'da henüz göremiyorum. Adil olmak gerekirse, Gradle bize iş yükü olan tek modern araç değil,
+tersine işleri kolaylaştırır.
 
-Beni ilgilendiren, genellikle göz ardı edilen veya nadiren tartışılan konular var. Sık sık harika teknolojiler
-kullanılır, ancak çoğu kişi bununla ilişkili sorunlar hakkında konuşmaz. Geliştirme günümüzde çok zahmetli hale geldi.
-"Serverless", "Low Code", "IaC", "Big Data", "Cloud", "DevOps", "You Build it You run it" vb. gibi harika moda
-kelimeleri, geliştiricilerin zaten üstesinden gelmeleri gereken yeterince ek görevleri var. Daha fazla görev, neredeyse
-hiç uzman olmaması anlamına gelir ve odaklanmanın her zaman ihmal edilen bir şeyi vardır. Bu nedenle, otomasyonlar ve
-zaman tasarrufu çok önemlidir. "Düşünmemi sağlama" ve "Hemen kullanılabilir" gibi kalite özellikleri, Gradle'da
-göremediğim iyi özelliklerdir. Adaletli olmak gerekirse, Gradle işleri kolaylaştırmak yerine zorlaştırmayacak tek modern
-araç değil.
+### İllüzyonun Basitlik ve Otomasyon Arayışı
 
-### Basitlik ve Otomasyon Arayışındaki İllüzyonik Arama
+SOAP'tan beri XML tabanlı yapılandırmalara karşı derinlemesine bir hoşnutsuzluğum var. Gradle ile Bind scriptlerinin
+yazılmasının çocuk oyuncağı olacağını ummuştum, ne yazık ki umutlarım ve motivasyonum zamanla azaldı. Gradle, esnekliği
+hedefler ve bunun için otomasyonu ve kaliteyi feda eder. Geliştiriciler, trendi takip ederken yazılımın güvenilirliği
+üzerindeki etkileri göz ardı ederler. Gradle Build scriptlerini basit ve bakımı kolay tutmak için güçlü bir disipline
+ihtiyaç vardır. Böyle bir disiplin hali hazırda kaynak kodunda nadiren bulunur ve bu yüzden build scriptlerinde çok daha
+az bulunur.
 
-SOAP'tan beri XML tabanlı yapılandırmalara karşı kökten bir antipati geliştirdim. Gradle ile bağlama betikleri yazmanın
-kolay olacağını ummuştum. Ne yazık ki, umutlarım ve motivasyonum her seferinde azaldı. Gradle esneklik peşinde koşar ve
-bunun için otomasyondan ve kaliteden ödün verir. Geliştiriciler, yazılımın güvenilirliği üzerindeki etkilerine bakmadan
-trendi kör bir şekilde takip ederler. Gradle yapılandırma betiklerini basit ve bakımı kolay tutmak için güçlü bir
-disiplin gereklidir. Bu disiplin kaynak kodunda bile nadirdir ve yapılandırma betiklerinde daha da nadirdir.```
+### Çeviriler ve Geçici Çözümler - Yapı Skriptleri Bir Meydan Okumaya Dönüştüğünde
 
-### Çeviriler ve Çözümler - Derleme Komut Dosyaları Zor Hale Geldiğinde
+Gradle, arka planda Maven'dan çok farklı çalışmaz. Bu yüzden bazı çevirilere ihtiyaç vardır. Dependency Catalog, Maven
+Release Plugin, Dependabot ve daha fazlası aslında Maven’in zaten sunduğu temel özellikler için geçici çözümlerdir.
+Gradle'nin esnekliği ile sık sık karmaşık build yapılandırmaları oluşur, ki bunlar bakımı zor olabilir. Gradle
+eklentileri sık sık uyumluluk sorunları, limitler veya sınırlı gelişimle karşılaşır. Bu sorunlar, Gradle ekosisteminin
+gelişen doğası, Gradle'ın kullanıldığı çeşitli ortamlar ve her eklenti için spesifik uygulama ve bakım çabası nedeniyle
+oluşur. Her şey birbiriyle bağlantılıdır.
 
-Gradle, Maven'dan çok farklı olmayarak arka planda çalışır. Bu nedenle bazı çeviriler gereklidir. Bağımlılık Kataloğu,
-Maven Yayın Eklentisi, Dependabot ve daha birçok özellik aslında Maven'in zaten getirdiği temel işlevler için birer
-çalışma takımıdır. Gradle'in esnekliğiyle birlikte genellikle bakımı zor olan karmaşık bir yapılandırmalar ortaya
-çıkabilir. Gradle eklentileri sıklıkla uyumluluk sorunları, sınırlamalar veya sınırlı gelişimlerle karşılaşır. Bu
-sorunlar, Gradle ekosisteminin gelişen doğası, Gradle'nin kullanıldığı çeşitli ortamların çeşitliliği ve her eklentinin
-özel uygulama ve bakım çabası nedeniyle ortaya çıkar. Her şey birbiriyle bağlantılıdır.
+### Gradle'nin Domino Etkisi - Gerçek Dünyada Bir Kabus Senaryosu
 
-### Gradle'nin Domino Etkisi - Gerçek Dünyadaki Kâbus Senaryosu
+Birçok Mikroservis gördüm ki bunların yalnızca birkaç yıl ömrü olmuş ve zaten Gradle nedeniyle bakımları yapılamaz hale gelmişler.
+Belirtmek önemlidir ki, bu benim gördüğüm ilk örnek değil ve hayır, bunların hiçbiri çaylak geliştiriciler değildi.
 
-Çok sayıda Gradle nedeniyle bakımsız hale gelen sadece birkaç yıllık Microservisler gördüm. Bu tür bir şeyi gördüğüm ilk defa değil ve hayır, bu Junior Dev'ler değildi.
+Benim **görevim, bir Spring Boot 2.x'ten 2.7'ye yükseltme işlemi gerçekleştirmekti**. Spoiler: Bir yılın sonunda
+vazgeçtim! İşte kısaca yaşanan sorunlar:
 
-**Görevim, Spring Boot 2.x to 2.7 Upgrade'ini gerçekleştirmekti**. Sürpriz: Bir yıl sonra vazgeçtim! Sorunlar kısaca:
+* Gradle-Build dosyası gerektiriyor -> Yerel Java sürümümü 11'e düşürmem gerekti (Vay canına) (Genellikle Java
+ters uyumludur - burada da alternatif çözümler var, örneğin SdkMan gibi araçlar...)
+* Spring Boot güncellemesi gerektiriyor -> Gradle güncellemesi (Vay canına)
+* Gradle güncellemesi gerektiriyor -> Eklenti güncellemesi
+* Eklenti güncellemesi gerektiriyor -> Groovy güncellemesi (Vay canına)
+* Groovy güncellemesi gerektiriyor -> Test çatısı ve test güncellemeleri (Vay canına)
+* Test çatısı güncellemesi gerektiriyor -> Bağımlılık güncellemeleri
+* \[...]
+  Ayrıca bazı eklentiler, yeni Gradle sürümleriyle çalışmaz, bazıları geliştirilmez, diğer eklentilerle uyumsuzdur, sadece Gradle KTS ile çalışır, Gradle Groovy ile değil,
+  veya basitçe limitleri vardır. Büyük sağlayıcılar tarafından bile, Spring gibi, Maven eklentilerine kıyasla sınırlı işlevselliğe sahip eklentiler kullanılmış. Sonunda tam anlaşılamayan bir Gradle-Build-Datei elde ettim,
+  hatta onu yazan geliştiriciler bile bunu tam anlamıyla bakımını sağlayamıyor ve hala Gradle'i seviyorlar. Gradle betiklerini gerçekten anlayabilecek veya yazabilecek sadece birkaç kişi tanıyorum.
 
-* Gradle Build dosyası -> yerel Java sürümümü 11'e indirgeme gerektirir (WTF) (Normalde Java geriye doğru uyumlu olduğundan burada da SdkMan gibi çalışma araçları var ...)
-* Spring Boot Güncellemesi -> Gradle güncellemesi gerektirir (WTF)
-* Gradle Güncellemesi -> Eklenti Güncellemesi gerektirir
-* Eklenti Güncellemesi -> Groovy Güncellemesi gerektirir (WTF)
-* Groovy Güncellemesi -> Test Framework ve Test Güncellemeleri gerektirir (WTF)
-* Test Framework Güncellemesi -> Bağımlılık Güncellemeleri gerektirir
-* \[...\]
-  Ayrıca, bazı eklentiler daha yeni Gradle sürümleriyle çalışmaz, bazıları daha fazla geliştirilmez, diğer eklentilerle uyumsuzdur, Gradle KTS ile çalışırken Gradle Groovy ile çalışmaz veya sadece sınırlamalara sahiptir. Büyük sağlayıcılar tarafından daha önce yazılmış Maven eklentilerine kıyasla sınırlı işlevselliğe sahiptirler. Sonunda, yazan geliştiriciler bile doğru şekilde bakamayan harika bir kısa Gradle Build dosyam var ve hala Gradle'ı seviyorlar. Gradle betiklerini gerçekten anlayabilen veya yazabilen az sayıda insan tanıyorum.
+### Maven'ın Gücünün Yeniden Keşfi - Maven'ın Sihirli Güçlerini Kullanma
 
-### Maven'in Gücünün Yeniden Keşfi - Maven'in Büyü Güçlerini Kullanma
+İşte Maven'daki en sevdiğim özellikler:
+Eklentiler, daha önce tanımlanmaları gerekmeden doğrudan komut satırından başlatılabilir ve yapılandırılabilir. Artı, diğer eklenti yapılandırmalarından büyük ölçüde bağımsızdırlar.
 
-İşte Maven'in sevdiğim özellikleri:
-Eklentiler, bunları önceden tanımlamanıza gerek olmadan doğrudan komut satırından başlatılıp yapılandırılabilirler. Ayrıca, diğer eklenti yapılandırmalarından büyük ölçüde bağımsızdırlar.
+| Örnek Komut                        | Açıklama                                                                                                                                                                    | Bağlantı                                    | 
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------------|
+| `mvn versions:use -latest-versions`     | Sürümleri güncelle - kim Dependabot'a ihtiyaç duyar? Evet, projelerim yıllardır sorunsuz bir şekilde en yeni sürüme güncellendi, rahatsız edici birleştirme istekleri olmadan | https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html|
+| `mvn versions:set -DnewVersion=1.0.0` | Proje sürümünü ayarla...                                                                                                                                                  | https://www.mojohaus.org/versions/versions-maven-plugin/index.html |
+| `mvn license:add-third-party`           | Bağımlılıkları listele ve lisanslarını göster (hatta hariç tutulan lisanslarda bile başarısız olabilir)                                                                    | https://www.mojohaus.org/license-maven-plugin/index.html        | 
 
-| Örnek Komut                             | Açıklama                                                                                                                                        | Link                                                                     |
-|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| `mvn versions:use -latest-versions`     | Sürümleri güncelle - Dependabot'a kim ihtiyaç duyar? Evet, projelerim yıllardır en son sürüme sorunsuz bir şekilde güncellendi, herhangi bir birleştirme isteği olmadan | https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html |
-| `mvn versions:set -DnewVersion=1.0.0`   | Proje sürümünü ayarla...                                                                                                                       | https://www.mojohaus.org/versions/versions-maven-plugin/index.html       |
-| `mvn license:add-third-party`           | Bağımlılıkları listele ve lisanslarını göster (hatta hariç tutulan lisanslarda bile başarısız olabilir)                                          | https://www.mojohaus.org/license-maven-plugin/index.html                 | 
-
-Bu liste sonsuz gibi devam edebilir. Bu beni bir şekilde GitHub İş Akış Adımlarını hatırlatıyor.
+Bu liste sonsuza kadar devam edebilir. Bana bir şekilde GitHub İş Akışı Adımlarını hatırlatıyor.
 
 ![maven_plugin_command_line_args](/images/content/maven_plugin_command_line_args.png)
 
-### XML'den hoşlanmıyor musun?
 
-Sorun değil! Sadece `ruby`, `groovy`, `scala`, `yaml`, `atom` veya `Java` formatında olan Build Dosyanı yaz. Polygot 
-Extension (https://github.com/takari/polyglot-maven) sayesinde mümkündür. Denemek için 
-sadece `mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml`
-çalıştırın ve birkaç milisaniye içinde Build Dosyanız çevrilir. Maalesef güvenilir bir Maven <> Gradle çevirmen yok :(
-Evet, Maven Build Dosyaları büyük ama çok anlaşılır. İyileştirmeler veya Hata Ayıklama anında hemen yapılabilir.
+### XML Sevmez misin?
 
-### Yaş sadece bir sayıdır - Maven'in Kararlılığı ve Evrimi
+Hiç sorun değil! Yapılandırma dosyanızı sadece `ruby`, `groovy`, `scala`, `yaml`, `atom` veya `Java` olarak yazın. Polygot
+Eklentisi (https://github.com/takari/polyglot-maven) bunu mümkün kılar. Denemek için
+sadece `mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml` komutunu çalıştırın ve sadece
+birkaç milisaniyede yapılandırma dosyanız çevrilmiş olur. Keşke güvenilir bir Maven <> Gradle çevirmeni
+olsaydı :(
+Evet, Maven Yapılandırma Dosyaları büyük, ancak anlaşılması çok kolay. Düzeltmeler veya hata ayıklama hızlı bir şekilde
+yapılır.
 
-Kabul edelim ki, Maven uzun bir süredir var ve estetiği belki de bugünkü standartlara uymuyor. Ancak, Maven'ın
-dayanıklılığı, uyum sağlamasına ve gelişmesine izin vermiştir. Maven projenizden bağımsız çalışır. Yapı dosyaları
-kolayca yeniden kullanılabilir. Eklentiler bir kum havuzunda çalışır ve birbirinden bağımsızdır ve Java veya Maven
-sürümünden bağımsızdır. Bu tasarım, istikrar ve öngörülebilirlik sağlar ve beklenmedik çatışmalar olmadan karmaşık yapı
-süreçlerini yönetmeyi kolaylaştırır.
+### Yaş sadece bir sayıdır - Mavens'in Stabilitesi ve Evrimi
+
+Elbette, Maven'ın üzerinden epey zaman geçti ve estetiği belki bugünkü standartlara uymuyor. Ancak Maven'ın uzun ömrü,
+onun adapte olmasını ve gelişmeye devam etmesini sağladı. Maven, projenizden bağımsız olarak çalışır. Build dosyaları
+kolaylıkla yeniden kullanılabilir. Eklentiler, bir kum havuzunda çalışır ve birbirlerinden ve Java veya Maven sürümünden
+bağımsızdırlar. Bu tasarım, stabiliteyi ve tahmin edilebilirliği teşvik eder ve karmaşık build süreçlerini beklenmedik
+çatışmalar olmadan yönetmeyi kolaylaştırır.
 
 ### Sonuç
 
-Şu anda, Geliştiriciler için çeşitli görevler ve teknolojilerle yüklü bir geliştirme ortamı var. Basitlik ve otomatikleştirme arayışında, modern bir yapı aracı olarak ortaya çıkan Gradle, ancak kendi zorluklarını getirdi. Hiç şüphe yok ki, Gradle kavramı iyi! Ancak, Gradle yapı betiklerine yatırılan karmaşıklık ve zaman göz önüne alındığında, Maven'i genişletmenin daha kolay olup olmayacağı sorusu ortaya çıkıyor. Plug-in ve uzantılarla, Maven her zaman taze ve basitleştirilmiş olabilir. Teknolojiden teknolojiye atlamaktansa geliştirilmesi daha heyecan verici ve sürdürülebilir olmaz mıydı?
+Günümüzde, geliştirme ortamı, geliştiriciler için birçok görev ve teknoloji ile dolup taşıyor. Basitlik ve otomasyon
+arayışında, Gradle modern bir yapı aracı olarak ortaya çıktı, ancak kendi zorluklarını da beraberinde getirdi. Şüphe yok
+ki, Gradle'nin konsepti iyi! Ancak, Gradle Yapı betiklerine yapılan yatırım ve karmaşıklık göz önüne alındığında,
+Maven'i genişletmek daha basit olmaz mıydı? Eklentiler ve uzantılarla, Maven her zaman yenilenebilir ve
+basitleştirilebilir. Bir teknolojiden diğerine atlamak yerine, daha da geliştirme daha heyecan verici ve sürdürülebilir
+olmaz mıydı?
 
 ### Bağlantılar
 
-```
-* [Gradle'dan maven'e Geri Dönüş](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
-```
+* [Gradle'den Maven'a Geri Dönüş](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
 ### İletişim
 

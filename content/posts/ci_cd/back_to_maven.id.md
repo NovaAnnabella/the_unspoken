@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: back_to_maven
 tags: [ Development, Gradle, Maven, CI_CD ]
 categories: [ Technology, Software ]
-description: "Cari yang sulit untuk dimengerti tentang kesederhanaan dan perjalanan singkat untuk menemukan kembali kekuatan Maven."
+description: "Pencarian yang sulit dipahami mencari kesederhanaan dan perjalanan singkat untuk menemukan kembali kekuatan dari Maven."
 draft: false
 images:
   - "/images/content/maven_vs_gradle.png"
@@ -15,98 +15,112 @@ card: "summary_large_image"
 
 # Kembali ke Maven?
 
-```
 [![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
-
-``` 
-
-diterjemahkan menjadi:
-
-```
-[![maven_vs_gradle](/images/content/maven_vs_gradle.png)](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+## 10 Tahun Gradle. Dalam Pencarian Kemudahan dan Perjalanan Singkat untuk Menemukan Kembali Kekuatan Maven.
 
 
-```
 
-## 10 Tahun Gradle. Mencari Kemudahan dan Perjalanan Singkat Menuju Penemuan Kembali Keunggulan dari Maven.
+### Maksimalkan Potensi Para Pengembang - Kami Membutuhkan Lebih Banyak Alat Penghemat Waktu
 
-Tidak ada teks tampilan di sini.
+Tema-tema yang sering diabaikan atau jarang dibahas menarik bagi saya. Seringkali teknologi keren digunakan,
+namun hampir tidak ada yang berbicara tentang masalah yang terkait dengannya.
+Pengembangan sekarang ini menjadi sangat rumit.
+Dengan kata-kata keren seperti "Serverless", "Low Code", "IaC", "Big Data", "Cloud", "DevOps", "You Build it You run it"
+dll. para pengembang sudah memiliki lebih dari cukup tugas tambahan untuk ditangani. Lebih banyak tugas berarti, hampir tidak ada
+lagi ahli dan selalu ada sesuatu yang diabaikan untuk fokus. Oleh karena itu, otomatisasi dan penghematan waktu sangat
+penting. "Don't make me think" dan "Works out of the Box" sudah menjadi ciri kualitas yang baik, yang saya belum bisa lihat dalam Gradle.
+Untuk jujur, Gradle bukan satu-satunya alat modern yang membuat kita bekerja, bukan mempermudahnya.
 
-### Maksimalkan Potensi Pengembang - Kami Membutuhkan Lebih Banyak Alat yang Menghemat Waktu
+### Pencarian ilusi atas Kesederhanaan dan Otomatisasi
 
-Topik-topik yang sering terlewatkan atau jarang dibahas menarik minat saya. Sering kali teknologi canggih digunakan,
-tapi hampir tidak ada yang membicarakan masalah yang terkait.
-Pengembangan saat ini telah menjadi sangat rumit.
-Dengan buzzword keren seperti "Serverless", "Low Code", "IaC", "Big Data", "Cloud", "DevOps", "You Build it You run it"
-dan sebagainya, pengembang sudah memiliki lebih dari cukup tugas tambahan untuk dihadapi. Lebih banyak tugas berarti hampir tidak ada
-ahli dan ia akan selalu mengambil sesuatu untuk diabaikan. Oleh karena itu, otomatisasi dan penghematan waktu sangat penting. "Jangan pikirkan saya" dan "Bekerja langsung" sudah menjadi tanda-tanda kualitas yang baik, yang belum bisa saya lihat di Gradle. Untuk adilnya, Gradle bukanlah satu-satunya alat modern yang membuat pekerjaan kita sulit, bukan mudah.
+Sejak SOAP, saya memiliki keengganan yang sangat terhadap konfigurasi berbasis XML. Dengan Gradle, saya berharap,
+menulis skrip bind akan menjadi mudah. Sayangnya, harapan dan motivasi saya semakin berkurang dari waktu ke waktu.
+Gradle mengutamakan fleksibilitas dan mengorbankan otomatisasi dan kualitas. Pengembang mengikuti tren secara buta tanpa
+mempertimbangkan dampaknya terhadap keandalan perangkat lunak. Untuk membuat Skrip build Gradle sederhana dan
+pemeliharaan rendah, dibutuhkan disiplin yang kuat. Disiplin semacam itu sudah jarang ditemukan dalam kode sumber dan
+oleh karena itu, lebih jarang lagi dalam skrip build.
 
-### Pencarian ilusif akan Kesederhanaan dan Otomatisasi
+### Terjemahan dan Solusi Alternatif - Ketika Skrip Build Menjadi Sebuah Tantangan
 
-Sejak SOAP, saya memiliki ketidak sukaan yang sangat mendalam terhadap konfigurasi yang berbasis XML. Saya berharap
-dengan Gradle, menulis skrip ikatan menjadi sangat mudah. Namun, semakin lama harapan dan motivasi saya semakin
-mengecil. Gradle mengejar fleksibilitas dan mengorbankan otomatisasi dan kualitas. Pengembang mengikuti tren tanpa
-mempertimbangkan dampaknya pada keandalan perangkat lunak. Untuk membuat skrip Gradle Build mudah dan mudah dipelihara,
-diperlukan disiplin yang kuat. Disiplin seperti itu jarang ditemukan dalam kode sumber dan oleh karena itu lebih jarang
-ditemukan dalam skrip Build.
+Gradle bekerja di latar belakang tidak jauh berbeda dari Maven. Oleh karena itu, beberapa terjemahan diperlukan. Fitur
+seperti Katalog Dependensi, Plugin Rilis Maven, Dependabot dan banyak lagi sebenarnya adalah solusi untuk fungsi dasar
+yang sudah dibawa oleh Maven. Dengan fleksibilitas Gradle, seringkali muncul konfigurasi build yang kompleks, yang sulit
+untuk dirawat. Plugin Gradle sering memiliki masalah kompatibilitas, batasan atau pengembangan terbatas. Masalah ini
+muncul karena sifat alamiah dari ekosistem Gradle yang terus berkembang, keanekaragaman lingkungan di mana Gradle
+digunakan, dan upaya implementasi dan pemeliharaan spesifik untuk setiap plugin. Semuanya saling terhubung.
 
-### Terjemahan dan Solusi - Ketika Build-Skrip Menjadi Tantangan
+### Efek Domino dari Gradle - Skenario Mimpi Buruk di Dunia Nyata
 
-Gradle bekerja di balik layar tidak jauh berbeda dengan Maven. Oleh karena itu, beberapa terjemahan diperlukan. Fitur seperti Dependency Catalog, Maven Release Plugin, Dependabot, dan banyak lagi sebenarnya adalah workarounds untuk fitur dasar yang sudah dimiliki oleh Maven. Dengan fleksibilitas dari Gradle, seringkali menyebabkan konfigurasi build yang kompleks dan sulit untuk dipelihara. 
+Saya telah melihat banyak Microservices yang hanya berumur beberapa tahun dan sudah tidak dapat dipertahankan lagi karena Gradle.
+Penting untuk disebutkan bahwa ini bukan pertama kalinya saya melihat hal seperti ini, dan tidak, mereka bukan
+Junior Devs.
 
-Plugins Gradle sering mengalami masalah kompatibilitas, batasan atau pengembangan terbatas. Masalah-masalah ini muncul karena sifat berkembangnya ekosistem Gradle, keanekaragaman lingkungan di mana Gradle digunakan, dan tuntutan implementasi dan perawatan khusus untuk setiap plugin. Semuanya saling terhubung.
+Tugas saya adalah untuk **melakukan upgrade Spring Boot 2.x ke 2.7**. Spoiler: saya menyerah setelah satu tahun
+! Berikut adalah masalah-masalahnya secara singkat:
 
-### Efek Domino dari Gradle - Suatu Skenario Mimpi Buruk di Dunia Nyata
-
-Saya telah melihat banyak Microservices yang baru berumur beberapa tahun dan sudah tidak dapat dipelihara lagi karena Gradle. Penting untuk disebutkan bahwa ini bukan pertama kalinya saya melihat hal seperti ini, dan tidak, itu bukan dari Junior Devs.
-
-Tugas saya adalah untuk melakukan upgrade Spring Boot 2.x ke 2.7. Spoiler: Saya menyerah setelah satu tahun! Masalahnya di antaranya:
-
-* File Build-Gradle memerlukan -> downgrade versi Java lokal saya ke 11 (WTF) (Biasanya Java backwards compatible - ada juga alat workaround seperti SdkMan...)
-* Pembaruan Spring Boot memerlukan -> Pembaruan Gradle (WTF)
-* Pembaruan Gradle memerlukan -> Pembaruan Plugin
-* Pembaruan Plugin memerlukan -> Pembaruan Groovy (WTF)
-* Pembaruan Groovy memerlukan -> Pembaruan Kerangka Uji dan Pembaruan Uji (WTF)
-* Pembaruan Kerangka Uji memerlukan -> Pembaruan Ketergantungan
+* File build Gradle membutuhkan -> Penurunan versi Java lokal saya ke 11 (WTF) (Biasanya Java
+  kompatibel mundur - di sini juga ada alat pengganti seperti SdkMan...)
+* Pembaruan Spring Boot membutuhkan -> Pembaruan Gradle (WTF)
+* Pembaruan Gradle membutuhkan -> Pembaruan Plugin
+* Pembaruan Plugin membutuhkan -> Pembaruan Groovy (WTF)
+* Pembaruan Groovy membutuhkan -> Pembaruan Test-Framework dan Test (WTF)
+* Pembaruan Test-Framework membutuhkan -> Pembaruan ketergantungan
 * \[...]
-  Selain itu, beberapa plugin tidak berfungsi dengan versi Gradle yang lebih baru, beberapa tidak lagi dikembangkan, tidak kompatibel dengan plugin lain, hanya berfungsi dengan Gradle KTS, tidak dengan Gradle Groovy, atau memiliki batasan sederhana. Bahkan plugin dari vendor besar seperti Spring mempunyai fungsi terbatas dibandingkan dengan plugin Maven mereka. Pada akhirnya, saya memiliki file pembangunan Gradle yang keren dan pendek, yang tidak bisa dipelihara dengan benar oleh siapa pun, bahkan oleh para pengembang yang menulisnya, dan mereka masih mencintai Gradle. Saya hanya mengenal sedikit orang yang benar-benar memahami atau dapat menulis script Gradle secara serius.
+  Selain itu, beberapa plugin tidak bekerja dengan versi Gradle yang lebih baru, beberapa tidak lagi
+  dikembangkan, tidak kompatibel dengan plugin lain, hanya bekerja dengan Gradle KTS, bukan dengan Gradle Groovy, atau
+  hanya memiliki batas. Bahkan plugin dari penyedia besar seperti Spring memiliki fungsi yang dibatasi dibandingkan dengan plugin Maven-nya
+  . Pada akhirnya, saya memiliki file build Gradle yang keren dan singkat, yang tidak dapat dikelola dengan benar oleh siapa pun,
+  bahkan oleh pengembang yang menulisnya, dan mereka masih menyukai Gradle. Saya hanya tahu sedikit yang
+  memahami atau bisa menulis skrip Gradle dengan serius.
 
-### Penemuan Kembali Kekuatan Maven - Memanfaatkan Sihir Maven
+### Penemuan Kembali Kekuatan Maven - Menggunakan Kekuatan Ajaib Maven
 
 Berikut adalah fitur favorit saya dari Maven:
-Plugin dapat langsung dimulai dan dikonfigurasi dari baris perintah tanpa harus didefinisikan terlebih dahulu. Selain itu, mereka secara besar-besaran independen dari konfigurasi Plugin lainnya.
+Plugin dapat langsung dijalankan dan dikonfigurasi dari baris perintah tanpa harus didefinisikan terlebih dahulu.
+Plus, mereka sebagian besar independen dari konfigurasi plugin lainnya.
 
-| Perintah Contoh | Deskripsi | Tautan |
-| --- | --- | --- |
-| `mvn versions:use -latest-versions` | memperbarui versi - Siapa yang membutuhkan Dependabot? Ya, proyek-proyek saya telah diperbarui ke versi terbaru selama bertahun-tahun tanpa permintaan penggabungan yang merepotkan. | https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html |
-| `mvn versions:set -DnewVersion=1.0.0` | Menetapkan versi proyek ... | https://www.mojohaus.org/versions/versions-maven-plugin/index.html |
-| `mvn license:add-third-party` | Daftar dependensi dan menampilkan lisensinya (bahkan dapat gagal pada lisensi yang dikecualikan) | https://www.mojohaus.org/license-maven-plugin/index.html |
+| Perintah Contoh                        | Deskripsi                                                                                                                                                    | Link                                                                     | 
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| `mvn versions:use -latest-versions`    | Perbarui versi - siapa yang butuh Dependabot? Ya, proyek saya telah diperbarui ke versi terbaru tanpa masalah selama bertahun-tahun, tanpa permintaan gabungan yang merepotkan | https://www.mojohaus.org/versions/versions-maven-plugin/plugin-info.html |
+| `mvn versions:set -DnewVersion=1.0.0`  | Tetapkan versi proyek...                                                                                                                                      | https://www.mojohaus.org/versions/versions-maven-plugin/index.html       |
+| `mvn license:add-third-party`          | Daftar dependensi dan tampilkan lisensi mereka (bahkan bisa gagal pada lisensi yang dikecualikan)                                                            | https://www.mojohaus.org/license-maven-plugin/index.html                 | 
 
-Daftar ini bisa terus berlanjut. Ini mengingatkan saya pada Langkah-langkah Alur Kerja GitHub.
+Daftar ini bisa berlanjut selamanya. Itu entah bagaimana mengingatkan saya pada Langkah Workflow GitHub.
 
-![maven_plugin_command_line_args] (/images/content/maven_plugin_command_line_args.png)
+![maven_plugin_command_line_args](/images/content/maven_plugin_command_line_args.png)
 
 ### Kamu Tidak Suka XML?
 
-Tidak masalah! Tulis saja Build File kamu dalam `ruby`, `groovy`, `scala`, `yaml`, `atom`, atau `Java`. Ekstensi Polygot (https://github.com/takari/polyglot-maven) membuatnya menjadi mungkin. Untuk mencobanya, cukup jalankan `mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml` dan dalam beberapa milidetik, Build File kamu akan terjemahkan. Sayangnya, tidak ada terjemahan Maven <> Gradle yang dapat diandalkan :( Ya, Build File Maven memang besar, tapi sangat mudah dipahami. Penyesuaian atau debugging dapat diselesaikan dengan cepat.
+Tidak masalah! Cukup tulis File Build Anda dalam `ruby`, `groovy`, `scala`, `yaml`, `atom` atau `Java`. Ekstensi Polygot
+(https://github.com/takari/polyglot-maven) membuatnya mungkin. Untuk mencoba
+cukup jalankan `mvn io.takari.polyglot:polyglot-translate-plugin:translate -Dinput=pom.xml -Doutput=pom.yaml` dan dalam
+beberapa milidetik File Build Anda sudah diterjemahkan. Sayang sekali, tidak ada penerjemah Maven <> Gradle yang
+dapat diandalkan :(
+Ya, Maven Build Files besar, tetapi juga sangat mudah dipahami. Perbaikan atau Debugging dapat diselesaikan dalam sekejap
+saja.
 
-### Usia Hanya Sebuah Angka - Stabilitas dan Evolusi Mavens
+### Usia hanya sebuah angka - Stabilitas dan Evolusi Mavens
 
-Diberikan, Maven sudah ada sejak lama dan estetikanya mungkin tidak sesuai dengan standar saat ini. Namun,
-keberlangsungan Maven telah memungkinkannya untuk beradaptasi dan berkembang. Maven berfungsi secara mandiri dari proyek
-Anda. File build dapat dengan mudah digunakan kembali. Plugin dijalankan di dalam sandbox dan mandiri satu sama lain dan
-mandiri dari versi Java atau Maven. Desain ini mendorong stabilitas dan prediktabilitas dan membuat mudah mengelola
-proses build kompleks tanpa konflik yang tidak diinginkan.
+Diketahui, Maven telah ada cukup lama dan estetikanya mungkin tidak sesuai dengan standar hari ini. Namun, daya tahan
+Maven telah memungkinkan untuk beradaptasi dan berkembang. Maven bekerja secara independen dari proyek Anda. File build
+dapat digunakan kembali dengan mudah. Plugin berjalan dalam sandbox dan independen satu sama lain dan independen dari
+versi Java atau Maven. Desain ini mendorong stabilitas dan prediktabilitas dan memudahkan pengelolaan proses build yang
+kompleks tanpa konflik yang tak terduga.
 
 ### Kesimpulan
 
-Saat ini, lingkungan pengembangan penuh dengan tugas dan teknologi yang membebani para pengembang. Untuk mencari kesederhanaan dan otomatisasi, Gradle muncul sebagai alat bangun modern, tetapi membawa tantangan tersendiri. Tidak diragukan lagi, konsep Gradle baik! Namun, mengingat kompleksitas dan waktu yang diinvestasikan dalam skrip bangun Gradle, muncul pertanyaan apakah tidak lebih mudah untuk memperluas Maven. Dengan plugin dan ekstensi, Maven dapat di-refresh dan disederhanakan kapan saja. Apakah pengembangan lebih menarik dan juga berkelanjutan daripada melompat dari satu teknologi ke teknologi lainnya?
+Saat ini, lingkungan pengembangan dipenuhi dengan banyak tugas dan teknologi untuk pengembang. Dalam pencarian untuk
+kemudahan dan otomatisasi, Gradle muncul sebagai alat pembangunan modern, tetapi membawa tantangan tersendiri keluar
+dari situ. Tanpa pertanyaan, konsep Gradle itu baik! Namun, mengingat kompleksitas dan waktu yang diinvestasikan ke
+dalam skrip pembuatan Gradle, muncul pertanyaan apakah tidak lebih mudah untuk memperluas Maven lagi. Dengan plugin dan
+ekstensi, Maven bisa segar dan disederhanakan kapan saja. Bukankah pengembangan lebih lanjut lebih menarik dan juga
+lebih berkelanjutan, daripada melompat dari satu teknologi ke teknologi berikutnya?
 
 ### Tautan
 
-* [Kembali ke Maven dari Gradle](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+* [Berpindah Kembali dari Gradle ke maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 
 ### Kontak
 
-[Isu GitHub] (https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).```
+[Isu GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

@@ -5,7 +5,7 @@ author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "KI katika ulimwengu halisi - Fikiria zaidi ya kuhype"
+description: "KI katika Ulimwengu wa Uhalisia - Kufikiria zaidi ya Hype"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"
@@ -13,83 +13,88 @@ card: "summary_large_image"
 ---
 
 
-
-# KI katika Dunia halisi - Fikiria Zaidi ya Hype
+# KI katika Ulimwengu Halisi - Kufikiria Zaidi ya Hype
 
 [![ai_ml](/images/content/ai_ml.jpg)](https://en.wikipedia.org/wiki/Weak_artificial_intelligence)
 
 ### Utangulizi
 
-Jinsi inavyohusu matumizi ya akili bandia (AI), kuna taharuki nyingi sana na matarajio. Baadhi wanaamini kuwa AI
-itabadilisha maisha ya kazi na kufanya uwezo wa kibinadamu usiofaa. Walakini, kabla hatujapoteza akili kwa ulimwengu wa
-AI, tunapaswa kuzingatia mambo muhimu kadhaa. AI imefanya maendeleo bila shaka, lakini sio mpya na ina vizuizi vya
-kuzingatia na kuheshimu. Spoiler: AI ni zana nyingine tu. Hatujafika kwa sinema ya kufurahisha kama ile katika
-Terminator. AI ya sasa kama ChatGPT ni mfano mzuri wa jinsi programu inapaswa kuundwa! Huduma iliyojikita na sio kama
-kisu cha jeshi la Uswisi aka suluhisho la kila kitu mara chache husaidia au hurudishwa tena. Mambo machache ya
-kujadili: * Je! Mpangilio yeyote wa programu ambaye anaamini kuwa AI ni kitu kipya au kinaweza kuchukua nafasi ya kazi
-yake, haipaswi kufikiria vizuri juu ya wigo wake na utaalam? * Wanasayansi wa data wenye kazi, ambao wanahamia kwa
-mifano ya AI: Kwa nini mfano wako maalum wa AI ni mbaya kuliko mifano mikubwa ya lugha? Ulimfanyaje kabla na ni nini
-kinachokosekana kwako kuunda mifano sawa, maalum kwa matumizi yako?
+Wakati inapokuja matumizi ya Ujasusi bandia (AI), kuna msisimko mwingi unaokera na matarajio.
+Wengine wanaamini kuwa AI itaanzisha upya ulimwengu wa kazi na kufanya uwezo wa binadamu kuwa usio wa lazima. Lakini kabla
+tunajitupa kichwa kwanza katika ulimwengu wa AI, tunapaswa kuzingatia mambo muhimu kadhaa. AI bila shaka imefanya maendeleo
+lakini sio mpya na inakuja na mipaka mikubwa ambayo tunapaswa kuelewa na kuheshimu.
+Spoiler: AI ni zana tu nyingine. Tuko mbali na matukio ya filamu kama vile Terminator.
+AI za sasa kama vile ChatGPT pia ni mfano mzuri wa jinsi programu inapaswa kubuniwa! Inayoelekezwa kwa huduma na
+si kama kisu cha Uswisi ambacho ni suluhisho la kila kitu lakini mara chache ni muhimu au inaweza kutumika tena.
 
-### Kuelewa Mipaka
+Maswali machache ya uchochezi:
 
-KI-modeli, ikiwa ni pamoja na wale ambao wanategemea GPT, wanafunzwa kwa kutumia data na muundo uliopo. Wanaweza
-kutambua muundo na kuzalisha yaliyomo kulingana na mafunzo haya, lakini hawana uelewa wa kweli au uwezo wa kufikiri
-zaidi ya mafunzo yao. Kutambua kikomo hiki kunasaidia kuweka matarajio halisi. Kitu ambacho hakikuwepo, hakitakuwepo
-pia. Habari za ubora, za siri na salama ni chache. Kuna wengi zaidi wa vijana kuliko wazee. Kwa hivyo, KI daima inafanya
-kazi kwa mifano ya "Hello World" ya kiwango cha chini tu. Katika maeneo mengi kama vile programu, watengenezaji ambao
-wanaogopa kazi zao wanapaswa kufikiria kwa uzito juu ya ubora wa kazi yao.
+* Je, kila mtu anayesoma sayansi ya kompyuta, ambaye anaamini kuwa AI ni kitu kipya au anaweza kuchukua nafasi ya kazi yake, asipaswa
+  kufikiria zaidi juu ya upeo na utaalam wake?
+* Wanasayansi wa data ambao wanabadilisha kwa mifano ya AI:
+  Kwa nini mfano wako maalum wa AI ni mbaya kuliko mifano mikubwa ya lugha? Mlikuwa mnafanya nini kabla na mnakosa nini ili kuunda mifano nzuri,
+  maalum kwa matumizi yenu?
 
-### Gharama za Maendeleo ya AI na Umuhimu wa Uwezo wa Uhesabu 
+### Kuelewa mipaka
 
-Kumbuka: Hii ni tafsiri halisi ya maandishi ya markdown yaliyoandikwa kwa lugha ya Kijerumani, kwa hivyo inaweza kuonekana tofauti na jinsi neno au sentensi ingekuwa imeandikwa moja kwa moja kwa lugha ya Kiswaahili.
+Mifano ya AI, ikiwa ni pamoja na zile zinazotegemea GPT, hufunzwa kwenye data na mifumo iliyopo. Wao ni wazuri katika
+kutambua mifumo na kuunda maudhui kulingana na mafunzo haya, lakini wanakosa ufahamu halisi au uwezo wa kufikiria zaidi
+ya mafunzo yao. Kutambua kikomo hiki husaidia katika kuweka matarajio halisi. Kile ambacho hakikuwepo kamwe,
+hakitakuwepo. Taarifa za ubora, za siri na salama ni wachache. Kuta kuwa na watoto wadogo zaidi kuliko wazee. Hivyo
+ndivyo AI inavyofanya kazi kila wakati kwa mifano ya "Hello World" ya kiwango cha chini. Katika maeneo mengi kama vile
+waandishi wa programu ambao wanaogopa kazi zao, wanapaswa kufikiria kwa makini juu ya ubora wa kazi zao.
 
-Maendeleo ya AI yamechochewa sana na maendeleo endelevu ya vifaa vya kompyuta. Miundo ya AI kama GPT-3.5 inahitaji uwezo
-mkubwa wa kuhesabu ili kutatua kazi za kina. Gharama za AI zinahusiana sana na vifaa vinavyohitajika kama GPU na TPU za
-nguvu. Mbali na hiyo, kuna gharama zinazohusiana na uendeshaji na uhifadhi wa miundombinu. Kuongezeka kwa nguvu ya
-kuhesabu inaongeza upatikanaji wa AI, lakini bado inahitaji uwekezaji mkubwa. Kutoa gharama bora na kusimamia rasilimali
-kwa ufanisi ni muhimu ili kuhakikisha mafanikio ya kiuchumi ya miradi ya AI. Uchambuzi wa gharama na mipango ya kina ya
-gharama ni muhimu kwa utekelezaji wa AI.
+### Gharama za Maendeleo ya AI na Umuhimu wa Nguvu ya Kuhesabu
 
-### Kuongeza Uwezo wa Akili ya Binadamu
+Maendeleo ya AI yamechochewa kwa kiasi kikubwa na maendeleo ya kudumu ya vifaa. Mifano ya AI kama
+GPT-3.5 inahitaji nguvu kubwa ya kompyuta kushughulikia kazi ngumu. Gharama za AI zinaunganishwa sana na
+vifaa vinavyohitajika, kama vile GPU zenye nguvu na TPU. Gharama za uendeshaji na
+matengenezo ya miundombinu pia ni lazima. Kuongezeka kwa nguvu ya kompyuta kumesababisha upatikanaji wa AI kuongezeka, hata hivyo bado
+inahitaji uwekezaji mkubwa. Uboreshaji wa gharama na usimamizi mzuri wa rasilimali ni muhimu kuhakikisha
+mafanikio ya kiuchumi ya miradi ya AI. Hivyo, uchambuzi thabiti wa gharama na mipango ni muhimu wakati wa
+utekelezaji wa AI.
 
-KI inapaswa kutazamwa kama chombo kinachoziba akili za binadamu badala ya kuzirejesha. Utambuzi wa binadamu, uchambuzi
-mkali na ubunifu ni muhimu sana. KI inaweza kutoa ufahamu muhimu, kuhudumia kazi zinazorudiwa na kuongeza uzalishaji
-lakini haitapaswa kutumiwa pekee kwa maamuzi muhimu. Bila msaada wako, KI haiwezi kuzingatia vipengele vyote
-unavyohitaji. Katika kompyuta, KI haitazamii mada kama upinzani, usalama, utii, faragha ya data, usomekaji, utendaji,
-urahisi na muundo. Kwa mfano, 3D Modeling KI: [Alex anakagua KI na Blender]
-(https://www.youtube.com/watch?v=x60zHw_z4NM&t=460s) (inaonekana nzuri lakini ni mfano tu wa "Hello World"). Uzoefu
-wangu na kuzalisha kanuni za KI kwa maneno mawili: mzaha! Sifungi watengenezaji wa namna hiyo. Bado, naitumia KI kama
-mpatanishi wa sparring au uchambuzi wa athari kama aina fulani ya kujitathmini. Matumizi yenye ufanisi zaidi ya KI mara
-nyingi yanafikiwa kwa kushirikiana kati ya binadamu na mifumo ya KI. KI inaweza kusaidia katika kuzalisha mawazo,
-kutafuta suluhisho au kufanya kazi fulani za kiotomatiki lakini usimamizi wa binadamu na msaada ni muhimu ili
-kufinaisha, kuboresha na kuboresha matokeo.
+### Nyongeza ya akili ya binadamu
 
-### Uhakiki na Jaribio
+KI inapaswa kuchukuliwa kama zana inayoboresha akili ya binadamu, badala ya kuichukua nafasi. Hukumu ya binadamu,
+ufikiri wa kisayansi na ubunifu bado ni muhimu. KI inaweza kutoa ufahamu wa thamani, kuautomatiza
+kazi za kurudia-rudia na kuongeza tija, lakini haipaswi kutegemewa pekee kwa maamuzi muhimu.
+Bila kushirikiana na wewe, KI haitakuwa na uwezo wa kujumuisha mambo yote unayohitaji.
+Katika sayansi ya kompyuta, KI haitawaza kwa mwenyewe kuhusu mada kama: Ustahimilivu, Usalama, Utii, Faragha ya Data,
+Usomaji, Utendaji, Urahisi, Mifano, Usasa, n.k.
+Mfano wa KI katika Utengenezaji wa 3D: [Alex anajaribu KI na Blender](https://www.youtube.com/watch?v=x60zHw_z4NM&t=460s) (Inaonekana vizuri
+lakini ni mfano tu wa "Hello World")
+Uzoefu wangu na kuunda kanuni za KI kwa neno moja: kuchekesha! Sitaki kuweka waendelezaji wanaoandika kificho kama hicho. Hata hivyo, ninatumia KI kama mshirika wa sparring au Explain-Effect, kama aina ya kujitafakari.
+Matumizi bora ya KI mara nyingi hupatikana kwa ushirikiano kati ya watu na mifumo ya KI. KI inaweza kusaidia
+katika kuzalisha mawazo, kutafuta suluhisho au kuautomatiza kazi fulani, lakini usimamizi na kuingilia kwa binadamu
+ni muhimu kufineti, kuboresha na kuongeza matokeo.
 
-KI matokeo yaliyozalishwa lazima yathibitishwe na kufanyiwa majaribio kwa uzingatiaji wa ubora, usahihi na ufuatiliaji
-wa matokeo yanayotolewa. Mchakato wa ukaguzi ni muhimu ili kuepuka matokeo yasiyo sahihi au yasiyo rutubisha. Tafadhali
-usithibitishe KI kwa kutumia KI nyingine. Hii itakuwa kama vile nikifanya mtihani wa wanafunzi lakini kwa kutumia
-wanafunzi wengine.
+### Uthibitisho na Mtihani
 
-### Kujifunza na Kubadilika kwa Kudumu
+Matokeo yaliyotokana na AI yanapaswa kuwa yamethibitishwa na kupimwa kila wakati. Iwe ni kuhusu kificho, yaliyomo au
+matokeo mengine, uangalizi wa binadamu ni muhimu ili kuhakikisha ubora, usahihi, na utekelezaji wa matokeo yaliyotokana.
+Mchakato wa kuthibitisha ni muhimu ili kuepuka kutegemea matokeo yasiyo sahihi au ya kupotosha. Tafadhali msaidie AI kwa
+kutumia AI nyingine. Ingekuwa kama mimi kutorekebisha kazi za darasa pekee yangu lakini kwa kutumia wanafunzi wangu.
 
-KI-Modelle ni lazima yasasishwe na kufinyangwa kila mara ili kuchukua mkondo wa hali halisi. Mzunguko wa maoni na
-uboreshaji wa mara kwa mara ni muhimu ili kuhakikisha usahihi,urafiki na manufaa ya matokeo yaliyohusishwa na KI.
-Mchakato wa kujifunza wa KI hautasimama kamwe.
+### Kujifunza na Kukabiliana kwa Kudumu
 
-### Kuzingatia suluhisho la matatizo halisi
+Mifano ya KI lazima isasishwe na kusafishwa kila wakati ili kuzoea mazingira yanayobadilika. Mzunguko wa maoni na
+uboreshaji wa kurudia unahitajika ili kuhakikisha usahihi, umuhimu, na manufaa ya matokeo yaliyozalishwa na KI. Mchakato
+wa kujifunza wa KI hautawahi kusimama.
 
-KI inapaswa kutumiwa kusuluhisha matatizo halisi na kutoa faida kwa watu. Ni muhimu kutotumia KI kwa lengo lake binafsi.
-Malengo wazi, kutambua matatizo na uelewa wa athari kwa wadau ni muhimu linapokuja suala la suluhisho ya KI.
+### Kuangazia Kutatua Matatizo Halisi
+
+KI inapaswa kutumika kushughulikia matatizo halisi na kuunda thamani kwa watu. Ni muhimu kutumia KI siyo tu kwa ajili
+yake yenyewe. Malengo wazi, kutambua matatizo, na kuelewa athari kwa wale waliohusika ni muhimu linapokuja suala la
+suluhisho za KI.
 
 ### Hitimisho
 
-Kunyamazisha bandia hakika ni zana yenye nguvu, lakini ni muhimu kuelewa mipaka yake na kutumia kwa uwajibikaji. KI
-haiwezi kuchukua nafasi ya akili ya kibinadamu, uwezo wa kutathmini kwa binadamu, ubunifu, na uwezo wa kufikiri kwa
-uwiano ni muhimu. Kwa kupitia uhakiki, utafiti, na ushirikiano kati ya binadamu na KI, tunaweza kupata matokeo bora.
-Tumia uwezo wa KI kutatua matatizo halisi na kuifanya dunia iwe bora.
+Akili bandia bila shaka ni zana yenye nguvu, lakini ni muhimu kuelewa mipaka yake na kuitumia kwa uwajibikaji. AI
+haitaweza kuongeza akili ya binadamu. Hukumu ya binadamu, ubunifu na fikira muhimu bado ni muhimu. Kupitia uthibitisho
+makini validisho, tahadhari na ushirikiano kati ya binadamu na AI, tunaweza kupata matokeo bora tunaweza kupata. Acheni
+tutumie nguvu za AI kutatua matatizo halisi na kuboresha dunia.
 
 ### Mawasiliano
 
-[GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[Matatizo ya GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

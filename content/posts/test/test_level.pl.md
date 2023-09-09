@@ -1,11 +1,11 @@
 ---
-title: "Poziomy testowe: Znalezienie właściwej równowagi"
+title: "Poziomy testów: Znalezienie właściwej równowagi"
 date: 2023-05-31
 author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: "Znalezienie właściwej równowagi w wyborze odpowiednich poziomów testów do testowania oprogramowania"
+description: "Znalezienie właściwej równowagi podczas wyboru odpowiednich poziomów testów dla testów oprogramowania"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"
@@ -13,89 +13,83 @@ card: "summary_large_image"
 ---
 
 
-# Poziomy testów: Znalezienie właściwej równowagi
+# Poziomy testów: Znalezienie odpowiedniej równowagi
 
 [![testebenen](/images/content/martin_fowler_testing.png)](https://martinfowler.com/articles/microservice-testing/)
 
-### Wprowadzenie
+### Wstęp
 
-Temat testowania nadal wydaje się być niezbadanym terytorium z dużym polem do interpretacji. Tradycyjna piramida
-piramida testów została zakwestionowana i pojawiły się nowe piramidy testów. Moim zdaniem piramida testów nie jest
-potrzebna. piramida testów, ale jasne zrozumienie tego, co należy przetestować. Testy na niższych poziomach są często
-mniej znaczące. Należy skupić się przede wszystkim na testowaniu zachowania, aby upewnić się, że API lub UI działa
-zgodnie z oczekiwaniami. Kompleksowy przegląd możliwych typów testów można znaleźć tutaj: [Martinfowler
-Testing](https://martinfowler.com/articles/microservice-testing/).
+Temat testowania wydaje się do dziś być terra incognita z dużą przestrzenią do interpretacji. Tradycyjna piramida testowa została podważona, a powstały nowe piramidy testowe. Moim zdaniem nie potrzebujemy piramidy testów, ale klarownego zrozumienia tego, co musi być testowane. Testy na niższych poziomach często są mniej wymowne. Szczególny nacisk powinien być położony na testowanie zachowania, aby upewnić się, że API lub UI działa tak, jak to jest oczekiwane. Obszerny przegląd możliwych typów testów można znaleźć tutaj: [Martinfowler Testing](https://martinfowler.com/articles/microservice-testing/).
+
 
 ### Poziom 1 - Testy próbne i testy jednostkowe
 
-Cel: Ćwiczenie najmniejszych testowalnych części oprogramowania w aplikacji, aby sprawdzić, czy działają zgodnie z
-oczekiwaniami. praca. Testy próbne i jednostkowe mogą przynieść efekt przeciwny do zamierzonego i często utrudniają
-proces rozwoju. Testy te są często oderwane od kontekstu i mają niewielki związek z rzeczywistością. Często służą
-jedynie do utrzymywania niepotrzebnych funkcji poprzez istniejące testy jednostkowe. testów jednostkowych. Po dodaniu
-makiet staje się to ćwiczeniem samobójczym. Oczekiwane wyniki testów są ograniczone do tego, co zostało zdefiniowane w
-oryginalnej makiecie. Użytkownicy końcowi nie są zainteresowani funkcjami wewnętrznymi. Na przykład w scenariuszu
-logowania `loginUser(name, password, securityAlgorithm)`. Jeśli test jednostkowy sprawdza wartość null dla parametru
-`securityAlgorithm`, wykonywanych jest zbyt wiele testów, ponieważ użytkownicy nie mogą ustawić parametru
-`securityAlgorithm`. ustawić parametr `securityAlgorithm`.
+Cel: Wykonać najmniejsze testowalne elementy oprogramowania w aplikacji, aby ustalić, czy działają zgodnie z
+oczekiwaniami. Testy mockujące i jednostkowe mogą być przeciwwskazane i często utrudniają proces rozwijania
+oprogramowania. Te testy są często odłączone od kontekstu i mają mało wspólnego z rzeczywistością. Często służą tylko do
+utrzymania niepotrzebnych funkcji za pośrednictwem istniejących testów jednostkowych. Gdy dodawane są mocki, staje się
+to zajęciem w samym sobie. Oczekiwane wyniki testów mockujących ograniczają się do tego, co zostało zdefiniowane w
+oryginalnym mocku. Końcowi użytkownicy nie interesują się funkcjami wewnętrznymi. Na przykład, w scenariuszu logowania
+`loginUser(name, password, securityAlgorithmus)`. Jeżeli test jednostkowy wykonuje sprawdzenie zerowe na parametrze
+`securityAlgorithm`, jest przetestowane za dużo, ponieważ użytkownicy nie mogą ustawić parametru `securityAlgorithm`.
 
-### Poziom 2 - Test integracji
+### Poziom 2 - Test Integracyjny
 
-Cel: Sprawdzanie ścieżek komunikacji i interakcji między komponentami w celu wykrycia wad interfejsu. defektów
-interfejsu. Testy integracyjne zapewniają cenny wgląd w wydajność i niezależność różnych części aplikacji.
-Zastosowanie. Przy mniejszej liczbie makiet testy stają się bardziej zrozumiałe. Jednak nadal brakuje im kontekstu i
-istnieje ryzyko, że testy integracyjne są po prostu testami jednostkowymi w przebraniu. Niebezpieczeństwo, że testy
-integracyjne są po prostu testami jednostkowymi w przebraniu z mniejszą liczbą makiet.
+Cel: Sprawdzenie dróg komunikacji i interakcji między komponentami w celu wykrycia błędów interfejsu. Testy
+integracyjne dostarczają cennych informacji o wydajności i niezależności różnych części aplikacji. Dzięki ograniczeniu
+mocków testy stają się bardziej zrozumiałe. Jednak nadal brakuje im kontekstu, a istnieje ryzyko, że testy integracyjne
+są po prostu przemaskowanymi testami jednostkowymi z mniejszą ilością mocków.
 
-### Poziom 3 - Test zawartości
+### Poziom 3 - Test Komponentu
 
-Cel: ograniczenie zakresu testowanego oprogramowania do części testowanego systemu, manipulowanie systemem poprzez
-wewnętrzne interfejsy kodu i użycie podwójnych testów w celu odizolowania testowanego kodu od innych komponentów. System
-poprzez wewnętrzne interfejsy kodu i użycie podwójnych testów w celu odizolowania testowanego kodu od innych
-komponentów. komponenty. Testowanie komponentów dostarcza wielu informacji na temat jakości i wydajności aplikacji.
-Zamiast makiety ostatecznie testujesz swoją aplikację. Granica między testowaniem komponentów a testowaniem end-to-end
-nie jest znacząca. istotna. Przy dobrym środowisku testowym granice między nimi często się zacierają, dzięki czemu
-testowanie rzeczywistego zachowania zamiast odizolowanych i pozbawionych kontekstu funkcji. Jednak tworzenie dodatkowych
-klas testowych, takich jak Jednak tworzenie dodatkowych klas testowych, takich jak stuby komponentów, podróbki i makiety
-w kodzie produkcyjnym może zwiększyć koszty utrzymania.
+Cel: Ograniczenie zakresu testowanego oprogramowania do części systemu do sprawdzenia, manipulacja systemem za pomocą
+wewnętrznych interfejsów kodu i użycie dublerów testowych do izolacji testowanego kodu od innych komponentów. Testy
+komponentów dostarczają wiele informacji na temat jakości i wydajności aplikacji. Zamiast mocków w końcu testujesz swoją
+aplikację. Granica między testami komponentów a testami od początku do końca nie jest znacząca. Dzięki dobrej środowisku
+testowemu granice między nimi często zacierają się, umożliwiając testowanie prawdziwego zachowania zamiast izolowanych i
+bezkontekstowych funkcji. Jednak tworzenie dodatkowych klas testowych, takich jak dublerzy komponentów, fałszywki i
+mocki, w kodzie produkcyjnym może wiązać się z dodatkowym wysiłkiem konserwacyjnym.
 
-### Poziom 4 - Test umowy
+### Poziom 4 - Test Kontraktu
 
-Celem tego bloku kodu jest sprawdzenie interakcji na granicy usługi zewnętrznej oraz zapewnienie, że jest ona zgodna z
-wymaganiami umownymi usługi konsumującej. Testy kontraktowe często przypominają testy jednostkowe, a różnica między
-nimi jest minimalna. Niektórzy deweloperzy kojarzą te testy z testami Pact, które zasadniczo działają jak testy
-jednostkowe z serwerem pomiędzy nimi. Wysiłek wysiłek związany z utrzymaniem tych testów może jednak nie być opłacalny.
-Na przykład, test Pact może wykorzystywać REST API `loginUser?name=aa&password=bb)` i oczekiwać odpowiedzi w postaci
-schematu JSON, który został wcześniej przesłany na serwer Pact. serwer. Ten schemat jest statyczny i podatny na błędy,
-takie jak nieprawidłowe formaty daty lub strefy czasowe w odpowiedzi API. API. Negatywne skutki mogą być ogromne.
+Celem tego bloku kodu jest sprawdzenie interakcji na granicy zewnętrznej usługi i
+zapewnienie, że spełnia ona wymagania kontraktowe usługi konsumpcyjnej.
 
-### Poziom 5 - Testy kompleksowe (zwane również testami czarnoskrzynkowymi)
+Testy kontraktów często przypominają testy komponentów, a różnica między nimi jest minimalna. Niektórzy deweloperzy
+kojarzą te testy z testami Pact, które zasadniczo działają jako testy jednostkowe z serwerem pomiędzy. Jednak
+wysiłek potrzebny do utrzymania tych testów, może nie być opłacalny. Na przykład, test Pact może
+przetestować REST-API `loginUser?name=aa&password=bb` i oczekiwać odpowiedzi w formacie JSON, która została wcześniej wgrana na serwer Pact.
+To schemat jest statyczny i podatny na błędy, takie jak nieprawidłowe formaty daty lub strefa czasowa w
+odpowiedzi API. Negatywne skutki mogą być ogromne.
 
-Cel: Weryfikacja, czy system spełnia wymagania zewnętrzne i osiąga swoje cele poprzez testowanie całego systemu od
-początku do końca. od początku do końca. Testowanie od początku do końca jest niezawodne i solidne. Po pokonaniu
-przeszkód związanych z konfiguracją środowiska testowego, wysiłek się opłaca. wysiłek się opłaca. Testy te symulują
-rzeczywiste zachowanie i eliminują potrzebę stosowania makiet. Błędy występują rzadziej i są łatwiejsze do odtworzenia
-lokalnie. W dużej mierze unika się czasochłonnego debugowania i rejestrowania w środowisku produkcyjnym, podobnie jak
-rzadkich błędów. są w dużej mierze unikane, podobnie jak rzadkie incydenty. Deweloperzy pracują rzadziej, jeśli w ogóle,
-z danymi z danymi produkcyjnymi, co zmniejsza odpowiedzialność i zwiększa koncentrację. Ponadto automatyzacja, taka jak
-automatyczne aktualizacje oprogramowania ułatwiają wdrożenie, ponieważ zachowanie zostało już przetestowane. Są też inne
-korzyści! Raz testy są napisane w formie wielokrotnego użytku, można je zintegrować z testami obciążeniowymi, aby
-uzyskać kompleksowy obraz funkcjonalności. kompleksowy obraz funkcjonalności. Testy te mogą być również uruchamiane w
-sposób ciągły w środowisku produkcyjnym i zapewniać wgląd w czasie rzeczywistym w stan różnych przepływów pracy. Gdy
-podsystem, taki jak np. na przykład usługa REST, przechodzi w tryb offline, możliwe jest natychmiastowe
-zidentyfikowanie, na które przepływy pracy użytkowników ma to wpływ. są dotknięte.
 
-### Fazit
+### Poziom 5 - Testy od końca do końca (zwane także testami Black-Box)
 
-Podsumowując, testowanie jest istotnym aspektem tworzenia oprogramowania, a wybór poziomów testowania zależy od
-konkretnych wymagań i celów aplikacji. Podczas gdy mock testy i testy jednostkowe mogą mieć ograniczoną skuteczność,
-testy integracyjne i jednostkowe zapewniają cenny wgląd w zachowanie i wydajność aplikacji. Testy integracyjne i
-jednostkowe zapewniają cenny wgląd w zachowanie i wydajność aplikacji. wydajność aplikacji. Testy kontraktowe pomagają
-zweryfikować interakcje z usługami zewnętrznymi, ale ich od testów jednostkowych mogą być minimalne. Ostatecznie, testy
-end-to-end zapewniają najwyższy poziom zaufania do funkcjonalności systemu i umożliwiają kompleksowe testowanie. Testy
-jednostkowe zapewniają najwyższy poziom pewności co do funkcjonalności systemu i umożliwiają kompleksowe testowanie
-całej aplikacji. Wybierając odpowiednie i efektywnie je łącząc, programiści mogą zapewnić jakość, niezawodność i
-solidność oprogramowania. oprogramowania.
+Cel: Sprawdzenie, czy system spełnia zewnętrzne wymagania i osiąga swoje cele, poprzez przetestowanie całego systemu od
+początku do końca.
+
+Testy End-to-End są niezawodne i solidne. Gdy tylko pokonane są przeszkody związane z tworzeniem środowiska testowego, wysiłek
+opłaca się. Te testy symulują realne zachowanie i eliminują potrzebę stosowania mocków. Błędy pojawiają się rzadziej
+i są łatwiejsze do odtworzenia lokalnie. Złożone debugowanie i prowadzenie logów w produkcji
+są w dużej mierze unikane, jak również rzadkie incydenty. Programiści rzadziej, jeśli w ogóle, pracują z
+danymi produkcyjnymi, co redukuje odpowiedzialność i zwiększa skupienie. Co więcej, automatyzacje takie jak
+automatyczne aktualizacje oprogramowania ułatwiają przeprowadzenie, ponieważ zachowanie już było testowane. Są jeszcze inne zalety! Kiedy
+testy są napisane w postaci możliwej do ponownego użycia, mogą być zintegrowane z testami obciążeniowymi, aby uzyskać
+kompletny obraz funkcjonalności. Te testy mogą również być ciągle wykonywane w środowisku produkcyjnym
+i dostarczać w czasie rzeczywistym informacje o statusie różnych przepływów pracy. Jeśli pewien podsystem, tak jak
+na przykład zewnętrzna usługa REST, przestanie działać, natychmiast można zidentyfikować, które przepływy pracy użytkownika
+są dotknięte.
+
+### Wnioski
+
+Podsumowując, testowanie jest kluczowym aspektem rozwoju oprogramowania, a wybór poziomów testów zależy od konkretnych
+wymagań i celów aplikacji. Podczas gdy testy Mock i testy jednostkowe mogą być ograniczone w swojej skuteczności, testy
+integracyjne i testy komponentów dostarczają cennych informacji o zachowaniu i wydajności aplikacji. Testy umowy
+pomagają sprawdzić interakcje z zewnętrznymi usługami, ale twoja granica z testami komponentów może być minimalna.
+Ostatecznie testy od końca do końca dają największy poziom zaufania do funkcjonalności systemu i umożliwiają kompleksowe
+testowanie całej aplikacji. Poprzez wybór odpowiednich poziomów testów i ich skuteczną kombinację, deweloperzy mogą
+zapewnić jakość, niezawodność i robustność twojego oprogramowania.
 
 ### Kontakt
 
-[Problemy GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[GitHub Problemy](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

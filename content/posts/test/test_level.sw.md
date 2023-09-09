@@ -1,11 +1,11 @@
 ---
-title: "Testebenen: Kupata usawa wa haki"
+title: "Ngazi za Mtihani: Kupata usawa sahihi"
 date: 2023-05-31
 author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: "Kupata usawa sahihi katika kuchagua viwango sahihi vya majaribio ya programu"
+description: "Pata usawa sahihi unapochagua ngazi sahihi za majaribio kwa mitihani ya programu"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"
@@ -13,82 +13,77 @@ card: "summary_large_image"
 ---
 
 
-# Testebenen: Kupata usawa sahihi
+# Majaribio Ya Ngazi: Kupata Usawa Sahihi
 
-[![testebenen] (/picha/maudhui/martin_fowler_testing.png)] (https://martinfowler.com/articles/microservice-testing/)
+[![testebenen](/images/content/martin_fowler_testing.png)](https://martinfowler.com/articles/microservice-testing/)
 
 ### Utangulizi
 
-Das Thema Testing scheint bis heute noch Neuland mit sehr viel Freiraum für Interpretation zu sein. Die traditionelle
-Testpyramide wurde in Frage gestellt und neue Testpyramiden sind entstanden. Meiner Meinung nach benötigt es keine
-Testpyramide, sondern ein klares Verständnis dafür, was getestet werden muss. Die Tests auf niedrigeren Ebenen sind oft
-weniger aussagekräftig. Der Fokus sollte vor allem auf dem Testen des Verhaltens liegen, um sicherzustellen, dass die
-API oder UI wie gewünscht funktioniert. Eine umfassende Übersicht über mögliche Testarten ist hier zu finden:
-[Martinfowler Testing](https://martinfowler.com/articles/microservice-testing/).
+Mada ya Upimaji inaonekana kuwa eneo jipya hadi leo lenye nafasi nyingi za tafsiri. Piramidi ya upimaji ya jadi 
+ilihojiwa na piramidi mpya za upimaji zimeibuka. Kwa maoni yangu, hakuna haja ya 
+piramidi ya upimaji, ila tu uelewa wazi kuhusu kile kinachotakiwa kupimwa. Mitihani kwenye viwango vya chini mara nyingi 
+ni chini ya utambuzi. Mkazo unapaswa kuwa hasa kwenye upimaji wa tabia, kuhakikisha kuwa 
+API
+au UI inafanya kazi kama inavyotakiwa. Muhtasari kamili wa aina za upimaji zinazowezekana unaweza kupatikana hapa: 
+[Martinfowler Upimaji](https://martinfowler.com/articles/microservice-testing/).
 
-### Level 1 - Majaribio ya Uongo & Majaribio ya Vitengo
 
-Lengo: Kutekeleza sehemu ndogo zaidi za programu katika maombi ili kubaini ikiwa zinafanya kazi kama ilivyotarajiwa.
-Mock-Tests na Unit-Tests wanaweza kuwa kinyume cha uzalishaji na mara nyingi wanazuia mchakato wa maendeleo. Vipimo hivi
-mara nyingi vimejitenga na muktadha na havina uhusiano na ukweli. Mara nyingi hutumika tu kuendeleza vipengele
-visivyohitajika juu ya Unit-Tests vilivyopo. Mara tu ukweli unaongezwa, unakuwa shughuli ya ndani. Matokeo
-yanayotarajiwa kutoka kwa Mock-Tests yanahusiana na kile kilichoelekezwa kwenye ujanja wa awali. Wateja hawajali kuhusu
-shughuli za ndani. Kwa mfano, katika kisa cha Login "loginUser (jina, nywila, algorithmus ya usalama)". Ikiwa Unit-Test
-inafanya uhakiki wa sifuri kwenye kipengee cha "algorithm ya usalama", ni mtihani sana kwani watumiaji hawawezi kuweka
-kipengee cha "algorithm ya usalama".
+### Ngazi 1 - Mitihani ya Mazoezi & Mitihani ya Kitengo
 
-### Kiwango cha 2 - Jaribio la Ushirikiano
+Lengo: Kutumia sehemu ndogo zaidi zinazoweza kujaribiwa za programu katika maombi, ili kubainisha kama zinafanya kazi
+kama ilivyotarajiwa. Mitihani ya Mock na Unit inaweza kuwa na athari kinyume na kusababisha usumbufu mara kwa mara
+katika mchakato wa maendeleo. Mitihani hii mara nyingi iko kando na muktadha na ina uhusiano mdogo na uhalisia. Mara
+nyingi hutumika tu kuendeleza kazi zisizo na maana kupitia mitihani ya Unit iliyopo. Mara Mocks zinapoongezwa, inakuwa
+kama kujishughulisha. Matokeo yanayotarajiwa kutoka kwa mitihani ya Mock yamepunguzwa kwa kile kilichofafanuliwa kwenye
+Mock ya asili. Wateja wa mwisho hawajali kazi za ndani. Kwa mfano, katika hali ya kuingia `loginUser(name, password,
+securityAlgorithmus)`. Ikiwa mtihani wa Unit unafanya ukaguzi wa Null kwenye parameter ya `securityAlgorithm`,
+kinajaribiwa kikubwa mno, kwani watumiaji hawawezi kuweka parameter ya `securityAlgorithm`.
 
-Zweck: Kuthibitisha njia za mawasiliano na uingiliano kati ya vipengele kwa kutambua kasoro za interface. Mitihani ya
-Integretion hutoa ufahamu muhimu juu ya utendaji na uhuru wa sehemu mbalimbali za programu. Kwa kutumia zana chache za
-uonevu (mocks), mitihani huwa rahisi. Hata hivyo bado hawana mazingira yanayohusiana na nafasi ya uwezekano wa kuwa
-mitihani ya uchambuzi wa sehemu na zana chache za uonevu (mocks).
+### Ngazi 2 - Mtihani wa Ujumuishaji
 
-### Ngazi ya 3 - Jaribio la Kiungo
+Lengo: Kupitia njia za mawasiliano na mwingiliano kati ya sehemu kwa kutambua Hitilafu za kiolesura. Majaribio ya
+ushirikiano hutoa ufahamu wa thamani kuhusu uwezo na uhuru wa sehemu tofauti za Programu. Na vifaa vya uigaji vichache,
+mitihani inakuwa rahisi kuelewa. Baa, wanaendelea kukosa muktadha, na kuna hatari kwamba majaribio ya ushirikiano ni tu
+mitihani ya kitengo iliyofichwa na vifaa vya uigaji vichache.
 
-Lengo: Kupunguza kiasi cha programu inayopimwa kwa sehemu ya mfumo wa kupima, kufanya upotoshaji wa mfumo kupitia
-vipengee vya ndani vya nambari na kutumia Testdoubles kwa kufunga nambari inayopimwa kutoka kwa sehemu nyingine. Vipimo
-vya sehemu hutoa habari nyingi kuhusu ubora na ufanisi wa maombi. Badala ya uigaji wa vipengele vyako, unajaribu maombi
-yako kwa kweli. Mstari kati ya vipimo vya sehemu na vipimo vya mwisho-hadi-hadi sio mkubwa. Kwa mazingira mazuri ya
-upimaji, mipaka kati yao mara nyingi huwa haieleweki, hivyo kupima tabia halisi badala ya kazi iliyosimamishwa na pasipo
-muktadha huwa na uwezekano. Walakini, uundaji wa darasa la majaribio kama vile Komponenten-Stubs, Fakes na Mocks katika
-nambari ya uzalishaji unaweza kuleta mzigo wa ziada wa matengenezo.
+### Ngazi ya 3 - Mtihani wa Kiungo
 
-### Level 4 - Jaribio la Mkataba
+Kusudi: Kupunguza kiasi cha programu iliyotestwa kwenye sehemu ya mfumo wa kuchunguzwa, kuendesha mfumo kupitia
+viunganishi vya ndani vya kificho na kutumia vipimo vya mara mbili ili kuziweka nje sehemu za kificho zinazotestwa
+kutoka kwa viungo vingine.  Majaribio ya viungo hutoa habari nyingi kuhusu ubora na uwezo wa programu. Badala ya Kuiga,
+unajaribu programu yako kwa mwisho. Ufafanuzi kati ya majaribio ya sehemu na majaribio ya mwisho hadi mwisho sio una
+maana kubwa. Pamoja na mazingira mazuri ya majaribio, mipaka kati yao mara nyingi hufifia, kwa hivyo kupima tabia halisi
+inakuwa inawezekana badala ya kazi zilizotengwa na zisizo na muktadha. Hata hivyo, kuunda darasa za ziada za majaribio
+kama vile mabanzi ya mfumo, fakes na kuiga kwenye kificho cha uzalishaji kunaweza kuongeza kazi ya ziada ya kudumisha.
 
-Madhumuni ya kifungu hiki cha nambari ni kuangalia mwingiliano kwenye mpaka wa huduma ya nje na kuhakikisha inakidhi
-mahitaji ya mkataba wa huduma inayotumia. Vipimo vya Mkataba mara nyingi vinakaribiana na vipimo vya sehemu, na tofauti
-kati yao ni ndogo. Baadhi ya waendelezaji huunganisha vipimo hivi na vipimo vya Pact, ambavyo kimsingi hufanya kazi kama
-vipimo vya Unittests na seva kati yake. Hata hivyo, gharama ya kuendeleza vipimo hivi inaweza kuwa haiendani na thamani
-yake. Kwa mfano, vipimo vya Pact vinaweza kujaribu `loginUser?name=aa&password=bb)` ya API ya REST na kujibu kwa
-kutarajia mfumo wa JSON uliohifadhiwa awali kwenye seva ya Pact. Mfumo huu ni statiki na unavunjika kwa urahisi, kama
-vile muundo sahihi wa tarehe au muda kwenye jibu la API. Madhara hasi yanaweza kuwa makubwa.
+### Ngazi ya 4 - Mtihani wa Mkataba
 
-### Kiwango cha 5 - Vipimo vya Mwisho hadi Mwisho (pia huitwa Vipimo vya Sanduku Jeusi)
+Kusudi la kizuizi hiki cha kificho ni kuangalia mwingiliano kwenye mipaka ya huduma ya nje na kuthibitisha kwamba
+inaendana na mahitaji ya mkataba wa huduma inayotumika. Majaribio ya Mkataba mara nyingi yanafanana na majaribio ya
+sehemu, na tofauti kati yao ni ndogo. Baadhi ya waendelezaji huunganisha majaribio haya na Majaribio ya Pact, ambayo
+kimsingi hufanya kazi kama majaribio ya kitengo na seva kati. Hata hivyo, gharama ya kudumisha majaribio haya inaweza
+isiwe ya thamani. Kwa mfano, Jaribio la Pact linaweza jaribu API ya REST `loginUser?name=aa&password=bb)` na kutarajia
+jibu la mfumo wa JSON, ambalo awali lilipakiwa kwenye seva ya Pact. Mfumo huu ni wa kudumu na unaweza kuathiriwa na
+makosa kama vile muundo mbaya wa tarehe au maeneo ya wakati katika jibu la API. Athari hasi zinaweza kuwa kubwa sana.
 
-Malengo: Kuhakiki ikiwa mfumo unaingiliana na mahitaji ya nje na kufikia malengo yake kwa kufanyiwa jaribio kutoka
-mwanzo hadi mwisho wa mfumo.  Vipimo vya mwisho-hadi-mwisho ni imara na vinapatikana kwa urahisi. Mara baada ya kuvuka
-vizuizi vya usanidi wa mazingira ya majaribio, juhudi zinakua na manufaa. Majaribio haya husimulisha tabia za kweli na
-kufuta haja ya Mocks. Makosa hutokea ya nadra sana na ni rahisi kujirudia eneo la tukio. Kazi kubwa ya kutatua makosa na
-kuongoza michakato kwenye uzalishaji huwekwa kwa kiwango cha chini kabisa pamoja na visa vidogo sana. Timu ya
-Watengenezaji huenda ikafanya kazi mara chache sana, kama kabisa, na data ya uzalishaji, ikipunguza jukumu lao na
-kuongeza umakini wao. Aidha, uwezekano wa kufanya kazi kwa urahisi unaongezeka kwa kuwezesha kiotomatiki kwa
-uppdateringen programvaran kwani tabia tayari imeshajaribiwa. Kuna faida zingine! Mara tu vipimo vinapoitwa kwa namna
-inayoweza kutumika tena, vinaweza kujumuishwa katika vipimo vya mizigo kwa ufahamu mpana wa kazi. Majaribio haya
-yanaweza pia kutumiwa kwa uwazi kwenye mazingira ya uzalishaji na kutoa ufahamu wa muda halisi wa hali ya hatua
-mbalimbali. Ikiwa sehemu ya mfumo kama huduma ya nje ya REST, itashuka, ni rahisi kutambua mara moja mifumo gani ya
-watumiaji inayoathiriwa.
+### Ngazi 5 - Mwisho hadi Mwisho Mtihani (pia unaitwa Maboxi Meusi-Mtihani)
+
+Kusudi: Kagua ikiwa mfumo unatimiza mahitaji ya nje na kufikia malengo yake kwa kujaribu mfumo mzima kutoka mwanzo hadi
+mwisho. Majaribio ya mwisho hadi mwisho ni ya kuaminika na imara. Mara baada ya vizuizi vya kujenga mazingira ya
+uchunguzi kuvukwa, juhudi hulipa. Majaribio haya huiga tabia halisi na kuondoa haja ya vitsauzi vya kimakebelieve.
+Hitilafu hutokea nadra na ni rahisi kunakili kwa urahisi kimahali. Ufuatiliaji wa hitilafu na uendeshaji wa leja za
+kwenye uzalishaji kwa kiasi kikubwa zinazuiliwa, pamoja na matukio nadra. Waendelezaji kwa nadra hufanya kazi na, ikiwa
+kabisa, data za uzalishaji, ambazo hupunguza uwajibikaji na kuongeza umakini. Zaidi ya hayo, uautomatishaji kama vile
+sasisho za programu moja kwa moja huwezesha utekelezaji kwani tabia tayari imejaribiwa. Kuna faida zingine zaidi! Mara
+tu majaribio yameandikwa kwa njia inayoweza kutumika tena, yanaweza kuunganishwa katika majaribio ya mzigo ili kupata
+picha kamili ya utendaji. Majaribio haya pia yanaweza kuendeshwa kila wakati kwenye mazingira ya uzalishaji na kutoa
+maoni ya muda halisi juu ya hali ya taratibu anuwai. Ikiwa sehemu ya mfumo, kama huduma ya REST ya nje, itaenda nje ya
+mtandao, inaweza kutambuliwa mara moja ni utaratibu upi wa mtumiaji ulioathiriwa.
 
 ### Hitimisho
 
-Kwa ufupi, kupima ni sehemu muhimu ya maendeleo ya programu, na chaguo la viwango vya upimaji linategemea mahitaji na
-malengo maalum ya programu. Ingawa vipimo vya bandia na vipimo vya kitengo vinaweza kuwa na ufanisi mdogo, vipimo vya
-ushirikiano na vipimo vya vipengele hutoa ufahamu muhimu juu ya tabia na utendaji wa programu. Vipimo vya mkataba
-husaidia kuangalia mwingiliano na huduma za nje, lakini kiwango chake cha utofautishaji na vipimo vya vipengele kinaweza
-kuwa kidogo. Hatimaye, vipimo vya mwisho hadi mwisho hutoa kiwango cha juu zaidi cha uaminifu katika kazi ya mfumo na
-kuruhusu vipimo kamili vya programu nzima. Kwa kuchagua viwango sahihi vya upimaji na kuunganisha kwa ufanisi,
-watengenezaji wanaweza kuhakikisha ubora, uaminifu, na utulivu wa programu yao.
+Kwa ufupi, upimaji ni sehemu muhimu ya maendeleo ya programu, na uchaguzi wa viwango vya upimaji unategemea mahitaji na malengo maalum ya programu. Wakati Mock-Tests na Unit-Tests zinaweza kuwa na ufanisi mdogo, mitihani ya integration na mitihani ya sehemu inatoa mwanga muhimu juu ya tabia na utendaji wa programu. Contracttests husaidia kuthibitisha mwingiliano na huduma za nje, lakini mipaka yako kwa mitihani ya sehemu wanaweza kuwa ndogo. Mwishowe, mitihani ya mwisho kwa mwisho inatoa kiwango cha juu zaidi cha uaminifu katika utendaji wa mfumo na kuwezesha upimaji kamili wa programu yote. Kwa kuchagua viwango sahihi vya upimaji na kuunganisha kwa ufanisi, watengenezaji wanaweza kuhakikisha ubora, uaminifu na uthabiti wa programu yako.
 
-### Wasiliana
+### Mawasiliano
 
-[GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[Matatizo ya GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

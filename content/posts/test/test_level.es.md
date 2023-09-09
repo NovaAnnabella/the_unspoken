@@ -1,11 +1,11 @@
 ---
-title: "Niveles de prueba: Encontrar el equilibrio adecuado"
+title: "Niveles de prueba: Encontrar el equilibrio correcto"
 date: 2023-05-31
 author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: "Encontrar el equilibrio adecuado al seleccionar los niveles de prueba apropiados para las pruebas de software"
+description: "Encontrar el equilibrio correcto al seleccionar los niveles de prueba adecuados para las pruebas de software"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"
@@ -13,91 +13,89 @@ card: "summary_large_image"
 ---
 
 
-# Niveles de prueba: Encontrar el equilibrio adecuado
+# Niveles de prueba: Encontrar el equilibrio correcto
 
 [![testebenen](/images/content/martin_fowler_testing.png)](https://martinfowler.com/articles/microservice-testing/)
 
 ### Introducción
 
-El tema de las pruebas sigue pareciendo un territorio inexplorado con mucho margen para la interpretación. La pirámide y
-han surgido nuevas pirámides de pruebas. En mi opinión, no es necesaria una pirámide de pruebas, sino una comprensión
-clara de lo que hay que probar. Las pruebas de los niveles inferiores suelen ser menos significativas. Hay que centrarse
-sobre todo en probar el comportamiento para garantizar que la API o la interfaz de usuario funcionan como se desea. Aquí
-encontrará una descripción exhaustiva de los posibles tipos de pruebas: [Martinfowler
-Testing](https://martinfowler.com/articles/microservice-testing/).
+El tema de las pruebas parece hasta hoy ser un territorio nuevo con mucho espacio para la interpretación. La tradicional
+pirámide de pruebas ha sido cuestionada y han surgido nuevas pirámides de pruebas. En mi opinión, no se necesita
+una pirámide de pruebas, sino una comprensión clara de lo que se debe probar. Las pruebas en niveles más bajos a menudo
+son menos significativas. El foco debería estar principalmente en probar el comportamiento, para asegurar que la
+API
+o la interfaz de usuario funcione como se desea. Una visión general completa de los posibles tipos de pruebas se puede encontrar aquí:
+[Martinfowler Testing](https://martinfowler.com/articles/microservice-testing/).
 
-### Nivel 1 - Pruebas simuladas y pruebas unitarias
 
-Objetivo: Ejercitar las partes de software comprobables más pequeñas de la aplicación para ver si funcionan como se
-espera. trabajo. Las pruebas simuladas y las pruebas unitarias pueden ser contraproducentes y a menudo entorpecen el
-proceso de desarrollo. Estas pruebas suelen estar desvinculadas del contexto y tienen poca relación con la realidad. A
-menudo sólo sirven para mantener funciones innecesarias a través de pruebas unitarias existentes. pruebas unitarias
-existentes. Una vez que se añaden los mocks, se convierte en un ejercicio contraproducente. Los resultados de las
-pruebas simuladas se limitan a lo definido en la prueba original. Los usuarios finales no están interesados en las
-funciones internas. Por ejemplo, en un escenario de login `loginUser(name, password, securityAlgorithm)`. Si la prueba
-unitaria hace una comprobación nula en el parámetro `securityAlgorithm`, se realizan demasiadas pruebas porque los
-usuarios no pueden establecer el parámetro `securityAlgorithm`. establecer el parámetro `securityAlgorithm`.
+### Nivel 1 - Pruebas Simuladas y Pruebas Unitarias
 
-### Nivel 2 - Prueba de integración
+Objetivo: Ejercitar las partes de software más pequeñas y comprobables en la aplicación para determinar si funcionan
+como se esperaba. Las pruebas simuladas y las pruebas unitarias pueden ser contraproducentes y a menudo obstruyen el
+proceso de desarrollo. Estas pruebas a menudo están desconectadas del contexto y tienen poco que ver con la realidad. A
+menudo solo sirven para mantener funciones innecesarias sobre las pruebas unitarias existentes. Tan pronto como se
+agregan simulacros, se convierte en un autoempleo. Los resultados esperados de las pruebas simuladas se limitan a lo que
+se definió en el simulacro original. Los usuarios finales no están interesados en las funciones internas. Por ejemplo,
+en un escenario de inicio de sesión `loginUser (name, password, securityAlgorithmus)`. Si la prueba unitaria realiza una
+verificación nula en el parámetro `securityAlgorithm`, se está probando demasiado, ya que los usuarios no pueden
+establecer el parámetro `securityAlgorithm`.
 
-Finalidad: Comprobar las vías de comunicación y las interacciones entre componentes para detectar defectos de interfaz.
-Las pruebas de integración proporcionan información valiosa sobre el rendimiento y la independencia de las distintas
-partes de la aplicación. aplicación. Con menos mocks, las pruebas resultan más comprensibles. Sin embargo, siguen
-careciendo de contexto, y existe el riesgo de que peligro de que las pruebas de integración sean simplemente pruebas
-unitarias disfrazadas con menos mocks.
+### Nivel 2 - Prueba de Integración
 
-### Nivel 3 - Prueba de componentes
+Objetivo: Verificación de los canales de comunicación e interacciones entre componentes para la detección de defectos
+en la interfaz. Las pruebas de integración proporcionan información valiosa sobre la capacidad y la independencia de
+diferentes partes de la aplicación. Con menos simulacros, las pruebas son más comprensibles. Sin embargo, todavía les
+falta el contexto, y existe el peligro de que las pruebas de integración simplemente sean pruebas unitarias disfrazadas
+con menos simulacros.
 
-Finalidad: limitar el alcance del software sometido a prueba a una parte del sistema sometido a prueba, manipular el
-sistema sistema mediante interfaces de código internas y el uso de dobles de prueba para aislar el código sometido a
-prueba de otros componentes. componentes. Las pruebas de componentes proporcionan mucha información sobre la calidad y
-el rendimiento de la aplicación. En lugar de mocks se prueba finalmente la aplicación. La frontera entre la prueba de
-componentes y la prueba de extremo a extremo no es significativa. Con un buen entorno de pruebas, los límites entre
-ambas suelen difuminarse, de modo que se prueban comportamientos reales en lugar de funciones aisladas y
-descontextualizadas. comportamiento real en lugar de funciones aisladas y sin contexto. Sin embargo, la creación de Sin
-embargo, la creación de clases de prueba adicionales como stubs de componentes, fakes y mocks en el código de producción
-puede añadir sobrecarga de mantenimiento.
+### Nivel 3 - Prueba de Componente
 
-### Nivel 4 - Prueba de contrato
+Propósito: Limitar el alcance del software probado a una parte del sistema a probar, manipulación del sistema a través
+de las interfaces de código interno y uso de duplicados de prueba para aislar el código a probar de otras componentes.
+Las pruebas de componentes aportan una gran cantidad de información sobre la calidad y capacidad del rendimiento de la
+aplicación. En lugar de Mocks, finalmente estás probando tu aplicación. La frontera entre las pruebas de componentes y
+las pruebas de extremo a extremo no es significativa. Con un buen entorno de prueba, las fronteras entre ellos a menudo
+se desvanecen, lo que permite probar el comportamiento real en lugar de funciones aisladas y sin contexto. Sin embargo,
+la creación de clases de prueba adicionales como los stubs de componentes, los falsos y los Mocks en el código de
+producción puede conllevar un esfuerzo de mantenimiento adicional.
 
-La finalidad de este bloque de código es comprobar las interacciones en el límite de un servicio externo y garantizar
-que cumple los requisitos contractuales de un servicio consumidor. Las pruebas de contrato suelen parecerse a las
-pruebas unitarias, y la diferencia entre ellas es mínima. Algunos desarrolladores asocian estas pruebas con las pruebas
-Pact, que actúan esencialmente como pruebas unitarias con un servidor de por medio. El esfuerzo de Sin embargo, el
-esfuerzo de mantener estas pruebas puede no merecer la pena. Por ejemplo, una prueba Pact podría utilizar la API REST
-REST API `loginUser?name=aa&password=bb)` y esperar una respuesta de esquema JSON que se haya cargado previamente en el
-servidor Pact. servidor. Este esquema es estático y propenso a errores como formatos de fecha o zonas horarias
-incorrectos en la respuesta de la API. respuesta de la API. Los efectos negativos pueden ser enormes.
+### Nivel 4 - Prueba de Contrato
+
+El propósito de este bloque de código es verificar las interacciones en el límite de un servicio externo y asegurarse de
+que cumple con los requisitos contractuales de un servicio de consumo. Las pruebas de contrato a menudo se parecen a
+las pruebas de componentes, y la diferencia entre ellas es mínima. Algunos desarrolladores asocian estas pruebas con las
+pruebas de Pact, que esencialmente actúan como pruebas unitarias con un servidor intermedio. El esfuerzo para mantener
+estas pruebas podría, sin embargo, no ser rentable. Por ejemplo, una prueba de Pact podría probar la API REST
+`loginUser?name=aa&password=bb)` y esperar una respuesta de esquema JSON que previamente se haya subido al servidor de
+Pact. Este esquema es estático y susceptible a errores como formatos de fecha incorrectos o zonas horarias en la
+respuesta de la API. Los efectos negativos pueden ser enormes.
 
 ### Nivel 5 - Pruebas de extremo a extremo (también llamadas pruebas de caja negra)
 
-Finalidad: Verificar que un sistema cumple los requisitos externos y alcanza sus objetivos probando todo el sistema de
-principio a fin. de principio a fin. Las pruebas de principio a fin son fiables y sólidas. Una vez superados los
-obstáculos de la creación del entorno de pruebas, el esfuerzo merece la pena. esfuerzo merece la pena. Estas pruebas
-simulan el comportamiento real y eliminan la necesidad de mocks. Los errores son menos frecuentes y son más fáciles de
-reproducir localmente. Se evitan en gran medida las laboriosas tareas de depuración y registro en producción, así como
-los incidentes poco frecuentes. se evitan en gran medida, al igual que los incidentes poco frecuentes. Los
-desarrolladores trabajan menos a menudo, si es que lo hacen, con datos de producción, lo que reduce la responsabilidad y
-aumenta la concentración. Además, automatizaciones como las actualizaciones automáticas de software facilitan la
-implementación, ya que el comportamiento ya se ha probado. Hay otras ventajas. Una vez en las pruebas están escritas de
-forma reutilizable, pueden integrarse en pruebas de carga para obtener una completa de la funcionalidad. Estas pruebas
-también pueden ejecutarse continuamente en el entorno de producción y proporcionar información en tiempo real sobre el
-estado de varios flujos de trabajo. Cuando un subsistema, como servicio REST, por ejemplo, se desconecta, es posible
-identificar inmediatamente qué flujos de trabajo de usuario se ven afectados. se ven afectados.
+Propósito: Verificación de si un sistema cumple con los requerimientos externos y alcanza sus objetivos al probar todo
+el sistema desde el principio hasta el final. Las pruebas de extremo a extremo son confiables y robustas. Una vez que
+se superan los obstáculos de la configuración del entorno de prueba, el esfuerzo vale la pena. Estas pruebas simulan
+comportamiento real y eliminan la necesidad de mocks. Los errores ocurren menos a menudo y son más fáciles de reproducir
+localmente. El debugging laborioso y el registro en la producción se evitan en gran medida, así como los incidentes
+raros. Los desarrolladores trabajan con menos frecuencia, si acaso, con datos de producción, lo que reduce la
+responsabilidad y aumenta el enfoque. Además, automatizaciones como las actualizaciones automáticas de software
+facilitan la ejecución, ya que el comportamiento ya ha sido probado. ¡Hay más beneficios! Una vez que las pruebas se
+escriben en una forma reutilizable, pueden integrarse en las pruebas de carga para obtener una imagen completa de la
+funcionalidad. Estas pruebas también pueden ejecutarse continuamente en el entorno de producción y ofrecer información
+en tiempo real sobre el estado de diferentes flujos de trabajo. Si un subsistema, como por ejemplo un servicio REST
+externo, se desconecta, se puede identificar inmediatamente qué flujos de trabajo de usuario están afectados.
 
-### Fazit
+### Conclusión
 
 En resumen, las pruebas son un aspecto esencial del desarrollo de software, y la elección de los niveles de prueba
-depende de los requisitos y objetivos específicos de la aplicación. Mientras que las pruebas simuladas y las pruebas
-unitarias pueden tener una eficacia limitada, las pruebas de integración y eficacia, las pruebas de integración y las
-pruebas unitarias proporcionan información valiosa sobre el comportamiento y el rendimiento de la aplicación.
-rendimiento de la aplicación. Las pruebas de contrato ayudan a verificar las interacciones con servicios externos, pero
-su diferenciación con las pruebas unitarias puede ser mínima. En última instancia, las pruebas de extremo a extremo
-proporcionan el máximo nivel de confianza en la funcionalidad del sistema y permiten realizar pruebas exhaustivas. la
-funcionalidad del sistema y permiten realizar pruebas exhaustivas de toda la aplicación. Seleccionando los niveles de
-niveles de prueba adecuados y combinándolos eficazmente, los desarrolladores pueden garantizar la calidad, fiabilidad y
-robustez de su software.
+depende de los requisitos y objetivos específicos de la aplicación. Mientras que las pruebas de simulacro y las pruebas
+unitarias pueden tener su eficacia limitada, las pruebas de integración y las pruebas de componentes ofrecen valiosas
+perspectivas sobre el comportamiento y el rendimiento de la aplicación. Las pruebas de contrato ayudan a comprobar las
+interacciones con los servicios externos, pero su diferenciación con las pruebas de componentes puede ser mínima.
+Finalmente, las pruebas de extremo a extremo proporcionan el máximo nivel de confianza en la funcionalidad del sistema y
+permiten pruebas exhaustivas de toda la aplicación. Mediante la selección de los niveles de prueba adecuados y su
+combinación efectiva, los desarrolladores pueden garantizar la calidad, fiabilidad y robustez de su software.
 
 ### Contacto
 
-[Problemas en GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[Problemas de GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

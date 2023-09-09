@@ -2,7 +2,7 @@
 title: "Holakratie"
 date: 2023-09-08
 author: "Nova Annabella"
-slug: illusion_serverless_cloud
+slug: holacracy_is_wrong
 tags: [ "Holacracy", "Organizational Structure", "Agility", "Management", "Leadership", "Employee Engagement", "Bureaucracy", "Business Strategy" ]
 categories: [ "Business", "Management", "Innovation", "Human Resources" ]
 description: "Die Dystopie hinter der Utopie"

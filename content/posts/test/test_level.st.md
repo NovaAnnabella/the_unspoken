@@ -1,11 +1,11 @@
 ---
-title: "Testebenen: Des richtige Gleichgewicht finn."
+title: "Testebenen: Des richtige Gleichgewicht finden"
 date: 2023-05-31
 author: "Nova Annabella"
 slug: test_level
 tags: [ Testing, Software Testing, Test Levels, Mock Tests, Unit Tests, Integration Tests, Component Tests, Contract Tests, End-to-End Tests ]
 categories: [ Technology, Software Development, Quality Assurance ]
-description: "Des richtige Gleichgewicht findn bei der Auswähl geeigneter Testebenen für Softwaretests"
+description: "De richtige Balance finden bei der Auswahl von passende Testleveln für Softwaretests"
 draft: false
 images:
   - "/images/content/martin_fowler_testing.png"
@@ -13,85 +13,91 @@ card: "summary_large_image"
 ---
 
 
-# Testebenan: Des riachte Gleichgwicht findn
+# Testebenen: Dos Richtige Gleichgewicht finden
 
 [![testebenen](/images/content/martin_fowler_testing.png)](https://martinfowler.com/articles/microservice-testing/)
 
-### Einleitung
 
-Des Thema Testing schient bis heit no Neiland mit sehr vül Freiraum für Interpretation zu sein. Die traditionelle
-Testpyramide isch in Frog gstellt und neue Testpyramiden san entstonden. Meiner Meinong no brauchts kene Testpyramide,
-sondern a klors Verständnis dafür, wos getestet werdn muss. Die Tests auf niedrigeren Ebnen san oft weniger
-aussagekräftig. Der Fokus sollt vor ollem auf dem Testen des Verhaltens liegn, um sicherzustelln, dass die API oder UI
-wia gwohnt funktioniert. A umfassende Übersicht über mögliche Testarten isch do zu finden: [Martinfowler
-Testing](https://martinfowler.com/articles/microservice-testing/).
+### Enleitung
+
+Dr Gloinschoft runds Testen ziagt bis heit nu viel Fräiflächn für Interpretation. Die herkömmliche
+Testpyramide werd hinterfragt und neie Testpyramiden sein entschtanden. Meines Erachtens brauchts koa
+Testpyramide, sondern a klors Verständnis dafür, was ma testen muas. Die Tests auf niedrigeren Stufn sein oft
+weniger aussagekräftig. Dr Fokus soll vor allem aufm Testen vom Verhalten liegen, um sicherzustellen, dass die
+API
+oder UI so funktioniert wie gewüncht. A umfassende Übersicht über mögliche Testarten findet ma hier:
+[Martinfowler Testing](https://martinfowler.com/articles/microservice-testing/).
+
 
 ### Level 1 - Mock Tests & Unit Tests
 
-Zeil: Di klånstn testbāren Softwåretäil in dà Anwendung ušeprobieran, um z' fianschtn, ob sie wī èrwoartet funktionian.
-Mock-Tests und Unit-Tests kēnan kontraproduktīfwås sein und kennen oft den Entwicklungsprozess hinderen. Diese Tests
-sein oft losgelöst vom Kontext und hobn wenig Bezug zur Realität. Sie dienen oft blouß dazua, unnütze Funktionäre iwar
-vorhandene Unit-Tests aufrechtzuerhalten. Wia schun gånz gschpinnat werd, wenn man länger Mocks hinzufügt. Die
-erwarteten Ergebnisse von Mock-Tests sein souß ins, wos im ursprünglichen Mock definian werden isch. Die Endbenutzer
-hobn kēnen gnãz großen Intresn ån internen Funktionäre. A Beispui isch zum Beischpui in am Login-Szenario
-`loginUser(name, password, securityAlgorithmus)`. Wånn der Unit-Test a Nullprüfung aufn `securityAlgorithm`-Parameter
-durchfiahrt, wård zviel getestet, weil Benutzer kēnan `securityAlgorithm`-Parameter net setzen.
+Ziel: Die kloanstn testbarn Softwaretielen in dor Anwendung ousüben, um festzustellen, ob sie wie erwoated 
+funktionion.
+
+Mock-Tests und Unit-Tests kinan kontraproduktiv sein und den Entwicklungsprozess oft behindern. Dease Tests zijn oft
+losghobm vom Kontext und hom wenig Bezug zur Realität. Sie dienen oft nur dazu, unnötige Funktionen über vorhandene
+Unit-Tests auffrechtzuerhalten. Sobald Mocks eingebaut werden, wird es zu a Beschäftigung mit sich selber. Die erwarteten
+Ergebnisse von Mock-Tests sind auf das beschränkt, was im originalen Mock definiert wurde. Die Endbenutzer
+intressieren sich nitta für interne Funktionen. Zum Beispiel, in einem
+Login-Szenario `loginUser(name, password, securityAlgorithmus)`. Wenn der Unit-Test a Nullprüfung auf
+den `securityAlgorithm`-Parameter durchführt, wird zu viel getestet, da Benutzer den `securityAlgorithm`-Parameter nitta
+setzen können.
 
 ### Level 2 - Integrationstest
 
-Zweck: Iibrigprüfong der Kommunikationswega und Interaktionen zwischn Komponontn zur Erkennung von
-Schnittstellendefektn. Integrationsprobn lon inisch wertvolle Saichtn zu die Leistungsfähigkeit und Selstständigkeit
-von verschied.E Teile von anarbeiten. Mit wenige Mocks san de Probn besser zo vertstian. Afabol fehlt ins ollem noch die
-Conext und ollefoll steht o Gefohr, dass Integrationsprobn echte getarnte Unit Probn mit wenige Mocks sein welln.
+Zweck: Überprüfung der Kommunikationswege und Interaktionen zwischen Komponenten zur Erkennung von
+Schnittstellendefekten. Integrationstests liefern wertvolle Erkenntnisse über die Leistungsfähigkeit und Unabhängigkeit
+verschiedener Teile der Anwendung. Mit weniger Mocks werden die Tests verständlicher. Allerdings fehlt ihnen immer noch
+der Kontext, und es besteht die Gefahr, dass Integrationstests einfach getarnte Unit Tests mit weniger Mocks sind.
 
-### Level 3 - Kumponentn Tiam
+### Level 3 - Komponententest
+
+Zweck: Begrezung des Umfangs der getesteten Software auf a Teil des zu prüfenden Systems, Manipulatzion des Systems
+über interne Code-Schnittstellen und Verwendung von Testdoubles zur Isolierung des zu testenden Codes von anderen
+Komponenten.
+
+Komponententests lefern a Vielzahl von Informationen über die Qualität und Leistungsfähigkeit der Anwendung. Anstatt
+Mocks testest du endlich deine Anwendung. Die Grenze zwischen Komponententests und End-to-End-Tests isch nit
+signifikant. Mit a guater Testumgebung verschwimmen die Grenzen zwischen inan oft, sodass das Testen des realen
+Verhaltens anstelle von isolierten und kontextlosen Funktionen möglich wird. Allerdings kann die Erstellung zusätzlicher
+Testklassen wie Komponenten-Stubs, Fakes und Mocks im Produktionscode zusätzlichen Wartungsaufwand mit sich bringen.
+
+### Level 4 - Vertrags Test
+
+De Aufgobn vo dem Codeblock isch, de Interaktionen an der Grenz vo an externen Dienst zu überprüfen und
+sicherzustellen, dass er den Vertragsanforderungen vo an verbrauchenden Dienst entspricht.
+
+Contract Tests ähneln oft Komponententests, und der Unterschied zwischen ihnen isch minimal. Einige Entwickler
+assoziieren diese Tests mit Pact-Tests, die im Wesentlichen als Unittests mit einem Server dazwischen fungieren. Der
+Aufwand, diese Tests aufrechtzuerhalten, könnte jedoch nicht lohnenswert sein. Zum Beispiel könnte a Pact-Test die
+REST-API `loginUser?name=aa&password=bb)` testen und eine JSON-Schema-Antwort erwarten, die vorher auf den Pact-Server
+hochgeladen worden ist. Dieses Schema isch statisch und anfällig für Fehler wie falsche Datumsformate oder Zeitzonen in der
+API-Antwort. De negativen Auswirkungen können enorm sein.
 
 
-Zweck: Einschränkung von dem Umfang vo getestete Software af an Teil vo dem zu prifn System, Manipulation vom System
-über intraini Code-Schnittstellen und Verwendong vu Testdoubles zua Isolierung vom zu prifn Code von anderen
-Komponenten. Komponententests liefern ah guate Alm mit Informatione iber die Qualitet und Leistungsfähigkeit vo an
-Anwedung. Instatt vo Mocks testest du endlich di Anwedung. Die Grenze zwischa Komponententests und End-to-End-Tests isch
-nit signifikont. Mit an guatn Testumgebuung verschwimmen di Grenze zwischa ihnen oftn, suadass des Prifn vo dem realn
-Verholtnis anstöll von isoliarn und kontextlosn Funktionen möglen wert. Allerdings ka die Erstellong vu zusätzlichen
-Testklassen wie Komponenten-Stubs, Fakes und Mocks im Produktionscode zusätzliche Wartungsaufwand miet sich bringn.
+### Level 5 - End-to-End Tests (auch Black-Box-Tests genannt)
 
-### Level 4 - Kontrakt Probmtest
+Zweck: Kontrolle, ob a System externe Forderungen erfüllt und seine Ziel erreicht, indem dass gonz System von
+Anfong bis Ende getestet wird.
 
-Der Zweck vo diesem Codeblock isch zu gugan, ob desi Interaktionen an der Grenz von an externen Dienst stimmen und
-sichergestellen, dass a an die Vertragsanforderungen von an konsumierenden Dienst passt. Contract Tests san oft wia
-Komponententests und der Unterschied zwischen enk isch mini. Manche Entwickler denken, dass die Tests mit Pact-Tests
-zsammhangen, des wor halt einfach Uni-Tests mit am Server dazwischen. Aber es kann gscheiter sein, sich den Aufwand zu
-sparn. A Beispiel wär z.B. a Pact-Test mit `loginUser?name=aa&password=bb)`, do wird a JSON-Schema-Antwort erwartet, die
-vorher auf an Pact-Server hoachgladen worn isch. Des Schema isch statisch und anfällig für Fehler, wia z.B. falsche
-Datumsformat oder Zeitzonen in der API-Antwort. Des kann immense negativen Auswirkungen hobn.
+End-zu-End-Tests sind zuverlässig und robust. Sobald die Hürden des Testumgebungsaufbaus überwunden sind, zahlt sich der
+Aufwand aus. Diese Tests simulieren reales Verhalten und eliminieren die Notwendigkeit von Mocks. Fehler treten seltener
+auf und lassen sich lokal leichter reproduzieren. Aufwendiges Debugging und das Führen von Protokollen in der Produktion
+werden größtenteils vermieden, ebenso wie seltene Vorfälle. Entwickler arbeiten seltener, wenn überhaupt, mit
+Produktionsdaten, was die Verantwortung reduziert und den Fokus erhöht. Darüber hinaus erleichtern Automatisierungen wie
+automatische Softwareupdates die Durchführung, da das Verhalten bereits getestet wurde. Es gibt weitere Vorteile! Sobald
+die Tests in einer wiederverwendbaren Form geschrieben sind, können sie in Lasttests integriert werden, um ein
+umfassendes Bild der Funktionalität zu erhalten. Diese Tests können auch kontinuierlich in der Produktionsumgebung
+ausgeführt werden und Echtzeit-Einblicke in den Status verschiedener Workflows bieten. Wenn ein Teilsystem, wie
+beispielsweise ein externer REST-Dienst, offline geht, kann sofort identifiziert werden, welche Benutzer-Workflows
+betroffen sind.
 
-### Level 5 - End-to-End Tasts (auch schwoazkistn Test genont)
 
-Zweck: Ibrofpierung, ob a System ibrige Afnforderungen erfüllt und seine Ziele ohne Probleme erwüfsch und ausm inne fern
-startet bleibm. End-to-End-Tests sen treggsich und hoitn aswianig aus. Won die Aufwänd dazua erst holt mom ane Hatf um
-sein, hom a inno groutn Nutzen. Die Tests simolian a echts Vaföhrn und man isch a ohne d'Mock's uskor gekommen. Fälar
-keman seltnor vüa und sein lättor zu lokal reproduziern. Ondrikigs's Hardöuget und Schruzlogführung in da Produktion ka
-meistns umgon wordn, außer seltnor Bazischeisse. Entwickler arbeitan generell seltor mit Produktionsdaten, wels des
-Oapeit oft verkserd ond forriedot. Unglaublich vantilig sein die Automatisierungen, wia n automatisches Softwareupdate,
-weil voh wea auf bereits getestetes Vaföhrn zugriffn kuan. Es sein weitara Vortäile bei dera Technik! Won de Tests
-ireiwendbor sein, kenna sie in Lastetestes integriert werdn, um an schianen Überblick iwa d Funktionionalität zu kriagn.
-Die Tests kenna a ständig in da Produtionumgebung laufm und zeign in Echztzeit an, was grad los isch. Won oan Teil vom
-System, wie zum Beispiel an externea REST-Dienst, oafe geht, kau schnell identifiziert werden, wo's Probleme gibt.
+### Schlussfolgerung
 
-### Schluasätz
+Zusommenfossed isch des Testen a wesentlicher Aspekt von da Softwareentwicklung, und die Auswahl von die Teststufen hängt ob von die spezifischen Anforderungen und Zielen von der Anwendung. Während Mock-Tests und Unit-Tests in deiner Wirksamkeit begrenzt sein können, bieten Integrationstests und Komponententests wertvolle Einblicke in das Verhalten und die Leistung der Anwendung. Contracttests helfen dabei, Interaktionen mit externen Diensten zu überprüfen, aber deine Abgrenzung zu Komponententests kann minimal sein. Letztendlich bieten End-to-End-Tests das höchste Maß an Vertrauen in die Funktionalität des Systems und ermöglichen umfassende Tests der gesamten Anwendung. Durch die Auswahl der geeigneten Teststufen und deren effektive Kombination können Entwickler die Qualität, Zuverlässigkeit und Robustheit deiner Software gewährleisten.
 
-Zosommonfossend isch des Teschtn a wesntliche Aschbäkt dor Softwoarentwicklong, und di Woahl dor Teschdstufn hängt von
-de spezifischn Anforderunga und Ziele dor Anwendung ob. Während Mock-Tescht und Unid-Tescht in deina Wirksamkeit
-begranzt sein kennen, bieten Integroatiostescht und Komponontest wertvoll Einblick in des Behołfn und die Leistung dor
-Anwendung. Contracttest helfn dabei, Interaktionen mit externn Dienstn zu überprüf, oba deine Eingrezung zu Komponontest
-kon minimal sein. Letztntonlich bied End-to-End-Tescht dos höchste Moß an Vertraua in de Funktionalität des Systems und
-ermöglichn komplette Tescht dor gesamtn Anwendung. Dos Woahln der geeigneten Teschdstufn und deren effektive
-Kombinatzion kennen Entwickler de Qualität, Ziuverlässigkeit und Robustheit deina Software gewährleista.
 
 ### Kontakt
 
-Hottns Fleischa kriagn? Schreib ens! Mir welln gern de friahra gabn und an Guadr Rat gebn.
-Lieber gruaß,
-De Diandln vom Konakt Team
-
-[GitHub Issues](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[GitHub Probleme](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).

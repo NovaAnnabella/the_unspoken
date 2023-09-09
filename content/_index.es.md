@@ -1,5 +1,5 @@
 ---
-title: "Lo No Hablado"
+title: "Lo No Dicho"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
@@ -11,12 +11,13 @@ draft: false
 
 # Bienvenido a "The Unspoken"
 
-**Decide por ti mismo qué es verdad para ti y de qué temas prefieres apartar la mirada.**
+**Decide tú mismo qué es verdad para ti y qué temas prefieres evitar.**
 
-Me atrevo a explorar las áreas prohibidas del desarrollo y destapar lo extraordinario que deseo en el mundo del desarrollo.
-Amplia tu horizonte y mueve tus límites.
-Recuerda siempre, la tecnología debería facilitar nuestra vida y nuestro trabajo.
+Me atrevo a adentrarme en las áreas prohibidas del desarrollo y revelar lo extraordinario en el mundo del desarrollo.
+Expande también tu horizonte y desplaza tus límites.
+Siempre recuerda, la tecnología debería facilitar nuestra vida y nuestro trabajo.
 
-**Solo los más valientes entre nosotros realmente logran hacer el desarrollo más fácil para los demás.**
+**Solo los más valientes entre nosotros logran realmente simplificar el desarrollo para los demás.**
 
-¿Cuándo fue la última vez que completaste un proyecto que era prácticamente libre de mantenimiento, robusto y que ya no te necesitaba? ¿Nunca? ¡Entonces estás haciendo algo mal!
+¿Cuándo fue la última vez que completaste un proyecto que era prácticamente libre de mantenimiento, robusto y ya no 
+te necesitaba? ¿Nunca? ¡Entonces estás haciendo algo mal!

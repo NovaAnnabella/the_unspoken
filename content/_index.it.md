@@ -1,21 +1,21 @@
 ---
-title: "L'Innominato"
+title: "L'Inespresso"
 date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Decidi tu stesso cosa è vero per te e da quali argomenti preferisci distogliere lo sguardo"
+description: "Decidi tu stesso cosa sia vero per te e da quali argomenti preferisci guardare altrove"
 draft: false
 ---
 
 
 # Benvenuto a "The Unspoken"
 
-**Decidi tu stesso cosa è vero per te e da quali argomenti preferisci distogliere lo sguardo.**
+**Decidi tu stesso cosa è vero per te e su quali argomenti preferisci distogliere lo sguardo.**
 
-Oso toccare le zone proibite dello sviluppo e scoprire l'eccezionale che esiste nel mondo dello sviluppo.
-Espandi anche i tuoi orizzonti e sposta i tuoi limiti.
-Ricorda sempre, la tecnologia dovrebbe semplificare la nostra vita e il nostro lavoro.
+Mi azzardo a esplorare le aree proibite dello sviluppo e svelo ciò che è eccezionale nel mondo dello sviluppo.
+Amplia anche tu il tuo orizzonte e sposta i tuoi limiti.
+Ricorda sempre che la tecnologia dovrebbe semplificare la nostra vita e il nostro lavoro.
 
 **Solo i più coraggiosi tra noi riescono veramente a semplificare lo sviluppo per gli altri.**
 

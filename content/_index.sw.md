@@ -4,20 +4,19 @@ date: 2023-05-01
 author: "Nova Annabella"
 tags: [ development ]
 categories: [ Technology, Software ]
-description: "Jiamulie mwenyewe, ni nini kweli kwako na ni mada zipi unapendelea kuachana nazo"
+description: "Jiamulie mwenyewe ni nini kwako ni kweli na mapema gani unapendelea kuepuka"
 draft: false
 ---
 
 
-# Karibu kwa "The Unspoken"
+# Karibu kwenye "The Unspoken"
 
-**Jiamuie mwenyewe, ni nini kilicho kweli kwako na ni mada gani unapendelea kuiepuka.**
+**Chagua mwenyewe kile ambacho ni kweli kwako na kwenye mada ambazo unapendelea kuziepuka.**
 
-Najitosa kwenye maeneo yaliyoharamishwa ya maendeleo na kufunua mambo ya ajabu katika ulimwengu wa maendeleo.
-Pia pana yako upeo na usogeze mipaka yako.
-Fikiria kila wakati, teknolojia inapaswa kurahisisha maisha yetu na kazi zetu.
+Ninathubutu kuingia katika maeneo yaliyokatazwa ya maendeleo na kufunua kitu cha kipekee katika ulimwengu wa maendeleo.
+Pia, panua ufahamu wako na uhamishe mipaka yako.
+Kumbuka kila wakati, teknolojia inapaswa kurahisisha maisha yetu na kazi zetu.
 
-**Ni jasiri wachache tu kati yetu wanaweza kweli kufanya maendeleo kuwa rahisi zaidi kwa wengine.**
+**Ni wa jasiri zaidi kati yetu ndio wanaweza kweli kurahisisha maendeleo kwa wengine.**
 
-Uliomaliza lini mradi uliokuwa kivitendo hautaki matengenezo, ulikuwa imara na haukutaka tena?
-Kamwe? Kisha unafanya kitu kibaya!
+Ni lini ulipokamilisha mradi wa mwisho ambao ulikuwa karibu hauna matengenezo, mgumu na haukukuomba tena? Kamwe? Kisha unafanya kitu kibaya!

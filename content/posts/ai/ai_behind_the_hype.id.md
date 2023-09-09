@@ -1,11 +1,11 @@
 ---
-title: "AI Hype"
+title: "Kegilaan AI"
 date: 2023-05-30
 author: "Nova Annabella"
 slug: ai_hype_calm_down
 tags: [ AI, Artificial Intelligence, AI Applications, KI Limitations, Development, Validation, Collaboration, Continuous Learning, Problem Solving ]
 categories: [ Technology, Artificial Intelligence, AI Development, AI Applications ]
-description: "AI di dunia nyata - berpikir di luar hype"
+description: "KI di Dunia Nyata - Berpikir Melampaui Hype"
 draft: false
 images:
   - "/images/content/ai_ml.jpg"
@@ -13,90 +13,92 @@ card: "summary_large_image"
 ---
 
 
-
-# AI di dunia nyata - berpikir di luar hype
+# KI di Dunia Nyata - Berpikir Melampaui Hype
 
 [![ai_ml](/images/content/ai_ml.jpg)](https://en.wikipedia.org/wiki/Weak_artificial_intelligence)
 
-### Pendahuluan
+### Pengantar
 
-Ketika berbicara tentang penggunaan kecerdasan buatan (AI), ada banyak kegembiraan dan juga harapan. Beberapa orang
-percaya bahwa AI akan merevolusi dunia kerja dan membuat keterampilan manusia menjadi mubazir. Namun sebelumnya sebelum
-kita terjun langsung ke dunia AI, kita harus mempertimbangkan beberapa poin penting. AI tidak diragukan lagi telah
-membuat kemajuan kemajuan, namun AI bukanlah hal yang baru dan memiliki keterbatasan yang signifikan yang perlu kita
-pahami dan hormati. Spoiler: Kecerdasan buatan hanyalah sebuah alat. Kita masih jauh dari adegan seperti film seperti di
-Terminator. AI yang ada saat ini seperti ChatGPT juga merupakan contoh yang baik tentang bagaimana perangkat lunak
-seharusnya dirancang! Berorientasi pada layanan dan tidak seperti pisau Swiss Army alias solusi untuk segala hal yang
-jarang sekali berguna atau dapat digunakan kembali. Beberapa pertanyaan provokatif: * Bukankah ilmuwan komputer yang
-menganggap AI adalah sesuatu yang baru atau dapat mengambil alih pekerjaannya  lebih baik memikirkan wawasan dan
-keahlian mereka? * Ilmuwan Data yang digaji beralih ke model AI.  sedang melakukan peralihan: Mengapa model AI spesifik
-Anda lebih rendah daripada model Bahasa yang serba bisa? Apa yang telah Anda  Apa yang telah Anda lakukan sebelumnya
-dan apa yang Anda lewatkan untuk membuat model yang sama bagusnya dengan model khusus untuk kasus penggunaan Anda?
+Ketika berbicara tentang penerapan Kecerdasan Buatan (KI), ada banyak kegembiraan yang menyebalkan serta juga harapan.
+Beberapa percaya bahwa KI akan merevolusi dunia kerja dan membuat kemampuan manusia menjadi tidak perlu. Namun sebelum
+kita membenamkan diri dalam dunia KI, kita harus mempertimbangkan beberapa poin penting. KI tanpa diragukan telah membuat kemajuan
+tapi bukanlah hal baru dan datang dengan batasan yang signifikan yang kita harus pahami serta hormati.
+Spoiler: KI hanyalah alat lainnya. Kami masih jauh dari adegan layak film seperti di Terminator.
+KI saat ini seperti ChatGPT juga merupakan contoh baik tentang bagaimana perangkat lunak harus didesain! Berorientasi pada layanan dan
+bukan seperti pisau saku Swiss alias solusi untuk segalanya jarang berguna atau dapat digunakan kembali.
 
-### Memahami batas-batas
+Beberapa pertanyaan provokatif:
 
-Model AI, termasuk yang berbasis GPT, dilatih berdasarkan data dan pola yang ada. Mereka adalah baik dalam mengenali
-pola dan menghasilkan konten berdasarkan pelatihan itu, tetapi mereka kurang pemahaman yang benar atau kemampuan untuk
-berpikir di luar pelatihan mereka. Mengakui batasan ini akan membantu, untuk menetapkan harapan yang realistis. Apa yang
-tidak pernah ada tidak akan pernah ada. Kualitatif, rahasia dan aman Informasi adalah minoritas. Akan selalu ada lebih
-banyak junior daripada senior. Dengan demikian, AI hanya akan bekerja untuk contoh "Hello World" tingkat rendah. Di
-banyak bidang, seperti programmer, yang takut akan pekerjaan mereka, mereka harus serius memikirkan kualitas pekerjaan
-mereka.
+* Apakah setiap ilmuwan komputer yang percaya bahwa KI adalah hal baru atau bisa mengambil alih pekerjaannya, tidak
+  lebih baik memikirkan cakrawala dan keahliannya?
+* Ilmuwan Data pegawai yang beralih ke model KI:
+  mengapa model KI spesifik Anda lebih buruk daripada model Bahasa yang bisa melakukan segala hal? Apa yang telah kalian
+  lakukan sebelumnya dan apa yang kalian butuhkan untuk membuat model yang sama bagusnya, khusus untuk usecase kalian?
 
-### Biaya pengembangan AI dan pentingnya daya komputasi
+### Memahami Batasan
 
-Perkembangan AI sebagian besar didorong oleh evolusi perangkat keras yang konstan. Model AI seperti GPT-3.5 membutuhkan
-daya komputasi yang sangat besar untuk menangani tugas-tugas yang kompleks. Biaya AI terkait erat dengan perangkat keras
-yang dibutuhkan, seperti GPU dan TPU yang kuat. Selain itu, ada biaya berkelanjutan untuk operasi dan pemeliharaan
-infrastruktur. Peningkatan daya komputasi telah meningkatkan ketersediaan AI, tetapi masih membutuhkan investasi yang
-signifikan. Optimalisasi biaya dan manajemen sumber daya yang efisien sangat penting untuk memastikan keberhasilan
-ekonomi proyek AI. Oleh karena itu, analisis dan perencanaan biaya yang baik sangat diperlukan dalam sangat diperlukan
-saat mengimplementasikan AI.
+Model AI, termasuk yang berbasis pada GPT, dilatih pada data dan pola yang ada. Mereka bagus dalam mengenali pola dan
+menghasilkan konten berdasarkan pelatihan ini, tetapi mereka kekurangan pemahaman yang nyata atau kemampuan untuk
+berpikir di luar pelatihan mereka. Pengakuan batas ini membantu dalam mengatur harapan yang realistis. Apa yang tidak
+pernah ada, tidak akan pernah ada. Informasi yang kualitatif, rahasia dan aman adalah minoritas. Selalu akan ada lebih
+banyak junior daripada senior. Sehingga, AI hanya pernah bekerja untuk contoh "Hello World" level rendah. Di banyak
+area, seperti juga misalnya programmer yang khawatir tentang pekerjaan mereka, harus memikirkan secara serius tentang
+kualitas pekerjaan mereka.
 
-### Melengkapi kecerdasan manusia
+### Biaya Pengembangan AI dan Pentingnya Daya Hitung
 
-AI harus dilihat sebagai alat yang melengkapi kecerdasan manusia, bukan menggantikannya. Manusia penilaian, pemikiran
-kritis, dan kreativitas manusia tetaplah penting. AI dapat memberikan wawasan yang berharga, mengotomatiskan tugas-tugas
-yang berulang dan tugas-tugas yang berulang dan meningkatkan produktivitas, tetapi tidak boleh digunakan sendiri untuk
-membuat keputusan penting. keputusan. Tanpa kepercayaan Anda, AI tidak akan dapat menggabungkan semua aspek yang Anda
-butuhkan. Di bidang TI, AI tidak akan berpikir sendiri tentang masalah-masalah seperti: Ketahanan, Keamanan, Kepatuhan,
-Privasi Data, Keterbacaan, Performa, Kesederhanaan, Pola, Ketepatan Waktu, dll. Contoh Pemodelan 3D AI: [Alex menguji AI
-dengan Blender] (https://www.youtube.com/watch?v=x60zHw_z4NM&t=460s) (Terlihat bagus, tetapi hanya "Halo tapi itu hanya
-contoh "Hello World") Pengalaman saya dengan pembuatan kode AI dalam satu kata: konyol! Saya tidak ingin mempertahankan
-pengembang yang menulis Saya tidak ingin mempertahankannya. Namun, saya tetap menggunakan AI sebagai sparring partner
-alias menjelaskan efek, seperti semacam refleksi diri. Penggunaan AI yang paling efektif sering kali dicapai melalui
-kolaborasi antara manusia dan sistem AI. AI dapat membantu dalam menghasilkan ide, menemukan solusi, atau
-mengotomatiskan tugas-tugas tertentu, tetapi manusia pengawasan dan intervensi manusia sangat penting untuk
-menyempurnakan, meningkatkan, dan mengoptimalkan hasilnya.
+Pengembangan AI secara signifikan didorong oleh perkembangan berkelanjutan dari perangkat keras. Model-model AI seperti
+GPT-3.5 membutuhkan kemampuan komputasi yang sangat besar untuk menyelesaikan tugas-tugas yang kompleks. Biaya untuk AI secara erat terkait dengan
+perangkat keras yang dibutuhkan, seperti GPU yang kuat dan TPU. Selain itu, ada biaya operasional yang berkelanjutan untuk pengoperasian dan
+pemeliharaan infrastruktur. Peningkatan kemampuan komputasi telah meningkatkan ketersediaan AI, tetapi masih
+memerlukan investasi yang signifikan. Optimalisasi biaya dan manajemen sumber daya yang efisien sangat penting untuk menjamin
+keberhasilan ekonomi dari proyek-proyek AI. Oleh karena itu, analisis biaya yang akurat dan perencanaan sangat penting dalam
+implementasi dari AI.
 
-### Validasi dan pengujian
+### Pelengkap Kecerdasan Manusia
 
-Hasil yang dihasilkan oleh AI harus selalu divalidasi dan diuji secara menyeluruh. Apakah itu kode, konten, atau lainnya
-output, pengawasan manusia diperlukan untuk memastikan kualitas, ketepatan, dan kepatuhan yang dihasilkan hasil yang
-dihasilkan. Proses verifikasi sangat penting untuk menghindari ketergantungan pada hasil yang tidak akurat atau
-menyesatkan hasil yang tidak akurat atau menyesatkan. Jangan memvalidasi AI dengan menggunakan AI lain. Hal ini sama
-saja seperti saya mengoreksi tes kelas tidak mengoreksinya sendiri, tetapi menggunakan murid-murid saya.
+KI harus dianggap sebagai alat yang melengkapi kecerdasan manusia, bukan menggantikannya. Pertimbangan manusia,
+pemikiran kritis, dan kreativitas tetap sangat penting. KI dapat memberikan wawasan yang berharga, otomatisasi
+tugas-tugas berulang dan meningkatkan produktivitas, tetapi tidak seharusnya digunakan sendirian untuk keputusan penting.
+Tanpa campur tanganmu, KI tidak akan dapat memasukkan semua aspek yang kamu perlukan.
+Dalam ilmu komputer, KI sendiri tidak akan memikirkan topik seperti : Resilience, Security, Compliance, Data Privacy,
+Readablity, Performance, Simplicity, Patterns, Aktualitas, dll.
+Contoh KI 3D Modelling: [Alex menguji KI dengan Blender](https://www.youtube.com/watch?v=x60zHw_z4NM&t=460s) (Terlihat bagus
+tetapi hanyalah contoh "Hello World")
+Pengalaman saya dengan generasi kode KI dalam satu kata: memalukan! Pengembang yang menulis kode seperti ini, saya
+tidak ingin mempertahankannya. Namun, saya menggunakan KI sebagai Sparring Partner alias Explain-Effect, seperti bentuk refleksi diri.
+Penggunaan KI yang paling efektif sering dicapai melalui kerjasama antara manusia dan sistem KI. KI dapat membantu dalam
+pembuatan ide, penemuan solusi, atau otomatisasi tugas tertentu, tetapi pengawasan dan campur tangan manusia adalah kunci untuk memperbaiki, meningkatkan dan mengoptimalkan hasil.
 
-### Pembelajaran dan adaptasi berkelanjutan
 
-Model AI perlu terus diperbarui dan disempurnakan untuk beradaptasi dengan keadaan yang berubah. Loop umpan balik dan
-perbaikan berulang diperlukan untuk memastikan keakuratan, relevansi, dan kegunaan hasil yang dihasilkan oleh AI. dan
-kegunaan hasil yang dihasilkan oleh AI. Proses pembelajaran AI tidak akan pernah berhenti.
+### Validasi dan Tes
 
-### Fokus pada pemecahan masalah nyata
+Hasil yang dihasilkan oleh KI harus selalu divalidasi dan diuji dengan saksama. Apakah itu berupa kode, konten, atau
+output lainnya, pengawasan manusia diperlukan untuk memastikan kualitas, kebenaran, dan kepatuhan hasil yang dihasilkan.
+Proses verifikasi sangat penting untuk tidak bergantung pada hasil yang tidak akurat atau menyesatkan. Tolong jangan
+memvalidasi KI dengan menggunakan KI lain. Itu sebanding dengan saya tidak mengoreksi pekerjaan kelas saya sendiri
+tetapi dengan menggunakan siswa saya.
 
-AI harus digunakan untuk mengatasi masalah nyata dan menciptakan nilai bagi masyarakat. Penting untuk tidak menggunakan
-AI AI untuk kepentingannya sendiri. Tujuan yang jelas, identifikasi masalah, dan pemahaman tentang dampak terhadap para
-pemangku kepentingan sangat penting dalam hal solusi AI.
+### Pembelajaran dan Penyesuaian yang Berkelanjutan
 
-### Fazit
+Model KI perlu diperbarui dan disempurnakan secara terus menerus untuk menyesuaikan diri dengan keadaan yang berubah.
+Umpan balik dan peningkatan iteratif diperlukan untuk memastikan akurasi, relevansi, dan kegunaan dari hasil yang
+dihasilkan oleh KI. Proses belajar KI tidak akan pernah berhenti.
 
-Kecerdasan buatan tidak diragukan lagi merupakan alat yang ampuh, tetapi penting untuk memahami keterbatasannya dan
-menggunakannya secara bertanggung jawab. AI tidak dapat melengkapi kecerdasan manusia Penilaian manusia, kreativitas,
-dan pemikiran kritis tetap sangat diperlukan. Melalui pertimbangan yang cermat Melalui validasi, pertimbangan, dan
-kolaborasi yang cermat antara manusia dan AI, kita dapat mencapai hasil terbaik. hasil. Mari gunakan kekuatan AI untuk
-memecahkan masalah di dunia nyata dan menjadikan dunia tempat yang lebih baik.
+### Fokus pada Penyelesaian Masalah Nyata
+
+KI harus digunakan untuk menangani masalah nyata dan menciptakan nilai tambah bagi manusia. Sangat penting untuk tidak
+hanya menggunakan KI demi dirinya sendiri. Tujuan yang jelas, identifikasi masalah, dan memahami dampaknya pada pihak
+yang terlibat sangat penting ketika berbicara tentang solusi KI.
+
+### Kesimpulan
+
+Kecerdasan Buatan adalah tanpa diragukan merupakan alat yang sangat efektif, tetapi penting untuk memahami batasannya
+dan menggunakannya secara bertanggung jawab. KI tidak dapat menggantikan intelijen manusia, penilaian manusia,
+kreativitas dan pemikiran kritis tetap sangat diperlukan. Melalui validasi yang cermat, pertimbangan dan kolaborasi
+antara manusia dan KI, kita dapat mencapai hasil terbaik. Mari kita manfaatkan kekuatan KI untuk memecahkan masalah
+nyata dan memperbaiki dunia.
 
 ### Kontak
 
-[Masalah GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
+[Isu GitHub](https://github.com/NovaAnnabella/the_unspoken/issues/new/choose).
